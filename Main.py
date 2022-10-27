@@ -28,6 +28,7 @@ def parse(soup):
         if h1 == True:
             print(item.get_text())
 
+# clean raw text
 parse(raw)
 
 # break into lines and remove leading and trailing space on each

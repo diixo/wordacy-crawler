@@ -14,8 +14,8 @@ html = urllib.request.urlopen(req).read()
 raw = BeautifulSoup(html, features="html.parser")
 
 # kill all root-nodes in DOM-model: script and style elements
-for script in raw(["script", "style", "header", "footer", "noscript", "iframe", "svg", "button", "img", "span"]):
-    script.extract()   # cut it out
+for node in raw(["script", "style", "header", "footer", "noscript", "iframe", "svg", "button", "img", "span"]):
+    node.extract()   # cut it out
 
 # get text
 text = raw.get_text()

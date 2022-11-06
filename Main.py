@@ -8,7 +8,9 @@ from urllib.request import Request
 
 url = "https://www.datasciencecentral.com/top-10-projects-for-data-science-and-machine-learning/"
 #url = "https://www.techopedia.com/definition/26184/c-plus-plus-programming-language"
+####################################################################################################
 # https://understandingdata.com/python-for-seo/how-to-extract-text-from-multiple-webpages-in-python/
+# https://stackoverflow.com/questions/328356/extracting-text-from-html-file-using-python
 
 req = Request(url, headers={'User-Agent': 'XYZ/3.0'})
 html = urllib.request.urlopen(req).read()

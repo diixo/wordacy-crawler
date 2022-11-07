@@ -14,6 +14,7 @@ url = "https://www.datasciencecentral.com/top-10-projects-for-data-science-and-m
 # https://understandingdata.com/python-for-seo/how-to-extract-text-from-multiple-webpages-in-python/
 # https://stackoverflow.com/questions/328356/extracting-text-from-html-file-using-python
 
+train_db = open("train-db.txt", 'w', encoding='utf-8')
 
 # kill all root-nodes in DOM-model: script and style elements
 for node in raw(["script", "style", "header", "footer", "noscript", "iframe", "svg", "button", "img", "span"]):
@@ -48,7 +49,7 @@ def parse(soup):
             txt = item.get_text().replace('\n', ' ')
             print(txt)
             
- def parseFile(filename, file_train_db):
+ def parseFile(filename, train_db):
     soup = BeautifulSoup(open(filename, encoding='utf-8'), "html.parser")
     h1 = False
     for item in soup(["h1", "h2", "h3", "h4", "p", "a"]):
@@ -64,6 +65,7 @@ def parse(soup):
         for file in files:
             if (file.endswith(".html")):
                 print(os.path.join(root, file))
+                parseFile(os.path.join(root, file), train_db)
                 i += 1
                 print(i)
 

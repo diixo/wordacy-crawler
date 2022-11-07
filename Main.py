@@ -40,7 +40,7 @@ def parseURL(url):
 
     print(text)
 
-def parse(soup):
+def parse(soup, train_db):
     h1 = False
     for item in soup(["h1", "h2", "h3", "h4", "p", "a"]):
         if item.name == 'h1':
@@ -51,13 +51,7 @@ def parse(soup):
             
  def parseFile(filename, train_db):
     soup = BeautifulSoup(open(filename, encoding='utf-8'), "html.parser")
-    h1 = False
-    for item in soup(["h1", "h2", "h3", "h4", "p", "a"]):
-        if item.name == 'h1':
-            h1 = True
-        if h1 == True:
-            txt = item.get_text().replace('\n', ' ')
-            print(txt)
+    parse(soup, train_db)
             
  def list_dir(dir_path):
     i = 0

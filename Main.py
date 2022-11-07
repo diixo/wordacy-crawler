@@ -1,3 +1,5 @@
+import os
+import io
 import urllib.parse
 
 from urllib.request import urlopen

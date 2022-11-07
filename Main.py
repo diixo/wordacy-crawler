@@ -31,6 +31,15 @@ def parse(soup):
         if h1 == True:
             txt = item.get_text().replace('\n', ' ')
             print(txt)
+            
+ def list_dir(dir_path):
+    i = 0
+    for root, dirs, files in os.walk(dir_path):
+        for file in files:
+            if (file.endswith(".html")):
+                print(os.path.join(root, file))
+                i += 1
+                print(i)
 
 # clean raw text
 parse(raw)

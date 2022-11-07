@@ -14,16 +14,30 @@ url = "https://www.datasciencecentral.com/top-10-projects-for-data-science-and-m
 # https://understandingdata.com/python-for-seo/how-to-extract-text-from-multiple-webpages-in-python/
 # https://stackoverflow.com/questions/328356/extracting-text-from-html-file-using-python
 
-req = Request(url, headers={'User-Agent': 'XYZ/3.0'})
-html = urllib.request.urlopen(req).read()
-raw = BeautifulSoup(html, features="html.parser")
 
 # kill all root-nodes in DOM-model: script and style elements
 for node in raw(["script", "style", "header", "footer", "noscript", "iframe", "svg", "button", "img", "span"]):
     node.extract()   # cut it out
 
-# get text
-text = raw.get_text()
+
+def parseURL(url):
+    req = Request(url, headers={'User-Agent': 'XYZ/3.0'})
+    html = urllib.request.urlopen(req).read()
+    raw = BeautifulSoup(html, features="html.parser")
+
+    # get text
+    text = raw.get_text()
+
+    # break into lines and remove leading and trailing space on each
+    lines = (line.strip() for line in text.splitlines())
+
+    # break multi-headlines into a line each
+    chunks = (phrase.strip() for line in lines for phrase in line.split("  "))
+
+    # drop blank lines
+    text = '\n'.join(chunk for chunk in chunks if chunk)
+
+    print(text)
 
 def parse(soup):
     h1 = False
@@ -54,15 +68,4 @@ def parse(soup):
                 print(i)
 
 # clean raw text
-parse(raw)
-
-# break into lines and remove leading and trailing space on each
-lines = (line.strip() for line in text.splitlines())
-
-# break multi-headlines into a line each
-chunks = (phrase.strip() for line in lines for phrase in line.split("  "))
-
-# drop blank lines
-text = '\n'.join(chunk for chunk in chunks if chunk)
-
-print(text)
+parse(url)

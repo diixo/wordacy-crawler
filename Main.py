@@ -34,6 +34,16 @@ def parse(soup):
             txt = item.get_text().replace('\n', ' ')
             print(txt)
             
+ def parseFile(filename, file_train_db):
+    soup = BeautifulSoup(open(filename, encoding='utf-8'), "html.parser")
+    h1 = False
+    for item in soup(["h1", "h2", "h3", "h4", "p", "a"]):
+        if item.name == 'h1':
+            h1 = True
+        if h1 == True:
+            txt = item.get_text().replace('\n', ' ')
+            print(txt)
+            
  def list_dir(dir_path):
     i = 0
     for root, dirs, files in os.walk(dir_path):

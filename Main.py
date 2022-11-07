@@ -29,7 +29,8 @@ def parse(soup):
         if item.name == 'h1':
             h1 = True
         if h1 == True:
-            print(item.get_text())
+            txt = item.get_text().replace('\n', ' ')
+            print(txt)
 
 # clean raw text
 parse(raw)

@@ -47,7 +47,7 @@ def parseURL(url, train_db):
 
 def parse(soup, train_db):
     h1 = False
-    for item in soup(["h1", "h2", "h3", "h4", "p", "a"]):
+    for item in soup(["h1", "h2", "h3", "h4", "p", "a", "li"]):
         if item.name == 'h1':
             h1 = True
         if h1 == True:

@@ -14,6 +14,9 @@ url = "https://www.datasciencecentral.com/top-10-projects-for-data-science-and-m
 # https://understandingdata.com/python-for-seo/how-to-extract-text-from-multiple-webpages-in-python/
 # https://stackoverflow.com/questions/328356/extracting-text-from-html-file-using-python
 
+url = "https://www.labri.fr/perso/nrougier/from-python-to-numpy/"
+
+
 train_db = open("train-db.txt", 'w', encoding='utf-8')
 
 # kill all root-nodes in DOM-model: script and style elements
@@ -21,10 +24,12 @@ for node in raw(["script", "style", "header", "footer", "noscript", "iframe", "s
     node.extract()   # cut it out
 
 
-def parseURL(url):
+def parseURL(url, train_db):
     req = Request(url, headers={'User-Agent': 'XYZ/3.0'})
     html = urllib.request.urlopen(req).read()
     raw = BeautifulSoup(html, features="html.parser")
+    
+    parse(raw, train_db)
 
     # get text
     text = raw.get_text()
@@ -64,4 +69,4 @@ def parse(soup, train_db):
                 print(i)
 
 # clean raw text
-parse(url)
+parse(url, "")

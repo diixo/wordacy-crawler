@@ -15,14 +15,16 @@ from urllib.request import Request
 # https://stackoverflow.com/questions/328356/extracting-text-from-html-file-using-python
 
 #url = "https://www.labri.fr/perso/nrougier/from-python-to-numpy/"
-url = "https://www.ibm.com/cloud/blog/supervised-vs-unsupervised-learning/"
-#url = "https://www.datasciencecentral.com/category/technical-topics/data-science/"
+#url = "https://www.ibm.com/cloud/blog/supervised-vs-unsupervised-learning/"
+url = "https://www.datasciencecentral.com/category/technical-topics/data-science/"
 
 train_db = open("train-db.txt", 'w', encoding='utf-8')
 
 def processString(str):
-    txt = str.replace('\n', ' ').replace('\t', ' ').replace('\u00a0', ' ')
-    txt = txt.strip('\u0020')  # trim spaces
+    txt = str.replace('\n', ' ')
+    txt = txt.replace('\t', ' ')
+    txt = txt.replace('\u00a0', ' ')
+    txt = txt.strip()  # trim spaces
     return txt
 
 def parseURL(url, train_db):
@@ -30,8 +32,13 @@ def parseURL(url, train_db):
     html = urllib.request.urlopen(req).read()
     raw = BeautifulSoup(html, features="html.parser")
 
+    blacklist = [
+        "script", "style", "header", "footer", "noscript", "iframe", "svg", "button", "img", "span", "pre",
+    ]
+
     # kill all root-nodes in DOM-model: script and style elements
-    for node in raw(["script", "style", "header", "footer", "noscript", "iframe", "svg", "button", "img", "span"]):
+    # TODO: handle header-section separatelly
+    for node in raw(["header", "script", "style", "footer", "noscript", "iframe", "svg", "button", "img", "span", "pre"]):
         node.extract()  # cut it out
     
     parse(raw, train_db)
@@ -69,7 +76,8 @@ def parse(soup, train_db):
 
         if hasattr(item, 'attrs'):
             if 'title' in item.attrs:
-                title = processString(item.attrs['title'])
+                title = item.attrs['title']
+                title = processString(title)
                 print(txt + " : " + title)
             else: print(txt)
         else: print(txt)

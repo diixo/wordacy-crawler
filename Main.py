@@ -16,8 +16,14 @@ from urllib.request import Request
 
 #url = "https://www.labri.fr/perso/nrougier/from-python-to-numpy/"
 url = "https://www.ibm.com/cloud/blog/supervised-vs-unsupervised-learning/"
+#url = "https://www.datasciencecentral.com/category/technical-topics/data-science/"
 
 train_db = open("train-db.txt", 'w', encoding='utf-8')
+
+def processString(str):
+    txt = str.replace('\n', ' ').replace('\t', ' ').replace('\u00a0', ' ')
+    txt = txt.strip('\u0020')  # trim spaces
+    return txt
 
 def parseURL(url, train_db):
     req = Request(url, headers={'User-Agent': 'XYZ/3.0'})
@@ -47,16 +53,27 @@ def parseURL(url, train_db):
 
 def parse(soup, train_db):
     h1 = False
+    txt = ""
+
     for item in soup(["h1", "h2", "h3", "h4", "p", "a", "li"]):
         if item.name == 'h1':
             h1 = True
-        if item.name == 'li':
-            txt = item.get_text()
-            print(txt)
         if h1 == True:
-            txt = item.get_text().replace('\n', ' ')
-            print(txt)
-            
+            txt = item.get_text()
+        else:
+            txt = item.get_text()
+
+        txt = processString(txt)
+
+        if (not txt): txt = "<" + item.name + ">"
+
+        if hasattr(item, 'attrs'):
+            if 'title' in item.attrs:
+                title = processString(item.attrs['title'])
+                print(txt + " : " + title)
+            else: print(txt)
+        else: print(txt)
+
 def parseFile(filename, train_db):
     raw = BeautifulSoup(open(filename, encoding='utf-8'), "html.parser")
     parse(raw, train_db)

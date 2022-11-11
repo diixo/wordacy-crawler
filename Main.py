@@ -65,7 +65,6 @@ def parseURL(url, train_db):
     for h in header:
         ha = h.find_all("a")
         for a in ha:
-            #a_txt = processString(a.get_text())
             writeElement(a, train_db)
             a.extract()
 

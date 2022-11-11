@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 from urllib.parse import urlparse
 from urllib.request import Request
 
-#url = "https://www.datasciencecentral.com/top-10-projects-for-data-science-and-machine-learning/"
+url = "https://www.datasciencecentral.com/top-10-projects-for-data-science-and-machine-learning/"
 #url = "https://www.techopedia.com/definition/26184/c-plus-plus-programming-language"
 ########################################################################
 # https://understandingdata.com/python-for-seo/how-to-extract-text-from-multiple-webpages-in-python/
@@ -16,9 +16,9 @@ from urllib.request import Request
 
 #url = "https://www.labri.fr/perso/nrougier/from-python-to-numpy/"
 #url = "https://www.ibm.com/cloud/blog/supervised-vs-unsupervised-learning/"
-url = "https://www.datasciencecentral.com/category/technical-topics/data-science/"
+#url = "https://www.datasciencecentral.com/category/technical-topics/data-science/"
 
-train_db = open("train-db.txt", 'w', encoding='utf-8')
+train_db = open("train-db-xml.data", 'w', encoding='utf-8')
 
 ########################################################################
 def processString(str):
@@ -56,6 +56,24 @@ def parseURL(url, train_db):
     html = urllib.request.urlopen(req).read()
     raw = BeautifulSoup(html, features="html.parser")
 
+    parse(raw, train_db)
+    return
+
+    # get text
+    text = raw.get_text()
+
+    # break into lines and remove leading and trailing space on each
+    lines = (line.strip() for line in text.splitlines())
+
+    # break multi-headlines into a line each
+    chunks = (phrase.strip() for line in lines for phrase in line.split("  "))
+
+    # drop blank lines
+    text = '\n'.join(chunk for chunk in chunks if chunk)
+
+    print(text)
+########################################################################
+def parse(raw, train_db):
     blacklist = [
         "head", "script", "style", "footer", "noscript", "iframe", "svg", "button", "img", "span", "pre",
     ]
@@ -83,32 +101,12 @@ def parseURL(url, train_db):
     # kill all root-nodes in DOM-model: script and style elements
     for node in raw(blacklist):
         node.extract()  # cut it out
-    
-    parse(raw, train_db)
-    train_db.flush()
-    return
 
-    # get text
-    text = raw.get_text()
-
-    # break into lines and remove leading and trailing space on each
-    lines = (line.strip() for line in text.splitlines())
-
-    # break multi-headlines into a line each
-    chunks = (phrase.strip() for line in lines for phrase in line.split("  "))
-
-    # drop blank lines
-    text = '\n'.join(chunk for chunk in chunks if chunk)
-
-    print(text)
-########################################################################
-def parse(soup, train_db):
     h1 = False
-    txt = ""
 
     train_db.write("<body>\n")
 
-    for item in soup(["h1", "h2", "h3", "h4", "p", "a", "li", "td"]):
+    for item in raw(["h1", "h2", "h3", "h4", "p", "a", "li"]):
         if item.name == 'h1':
             h1 = True
         if h1 == True:
@@ -123,6 +121,7 @@ def parse(soup, train_db):
         else: writeElement(item, train_db)
 
     train_db.write("</body>\n")
+    train_db.flush()
 ########################################################################
 def parseFile(filename, train_db):
     raw = BeautifulSoup(open(filename, encoding='utf-8'), "html.parser")
@@ -140,6 +139,7 @@ def list_dir(dir_path, train_db):
 ########################################################################
 
 # clean raw text
-parseURL(url, train_db)
+#parseURL(url, train_db)
+list_dir("./html", train_db)
 
 train_db.close()

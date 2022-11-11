@@ -33,12 +33,25 @@ def parseURL(url, train_db):
     raw = BeautifulSoup(html, features="html.parser")
 
     blacklist = [
-        "script", "style", "header", "footer", "noscript", "iframe", "svg", "button", "img", "span", "pre",
+        "header", "script", "style", "footer", "noscript", "iframe", "svg", "button", "img", "span", "pre",
     ]
 
+    header = raw.find_all("header")
+    #proceed header-section separetely
+    for h in header:
+        ha = h.find_all("a")
+        for a in ha:
+            a_txt = processString(a.get_text())
+            if a_txt: print("<" + a.name + "> " + a_txt)
+            a.extract()
+
+        hli = h.find_all("li")
+        for li in hli:
+            li_txt = processString(li.get_text())
+            if li_txt: print("<" + li.name + "> " + li_txt)
+
     # kill all root-nodes in DOM-model: script and style elements
-    # TODO: handle header-section separatelly
-    for node in raw(["header", "script", "style", "footer", "noscript", "iframe", "svg", "button", "img", "span", "pre"]):
+    for node in raw(blacklist):
         node.extract()  # cut it out
     
     parse(raw, train_db)

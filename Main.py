@@ -75,7 +75,7 @@ def parseURL(url, train_db):
 ########################################################################
 def parse(raw, train_db):
     blacklist = [
-        "head", "script", "style", "footer", "noscript", "iframe", "svg", "button", "img", "span", "pre",
+        "head", "script", "style", "footer", "noscript", "iframe", "svg", "button", "img", "span", "pre", "code"
     ]
 
     header = raw.find_all("head")

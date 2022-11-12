@@ -45,10 +45,11 @@ def writeTitleElement(item, text, train_db):
         train_db.write(txt + " : " + title)
         train_db.write("\n</" + item.name + ">\n")
     else:
-        print("<" + item.name + "> :")
-        train_db.write("<" + item.name + ">\n")
-        train_db.write(": " + title)
-        train_db.write("\n</" + item.name + ">\n")
+        if title:
+            print("<" + item.name + "> : " + title)
+            train_db.write("<" + item.name + ">\n")
+            train_db.write(": " + title)
+            train_db.write("\n</" + item.name + ">\n")
 ########################################################################
 def parseURL(url, train_db):
     req = Request(url, headers={'User-Agent': 'XYZ/3.0'})
@@ -56,13 +57,18 @@ def parseURL(url, train_db):
     raw = BeautifulSoup(html, features="html.parser")
 
     blacklist = [
-        "header", "script", "style", "footer", "noscript", "iframe", "svg", "button", "img", "span", "pre",
+        "head", "script", "style", "footer", "noscript", "iframe", "svg", "button", "img", "span", "pre",
     ]
 
-    header = raw.find_all("header")
+    header = raw.find_all("head")
     #proceed header-section separetely
-    train_db.write("<header>\n")
+    train_db.write("<head>\n")
     for h in header:
+
+        htitle = h.find_all("title")
+        for ht in htitle:
+            writeElement(ht, train_db)
+
         ha = h.find_all("a")
         for a in ha:
             writeElement(a, train_db)
@@ -71,13 +77,15 @@ def parseURL(url, train_db):
         hli = h.find_all("li")
         for li in hli:
             writeElement(li, train_db)
-    train_db.write("</header>\n")
+    train_db.write("</head>\n")
+    train_db.flush()
 
     # kill all root-nodes in DOM-model: script and style elements
     for node in raw(blacklist):
         node.extract()  # cut it out
     
     parse(raw, train_db)
+    train_db.flush()
     return
 
     # get text
@@ -100,17 +108,13 @@ def parse(soup, train_db):
 
     train_db.write("<body>\n")
 
-    for item in soup(["h1", "h2", "h3", "h4", "p", "a", "li"]):
+    for item in soup(["h1", "h2", "h3", "h4", "p", "a", "li", "td"]):
         if item.name == 'h1':
             h1 = True
         if h1 == True:
             txt = item.get_text()
         else:
             txt = item.get_text()
-
-        txt = processString(txt)
-
-        if (not txt): txt = "<" + item.name + ">"
 
         if hasattr(item, 'attrs'):
             if 'title' in item.attrs:

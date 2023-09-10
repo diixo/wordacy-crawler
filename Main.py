@@ -4,32 +4,25 @@ import re
 import uuid
 
 import parserqq as qq
-from usp.tree import sitemap_tree_for_homepage
+
 
 def main():
-    url = "https://pythonexamples.org"
+    url = "https://www.geeksforgeeks.org"
+    qq.parse_url(url, None)
+    exit(0)
+
     name =  re.sub("https://", "", url) + f"_{uuid.uuid4().hex}.txt"
     name = "data/" + name
 
     train_db = open(name, 'w', encoding='utf-8')
 
     # clean raw text
-    #qq.parseURL(url, train_db)
+    #qq.parse_url(url, train_db)
     #qq.list_dir("./html", train_db)
 
     train_db.close()
     print("<<")
 
-    #tree = sitemap_tree_for_homepage("https://kotlinandroid.org")
-    tree = sitemap_tree_for_homepage("https://pythonexamples.org/")
-    #print(tree)
-
-    # all_pages() returns an Iterator
-    cntr = 0
-    for page in tree.all_pages():
-        cntr += 1
-        
-    print(f"<< {cntr}")
 
 if __name__ == "__main__":
     main()

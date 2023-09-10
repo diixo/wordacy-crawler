@@ -138,8 +138,12 @@ def list_dir(dir_path, train_db):
                 print(i)
 ########################################################################
 
-# clean raw text
-#parseURL(url, train_db)
-list_dir("./html", train_db)
+def main():
+    # clean raw text
+    #parseURL(url, train_db)
+    list_dir("./html", train_db)
 
-train_db.close()
+    train_db.close()
+    
+if __name__ == "__main__":
+    main()

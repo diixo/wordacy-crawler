@@ -89,6 +89,17 @@ def parseURL(url, train_db):
     print(text)
 ########################################################################
 
+def read_li(raw):
+    li = raw.find_all("li")
+    print(">>>>")
+    for i in li:
+        span = i.find()
+        if span: print("->>" + span.get_text().strip())
+        a = i.find("a")
+        if a: print("->>" + a.get_text().strip())
+        #i.extract
+    print("<<<<")
+
 def parse_structure(raw, train_db):
     blacklist = [
         "head", "script", "style", "footer", "noscript", "iframe", "svg", "button", "img", "span", "pre", "code"
@@ -103,48 +114,44 @@ def parse_structure(raw, train_db):
     while True:
         ul = raw.find("ul")
         if not ul: break
+        read_li(ul)
 
-        span = ul.find("span")
-        if span: print(">>span>>" + span.get_text())
-        a = ul.find("a")
-        if a: print(">>a>>" + a.get_text())
-
-        # >>
-
-        while True:
+        while ul:
             ull = ul.find("ul")
-            if not ull: break
+            if not ull:
+                ul.extract()
+                break
 
-            span = ull.find("span")
-            if span: print("  >>span>>" + span.get_text())
-            a = ull.find("a")
-            if a: print("  >>a>>" + a.get_text())
+            while ull:
+                read_li(ull)
 
+                uus = ull.find("ul")
+                if not uus:
+                    ull.extract()
+                    break #break internal
 
-            uus = ull.find_all("ul")
-            for uu in uus:
-                if not uus: break
+                while uus:
+                    read_li(uus)
 
-                span = uu.find("span")
-                if span: print("      <<span3>>" + span.get_text())
-                a = uu.find("a")
-                if a: print("      <<a3>>" + a.get_text())
-                print("      <</ul-3")
-                uun = uu.find("ul")
-                if uun:
-                    print("-->>")
-                else:
-                    uus.extract()
-                    break
-            
+                    uu = uus.find("ul")
+                    if not uu: 
+                        uus.extract()
+                        break #break internal
+                    
+                    while uu:
+                        read_li(uu)
 
+                        u = uu.find("ul")
+                        if not u:
+                            uu.extract()
+                            break
+                        else:
+                            #force stop deep iteration
+                            uu.extract()
+                            break                            
 
             print("  <</ul-1")
         ul.extract()
-
-            
-
-
 
 
 def parse(raw, train_db):

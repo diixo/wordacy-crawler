@@ -1,6 +1,7 @@
 import os
 import io
 import urllib.parse
+import json
 
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
@@ -58,6 +59,13 @@ def list_dir(dir_path, train_db):
                 i += 1
                 print(i)
 ########################################################################
+def parse_url(url, train_db):
+    req = Request(url, headers={'User-Agent': 'XYZ/3.0'})
+    html = urllib.request.urlopen(req).read()
+    raw = BeautifulSoup(html, features="html.parser")
+
+    parse_structure(raw, train_db)
+
 def parseURL(url, train_db):
     req = Request(url, headers={'User-Agent': 'XYZ/3.0'})
     html = urllib.request.urlopen(req).read()
@@ -80,6 +88,65 @@ def parseURL(url, train_db):
 
     print(text)
 ########################################################################
+
+def parse_structure(raw, train_db):
+    blacklist = [
+        "head", "script", "style", "footer", "noscript", "iframe", "svg", "button", "img", "span", "pre", "code"
+    ]
+
+    # kill all root-nodes in DOM-model: script and style elements
+    for node in raw(blacklist):
+        node.extract()  # cut it out
+
+    cntr = 0
+
+    while True:
+        ul = raw.find("ul")
+        if not ul: break
+
+        span = ul.find("span")
+        if span: print(">>span>>" + span.get_text())
+        a = ul.find("a")
+        if a: print(">>a>>" + a.get_text())
+
+        # >>
+
+        while True:
+            ull = ul.find("ul")
+            if not ull: break
+
+            span = ull.find("span")
+            if span: print("  >>span>>" + span.get_text())
+            a = ull.find("a")
+            if a: print("  >>a>>" + a.get_text())
+
+
+            uus = ull.find_all("ul")
+            for uu in uus:
+                if not uus: break
+
+                span = uu.find("span")
+                if span: print("      <<span3>>" + span.get_text())
+                a = uu.find("a")
+                if a: print("      <<a3>>" + a.get_text())
+                print("      <</ul-3")
+                uun = uu.find("ul")
+                if uun:
+                    print("-->>")
+                else:
+                    uus.extract()
+                    break
+            
+
+
+            print("  <</ul-1")
+        ul.extract()
+
+            
+
+
+
+
 def parse(raw, train_db):
     blacklist = [
         "head", "script", "style", "footer", "noscript", "iframe", "svg", "button", "img", "span", "pre", "code"

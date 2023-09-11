@@ -66,6 +66,12 @@ def parse_url(url, train_db):
 
     parse_structure(raw, train_db)
 
+
+def parse_text(text: str):
+    raw = BeautifulSoup(text, features="html.parser")
+    parse_structure(raw, None)
+
+
 def parseURL(url, train_db):
     req = Request(url, headers={'User-Agent': 'XYZ/3.0'})
     html = urllib.request.urlopen(req).read()
@@ -91,22 +97,22 @@ def parseURL(url, train_db):
 
 def read_li(raw, sz: int):
     li = raw.find_all("li")
-    print(">>>>")
-    for i in li:
-        span = i.find("span")
+    for item in li:
+        span = item.find("span")
         if span:
-            txt = span.get_text().strip()
-            if txt: print("--"*sz + ">>" + txt)
-        a = i.find("a")
+            t = span.get_text().strip()
+            if t: print("--"*sz + ">>" + t)
+        a = item.find("a")
         if a:
-            txt = a.get_text().strip()
-            if txt: print("--"*sz + ">>" + txt)
-        #i.extract
+            t = a.get_text().strip()
+            if t: print("--"*sz + ">>" + t)
+
+    #i.extract
     print("<<<<")
 
 def parse_structure(raw, train_db):
     blacklist = [
-        "head", "script", "style", "footer", "noscript", "iframe", "svg", "button", "img", "span", "pre", "code"
+        "head", "script", "style", "footer", "noscript", "iframe", "svg", "button", "img", "pre", "code"
     ]
 
     # kill all root-nodes in DOM-model: script and style elements
@@ -161,7 +167,7 @@ def parse_structure(raw, train_db):
 
 def parse(raw, train_db):
     blacklist = [
-        "head", "script", "style", "footer", "noscript", "iframe", "svg", "button", "img", "span", "pre", "code"
+        "head", "script", "style", "footer", "noscript", "iframe", "svg", "button", "img", "pre", "code"
     ]
 
     header = raw.find_all("head")

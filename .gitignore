@@ -6,6 +6,5 @@ build/
 *.py[cod]
 *eggs*
 *.bin
-*.json
 *idea/
 data/*.txt

@@ -89,18 +89,18 @@ def parseURL(url, train_db):
     print(text)
 ########################################################################
 
-def read_li(raw):
+def read_li(raw, sz: int):
     li = raw.find_all("li")
     print(">>>>")
     for i in li:
         span = i.find("span")
         if span:
             txt = span.get_text().strip()
-            if txt: print("->>" + txt)
+            if txt: print("--"*sz + ">>" + txt)
         a = i.find("a")
         if a:
             txt = a.get_text().strip()
-            if txt: print("->>" + txt)
+            if txt: print("--"*sz + ">>" + txt)
         #i.extract
     print("<<<<")
 
@@ -118,38 +118,39 @@ def parse_structure(raw, train_db):
     while True:
         ul = raw.find("ul")
         if not ul: break
-        read_li(ul)
 
         while ul:
             ull = ul.find("ul")
             if not ull:
+                read_li(ul, 1)
                 ul.extract()
                 break
 
             while ull:
-                read_li(ull)
 
                 uus = ull.find("ul")
                 if not uus:
+                    read_li(ull, 2)
                     ull.extract()
                     break #break internal
 
                 while uus:
-                    read_li(uus)
 
                     uu = uus.find("ul")
-                    if not uu: 
+                    if not uu:
+                        read_li(uus, 3)
                         uus.extract()
                         break #break internal
                     
                     while uu:
-                        read_li(uu)
 
                         u = uu.find("ul")
                         if not u:
+                            read_li(uu, 4)
                             uu.extract()
                             break
                         else:
+                            read_li(uu, 4)
                             #force stop deep iteration
                             uu.extract()
                             break                            

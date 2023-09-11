@@ -8,8 +8,7 @@ import parserqq as qq
 
 def main():
     url = "https://www.geeksforgeeks.org"
-    #qq.parse_url(url, None)
-    qq.parse_file("data/GeeksforGeeks-cs.html")
+    qq.parse_url(url, None)
     exit(0)
 
     name =  re.sub("https://", "", url) + f"_{uuid.uuid4().hex}.txt"

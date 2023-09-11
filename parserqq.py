@@ -68,11 +68,6 @@ def parse_url(url, train_db):
     parse_structure(raw, train_db)
 
 
-def parse_text(text: str):
-    raw = BeautifulSoup(text, features="html.parser")
-    parse_structure(raw, None)
-
-
 def parseURL(url, train_db):
     req = Request(url, headers={'User-Agent': 'XYZ/3.0'})
     html = urllib.request.urlopen(req).read()
@@ -95,9 +90,18 @@ def parseURL(url, train_db):
 
     print(text)
 ########################################################################
+def parse_text(text: str):
+    raw = BeautifulSoup(text, features="html.parser")
+    parse_structure(raw, None)
+
 
 def read_li(raw, sz: int):
     li = raw.find_all("li")
+    #print(raw.name)
+    if raw.attrs:
+        if raw.attrs.get('class'):
+            print(raw.attrs.get('class'))
+
     for item in li:
         if item.find("ul"):
             span = item.find("span")
@@ -127,7 +131,7 @@ def read_li(raw, sz: int):
     #i.extract
     print("<<<<")
 
-def parse_structure(raw, train_db):
+def parse_structure(raw, file_db):
     blacklist = [
         "head", "script", "style", "footer", "noscript", "iframe", "svg", "button", "img", "pre", "code"
     ]
@@ -135,8 +139,6 @@ def parse_structure(raw, train_db):
     # kill all root-nodes in DOM-model: script and style elements
     for node in raw(blacklist):
         node.extract()  # cut it out
-
-    cntr = 0
 
     while True:
         ul = raw.find("ul")
@@ -151,7 +153,6 @@ def parse_structure(raw, train_db):
                 break
 
             while ull:
-
                 uus = ull.find("ul")
                 if not uus:
                     read_li(ull, 2)
@@ -159,7 +160,6 @@ def parse_structure(raw, train_db):
                     break #break internal
 
                 while uus:
-
                     uu = uus.find("ul")
                     if not uu:
                         read_li(uus, 3)
@@ -167,7 +167,6 @@ def parse_structure(raw, train_db):
                         break #break internal
                     
                     while uu:
-
                         u = uu.find("ul")
                         if not u:
                             read_li(uu, 4)
@@ -182,6 +181,10 @@ def parse_structure(raw, train_db):
             print("  <</ul-1")
         ul.extract()
 
+def parse_file(filename):
+    raw = BeautifulSoup(open(filename, encoding='utf-8'), "html.parser")
+    parse_structure(raw, None)
+########################################################################
 
 def parse(raw, train_db):
     blacklist = [

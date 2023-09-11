@@ -113,7 +113,10 @@ def parse_text(text: str):
 ########################################################################
 
 def main():
-    parse_file("data/GeeksforGeeks-cs.html")
+    #parse_file("data/GeeksforGeeks-cs.html")
+
+    url = "https://pythonexamples.org/"
+    parse_url(url, None)
 
 
 if __name__ == "__main__":

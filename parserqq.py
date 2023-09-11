@@ -49,6 +49,7 @@ def writeTitleElement(item, text, train_db):
             train_db.write("<" + item.name + ">\n")
             train_db.write(": " + title)
             train_db.write("\n</" + item.name + ">\n")
+
 def list_dir(dir_path, train_db):
     i = 0
     for root, dirs, files in os.walk(dir_path):
@@ -98,14 +99,30 @@ def parseURL(url, train_db):
 def read_li(raw, sz: int):
     li = raw.find_all("li")
     for item in li:
-        span = item.find("span")
-        if span:
-            t = span.get_text().strip()
-            if t: print("--"*sz + ">>" + t)
-        a = item.find("a")
-        if a:
-            t = a.get_text().strip()
-            if t: print("--"*sz + ">>" + t)
+        if item.find("ul"):
+            span = item.find("span")
+            if span:
+                t = span.get_text().strip()
+                if t:
+                    print("--" * sz + ">>##" + t)
+                    continue
+            a = item.find("a")
+            if a:
+                t = a.get_text().strip()
+                if t:
+                    print("--" * sz + ">>##" + t)
+                    continue
+            #break
+        else:
+            span = item.find("span")
+            if span:
+                t = span.get_text().strip()
+                if t: print("--" * sz + ">>" + t)
+            a = item.find("a")
+            if a:
+                t = a.get_text().strip()
+                if t: print("--" * sz + ">>" + t)
+
 
     #i.extract
     print("<<<<")
@@ -124,6 +141,7 @@ def parse_structure(raw, train_db):
     while True:
         ul = raw.find("ul")
         if not ul: break
+        else: read_li(ul, 1)
 
         while ul:
             ull = ul.find("ul")

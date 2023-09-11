@@ -93,10 +93,14 @@ def read_li(raw):
     li = raw.find_all("li")
     print(">>>>")
     for i in li:
-        span = i.find()
-        if span: print("->>" + span.get_text().strip())
+        span = i.find("span")
+        if span:
+            txt = span.get_text().strip()
+            if txt: print("->>" + txt)
         a = i.find("a")
-        if a: print("->>" + a.get_text().strip())
+        if a:
+            txt = a.get_text().strip()
+            if txt: print("->>" + txt)
         #i.extract
     print("<<<<")
 

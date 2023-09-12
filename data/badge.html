@@ -16,7 +16,18 @@
             padding-bottom: 0.8em;
             padding-left: 1.2em;
             padding-right: 1.2em;
-            font-size: 14px
+            font-size: 14px;
+			font-weight: 500;
+        }
+		
+        .increase-border {
+            padding-top: 0.8em;
+            padding-bottom: 0.8em;
+            padding-left: 1.2em;
+            padding-right: 1.2em;
+            font-size: 14px;
+			font-weight: 500;
+			border-size: 2 solid;
         }
 
         .form-rounded {
@@ -29,8 +40,8 @@
 <body>
 
 <br>
-<div class="container">
-   <h3>Bootstrap 4 Rounded Text Input and Textarea</h3>
+<div class="container mb-3">
+   <h3>Suggestions, synonyms, definitions, tokenize, spell-checking</h3>
    <br>
    <input type="text" class="form-control form-rounded increase-size" placeholder="Text input">
 </div>
@@ -44,16 +55,6 @@
           <button class="w-100 btn btn-lg btn-primary" type="submit">
             Send
           </button>
-
-          <div class="row mb-3">
-            <label for="floatingInput">Your nickname</label>
-            <input type="text" class="form-control" id="floatingInput" name="username"/>
-          </div>
-
-          <div class="row mb-3 h-100">
-            <label for="floatingTextarea">Message</label>
-            <textarea class="form-control" id="floatingTextarea" name="message"></textarea>
-          </div>
         </form>
       </main>
     </div>
@@ -65,8 +66,19 @@
 	   <span class="badge rounded-pill bg-danger increase-size">Danger</span>
 	   <span class="badge rounded-pill bg-warning increase-size">Warning</span>
 	   <span class="badge rounded-pill bg-info increase-size">Info</span>
-	   <span class="badge rounded-pill bg-light increase-size">Light</span>
+	   <span class="badge rounded-pill text-bg-light increase-border">Light</span>
 	   <span class="badge rounded-pill bg-dark increase-size">Dark</span>
 	</div>
+	<div class="container mt-3">
+	   <span class="badge rounded-pill text-bg-primary increase-size">Primary</span>
+	   <span class="badge rounded-pill text-bg-secondary increase-size">Secondary</span>
+	   <span class="badge rounded-pill text-bg-success increase-size">Success</span>
+	   <span class="badge rounded-pill text-bg-danger increase-size">Danger</span>
+	   <span class="badge rounded-pill text-bg-warning increase-size">Warning</span>
+	   <span class="badge rounded-pill text-bg-info increase-size">Info</span>
+	   <span class="badge rounded-pill text-bg-light increase-size">Light</span>
+	   <span class="badge rounded-pill text-bg-dark increase-size">Dark</span>
+	</div>	
+
 </body>
 </html>

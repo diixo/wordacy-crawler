@@ -13,15 +13,21 @@ from urllib.request import Request
 
 logging = False
 
+def extract_keywords(raw):
+    result = set()
+    elements = raw.find_all("meta", {"name":"keywords"})
+    for el in elements:
+        s = el.attrs.get("content", "")
+        s = str.replace(s, ',', ';')
+        result.update([w.strip().lower() for w in s.split(';')])
+    return result
+
+
 def read_li(raw, sz: int):
     if logging: print(">>>>")
     result = {}
 
     li = raw.find_all("li")
-
-    #print(raw.name)
-    #if raw.attrs and raw.attrs.get('class'):
-    #    print(raw.attrs.get('class'))
 
     for item in li:
         if item.find("ul"):
@@ -67,7 +73,7 @@ def extend(dest:dict(), src:dict()):
 
 def parse_structure(raw, result:dict):
     blacklist = [
-        "head", "script", "style", "footer", "noscript", "iframe", "svg", "button", "img", "pre", "code"
+        "script", "style", "footer", "noscript", "iframe", "svg", "button", "img", "pre", "code"
     ]
 
     # kill all root-nodes in DOM-model: script and style elements
@@ -91,14 +97,14 @@ def parse_structure(raw, result:dict):
                 if not uus:
                     extend(result, read_li(ull, 2))
                     ull.extract()
-                    break #break internal
+                    break
 
                 while uus:
                     uu = uus.find("ul")
                     if not uu:
                         extend(result, read_li(uus, 3))
                         uus.extract()
-                        break #break internal
+                        break
                     
                     while uu:
                         u = uu.find("ul")
@@ -120,14 +126,22 @@ def parse_url(url, train_db):
 
     result = {}
     parse_structure(raw, result)
+
+    keywords = extract_keywords(raw)
+    print(keywords)
+
     with open('storage/data.json', 'w', encoding='utf-8') as fd:
         json.dump(result, fd, ensure_ascii=False, indent=2)
+
 
 def parse_file(filename):
     raw = BeautifulSoup(open(filename, encoding='utf-8'), "html.parser")
     result = {}
     parse_structure(raw, result)
     print(result)
+
+    keywords = extract_keywords(raw)
+    print(keywords)
 
 def parse_text(text: str):
     raw = BeautifulSoup(text, features="html.parser")

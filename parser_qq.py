@@ -1,6 +1,7 @@
 import os
 import io
 import json
+import re
 import urllib.parse
 
 from urllib.request import urlopen
@@ -12,6 +13,9 @@ from urllib.request import Request
 ########################################################################
 
 logging = False
+
+def sanitize(str_line: str) -> bool:
+    return not re.search(r'http:|https:|www\.', str_line, re.IGNORECASE)
 
 def extract_keywords(raw):
     result = set()
@@ -69,7 +73,8 @@ def read_li(raw, sz: int):
 
 def extend(dest:dict(), src:dict()):
     for k, v in src.items():
-        dest[k] = dest.get(k, 0) + v
+        if sanitize(k):
+            dest[k] = dest.get(k, 0) + v
 
 def parse_structure(raw, result:dict):
     blacklist = [
@@ -119,19 +124,23 @@ def parse_structure(raw, result:dict):
                             break                            
         ul.extract()
 ########################################################################
-def parse_url(url, train_db):
+def parse_url(url):
     req = Request(url, headers={'User-Agent': 'XYZ/3.0'})
     html = urllib.request.urlopen(req).read()
     raw = BeautifulSoup(html, features="html.parser")
 
-    result = {}
-    parse_structure(raw, result)
+    structure = {}
+    parse_structure(raw, structure)
 
     keywords = extract_keywords(raw)
     print(keywords)
 
+    result = {}
+    result['keywords'] = sorted(keywords)
+    result['data'] = structure
+
     with open('storage/data.json', 'w', encoding='utf-8') as fd:
-        json.dump(result, fd, ensure_ascii=False, indent=2)
+        json.dump(result, fd, ensure_ascii=False, indent=3)
 
 
 def parse_file(filename):
@@ -154,7 +163,7 @@ def main():
     #parse_file("data/GeeksforGeeks-cs.html")
 
     url = "https://pythonexamples.org/"
-    parse_url(url, None)
+    parse_url(url)
 
 
 if __name__ == "__main__":

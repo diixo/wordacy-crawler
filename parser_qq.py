@@ -26,7 +26,7 @@ def extract_keywords(raw):
         result.update([w.strip().lower() for w in s.split(';')])
     return result
 
-def extract_h12(raw):
+def extract_h123(raw):
     h12 = raw.find_all(['h1', 'h2', 'h3'])
     result = set()
     result.update([h.get_text().lower().strip() for h in h12])
@@ -134,12 +134,12 @@ def parse(raw):
     structure = {}
     extract_structure(raw, structure)
     keywords = extract_keywords(raw)
-    h12s = extract_h12(raw)
+    h123 = extract_h123(raw)
 
     result = {}
     result['keywords'] = sorted(keywords)
     result['data'] = structure
-    result['h12'] = sorted(h12s)
+    result['h123'] = sorted(h123)
 
     with open('storage/data.json', 'w', encoding='utf-8') as fd:
         json.dump(result, fd, ensure_ascii=False, indent=3)

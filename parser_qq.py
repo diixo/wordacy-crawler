@@ -26,6 +26,12 @@ def extract_keywords(raw):
         result.update([w.strip().lower() for w in s.split(';')])
     return result
 
+def extract_h12(raw):
+    h12 = raw.find_all(['h1', 'h2', 'h3'])
+    result = set()
+    result.update([h.get_text().lower().strip() for h in h12])
+    return result
+
 
 def read_li(raw, sz: int):
     if logging: print(">>>>")
@@ -76,7 +82,7 @@ def extend(dest:dict(), src:dict()):
         if sanitize(k):
             dest[k] = dest.get(k, 0) + v
 
-def parse_structure(raw, result:dict):
+def extract_structure(raw, result:dict):
     blacklist = [
         "script", "style", "footer", "noscript", "iframe", "svg", "button", "img", "pre", "code"
     ]
@@ -124,39 +130,33 @@ def parse_structure(raw, result:dict):
                             break                            
         ul.extract()
 ########################################################################
-def parse_url(url):
-    req = Request(url, headers={'User-Agent': 'XYZ/3.0'})
-    html = urllib.request.urlopen(req).read()
-    raw = BeautifulSoup(html, features="html.parser")
-
+def parse(raw):
     structure = {}
-    parse_structure(raw, structure)
-
+    extract_structure(raw, structure)
     keywords = extract_keywords(raw)
-    print(keywords)
+    h12s = extract_h12(raw)
 
     result = {}
     result['keywords'] = sorted(keywords)
     result['data'] = structure
+    result['h12'] = sorted(h12s)
 
     with open('storage/data.json', 'w', encoding='utf-8') as fd:
         json.dump(result, fd, ensure_ascii=False, indent=3)
 
+def parse_url(url):
+    req = Request(url, headers={'User-Agent': 'XYZ/3.0'})
+    html = urllib.request.urlopen(req).read()
+    raw = BeautifulSoup(html, features="html.parser")
+    parse(raw)
 
 def parse_file(filename):
     raw = BeautifulSoup(open(filename, encoding='utf-8'), "html.parser")
-    result = {}
-    parse_structure(raw, result)
-    print(result)
-
-    keywords = extract_keywords(raw)
-    print(keywords)
+    parse(raw)
 
 def parse_text(text: str):
     raw = BeautifulSoup(text, features="html.parser")
-    result = {}
-    parse_structure(raw, result)
-    print(result)
+    parse(raw)
 ########################################################################
 
 def main():

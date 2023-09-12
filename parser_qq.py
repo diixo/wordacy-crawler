@@ -1,5 +1,6 @@
 import os
 import io
+import json
 import urllib.parse
 
 from urllib.request import urlopen
@@ -10,10 +11,15 @@ from urllib.request import Request
 
 ########################################################################
 
+logging = False
+
 def read_li(raw, sz: int):
+    if logging: print(">>>>")
+    result = {}
+
     li = raw.find_all("li")
+
     #print(raw.name)
-    
     #if raw.attrs and raw.attrs.get('class'):
     #    print(raw.attrs.get('class'))
 
@@ -23,30 +29,43 @@ def read_li(raw, sz: int):
             if span:
                 t = span.get_text().strip()
                 if t:
-                    print("--" * sz + ">>##" + t)
+                    if logging: print("--" * sz + ">>##" + t)
+                    t = t.lower()
+                    result[t] = result.get(t, 0) + 1
                     continue
             a = item.find("a")
             if a:
                 t = a.get_text().strip()
                 if t:
-                    print("--" * sz + ">>##" + t)
+                    if logging: print("--" * sz + ">>##" + t)
+                    t = t.lower()
+                    result[t] = result.get(t, 0) + 1
                     continue
             #break
         else:
             span = item.find("span")
             if span:
                 t = span.get_text().strip()
-                if t: print("--" * sz + ">>" + t)
+                if t:
+                    t = t.lower()
+                    result[t] = result.get(t, 0) + 1
+                    if logging: print("--" * sz + ">>" + t)
             a = item.find("a")
             if a:
                 t = a.get_text().strip()
-                if t: print("--" * sz + ">>" + t)
-
-
+                if t:
+                    t = t.lower()
+                    result[t] = result.get(t, 0) + 1
+                    if logging: print("--" * sz + ">>" + t)
     #i.extract
-    print("<<<<")
+    if logging: print("<<<<")
+    return result
 
-def parse_structure(raw, file_db):
+def extend(dest:dict(), src:dict()):
+    for k, v in src.items():
+        dest[k] = dest.get(k, 0) + v
+
+def parse_structure(raw, result:dict):
     blacklist = [
         "head", "script", "style", "footer", "noscript", "iframe", "svg", "button", "img", "pre", "code"
     ]
@@ -58,42 +77,40 @@ def parse_structure(raw, file_db):
     while True:
         ul = raw.find("ul")
         if not ul: break
-        else: read_li(ul, 1)
+        else: extend(result, read_li(ul, 1))
 
         while ul:
             ull = ul.find("ul")
             if not ull:
-                read_li(ul, 1)
+                extend(result, read_li(ul, 1))
                 ul.extract()
                 break
 
             while ull:
                 uus = ull.find("ul")
                 if not uus:
-                    read_li(ull, 2)
+                    extend(result, read_li(ull, 2))
                     ull.extract()
                     break #break internal
 
                 while uus:
                     uu = uus.find("ul")
                     if not uu:
-                        read_li(uus, 3)
+                        extend(result, read_li(uus, 3))
                         uus.extract()
                         break #break internal
                     
                     while uu:
                         u = uu.find("ul")
                         if not u:
-                            read_li(uu, 4)
+                            extend(result, read_li(uu, 4))
                             uu.extract()
                             break
                         else:
-                            read_li(uu, 4)
+                            extend(result, read_li(uu, 4))
                             #force stop deep iteration
                             uu.extract()
                             break                            
-
-            print("  <</ul-1")
         ul.extract()
 ########################################################################
 def parse_url(url, train_db):
@@ -101,15 +118,22 @@ def parse_url(url, train_db):
     html = urllib.request.urlopen(req).read()
     raw = BeautifulSoup(html, features="html.parser")
 
-    parse_structure(raw, train_db)
+    result = {}
+    parse_structure(raw, result)
+    with open('storage/data.json', 'w', encoding='utf-8') as fd:
+        json.dump(result, fd, ensure_ascii=False, indent=2)
 
 def parse_file(filename):
     raw = BeautifulSoup(open(filename, encoding='utf-8'), "html.parser")
-    parse_structure(raw, None)
+    result = {}
+    parse_structure(raw, result)
+    print(result)
 
 def parse_text(text: str):
     raw = BeautifulSoup(text, features="html.parser")
-    parse_structure(raw, None)
+    result = {}
+    parse_structure(raw, result)
+    print(result)
 ########################################################################
 
 def main():

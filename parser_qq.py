@@ -26,10 +26,10 @@ def extract_keywords(raw):
         result.update([w.strip().lower() for w in s.split(';')])
     return result
 
-def extract_h123(raw):
-    h12 = raw.find_all(['h1', 'h2', 'h3'])
+def extract_hhh(raw):
+    hhh = raw.find_all(['h1', 'h2', 'h3', 'h4', 'h5'])
     result = set()
-    result.update([h.get_text().lower().strip() for h in h12])
+    result.update([h.get_text().lower().strip() for h in hhh])
     return result
 
 
@@ -111,30 +111,37 @@ def extract_structure(raw, result:dict):
                     break
 
                 while uus:
-                    uu = uus.find("ul")
-                    if not uu:
+                    un = uus.find("ul")
+                    if not un:
                         extend(result, read_li(uus, 3))
                         uus.extract()
                         break
-                    
-                    while uu:
-                        u = uu.find("ul")
-                        if not u:
-                            extend(result, read_li(uu, 4))
-                            uu.extract()
+
+                    while un:
+                        uu = un.find("ul")
+                        if not uu:
+                            extend(result, read_li(un, 4))
+                            un.extract()
                             break
-                        else:
-                            extend(result, read_li(uu, 4))
-                            #force stop deep iteration
-                            uu.extract()
-                            break                            
+                    
+                        while uu:
+                            u = uu.find("ul")
+                            if not u:
+                                extend(result, read_li(uu, 5))
+                                uu.extract()
+                                break
+                            else:
+                                extend(result, read_li(uu, 5))
+                                #force stop deep iteration
+                                uu.extract()
+                                break                            
         ul.extract()
 ########################################################################
 def parse(raw):
     structure = {}
     extract_structure(raw, structure)
     keywords = extract_keywords(raw)
-    h123 = extract_h123(raw)
+    h123 = extract_hhh(raw)
 
     result = {}
     result['keywords'] = sorted(keywords)

@@ -160,7 +160,7 @@ def parse(raw):
     keywords, tags = extract_keywords(raw)
     keywords.update(tags)
     hhh = extract_hhh(raw)
-    extract_structure(raw, structure)
+    #extract_structure(raw, structure)
 
     result = {}
     result['keywords'] = sorted(keywords)
@@ -168,26 +168,26 @@ def parse(raw):
     result['hhh'] = sorted(hhh)
     return result
 
-def parse_url(url):
+def parse_url(url, db_file="data.json"):
     req = Request(url, headers={'User-Agent': 'XYZ/3.0'})
     html = urllib.request.urlopen(req).read()
     raw = BeautifulSoup(html, features="html.parser")
     result = parse(raw)
 
-    with open('storage/data.json', 'w', encoding='utf-8') as fd:
+    with open("storage/" + db_file, 'w', encoding='utf-8') as fd:
         json.dump(result, fd, ensure_ascii=False, indent=3)
 
-def parse_file(filename):
+def parse_file(filename, db_file="data.json"):
     raw = BeautifulSoup(open(filename, encoding='utf-8'), "html.parser")
     result = parse(raw)
 
-    with open('storage/data.json', 'w', encoding='utf-8') as fd:
+    with open("storage/" + db_file, 'w', encoding='utf-8') as fd:
         json.dump(result, fd, ensure_ascii=False, indent=3)
 ########################################################################
 
 def main():
-    parse_file("data/GeeksforGeeks-cs.html")
-    #parse_file('process/techopedia-train-db-v5.data')
+    #parse_file("data/GeeksforGeeks-cs.html")
+    parse_file('process/techopedia-train-db-v5.data')
 
     #url = "https://pythonexamples.org/"
     #url = "https://GeeksforGeeks.org/"

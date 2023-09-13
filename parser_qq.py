@@ -14,6 +14,22 @@ from urllib.request import Request
 
 logging = False
 
+def set_text(txt: str):
+    translation = {
+        0xfffd: 0x0020, 0x00b7: 0x0020, 0xfeff: 0x0020, 0x2026: 0x0020,
+        0x2713: 0x0020, 0x205F: 0x0020, 0x202c: 0x0020, 0x202a: 0x0020, 
+        0x200e: 0x0020, 0x200d: 0x0020, 0x200c: 0x0020, 0x200b: 0x0020,
+        0x2002: 0x0020, 0x2003: 0x0020, 0x2009: 0x0020, 0x2011: 0x002d,
+        0x2015: 0x002d, 0x201e: 0x0020, 0x2028: 0x0020, 0x2032: 0x0027,
+        0x2012: 0x002d, 0x0080: 0x0020, 0x0094: 0x0020, 0x009c: 0x0020,
+        0xFE0F: 0x0020, 0x200a: 0x0020, 0x202f: 0x0020, 0x2033: 0x0020,
+        0x2013: 0x0020, 0x00a0: 0x0020, 0x2705: 0x0020, 0x2714: 0x0020, # 0x2013: 0x002d
+        0x201c: 0x0020, 0x201d: 0x0020, 0x021f: 0x0020, 0x0022: 0x0020,
+        0x2019: 0x0027, 0x2018: 0x0027, 0x201b: 0x0027, 0x0060: 0x0027, 
+        0x00ab: 0x0020, 0x00bb: 0x0020, 0x2026: 0x002e, 0x2014: 0x0020 } # 0x2014: 0x002d
+    txt = txt.translate(translation)
+    return txt.lower().strip()
+
 def sanitize(str_line: str) -> bool:
     return not re.search(r'http:|https:|www\.', str_line, re.IGNORECASE)
 
@@ -23,13 +39,13 @@ def extract_keywords(raw):
     for el in elements:
         s = el.attrs.get("content", "")
         s = str.replace(s, ',', ';')
-        result.update([w.strip().lower() for w in s.split(';')])
+        result.update([set_text(w) for w in s.split(';')])
     return result
 
 def extract_hhh(raw):
     hhh = raw.find_all(['h1', 'h2', 'h3', 'h4', 'h5'])
     result = set()
-    result.update([h.get_text().lower().strip() for h in hhh])
+    result.update([set_text(h.get_text()) for h in hhh])
     return result
 
 
@@ -43,34 +59,30 @@ def read_li(raw, sz: int):
         if item.find("ul"):
             span = item.find("span")
             if span:
-                t = span.get_text().strip()
+                t = set_text(span.get_text())
                 if t:
                     if logging: print("--" * sz + ">>##" + t)
-                    t = t.lower()
                     result[t] = result.get(t, 0) + 1
                     continue
             a = item.find("a")
             if a:
-                t = a.get_text().strip()
+                t = set_text(a.get_text())
                 if t:
                     if logging: print("--" * sz + ">>##" + t)
-                    t = t.lower()
                     result[t] = result.get(t, 0) + 1
                     continue
             #break
         else:
             span = item.find("span")
             if span:
-                t = span.get_text().strip()
+                t = set_text(span.get_text())
                 if t:
-                    t = t.lower()
                     result[t] = result.get(t, 0) + 1
                     if logging: print("--" * sz + ">>" + t)
             a = item.find("a")
             if a:
-                t = a.get_text().strip()
+                t = set_text(a.get_text())
                 if t:
-                    t = t.lower()
                     result[t] = result.get(t, 0) + 1
                     if logging: print("--" * sz + ">>" + t)
     #i.extract

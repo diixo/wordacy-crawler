@@ -147,23 +147,23 @@ def parse(raw):
     result['keywords'] = sorted(keywords)
     result['data'] = structure
     result['hhh'] = sorted(hhh)
-
-    with open('storage/data.json', 'w', encoding='utf-8') as fd:
-        json.dump(result, fd, ensure_ascii=False, indent=3)
+    return result
 
 def parse_url(url):
     req = Request(url, headers={'User-Agent': 'XYZ/3.0'})
     html = urllib.request.urlopen(req).read()
     raw = BeautifulSoup(html, features="html.parser")
-    parse(raw)
+    result = parse(raw)
+
+    with open('storage/data.json', 'w', encoding='utf-8') as fd:
+        json.dump(result, fd, ensure_ascii=False, indent=3)
 
 def parse_file(filename):
     raw = BeautifulSoup(open(filename, encoding='utf-8'), "html.parser")
-    parse(raw)
+    result = parse(raw)
 
-def parse_text(text: str):
-    raw = BeautifulSoup(text, features="html.parser")
-    parse(raw)
+    with open('storage/data.json', 'w', encoding='utf-8') as fd:
+        json.dump(result, fd, ensure_ascii=False, indent=3)
 ########################################################################
 
 def main():

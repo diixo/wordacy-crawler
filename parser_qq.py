@@ -141,12 +141,12 @@ def parse(raw):
     structure = {}
     extract_structure(raw, structure)
     keywords = extract_keywords(raw)
-    h123 = extract_hhh(raw)
+    hhh = extract_hhh(raw)
 
     result = {}
     result['keywords'] = sorted(keywords)
     result['data'] = structure
-    result['h123'] = sorted(h123)
+    result['hhh'] = sorted(hhh)
 
     with open('storage/data.json', 'w', encoding='utf-8') as fd:
         json.dump(result, fd, ensure_ascii=False, indent=3)
@@ -167,10 +167,11 @@ def parse_text(text: str):
 ########################################################################
 
 def main():
-    #parse_file("data/GeeksforGeeks-cs.html")
+    parse_file("data/GeeksforGeeks-cs.html")
 
-    url = "https://pythonexamples.org/"
-    parse_url(url)
+    #url = "https://pythonexamples.org/"
+    #url = "https://GeeksforGeeks.org/"
+    #parse_url(url)
 
 
 if __name__ == "__main__":

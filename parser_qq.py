@@ -2,6 +2,7 @@ import os
 import io
 import json
 import re
+from pathlib import Path
 import urllib.parse
 
 from urllib.request import urlopen
@@ -13,6 +14,20 @@ from urllib.request import Request
 ########################################################################
 
 logging = False
+
+stopwords = set()
+
+def is_digit(word: str):
+    w = re.sub(r'[$]?[-+]?[\d]*[.,\:]?[\d]+[ %\"\']*', " ", word)
+    return not w
+
+def str_tokenize(s: str):
+    s = re.findall("(\w[\w'\.&-]*\w|\w)", s)
+    if s: return s
+    return []
+
+def sanitize(str_line: str) -> bool:
+    return not re.search(r'http:|https:|www\.', str_line, re.IGNORECASE)
 
 def set_text(txt: str):
     translation = {
@@ -27,19 +42,17 @@ def set_text(txt: str):
         0x201c: 0x0020, 0x201d: 0x0020, 0x021f: 0x0020, 0x0022: 0x0020,
         0x2019: 0x0027, 0x2018: 0x0027, 0x201b: 0x0027, 0x0060: 0x0027, 
         0x00ab: 0x0020, 0x00bb: 0x0020, 0x2026: 0x002e, 0x2014: 0x0020 } # 0x2014: 0x002d
+
     txt = txt.translate(translation)
     return txt.lower().strip()
-
-def sanitize(str_line: str) -> bool:
-    return not re.search(r'http:|https:|www\.', str_line, re.IGNORECASE)
 
 def extract_keywords(raw):
     result = set()
     elements = raw.find_all("meta", {"name":"keywords"})
     for el in elements:
         s = el.attrs.get("content", "")
-        s = str.replace(s, ',', ';')
-        result.update([set_text(w) for w in s.split(';')])
+        s = str.replace(s, ',', ';').split(';')
+        result.update([set_text(w) for w in s if (not is_digit(w) and (w not in stopwords))])
     
     tags = set()
     tgs = raw.find_all('tag')
@@ -51,7 +64,10 @@ def extract_keywords(raw):
 def extract_hhh(raw):
     hhh = raw.find_all(['h1', 'h2', 'h3', 'h4', 'h5'])
     result = set()
-    result.update([set_text(h.get_text()) for h in hhh])
+    for h in hhh:
+        s = str_tokenize(set_text(h.get_text()))
+        s = ' '.join([w for w in s if (not is_digit(w) and (w not in stopwords))])
+        result.add(s)
     return result
 
 
@@ -195,4 +211,11 @@ def main():
 
 
 if __name__ == "__main__":
+    rel = "./data/"
+
+    path = Path(rel + "stopwords.txt")
+    if path.exists():
+        stopwords.update([line.replace('\n', '')
+        for line in open(rel + path.name, 'r', encoding='utf-8').readlines()])
+
     main()

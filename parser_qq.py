@@ -40,7 +40,13 @@ def extract_keywords(raw):
         s = el.attrs.get("content", "")
         s = str.replace(s, ',', ';')
         result.update([set_text(w) for w in s.split(';')])
-    return result
+    
+    tags = set()
+    tgs = raw.find_all('tag')
+    tags.update([set_text(t.get_text()) for t in tgs])
+    if logging: print(f"<<<< tags:{len(tags)}")
+    
+    return result, tags
 
 def extract_hhh(raw):
     hhh = raw.find_all(['h1', 'h2', 'h3', 'h4', 'h5'])
@@ -151,9 +157,10 @@ def extract_structure(raw, result:dict):
 ########################################################################
 def parse(raw):
     structure = {}
-    extract_structure(raw, structure)
-    keywords = extract_keywords(raw)
+    keywords, tags = extract_keywords(raw)
+    keywords.update(tags)
     hhh = extract_hhh(raw)
+    extract_structure(raw, structure)
 
     result = {}
     result['keywords'] = sorted(keywords)
@@ -180,6 +187,7 @@ def parse_file(filename):
 
 def main():
     parse_file("data/GeeksforGeeks-cs.html")
+    #parse_file('process/techopedia-train-db-v5.data')
 
     #url = "https://pythonexamples.org/"
     #url = "https://GeeksforGeeks.org/"

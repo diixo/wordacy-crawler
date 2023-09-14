@@ -46,29 +46,23 @@ def set_text(txt: str):
     txt = txt.translate(translation)
     return txt.lower().strip()
 
-def extract_keywords(raw):
-    result = set()
+def extract_keywords(raw, result = set()):
     elements = raw.find_all("meta", {"name":"keywords"})
     for el in elements:
         s = el.attrs.get("content", "")
         s = str.replace(s, ',', ';').split(';')
         result.update([set_text(w) for w in s if (not is_digit(w) and (w not in stopwords))])
     
-    tags = set()
     tgs = raw.find_all('tag')
-    tags.update([set_text(t.get_text()) for t in tgs])
-    if logging: print(f"<<<< tags:{len(tags)}")
-    
-    return result, tags
+    result.update([set_text(t.get_text()) for t in tgs])
+    if logging: print(f"<<<< tags:{len(tgs)}")
 
-def extract_headings(raw):
+def extract_headings(raw, result = set()):
     hhh = raw.find_all(['h1', 'h2', 'h3', 'h4', 'h5'])
-    result = set()
     for h in hhh:
         s = str_tokenize(set_text(h.get_text()))
         s = ' '.join([w for w in s if (not is_digit(w) and (w not in stopwords))])
         result.add(s)
-    return result
 
 
 def read_li(raw, sz: int):
@@ -111,7 +105,7 @@ def read_li(raw, sz: int):
     if logging: print("<<<<")
     return result
 
-def extend(dest:dict(), src:dict()):
+def extend(dest:dict, src:dict):
     for k, v in src.items():
         if sanitize(k):
             dest[k] = dest.get(k, 0) + v
@@ -171,43 +165,47 @@ def extract_structure(raw, result:dict):
                                 break                            
         ul.extract()
 ########################################################################
-def parse(raw):
-    structure = {}
-    keywords, tags = extract_keywords(raw)
-    keywords.update(tags)
-    hhh = extract_headings(raw)
+def parse(raw, result = {}):
+
+    structure = result.get('data', dict())
+    keywords = set(result.get('keywords', []))
+    hhh = set(result.get('headings', []))
+
+    extract_keywords(raw, keywords)
+    extract_headings(raw, hhh)
     #extract_structure(raw, structure)
 
-    result = {}
     result['keywords'] = sorted(keywords)
     result['data'] = structure
     result['headings'] = sorted(hhh)
-    return result
 
-def parse_url(url, db_file="data.json"):
+def parse_url(url, result = dict()):
     req = Request(url, headers={'User-Agent': 'XYZ/3.0'})
     html = urllib.request.urlopen(req).read()
     raw = BeautifulSoup(html, features="html.parser")
-    result = parse(raw)
+    parse(raw, result)
+    return result
 
-    with open("storage/" + db_file, 'w', encoding='utf-8') as fd:
-        json.dump(result, fd, ensure_ascii=False, indent=3)
-
-def parse_file(filename, db_file="data.json"):
+def parse_file(filename, result = dict()):
     raw = BeautifulSoup(open(filename, encoding='utf-8'), "html.parser")
-    result = parse(raw)
+    parse(raw, result)
+    return result
 
-    with open("storage/" + db_file, 'w', encoding='utf-8') as fd:
+def save_json(result: dict, file_path="storage/data.json"):
+    with open(file_path, 'w', encoding='utf-8') as fd:
         json.dump(result, fd, ensure_ascii=False, indent=3)
+
 ########################################################################
 
 def main():
-    parse_file("data/GeeksforGeeks-cs.html")
-    #parse_file('process/techopedia-train-db-v5.data')
+    result = parse_file("data/GeeksforGeeks-cs.html")
+    #result = parse_file('process/techopedia-train-db-v5.data')
 
     #url = "https://pythonexamples.org/"
     #url = "https://GeeksforGeeks.org/"
-    #parse_url(url)
+    #result = parse_url(url)
+
+    save_json(result)
 
 
 if __name__ == "__main__":

@@ -48,6 +48,8 @@ class Manager:
 if __name__ == "__main__":
    u1 = "https://pythonexamples.org/"
    u2 = "https://kotlinandroid.org/"
+   u2 = "https://www.javatpoint.com/"
+   u2 = "http://neevo.net/"
 
    manager = Manager()
    manager.load_storage()

@@ -57,6 +57,11 @@ def extract_keywords(raw, result = set()):
         s = el.attrs.get("content", "")
         s = str.replace(s, ',', ';').split(';')
         result.update([set_text(w) for w in s if (not is_digit(w) and (w not in stopwords))])
+    elements = raw.find_all("meta", {"name":"KEYWORDS"})
+    for el in elements:
+        s = el.attrs.get("content", "")
+        s = str.replace(s, ',', ';').split(';')
+        result.update([set_text(w) for w in s if (not is_digit(w) and (w not in stopwords))])
     
     tgs = raw.find_all('tag')
     result.update([set_text(t.get_text()) for t in tgs])

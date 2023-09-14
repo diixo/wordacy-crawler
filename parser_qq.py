@@ -61,7 +61,7 @@ def extract_keywords(raw):
     
     return result, tags
 
-def extract_hhh(raw):
+def extract_headings(raw):
     hhh = raw.find_all(['h1', 'h2', 'h3', 'h4', 'h5'])
     result = set()
     for h in hhh:
@@ -175,13 +175,13 @@ def parse(raw):
     structure = {}
     keywords, tags = extract_keywords(raw)
     keywords.update(tags)
-    hhh = extract_hhh(raw)
+    hhh = extract_headings(raw)
     #extract_structure(raw, structure)
 
     result = {}
     result['keywords'] = sorted(keywords)
     result['data'] = structure
-    result['hhh'] = sorted(hhh)
+    result['headings'] = sorted(hhh)
     return result
 
 def parse_url(url, db_file="data.json"):
@@ -202,8 +202,8 @@ def parse_file(filename, db_file="data.json"):
 ########################################################################
 
 def main():
-    #parse_file("data/GeeksforGeeks-cs.html")
-    parse_file('process/techopedia-train-db-v5.data')
+    parse_file("data/GeeksforGeeks-cs.html")
+    #parse_file('process/techopedia-train-db-v5.data')
 
     #url = "https://pythonexamples.org/"
     #url = "https://GeeksforGeeks.org/"

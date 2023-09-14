@@ -22,7 +22,7 @@ def is_digit(word: str):
     return not w
 
 def str_tokenize(s: str):
-    s = re.findall("(\w[\w'\.&-]*\w|\w\+*)", s)
+    s = re.findall("(\w[\w'\.&-]*\w|\w\+*#?)", s)
     if s: return s
     return []
 
@@ -48,6 +48,11 @@ def set_text(txt: str):
 
 def extract_keywords(raw, result = set()):
     elements = raw.find_all("meta", {"name":"keywords"})
+    for el in elements:
+        s = el.attrs.get("content", "")
+        s = str.replace(s, ',', ';').split(';')
+        result.update([set_text(w) for w in s if (not is_digit(w) and (w not in stopwords))])
+    elements = raw.find_all("meta", {"name":"Keywords"})
     for el in elements:
         s = el.attrs.get("content", "")
         s = str.replace(s, ',', ';').split(';')

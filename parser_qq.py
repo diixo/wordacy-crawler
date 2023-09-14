@@ -18,7 +18,7 @@ logging = False
 stopwords = set()
 
 def is_digit(word: str):
-    w = re.sub(r'[$]?[-+]?[\d]*[.,\:]?[\d]+[ %\"\'\)]*', "", word)
+    w = re.sub(r'[$]?[-+]?[\d]*[.,\:]?[\d]+[ %\"\'\)\+]*', "", word)
     return not w
 
 def str_tokenize(s: str):

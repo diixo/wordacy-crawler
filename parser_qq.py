@@ -22,7 +22,7 @@ def is_digit(word: str):
     return not w
 
 def str_tokenize(s: str):
-    s = re.findall("(\w[\w'\.&-]*\w|\w\+*#?)", s)
+    s = re.findall("(\.?\w[\w'\.&-]*\w|\w\+*#?)", s)
     if s: return s
     return []
 

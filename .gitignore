@@ -8,5 +8,4 @@ build/
 *.bin
 *idea/
 __build/*.txt
-storage/*.json
 process/*.json

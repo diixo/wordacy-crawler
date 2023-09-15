@@ -39,7 +39,7 @@ class Manager:
 
       filename="urls.json"
       with open(rel + filename, 'w', encoding='utf-8') as fd:
-         json.dump(list(self.urls), fd, ensure_ascii=False, indent=3)
+         json.dump(sorted(self.urls), fd, ensure_ascii=False, indent=3)
 
 
    def analyse(self, url: str):
@@ -48,12 +48,15 @@ class Manager:
 if __name__ == "__main__":
    u1 = "https://pythonexamples.org/"
    u2 = "https://kotlinandroid.org/"
-   u2 = "https://www.javatpoint.com/"
-   u2 = "http://neevo.net/"
+   u3 = "https://www.javatpoint.com/"
+   u4 = "http://neevo.net/"
 
    manager = Manager()
    manager.load_storage()
+   #qq.parse_file('./data/technologies-ibm.html', manager.content)
    manager.learn(u1)
    manager.learn(u2)
+   manager.learn(u3)
+   manager.learn(u4)
    manager.save_storage()
 

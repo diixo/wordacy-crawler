@@ -31,6 +31,15 @@ class Manager:
          qq.parse_url(url, self.content)
          self.urls.add(url)
 
+   def learn_file(self, filename: str):
+      path = Path(filename)
+      if path.name in self.urls:
+         print(f"file={path.name} already")
+      else:
+         if path.exists():
+            qq.parse_file(filename, self.content)
+            self.urls.add(path.name)
+
    def save_storage(self):
       rel = "./storage/"
 
@@ -53,7 +62,7 @@ if __name__ == "__main__":
 
    manager = Manager()
    manager.load_storage()
-   #qq.parse_file('./data/technologies-ibm.html', manager.content)
+   manager.learn_file('./data/technologies-ibm.html')
    manager.learn(u1)
    manager.learn(u2)
    manager.learn(u3)

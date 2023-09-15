@@ -190,7 +190,7 @@ def parse(raw, result = {}):
     extract_headings(raw, hhh)
 
     li_raw = read_li(raw, 1)
-    keywords.update(li_raw.keys())
+    hhh.update(li_raw.keys())
 
     #extract_structure(raw, structure)
 

@@ -111,6 +111,11 @@ def read_li(raw, sz: int):
                 if t:
                     result[t] = result.get(t, 0) + 1
                     if logging: print("--" * sz + ">>" + t)
+            ####
+            if (not a) and (not span):
+                t = set_text(item.get_text())
+                if t:
+                    result[t] = result.get(t, 0) + 1
     #i.extract
     if logging: print("<<<<")
     return result
@@ -183,6 +188,10 @@ def parse(raw, result = {}):
 
     extract_keywords(raw, keywords)
     extract_headings(raw, hhh)
+
+    li_raw = read_li(raw, 1)
+    keywords.update(li_raw.keys())
+
     #extract_structure(raw, structure)
 
     result['keywords'] = sorted(keywords)

@@ -40,7 +40,7 @@ class Manager:
             qq.parse_file(filename, self.content)
             self.urls.add(path.name)
 
-   def save_storage(self):
+   def save_json(self):
       rel = "./storage/"
 
       filename="data.json"
@@ -67,5 +67,5 @@ if __name__ == "__main__":
    manager.learn(u2)
    manager.learn(u3)
    manager.learn(u4)
-   manager.save_storage()
+   manager.save_json()
 

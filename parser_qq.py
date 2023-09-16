@@ -29,7 +29,7 @@ def str_tokenize(s: str):
 def sanitize(str_line: str) -> bool:
     return not re.search(r'http:|https:|www\.', str_line, re.IGNORECASE)
 
-def set_text(txt: str):
+def translate(txt: str):
     translation = {
         0xfffd: 0x0020, 0x00b7: 0x0020, 0xfeff: 0x0020, 0x2026: 0x0020, 0x2713: 0x0020, 0x205F: 0x0020, 0x202c: 0x0020, 
         0x202a: 0x0020, 0x200e: 0x0020, 0x200d: 0x0020, 0x200c: 0x0020, 0x200b: 0x0020, 0x2002: 0x0020, 0x2003: 0x0020, 
@@ -40,24 +40,27 @@ def set_text(txt: str):
         0x0060: 0x0027, 0x00ab: 0x0020, 0x00bb: 0x0020, 0x2026: 0x002e, 0x2014: 0x0020 } # 0x2014: 0x002d
 
     txt = txt.translate(translation)
-    return txt.lower().strip()
+    return txt.strip()
+
+def set_text(txt: str):
+    return translate(txt).lower()
 
 def extract_keywords(raw, result = set()):
     elements = raw.find_all("meta", {"name":"keywords"})
     for el in elements:
         s = el.attrs.get("content", "")
         s = str.replace(s, ',', ';').split(';')
-        result.update([set_text(w) for w in s if (w == "IT") or (not is_digit(w) and (w not in stopwords))])
+        result.update([set_text(w) for w in s if (w == "IT") or (not is_digit(w) and (w.lower() not in stopwords))])
     elements = raw.find_all("meta", {"name":"Keywords"})
     for el in elements:
         s = el.attrs.get("content", "")
         s = str.replace(s, ',', ';').split(';')
-        result.update([set_text(w) for w in s if (w == "IT") or (not is_digit(w) and (w not in stopwords))])
+        result.update([set_text(w) for w in s if (w == "IT") or (not is_digit(w) and (w.lower() not in stopwords))])
     elements = raw.find_all("meta", {"name":"KEYWORDS"})
     for el in elements:
         s = el.attrs.get("content", "")
         s = str.replace(s, ',', ';').split(';')
-        result.update([set_text(w) for w in s if (w == "IT") or (not is_digit(w) and (w not in stopwords))])
+        result.update([set_text(w) for w in s if (w == "IT") or (not is_digit(w) and (w.lower() not in stopwords))])
     
     tgs = raw.find_all('tag')
     result.update([set_text(t.get_text()) for t in tgs])
@@ -66,8 +69,8 @@ def extract_keywords(raw, result = set()):
 def extract_headings(raw, result = set()):
     hhh = raw.find_all(['h1', 'h2', 'h3', 'h4', 'h5'])
     for h in hhh:
-        s = str_tokenize(set_text(h.get_text()))
-        s = ' '.join([w for w in s if (not is_digit(w) and (w not in stopwords))])
+        s = str_tokenize(translate(h.get_text()))
+        s = ' '.join([w.lower() for w in s if (w == "IT") or (not is_digit(w) and (w.lower() not in stopwords))])
         result.add(s)
 
 

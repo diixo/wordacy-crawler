@@ -45,7 +45,25 @@ def translate(txt: str):
 def set_text(txt: str):
     return translate(txt).lower()
 
+def extract_urls(url, raw, result = set()):
+    hostname = urllib.parse.urlparse(url).hostname
+
+    alls = raw.find_all('a')
+    for link in alls:
+        if hasattr(link, 'attrs'):
+            sref = link.attrs.get('href', None)
+            if sref:
+                u_hostname = urllib.parse.urlparse(sref).hostname
+                if (not u_hostname) or (u_hostname == hostname):  #as relative
+                    ref = urllib.parse.urljoin(url, sref)
+                    result.add(ref)
+                else:
+                    print(sref)
+
+    return hostname
+
 def extract_keywords(raw, result = set()):
+
     elements = raw.find_all("meta", {"name":"keywords"})
     for el in elements:
         s = el.attrs.get("content", "")
@@ -179,7 +197,12 @@ def extract_structure(raw, result:dict):
                                 break                            
         ul.extract()
 ########################################################################
-def parse(raw, result = {}):
+def parse(url, raw, result = {}):
+    links = set()
+    if url:
+        hostname= extract_urls(url, raw, links)
+        with open("./storage/" + hostname + ".json", 'w', encoding='utf-8') as fd:
+            json.dump(list(links), fd, ensure_ascii=False, indent=3)
 
     structure = result.get('data', dict())
     keywords = set(result.get('keywords', []))
@@ -201,12 +224,12 @@ def parse_url(url, result = dict()):
     req = Request(url, headers={'User-Agent': 'XYZ/3.0'})
     html = urllib.request.urlopen(req).read()
     raw = BeautifulSoup(html, features="html.parser")
-    parse(raw, result)
+    parse(url, raw, result)
     return result
 
 def parse_file(filename, result = dict()):
     raw = BeautifulSoup(open(filename, encoding='utf-8'), "html.parser")
-    parse(raw, result)
+    parse(None, raw, result)
     return result
 
 def save_json(result: dict, file_path="storage/data.json"):

@@ -194,7 +194,7 @@ def extract_structure(raw, result:dict):
                                 extend(result, read_li(uu, 5))
                                 #force stop deep iteration
                                 uu.extract()
-                                break                            
+                                break
         ul.extract()
 ########################################################################
 def parse(url, raw, result = {}):

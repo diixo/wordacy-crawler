@@ -49,6 +49,7 @@ def parseFile(filename):
     #print("=" + h1.text)
 
     file_train_db.write("<item>" + '\n')
+    file_train_db.write(f"<uri>{filename[22:]}</uri>\n")
     file_train_db.write("<h1>" + '\n')
     file_train_db.write(h1.text.strip())
     file_train_db.write('\n' + "</h1>" + '\n')
@@ -74,32 +75,40 @@ def parseFile(filename):
 
                 if content.name == 'h2' and 'role' in content.attrs:
                     #print("==" + content.text)
-                    file_train_db.write("<h2>" + '\n')
-                    file_train_db.write(content.text.strip())
-                    file_train_db.write('\n' + "</h2>" + '\n')
+                    txt = content.text.strip()
+                    if txt:
+                        file_train_db.write("<h2>" + '\n')
+                        file_train_db.write(txt)
+                        file_train_db.write('\n' + "</h2>" + '\n')
                 elif content.name == 'p' and 'data-empty' in content.attrs:
                     #print(content.text)
-                    file_train_db.write("<p>" + '\n')
-                    file_train_db.write(content.text.strip())
-                    file_train_db.write('\n' + "</p>" + '\n')
+                    txt = content.text.strip()
+                    if txt:
+                        file_train_db.write("<p>" + '\n')
+                        file_train_db.write(txt)
+                        file_train_db.write('\n' + "</p>" + '\n')
                 elif content.name == 'ul' or content.name == 'ol':
                     #print(content.text)
                     file_train_db.write("<ul>" + '\n')
                     for li in content.contents:
                         if hasattr(li, 'name'):
-                            if li.name == 'li': file_train_db.write(li.text.strip() + '\n')
+                            if li.name == 'li': file_train_db.write("<li>" + li.text.strip() + '</li>\n')
                     file_train_db.write("</ul>" + '\n')
                 elif content.name == 'p' and 'dir' in content.attrs:
                     #print(content.text)
-                    file_train_db.write("<p>" + '\n')
-                    file_train_db.write(content.text.strip())
-                    file_train_db.write('\n' + "</p>" + '\n')
+                    txt = content.text.strip()
+                    if txt:
+                        file_train_db.write("<p>" + '\n')
+                        file_train_db.write(txt)
+                        file_train_db.write('\n' + "</p>" + '\n')
                 elif content.name == 'p' and not ('dir' in content.attrs) and not ('data-empty' in content.attrs):
                     if content.text:# or content.text != "":
                         #print("p0 " + content.text)
-                        file_train_db.write("<p0>" + '\n')
-                        file_train_db.write(content.text.strip())
-                        file_train_db.write('\n' + "</p0>" + '\n')
+                        txt = content.text.strip()
+                        if txt:
+                            file_train_db.write("<span>" + '\n')
+                            file_train_db.write(txt)
+                            file_train_db.write('\n' + "</span>" + '\n')
                 elif content.name == 'div':
                     if 'class' in content.attrs:
                         if (content.attrs['class'][0] == "ad__wrapper") or (content.attrs['class'][0] == "mt-5"):
@@ -108,14 +117,18 @@ def parseFile(filename):
                             None
                         elif content.text:
                             #print("p0 " + content.text)
-                            file_train_db.write("<p0>" + '\n')
-                            file_train_db.write(content.text.strip())
-                            file_train_db.write('\n' + "</p0>" + '\n')
+                            txt = content.text.strip()
+                            if txt:
+                                file_train_db.write("<span>" + '\n')
+                                file_train_db.write(txt)
+                                file_train_db.write('\n' + "</span>" + '\n')
                     elif content.text:# or content.text != "":
                         #print("p0 " + content.text)
-                        file_train_db.write("<p0>" + '\n')
-                        file_train_db.write(content.text.strip())
-                        file_train_db.write('\n' + "</p0>" + '\n')
+                        txt = content.text.strip()
+                        if txt:
+                            file_train_db.write("<span>" + '\n')
+                            file_train_db.write(txt)
+                            file_train_db.write('\n' + "</span>" + '\n')
 
             #else:
             #    if isinstance(content, NavigableString):

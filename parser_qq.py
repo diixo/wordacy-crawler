@@ -57,8 +57,9 @@ def extract_urls(url, raw, result = set()):
                 if (not u_hostname) or (u_hostname == hostname):  #as relative
                     ref = urllib.parse.urljoin(url, sref)
                     result.add(ref)
-                else:
-                    print(sref)
+                else:   #unknown hostname:
+                    #print(sref)
+                    print(u_hostname)
 
     return hostname
 
@@ -96,10 +97,11 @@ def read_li(raw, sz: int):
     if logging: print(">>>>")
     result = {}
 
+    tags = ["ul", "ol"]
     li = raw.find_all("li")
 
     for item in li:
-        if item.find("ul"):
+        if item.find(tags):
             span = item.find("span")
             if span:
                 t = set_text(span.get_text())
@@ -151,41 +153,43 @@ def extract_structure(raw, result:dict):
     for node in raw(blacklist):
         node.extract()  # cut it out
 
+    tags = ["ul", "ol"]
+
     while True:
-        ul = raw.find("ul")
+        ul = raw.find(tags)
         if not ul: break
         else: extend(result, read_li(ul, 1))
 
         while ul:
-            ull = ul.find("ul")
+            ull = ul.find(tags)
             if not ull:
                 extend(result, read_li(ul, 1))
                 ul.extract()
                 break
 
             while ull:
-                uus = ull.find("ul")
+                uus = ull.find(tags)
                 if not uus:
                     extend(result, read_li(ull, 2))
                     ull.extract()
                     break
 
                 while uus:
-                    un = uus.find("ul")
+                    un = uus.find(tags)
                     if not un:
                         extend(result, read_li(uus, 3))
                         uus.extract()
                         break
 
                     while un:
-                        uu = un.find("ul")
+                        uu = un.find(tags)
                         if not uu:
                             extend(result, read_li(un, 4))
                             un.extract()
                             break
                     
                         while uu:
-                            u = uu.find("ul")
+                            u = uu.find(tags)
                             if not u:
                                 extend(result, read_li(uu, 5))
                                 uu.extract()
@@ -198,8 +202,10 @@ def extract_structure(raw, result:dict):
         ul.extract()
 ########################################################################
 def parse(url, raw, result = {}):
-    links = set()
-    if url:
+
+    #if url:
+    if False:
+        links = set()
         hostname= extract_urls(url, raw, links)
         with open("./storage/" + hostname + ".json", 'w', encoding='utf-8') as fd:
             json.dump(list(links), fd, ensure_ascii=False, indent=3)

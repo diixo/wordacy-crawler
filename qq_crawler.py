@@ -33,6 +33,8 @@ class Crawler:
          ".jpg", ".jpeg", ".png", ".svg", ".ico", ".bmp", ".gif", ".map", ".ttf",
          ".pps", ".webp", ".txt", ".cmd", ".md" ".js", ".json", ".css", ".scss",
          ".zip", ".tar", ".rar", ".gz", ".iso", ".exe", ".sfx", ".msi", ".cgi"]
+      for i in avoid:
+         if re.search(i, url_str): return True
       return False
 
    def is_xml(self, url_str:str):
@@ -54,7 +56,7 @@ class Crawler:
    def extract_urls(self, raw):
       hostname = self.hostname()
 
-      alls = raw.find_all('a')
+      alls = raw.find_all(['a', 'loc'])
       for link in alls:
          if hasattr(link, 'attrs'):
                sref = link.attrs.get('href', None)
@@ -74,15 +76,16 @@ class Crawler:
             raw = BeautifulSoup(html, features=parser)
 
             self.extract_urls(raw)
-
+            return True
       except urllib.error.URLError as e:
-            if hasattr(e, 'code'): print("URLErr_code:", e.code)
+            if hasattr(e, 'code'): print("URLErr_code:", e.code, f" ({url})")
             if hasattr(e, 'reason'): print("URLErr_reason:", e.reason)
       except urllib.error.HTTPError as e:
             if hasattr(e, 'code'): print("HTTPErr_code:", e.code)
             if hasattr(e, 'reason'): print("HTTPErr_reason:", e.reason)
       except:
             print("Unexpected urlopen-error:", sys.exc_info()[0])
+      return False
 
 
    def run(self):
@@ -107,7 +110,7 @@ class Crawler:
 
             elif self.is_xml(url):
                if logging: print(f"...on: XML={url}")
-               self.open_url(url, "lxml")
+               self.open_url(url, "xml")
 
          time.sleep(1.0)
          if logging: print(f"...on: {counter}; queue={len(self.new)}; all={len(self.all)}")

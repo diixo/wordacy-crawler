@@ -1,5 +1,6 @@
 import time
 import sys
+import re
 import requests
 import json
 from collections import deque
@@ -27,6 +28,19 @@ class Crawler:
       self.all.clear()
       self.unknown.clear()
 
+   def url_is_valid(self, url_str:str)->bool:
+      avoid = [".pptx", ".ppt", ".xls", ".xlsx", ".xml", ".xlt", ".pdf", ".doc", ".docx",
+         ".jpg", ".jpeg", ".png", ".svg", ".ico", ".bmp", ".gif", ".map", ".ttf",
+         ".pps", ".webp", ".txt", ".cmd", ".md" ".js", ".json", ".css", ".scss",
+         ".zip", ".tar", ".rar", ".gz", ".iso", ".exe", ".sfx", ".msi", ".cgi"]
+      return False
+
+   def is_xml(self, url_str:str):
+      avoid = [".xml"]
+      for i in avoid:
+         if re.search(i, url_str): return True
+      return False
+
    def add_new(self, url_str: str):
       url_str = url_str.strip('/')
       if url_str not in self.all:
@@ -53,6 +67,23 @@ class Crawler:
                      self.unknown.add(u_hostname)
                      #self.unknown.add(sref)
 
+   def open_url(self, url:str, parser:str):
+      try:
+            req = Request(url, headers={'User-Agent': 'XYZ/3.0'})
+            html = urlopen(req).read()
+            raw = BeautifulSoup(html, features=parser)
+
+            self.extract_urls(raw)
+
+      except urllib.error.URLError as e:
+            if hasattr(e, 'code'): print("URLErr_code:", e.code)
+            if hasattr(e, 'reason'): print("URLErr_reason:", e.reason)
+      except urllib.error.HTTPError as e:
+            if hasattr(e, 'code'): print("HTTPErr_code:", e.code)
+            if hasattr(e, 'reason'): print("HTTPErr_reason:", e.reason)
+      except:
+            print("Unexpected urlopen-error:", sys.exc_info()[0])
+
 
    def run(self):
       self.clear()
@@ -69,30 +100,22 @@ class Crawler:
             session.mount('http://', adapter)
             session.mount('https://', adapter)
 
-            if "text/html" in session.head(url).headers["Content-Type"]:
-               req = Request(url, headers={'User-Agent': 'XYZ/3.0'})
-               try:
-                     html = urlopen(req).read()
-                     raw = BeautifulSoup(html, features="html.parser")
+            Content_Type = session.head(url).headers["Content-Type"]
+            
+            if "text/html" in Content_Type and (not self.is_xml(url)):
+               self.open_url(url, "html.parser")
 
-                     self.extract_urls(raw)
+            elif self.is_xml(url):
+               if logging: print(f"...on: XML={url}")
+               self.open_url(url, "lxml")
 
-               except urllib.error.URLError as e:
-                     if hasattr(e, 'code'): print("URLErr_code:", e.code)
-                     if hasattr(e, 'reason'): print("URLErr_reason:", e.reason)
-               except urllib.error.HTTPError as e:
-                     if hasattr(e, 'code'): print("HTTPErr_code:", e.code)
-                     if hasattr(e, 'reason'): print("HTTPErr_reason:", e.reason)
-               except:
-                     print("Unexpected urlopen-error:", sys.exc_info()[0])
-                     
-         time.sleep(2.0)
+         time.sleep(1.0)
          if logging: print(f"...on: {counter}; queue={len(self.new)}; all={len(self.all)}")
 
    
    def save_json(self, result = dict()):
       filepath = "./storage/crawler.json"
-      result[self.hostname()] = list(self.all)
+      result[self.hostname()] = sorted(self.all)
 
       with open(filepath, 'w', encoding='utf-8') as fd:
          json.dump(result, fd, ensure_ascii=False, indent=3)

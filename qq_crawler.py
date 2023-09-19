@@ -38,9 +38,21 @@ class Crawler:
       self.unknown.clear()
       self.skip.clear()
 
+   def is_url_valid(self, url_str:str)->bool:
+      avoid = [ ".php", "#",
+         ".pptx", ".ppt", ".xls", ".xlsx", ".xml", ".xlt", ".pdf", ".doc", ".docx",
+         ".jpg", ".jpeg", ".png", ".svg", ".ico", ".bmp", ".gif", ".map", ".ttf",
+         ".pps", ".webp", ".txt", ".cmd", ".md" ".js", ".json", ".css", ".scss",
+         ".zip", ".tar", ".rar", ".gz", ".iso", ".exe", ".sfx", ".msi", ".cgi"]
+      for i in avoid:
+         if re.search(i, url_str): return False
+      return True
+
    def add_new(self, url_str: str):
       url_str = url_str.strip('/')
-      if url_str not in self.all:
+      if not self.is_url_valid(url_str):
+         self.skip.add(url_str)
+      elif url_str not in self.all:
          #print(f"added new: {url_str}")
          self.new.append(url_str)
          self.all.add(url_str)
@@ -94,8 +106,9 @@ class Crawler:
       while(len(self.new) > 0):
          url = self.new.popleft()
          counter += 1
-         
+
          with requests.Session() as session:
+
             retry = Retry(connect=3, backoff_factor=0.5)
             adapter = HTTPAdapter(max_retries=retry)
             session.mount('http://', adapter)
@@ -111,8 +124,8 @@ class Crawler:
                self.open_url(url, "xml")
                self.skip.add(url)
 
+         if logging: print(f"...on: {counter} [queue={len(self.new)}, all={len(self.all)}, skipped={len(self.skip)}]")
          time.sleep(1.0)
-         if logging: print(f"...on: {counter} [queue={len(self.new)}, all={len(self.all)}]")
       return self.all
 
 

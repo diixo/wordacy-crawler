@@ -9,6 +9,8 @@ from urllib.parse import urlparse, urljoin
 from urllib.request import urlopen, Request
 import urllib.error
 
+logging = True
+
 class Crawler:
 
    def __init__(self, url: str):
@@ -25,7 +27,7 @@ class Crawler:
    def add_new(self, url_str: str):
       url_str = url_str.strip('/')
       if url_str not in self.all:
-         print(f"added new: {url_str}")
+         #print(f"added new: {url_str}")
          self.new.append(url_str)
          self.all.add(url_str)
 
@@ -77,8 +79,9 @@ class Crawler:
                      print("Unexpected urlopen-error:", sys.exc_info()[0])
                      
          time.sleep(2.0)
-         if (counter % 10 == 0):
-            print(f"...on: {counter}; progress={len(self.new)}; all={len(self.all)}")
+         #if (counter % 10 == 0):
+         #   print(f"...on: {counter}; progress={len(self.new)}; all={len(self.all)}")
+         if logging: print(f"...on: {counter}; progress={len(self.new)}; all={len(self.all)}")
 
    
    def save_json(self, result = dict()):

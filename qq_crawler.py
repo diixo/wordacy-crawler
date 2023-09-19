@@ -28,15 +28,6 @@ class Crawler:
       self.all.clear()
       self.unknown.clear()
 
-   def url_is_valid(self, url_str:str)->bool:
-      avoid = [".pptx", ".ppt", ".xls", ".xlsx", ".xml", ".xlt", ".pdf", ".doc", ".docx",
-         ".jpg", ".jpeg", ".png", ".svg", ".ico", ".bmp", ".gif", ".map", ".ttf",
-         ".pps", ".webp", ".txt", ".cmd", ".md" ".js", ".json", ".css", ".scss",
-         ".zip", ".tar", ".rar", ".gz", ".iso", ".exe", ".sfx", ".msi", ".cgi"]
-      for i in avoid:
-         if re.search(i, url_str): return True
-      return False
-
    def is_xml(self, url_str:str):
       avoid = [".xml"]
       for i in avoid:

@@ -5,9 +5,12 @@ import json
 from collections import deque
 from bs4 import BeautifulSoup
 
+import urllib.error
 from urllib.parse import urlparse, urljoin
 from urllib.request import urlopen, Request
-import urllib.error
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
+#pip install lxml
 
 logging = True
 
@@ -35,7 +38,7 @@ class Crawler:
       return urlparse(self.home).hostname
 
    def extract_urls(self, raw):
-      hostname = urlparse(self.home).hostname
+      hostname = self.hostname()
 
       alls = raw.find_all('a')
       for link in alls:
@@ -61,7 +64,12 @@ class Crawler:
          counter += 1
          
          with requests.Session() as session:
-             if "text/html" in session.head(url).headers["Content-Type"]:
+            retry = Retry(connect=3, backoff_factor=0.5)
+            adapter = HTTPAdapter(max_retries=retry)
+            session.mount('http://', adapter)
+            session.mount('https://', adapter)
+
+            if "text/html" in session.head(url).headers["Content-Type"]:
                req = Request(url, headers={'User-Agent': 'XYZ/3.0'})
                try:
                      html = urlopen(req).read()
@@ -79,14 +87,11 @@ class Crawler:
                      print("Unexpected urlopen-error:", sys.exc_info()[0])
                      
          time.sleep(2.0)
-         #if (counter % 10 == 0):
-         #   print(f"...on: {counter}; progress={len(self.new)}; all={len(self.all)}")
-         if logging: print(f"...on: {counter}; progress={len(self.new)}; all={len(self.all)}")
+         if logging: print(f"...on: {counter}; queue={len(self.new)}; all={len(self.all)}")
 
    
    def save_json(self, result = dict()):
       filepath = "./storage/crawler.json"
-
       result[self.hostname()] = list(self.all)
 
       with open(filepath, 'w', encoding='utf-8') as fd:

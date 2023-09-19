@@ -29,7 +29,7 @@ class Crawler:
       self.unknown.clear()
 
    def is_xml(self, url_str:str):
-      avoid = [".xml"]
+      avoid = [".xml", ".xsd"]
       for i in avoid:
          if re.search(i, url_str): return True
       return False
@@ -72,7 +72,7 @@ class Crawler:
             if hasattr(e, 'code'): print("URLErr_code:", e.code, f" ({url})")
             if hasattr(e, 'reason'): print("URLErr_reason:", e.reason)
       except urllib.error.HTTPError as e:
-            if hasattr(e, 'code'): print("HTTPErr_code:", e.code)
+            if hasattr(e, 'code'): print("HTTPErr_code:", e.code, f" ({url})")
             if hasattr(e, 'reason'): print("HTTPErr_reason:", e.reason)
       except:
             print("Unexpected urlopen-error:", sys.exc_info()[0])

@@ -22,9 +22,11 @@ class Crawler:
       self.new = deque()
       self.all = set()
       self.unknown = set()
+      self.skip = set()
 
-   def save_json(self, result = dict()):
-      filepath = "./storage/crawler.json"
+   def save_json(self, filename="crawler.json", result = dict()):
+      filepath = "./storage/" + filename
+      for item in self.skip: self.all.discard(item)
       result[self.hostname()] = sorted(self.all)
 
       with open(filepath, 'w', encoding='utf-8') as fd:
@@ -34,6 +36,7 @@ class Crawler:
       self.new.clear()
       self.all.clear()
       self.unknown.clear()
+      self.skip.clear()
 
    def add_new(self, url_str: str):
       url_str = url_str.strip('/')
@@ -77,6 +80,7 @@ class Crawler:
             if hasattr(e, 'reason'): print("HTTPErr_reason:", e.reason)
       except:
             print("Unexpected urlopen-error:", sys.exc_info()[0])
+      self.skip.add(url)
       return False
 
 
@@ -103,14 +107,15 @@ class Crawler:
             elif "text/xml" in Content_Type:
                if logging: print(f"...on: XML={url}")
                self.open_url(url, "xml")
+               self.skip.add(url)
 
          time.sleep(1.0)
          if logging: print(f"...on: {counter}; queue={len(self.new)}; all={len(self.all)}")
+      return self.all
 
 
 def main():
    crawler = Crawler("https://kotlinandroid.org/")
-   #crawler = Crawler("https://www.geeksforgeeks.org/")
    crawler.run()
    crawler.save_json()
 

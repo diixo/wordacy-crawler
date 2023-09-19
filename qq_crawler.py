@@ -17,8 +17,8 @@ logging = True
 
 class Crawler:
 
-   def __init__(self, url: str):
-      self.home = url.strip('/')
+   def __init__(self):
+      self.home = ""
       self.new = deque()
       self.all = set()
       self.unknown = set()
@@ -46,7 +46,8 @@ class Crawler:
          self.all.add(url_str)
 
    def hostname(self):
-      return urlparse(self.home).hostname
+      if self.home: return urlparse(self.home).hostname
+      return self.home
 
    def extract_urls(self, raw):
       hostname = self.hostname()
@@ -84,7 +85,8 @@ class Crawler:
       return False
 
 
-   def run(self):
+   def run(self, domain: str):
+      self.home = domain.strip('/')
       self.clear()
       self.add_new(self.home)
       counter = 0
@@ -110,14 +112,18 @@ class Crawler:
                self.skip.add(url)
 
          time.sleep(1.0)
-         if logging: print(f"...on: {counter}; queue={len(self.new)}; all={len(self.all)}")
+         if logging: print(f"...on: {counter} [queue={len(self.new)}, all={len(self.all)}]")
       return self.all
 
 
 def main():
-   crawler = Crawler("https://kotlinandroid.org/")
-   crawler.run()
-   crawler.save_json()
+   crawler = Crawler()
+   #crawler.run("https://kotlinandroid.org/")
+   #crawler.run("https://javascriptcode.org/")
+   #crawler.save_json("javascriptcode.org.json")
+
+   crawler.run("https://pythonexamples.org")
+   crawler.save_json("pythonexamples.org.json")
 
 
 if __name__ == "__main__":

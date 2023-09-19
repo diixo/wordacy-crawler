@@ -45,23 +45,6 @@ def translate(txt: str):
 def set_text(txt: str):
     return translate(txt).lower()
 
-def extract_urls(url, raw, result = set()):
-    hostname = urllib.parse.urlparse(url).hostname
-
-    alls = raw.find_all('a')
-    for link in alls:
-        if hasattr(link, 'attrs'):
-            sref = link.attrs.get('href', None)
-            if sref:
-                u_hostname = urllib.parse.urlparse(sref).hostname
-                if (not u_hostname) or (u_hostname == hostname):  #as relative
-                    ref = urllib.parse.urljoin(url, sref)
-                    result.add(ref)
-                else:   #unknown hostname:
-                    #print(sref)
-                    print(u_hostname)
-
-    return hostname
 
 def extract_keywords(raw, result = set()):
 
@@ -134,6 +117,7 @@ def read_li(raw, sz: int):
             if (not a) and (not span):
                 t = set_text(item.get_text())
                 if t:
+                    if logging: print("--" * sz + ">>" + t)
                     result[t] = result.get(t, 0) + 1
     #i.extract
     if logging: print("<<<<")

@@ -40,10 +40,9 @@ class Manager:
             qq.parse_file(filename, self.content)
             self.urls.add(path.name)
 
-   def save_json(self):
+   def save_json(self, filename="data.json"):
       rel = "./storage/"
 
-      filename="data.json"
       qq.save_json(self.content, rel + filename)
 
       filename="urls.json"
@@ -59,8 +58,13 @@ if __name__ == "__main__":
    u2 = "https://kotlinandroid.org/"
    u3 = "https://www.javatpoint.com/"
    u4 = "http://neevo.net/"
+   #u5 = "https://www.geeksforgeeks.org/generative-adversarial-network-gan/"
+   #u5 = "https://javascriptcode.org/"
+   #u5 = "https://www.javatpoint.com/python-variables"
+   #u5 = "https://www.programiz.com/r"
 
    manager = Manager()
+   #manager.learn_file('./process/techopedia-train-db-v5.data')
    manager.load_storage()
    manager.learn_file('./data/technologies-ibm.html')
    manager.learn(u1)

@@ -23,16 +23,17 @@ class Crawler:
       self.all = set()
       self.unknown = set()
 
+   def save_json(self, result = dict()):
+      filepath = "./storage/crawler.json"
+      result[self.hostname()] = sorted(self.all)
+
+      with open(filepath, 'w', encoding='utf-8') as fd:
+         json.dump(result, fd, ensure_ascii=False, indent=3)
+
    def clear(self):
       self.new.clear()
       self.all.clear()
       self.unknown.clear()
-
-   def is_xml(self, url_str:str):
-      avoid = [".xml", ".xsd"]
-      for i in avoid:
-         if re.search(i, url_str): return True
-      return False
 
    def add_new(self, url_str: str):
       url_str = url_str.strip('/')
@@ -96,23 +97,15 @@ class Crawler:
 
             Content_Type = session.head(url).headers["Content-Type"]
             
-            if "text/html" in Content_Type and (not self.is_xml(url)):
+            if "text/html" in Content_Type:
                self.open_url(url, "html.parser")
 
-            elif self.is_xml(url):
+            elif "text/xml" in Content_Type:
                if logging: print(f"...on: XML={url}")
                self.open_url(url, "xml")
 
          time.sleep(1.0)
          if logging: print(f"...on: {counter}; queue={len(self.new)}; all={len(self.all)}")
-
-   
-   def save_json(self, result = dict()):
-      filepath = "./storage/crawler.json"
-      result[self.hostname()] = sorted(self.all)
-
-      with open(filepath, 'w', encoding='utf-8') as fd:
-         json.dump(result, fd, ensure_ascii=False, indent=3)
 
 
 def main():

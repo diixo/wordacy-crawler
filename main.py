@@ -3,7 +3,7 @@ import io
 import re
 import uuid
 
-import parserqq as qq
+import parser as qq
 
 def main():
     url = "https://www.geeksforgeeks.org"

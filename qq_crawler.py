@@ -145,7 +145,7 @@ class Crawler:
 ###############################################################################################
 def open_futuretools():
    crawler = Crawler()
-   crawler.open_file("./data/futuretools.html", "https://www.futuretools.io")
+   crawler.open_file("./data/futuretools.html", "https://futuretools.link")
    crawler.save_json()
 
 def main():
@@ -155,7 +155,7 @@ def main():
    #crawler.save_json()
 
    try:
-      crawler.run("https://pythonexamples.org")
+      crawler.run("https://www.javatpoint.com")
    except KeyboardInterrupt:
       print("KeyboardInterrupt exception raised")
    except:

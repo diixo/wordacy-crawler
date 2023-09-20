@@ -24,8 +24,8 @@ class Crawler:
       self.unknown = set()
       self.skip = set()
 
-   def save_json(self, filename="crawler.json", result = dict()):
-      filepath = "./storage/" + filename
+   def save_json(self, result = dict()):
+      filepath = "./storage/" + self.hostname() + ".json"
       for item in self.skip: self.all.discard(item)
       result[self.home] = sorted(self.all)
 
@@ -141,16 +141,16 @@ def main():
    crawler = Crawler()
    #crawler.run("https://kotlinandroid.org/")
    #crawler.run("https://javascriptcode.org/")
-   #crawler.save_json("javascriptcode.org.json")
+   #crawler.save_json()
 
    try:
-      crawler.run("https://www.w3schools.com/")
+      crawler.run("https://www.javatpoint.com/")
    except KeyboardInterrupt:
       print("KeyboardInterrupt exception raised")
    except:
       print("Unexpected error raised:", sys.exc_info()[0])
    finally:
-      crawler.save_json(crawler.hostname() + ".json")
+      crawler.save_json()
 
 
 if __name__ == "__main__":

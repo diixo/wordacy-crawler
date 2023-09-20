@@ -26,7 +26,6 @@ class Crawler:
 
    def save_json(self, filename="crawler.json", result = dict()):
       filepath = "./storage/" + filename
-      for item in self.skip: self.all.discard(item)
       result[self.hostname()] = sorted(self.all)
 
       with open(filepath, 'w', encoding='utf-8') as fd:

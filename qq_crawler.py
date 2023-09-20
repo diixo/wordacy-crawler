@@ -26,6 +26,7 @@ class Crawler:
 
    def save_json(self, filename="crawler.json", result = dict()):
       filepath = "./storage/" + filename
+      for item in self.skip: self.all.discard(item)
       result[self.hostname()] = sorted(self.all)
 
       with open(filepath, 'w', encoding='utf-8') as fd:
@@ -79,7 +80,10 @@ class Crawler:
    def open_url(self, url:str, parser:str):
       try:
             req = Request(url, headers={'User-Agent': 'XYZ/3.0'})
-            html = urlopen(req).read()
+            response = urlopen(req)
+            if logging and (response.status == 301) : print(f"new_url = {response.geturl()}")
+            html = response.read()
+
             raw = BeautifulSoup(html, features=parser)
 
             self.extract_urls(raw)
@@ -123,7 +127,7 @@ class Crawler:
                self.open_url(url, "xml")
                self.skip.add(url)
 
-         if logging: print(f"...on: {counter} [queue={len(self.new)}, all={len(self.all)}, skipped={len(self.skip)}]")
+         if logging: print(f"...on: {counter} of: all={len(self.all)} [skipped={len(self.skip)}]")
          time.sleep(1.0)
       return self.all
 
@@ -134,8 +138,8 @@ def main():
    #crawler.run("https://javascriptcode.org/")
    #crawler.save_json("javascriptcode.org.json")
 
-   crawler.run("https://pythonexamples.org")
-   crawler.save_json("pythonexamples.org.json")
+   crawler.run("https://www.pythontutorial.net/")
+   crawler.save_json("www.pythontutorial.net.json")
 
 
 if __name__ == "__main__":

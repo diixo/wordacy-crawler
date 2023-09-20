@@ -69,8 +69,8 @@ class Crawler:
       for link in alls:
          if hasattr(link, 'attrs'):
                sref = link.attrs.get('href', None)
-               sref = re.sub("http://", "https://", sref)
                if sref:
+                  sref = re.sub("http://", "https://", sref)
                   u_hostname = urlparse(sref).hostname
                   if (not u_hostname) or (u_hostname == hostname):  #as relative
                      ref = urljoin(self.home, sref)

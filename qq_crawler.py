@@ -72,7 +72,9 @@ class Crawler:
                   u_hostname = urlparse(sref).hostname
                   if (not u_hostname) or (u_hostname == hostname):  #as relative
                      ref = urljoin(self.home, sref)
-                     self.add_new(ref)
+                     if re.search(self.home, ref):
+                        self.add_new(ref)
+                     elif logging: print(f"Unexpected syntax error: url={sref}")
                   else:
                      self.unknown.add(u_hostname)
                      #self.unknown.add(sref)
@@ -138,8 +140,14 @@ def main():
    #crawler.run("https://javascriptcode.org/")
    #crawler.save_json("javascriptcode.org.json")
 
-   crawler.run("https://www.pythontutorial.net/")
-   crawler.save_json("www.pythontutorial.net.json")
+   try:
+      crawler.run("https://www.javatpoint.com/")
+   except KeyboardInterrupt:
+      print("KeyboardInterrupt exception raised")
+   except:
+      print("Unknown exception raised")
+   finally:
+      crawler.save_json(crawler.hostname() + ".json")
 
 
 if __name__ == "__main__":

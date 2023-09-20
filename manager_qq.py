@@ -1,7 +1,7 @@
 
 import json
 from pathlib import Path
-import parser_qq as qq
+import qq_parser as qq
 
 class Manager:
 

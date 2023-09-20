@@ -32,8 +32,6 @@ class Crawler:
       with open(filepath, 'w', encoding='utf-8') as fd:
          json.dump(result, fd, ensure_ascii=False, indent=3)
 
-      with open(filepath + ".skipped.txt", 'w', encoding='utf-8') as fd:
-         json.dump(sorted(self.skip), fd, ensure_ascii=False, indent=3)
 
    def clear(self):
       self.new.clear()
@@ -48,7 +46,7 @@ class Crawler:
          ".pps", ".webp", ".txt", ".cmd", ".md" ".js", ".json", ".css", ".scss",
          ".zip", ".tar", ".rar", ".gz", ".iso", ".exe", ".sfx", ".msi", ".cgi"]
       for i in avoid:
-         if re.search(i, url_str): return False
+         if str.find(url_str, i) >= 0: return False
       return True
 
    def add_new(self, url_str: str):
@@ -71,6 +69,7 @@ class Crawler:
       for link in alls:
          if hasattr(link, 'attrs'):
                sref = link.attrs.get('href', None)
+               sref = re.sub("http://", "https://", sref)
                if sref:
                   u_hostname = urlparse(sref).hostname
                   if (not u_hostname) or (u_hostname == hostname):  #as relative
@@ -105,6 +104,13 @@ class Crawler:
       return False
 
 
+   def open_file(self, filepath:str, domain:str):
+      self.clear()
+      self.home = domain.strip('/')
+      raw = BeautifulSoup(open(filepath, encoding='utf-8'), features="html.parser")
+      self.extract_urls(raw)
+
+
    def run(self, domain: str):
       self.home = domain.strip('/')
       self.clear()
@@ -136,6 +142,11 @@ class Crawler:
          time.sleep(1.0)
       return self.all
 
+###############################################################################################
+def open_futuretools():
+   crawler = Crawler()
+   crawler.open_file("./data/futuretools.html", "https://www.futuretools.io")
+   crawler.save_json()
 
 def main():
    crawler = Crawler()

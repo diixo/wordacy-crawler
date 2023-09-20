@@ -27,10 +27,13 @@ class Crawler:
    def save_json(self, filename="crawler.json", result = dict()):
       filepath = "./storage/" + filename
       for item in self.skip: self.all.discard(item)
-      result[self.hostname()] = sorted(self.all)
+      result[self.home] = sorted(self.all)
 
       with open(filepath, 'w', encoding='utf-8') as fd:
          json.dump(result, fd, ensure_ascii=False, indent=3)
+
+      with open(filepath + ".skipped.txt", 'w', encoding='utf-8') as fd:
+         json.dump(sorted(self.skip), fd, ensure_ascii=False, indent=3)
 
    def clear(self):
       self.new.clear()
@@ -129,7 +132,7 @@ class Crawler:
                self.open_url(url, "xml")
                self.skip.add(url)
 
-         if logging: print(f"...on: {counter} of: all={len(self.all)} [skipped={len(self.skip)}]")
+         if logging: print(f"...on: {counter}, all={len(self.all)} [skipped={len(self.skip)}]")
          time.sleep(1.0)
       return self.all
 
@@ -141,11 +144,11 @@ def main():
    #crawler.save_json("javascriptcode.org.json")
 
    try:
-      crawler.run("https://www.javatpoint.com/")
+      crawler.run("https://www.w3schools.com/")
    except KeyboardInterrupt:
       print("KeyboardInterrupt exception raised")
    except:
-      print("Unknown exception raised")
+      print("Unexpected error raised:", sys.exc_info()[0])
    finally:
       crawler.save_json(crawler.hostname() + ".json")
 

@@ -32,6 +32,9 @@ class Crawler:
       with open(filepath, 'w', encoding='utf-8') as fd:
          json.dump(result, fd, ensure_ascii=False, indent=3)
 
+      #with open(filepath + ".skipped.txt", 'w', encoding='utf-8') as fd:
+      #   json.dump(sorted(self.skip), fd, ensure_ascii=False, indent=3)
+
 
    def clear(self):
       self.new.clear()
@@ -40,7 +43,7 @@ class Crawler:
       self.skip.clear()
 
    def is_url_valid(self, url_str:str)->bool:
-      avoid = [ ".php", "#",
+      avoid = [ ".php", "#", ".asp?",
          ".pptx", ".ppt", ".xls", ".xlsx", ".xml", ".xlt", ".pdf", ".doc", ".docx",
          ".jpg", ".jpeg", ".png", ".svg", ".ico", ".bmp", ".gif", ".map", ".ttf",
          ".pps", ".webp", ".txt", ".cmd", ".md" ".js", ".json", ".css", ".scss",
@@ -70,7 +73,7 @@ class Crawler:
          if hasattr(link, 'attrs'):
                sref = link.attrs.get('href', None)
                if sref:
-                  sref = re.sub("http://", "https://", sref)
+                  sref = re.sub("http://", "https://", sref).strip()
                   u_hostname = urlparse(sref).hostname
                   if (not u_hostname) or (u_hostname == hostname):  #as relative
                      ref = urljoin(self.home, sref)
@@ -155,7 +158,7 @@ def main():
    #crawler.save_json()
 
    try:
-      crawler.run("https://www.javatpoint.com")
+      crawler.run("https://www.w3schools.com/")
    except KeyboardInterrupt:
       print("KeyboardInterrupt exception raised")
    except:

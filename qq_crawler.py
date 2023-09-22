@@ -158,7 +158,7 @@ def main():
    #crawler.save_json()
 
    try:
-      crawler.run("https://riptutorial.com/")
+      crawler.run("https://www.tutorialkart.com/")
    except KeyboardInterrupt:
       print("KeyboardInterrupt exception raised")
    except:

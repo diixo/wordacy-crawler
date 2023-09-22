@@ -32,8 +32,8 @@ class Crawler:
       with open(filepath, 'w', encoding='utf-8') as fd:
          json.dump(result, fd, ensure_ascii=False, indent=3)
 
-      #with open(filepath + ".skipped.txt", 'w', encoding='utf-8') as fd:
-      #   json.dump(sorted(self.skip), fd, ensure_ascii=False, indent=3)
+      with open(filepath + ".skipped.txt", 'w', encoding='utf-8') as fd:
+         json.dump(sorted(self.skip), fd, ensure_ascii=False, indent=3)
 
 
    def clear(self):
@@ -158,7 +158,7 @@ def main():
    #crawler.save_json()
 
    try:
-      crawler.run("https://www.w3schools.com/")
+      crawler.run("https://riptutorial.com/")
    except KeyboardInterrupt:
       print("KeyboardInterrupt exception raised")
    except:

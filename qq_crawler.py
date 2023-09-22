@@ -23,6 +23,7 @@ class Crawler:
       self.all = set()
       self.unknown = set()
       self.skip = set()
+      self.filter = []
 
    def save_json(self, result = dict()):
       filepath = "./storage/" + self.hostname() + ".json"
@@ -43,13 +44,16 @@ class Crawler:
       self.skip.clear()
 
    def is_url_valid(self, url_str:str)->bool:
-      avoid = [ ".php", "#", ".asp?",
+      avoid = [ ".php", "#", ".asp?", "mailto:",
          ".pptx", ".ppt", ".xls", ".xlsx", ".xml", ".xlt", ".pdf", ".doc", ".docx",
          ".jpg", ".jpeg", ".png", ".svg", ".ico", ".bmp", ".gif", ".map", ".ttf",
          ".pps", ".webp", ".txt", ".cmd", ".md" ".js", ".json", ".css", ".scss",
          ".zip", ".tar", ".rar", ".gz", ".iso", ".exe", ".sfx", ".msi", ".cgi"]
       for i in avoid:
          if str.find(url_str, i) >= 0: return False
+
+      for f in self.filter:
+         if str.find(url_str, f) >= 0: return False
       return True
 
    def add_new(self, url_str: str):
@@ -114,10 +118,15 @@ class Crawler:
       self.extract_urls(raw)
 
 
-   def run(self, domain: str):
+   def apply_filter(self, filter=[]):
+      self.filter = [self.home.strip('/') + item for item in filter]
+
+
+   def run(self, domain: str, filter=[]):
       self.home = domain.strip('/')
       self.clear()
       self.add_new(self.home)
+      self.apply_filter(filter)
       counter = 0
 
       while(len(self.new) > 0):
@@ -158,7 +167,13 @@ def main():
    #crawler.save_json()
 
    try:
-      crawler.run("https://www.tutorialkart.com/")
+      crawler.run("https://devopedia.org", [
+         "/search/",
+         "/user/",
+         "/site/",
+         "/site-map/dashboard",
+         "/site-map/faq-help"])
+
    except KeyboardInterrupt:
       print("KeyboardInterrupt exception raised")
    except:

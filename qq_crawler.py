@@ -5,6 +5,7 @@ import requests
 import json
 from collections import deque
 from bs4 import BeautifulSoup
+from pathlib import Path
 
 import urllib.error
 from urllib.parse import urlparse, urljoin
@@ -24,6 +25,16 @@ class Crawler:
       self.unknown = set()
       self.skip = set()
       self.filter = []
+
+   def open_json(self, filepath:str):
+      path = Path(filepath)
+      if path.exists():
+         fd = open(filepath, 'r', encoding='utf-8')
+         result = json.load(fd)
+         for i in result.values():
+            self.all.update(i)
+            self.new.extend(i)
+         print(self.all)
 
    def save_json(self, result = dict()):
       filepath = "./storage/" + self.hostname() + ".json"
@@ -163,6 +174,8 @@ def open_futuretools():
 
 def main():
    crawler = Crawler()
+   techopedia = crawler.open_json('./storage/www.techopedia.com.json')
+
    #crawler.run("https://kotlinandroid.org/")
    #crawler.run("https://javascriptcode.org/")
    #crawler.save_json()

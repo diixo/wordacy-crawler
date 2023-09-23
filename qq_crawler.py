@@ -92,7 +92,8 @@ class Crawler:
       try:
             req = Request(url, headers={'User-Agent': 'XYZ/3.0'})
             response = urlopen(req)
-            if logging and (response.status == 301) : print(f"new_url = {response.geturl()}")
+            if logging and (response.status == 301):
+               print(f"new_url = {response.geturl()}")
             html = response.read()
 
             raw = BeautifulSoup(html, features=parser)

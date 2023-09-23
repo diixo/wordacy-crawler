@@ -19,15 +19,11 @@ def main():
    tree = sitemap_tree_for_homepage(url)
 
    urls = set()
-   find = False
 
    for page in tree.all_pages():
-      find = False
       for f in filter:
-         if (str.find(page.url, f) >= 0):
-            find = True
-            break
-      if not find: urls.add(page.url)
+         if (str.find(page.url, f) >= 0): break
+      else: urls.add(page.url)   #without break
       
 
    print(f"sz={len(urls)}")

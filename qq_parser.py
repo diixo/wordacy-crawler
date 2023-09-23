@@ -69,7 +69,7 @@ def extract_keywords(raw, result = set()):
     if logging: print(f"<<<< tags:{len(tgs)}")
 
 def extract_headings(raw, result = set()):
-    hhh = raw.find_all(['h1', 'h2', 'h3', 'h4', 'h5'])
+    hhh = raw.find_all(['h1', 'h2', 'h3', 'h4', 'h5', 'h6'])
     for h in hhh:
         s = str_tokenize(translate(h.get_text()))
         s = ' '.join([w.lower() for w in s if (w == "IT") or (not is_digit(w) and (w.lower() not in stopwords))])

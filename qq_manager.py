@@ -66,7 +66,7 @@ if __name__ == "__main__":
    manager = Manager()
    #manager.learn_file('./process/techopedia-train-db-v5.data')
    manager.load_storage()
-   manager.learn_file('./data/technologies-ibm.html')
+   manager.learn_file('./template/template.html')
    manager.learn(u1)
    manager.learn(u2)
    manager.learn(u3)

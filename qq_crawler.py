@@ -100,11 +100,11 @@ class Crawler:
             self.extract_urls(raw)
             return True
       except urllib.error.URLError as e:
-            if hasattr(e, 'code'): print("URLErr_code:", e.code, f" ({url})")
-            if hasattr(e, 'reason'): print("URLErr_reason:", e.reason)
+            if hasattr(e, 'code'): print("URLErr_code:", e.code, f"url={url}")
+            if hasattr(e, 'reason'): print("URLErr_reason:", e.reason, f"url={url}")
       except urllib.error.HTTPError as e:
-            if hasattr(e, 'code'): print("HTTPErr_code:", e.code, f" ({url})")
-            if hasattr(e, 'reason'): print("HTTPErr_reason:", e.reason)
+            if hasattr(e, 'code'): print("HTTPErr_code:", e.code, f"url={url}")
+            if hasattr(e, 'reason'): print("HTTPErr_reason:", e.reason, f"url={url}")
       except:
             print("Unexpected urlopen-error:", sys.exc_info()[0])
       self.skip.add(url)

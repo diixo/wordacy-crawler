@@ -15,15 +15,25 @@ def main():
    url = str.strip("https://www.techopedia.com", '/')
    filter = ["/contributors/", "/companies/", "/contact", "/advertise", "/about/", "/subscribe"]
 
+   filter = set([(url + f) for f in filter])
    tree = sitemap_tree_for_homepage(url)
-   filter = set([url + "/" + f for f in filter])
 
-   urls = [str(page.url).strip() for page in tree.all_pages()]
+   urls = set()
+   find = False
+
+   for page in tree.all_pages():
+      find = False
+      for f in filter:
+         if (str.find(page.url, f) >= 0):
+            find = True
+            break
+      if not find: urls.add(page.url)
+      
 
    print(f"sz={len(urls)}")
 
    result = dict()
-   result[url] = urls
+   result[url] = sorted(urls)
 
    save_json(urlparse(url).hostname, result=result)
 

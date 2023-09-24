@@ -172,7 +172,15 @@ def open_futuretools():
    crawler.open_file("./data/futuretools.html", "https://futuretools.link")
    crawler.save_json()
 
+def open_aivalley():
+   crawler = Crawler()
+   crawler.open_file("./data/aivalley.html", "https://aivalley.ai")
+   crawler.save_json()
+
 def main():
+
+   open_aivalley()
+
    crawler = Crawler()
    techopedia = crawler.open_json('./storage/www.techopedia.com.json')
 

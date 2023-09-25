@@ -3,7 +3,7 @@ import json
 from pathlib import Path
 import qq_parser as qq
 
-class Manager:
+class Analyzer:
 
    def __init__(self):
 
@@ -63,13 +63,13 @@ if __name__ == "__main__":
    #u5 = "https://www.javatpoint.com/python-variables"
    #u5 = "https://www.programiz.com/r"
 
-   manager = Manager()
-   #manager.learn_file('./process/techopedia-train-db-v5.data')
-   manager.load_storage()
-   manager.learn_file('./template/template.html')
-   manager.learn(u1)
-   manager.learn(u2)
-   manager.learn(u3)
-   manager.learn(u4)
-   manager.save_json()
+   analyzer = Analyzer()
+   #analyzer.learn_file('./process/techopedia-train-db-v5.data')
+   analyzer.load_storage()
+   analyzer.learn_file('./template/template.html')
+   analyzer.learn(u1)
+   analyzer.learn(u2)
+   analyzer.learn(u3)
+   analyzer.learn(u4)
+   analyzer.save_json()
 

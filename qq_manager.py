@@ -13,12 +13,12 @@ class Manager:
    def load_storage(self):
       rel = "./storage/"
 
-      path = Path(rel + "data.json")
+      path = Path(rel + "_data.json")
       if path.exists():
          fd = open(rel + path.name, 'r', encoding='utf-8')
          self.content = json.load(fd)
 
-      path = Path(rel + "urls.json")
+      path = Path(rel + "_urls.json")
       if path.exists():
          fd = open(rel + path.name, 'r', encoding='utf-8')
          self.urls = set(json.load(fd))
@@ -40,12 +40,12 @@ class Manager:
             qq.parse_file(filename, self.content)
             self.urls.add(path.name)
 
-   def save_json(self, filename="data.json"):
+   def save_json(self, filename="_data.json"):
       rel = "./storage/"
 
       qq.save_json(self.content, rel + filename)
 
-      filename="urls.json"
+      filename="_urls.json"
       with open(rel + filename, 'w', encoding='utf-8') as fd:
          json.dump(sorted(self.urls), fd, ensure_ascii=False, indent=3)
 

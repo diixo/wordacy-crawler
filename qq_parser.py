@@ -21,7 +21,7 @@ def is_digit(word: str):
     w = re.sub(r'[$]?[-+]?[\d]*[.,\:]?[\d]+[ %\"\'\)\+]*', "", word)
     return not w
 
-def str_tokenize(s: str):
+def str_tokenize_words(s: str):
     s = re.findall("(\.?\w[\w'\.&-]*\w|\w\+*#?)", s)
     if s: return s
     return []
@@ -71,7 +71,7 @@ def extract_keywords(raw, result = set()):
 def extract_headings(raw, result = set()):
     hhh = raw.find_all(['h1', 'h2', 'h3', 'h4', 'h5', 'h6'])
     for h in hhh:
-        s = str_tokenize(translate(h.get_text()))
+        s = str_tokenize_words(translate(h.get_text()))
         s = ' '.join([w.lower() for w in s if (w == "IT") or (not is_digit(w) and (w.lower() not in stopwords))])
         result.add(s)
 

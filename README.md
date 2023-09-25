@@ -1,7 +1,7 @@
 ## html-crawler
 
 ### crawler
-Search and collect all finding URL's to the deque. Possibility to save collection into json-format
+Crawler - search and collect all finding URL's from specified source web-page. Possibility to save collection into json-format
 
 ### tokenizer
 Tokenize sentences on separated words with splitting

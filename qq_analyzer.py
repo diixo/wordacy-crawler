@@ -71,5 +71,5 @@ if __name__ == "__main__":
    analyzer.learn(u2)
    analyzer.learn(u3)
    analyzer.learn(u4)
-   analyzer.save_json()
+   analyzer.save_json("_data.json")
 

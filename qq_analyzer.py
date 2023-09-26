@@ -10,6 +10,16 @@ class Analyzer:
       self.urls = set()
       self.content = dict()
 
+   def load_json(self, filepath: str):
+      path = Path(filepath)
+      if path.exists():
+         fd = open(filepath, 'r', encoding='utf-8')
+         self.content = json.load(fd)
+
+   def save_json(self, filepath):
+      qq.save_json(self.content, filepath)
+
+
    def load_storage(self):
       rel = "./storage/"
 
@@ -31,13 +41,13 @@ class Analyzer:
          qq.parse_url(url, self.content)
          self.urls.add(url)
 
-   def learn_file(self, filename: str):
-      path = Path(filename)
+   def learn_file(self, filepath: str):
+      path = Path(filepath)
       if path.name in self.urls:
          print(f"file={path.name} already")
       else:
          if path.exists():
-            qq.parse_file(filename, self.content)
+            qq.parse_file(filepath, self.content)
             self.urls.add(path.name)
 
    def save_storage(self, filename="_data.json"):
@@ -64,10 +74,11 @@ if __name__ == "__main__":
    #u5 = "https://www.programiz.com/r"
 
    analyzer = Analyzer()
+   analyzer.load_json("storage/allainews.com.json")
    analyzer.learn("https://allainews.com/news/")
-   #analyzer.learn("https://allainews.com/news/feed/")
-   analyzer.save_storage("allainews.com.json")
-   exit(0)
+   analyzer.save_json("storage/allainews.com.json")
+   
+   analyzer = Analyzer()
    #analyzer.learn_file('./process/techopedia-train-db-v5.data')
    analyzer.load_storage()
    analyzer.learn_file('./template/template.html')

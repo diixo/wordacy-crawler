@@ -55,9 +55,9 @@ class Crawler:
       self.skip.clear()
 
    def is_url_valid(self, url_str:str)->bool:
-      avoid = [ ".php", "#", ".asp?", "mailto:",
+      avoid = [ ".php", "#", ".asp?", "mailto:", ".map", ".ttf",
          ".pptx", ".ppt", ".xls", ".xlsx", ".xml", ".xlt", ".pdf", ".doc", ".docx",
-         ".jpg", ".jpeg", ".png", ".svg", ".ico", ".bmp", ".gif", ".map", ".ttf",
+         ".jpg", ".jpeg", ".png", ".svg", ".ico", ".bmp", ".gif", ".tiff", ".exif",
          ".pps", ".webp", ".txt", ".cmd", ".md" ".js", ".json", ".css", ".scss",
          ".zip", ".tar", ".rar", ".gz", ".iso", ".exe", ".sfx", ".msi", ".cgi"]
       for i in avoid:

@@ -48,6 +48,7 @@ if __name__ == "__main__":
    flow = Flow()
    flow.queue_json("storage/www.futuretools.io.json")
    flow.queue_json("storage/aivalley.ai.json")
+   flow.queue_json("storage/openfuture.ai.json")
    flow.save_json("storage/_flow.json")
    flow = Flow()
    flow.queue_json("storage/_flow.json")

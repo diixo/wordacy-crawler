@@ -40,7 +40,7 @@ class Analyzer:
             qq.parse_file(filename, self.content)
             self.urls.add(path.name)
 
-   def save_json(self, filename="_data.json"):
+   def save_storage(self, filename="_data.json"):
       rel = "./storage/"
 
       qq.save_json(self.content, rel + filename)
@@ -71,5 +71,5 @@ if __name__ == "__main__":
    analyzer.learn(u2)
    analyzer.learn(u3)
    analyzer.learn(u4)
-   analyzer.save_json("_data.json")
+   analyzer.save_storage()
 

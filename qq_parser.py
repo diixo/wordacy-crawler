@@ -75,6 +75,13 @@ def extract_headings(raw, result = set()):
         s = ' '.join([w.lower() for w in s if (w == "IT") or (not is_digit(w) and (w.lower() not in stopwords))])
         result.add(s)
 
+def read_ahref(raw, structure=dict()):
+    all = raw.find_all("a", {"class":"d-block text-dark"})
+    for a in all:
+        s = str_tokenize_words(translate(a.get_text()))
+        s = ' '.join([w.lower() for w in s if (w == "IT") or (not is_digit(w) and (w.lower() not in stopwords))])
+        s = s.strip()
+        if s: structure[s] = structure.get(s, 0) + 1
 
 def read_li(raw, sz: int):
     if logging: print(">>>>")
@@ -205,6 +212,7 @@ def parse(url, raw, result = {}):
     hhh.update(li_raw.keys())
 
     #extract_structure(raw, structure)
+    aaa = read_ahref(raw, structure)
 
     result['keywords'] = sorted(keywords)
     result['data'] = structure

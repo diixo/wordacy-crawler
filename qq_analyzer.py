@@ -64,6 +64,10 @@ if __name__ == "__main__":
    #u5 = "https://www.programiz.com/r"
 
    analyzer = Analyzer()
+   analyzer.learn("https://allainews.com/news/")
+   #analyzer.learn("https://allainews.com/news/feed/")
+   analyzer.save_storage("allainews.com.json")
+   exit(0)
    #analyzer.learn_file('./process/techopedia-train-db-v5.data')
    analyzer.load_storage()
    analyzer.learn_file('./template/template.html')

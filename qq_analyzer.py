@@ -79,9 +79,9 @@ if __name__ == "__main__":
    analyzer.save_json("storage/allainews.com.json")
    
    analyzer = Analyzer()
-   #analyzer.learn_file('./process/techopedia-train-db-v5.data')
+   #analyzer.learn_file('process/techopedia-train-db-v5.data')
    analyzer.load_storage()
-   analyzer.learn_file('./template/template.html')
+   analyzer.learn_file('template/template.html')
    analyzer.learn(u1)
    analyzer.learn(u2)
    analyzer.learn(u3)

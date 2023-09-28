@@ -76,12 +76,13 @@ def extract_headings(raw, result = set()):
         result.add(s)
 
 def read_ahref(raw, structure=dict()):
-    all = raw.find_all("a", {"class":"d-block text-dark"})
+    all = raw.find_all("a")
     for a in all:
-        s = str_tokenize_words(translate(a.get_text()))
-        s = ' '.join([w.lower() for w in s if (w == "IT") or (not is_digit(w) and (w.lower() not in stopwords))])
-        s = s.strip()
-        if s: structure[s] = structure.get(s, 0) + 1
+        #s = str_tokenize_words(translate(a.get_text()))
+        #s = ' '.join([w.lower() for w in s if (w == "IT") or (not is_digit(w) and (w.lower() not in stopwords))])
+        # save original text:
+        s = str.strip(translate(a.get_text()))
+        if s: structure[s] = structure.get(s, 0) + 0
 
 def read_li(raw, sz: int):
     if logging: print(">>>>")
@@ -194,13 +195,6 @@ def extract_structure(raw, result:dict):
 ########################################################################
 def parse(url, raw, result = {}):
 
-    #if url:
-    if False:
-        links = set()
-        hostname= extract_urls(url, raw, links)
-        with open("./storage/" + hostname + ".json", 'w', encoding='utf-8') as fd:
-            json.dump(list(links), fd, ensure_ascii=False, indent=3)
-
     structure = result.get('data', dict())
     keywords = set(result.get('keywords', []))
     hhh = set(result.get('headings', []))
@@ -230,7 +224,7 @@ def parse_file(filename, result = dict()):
     parse(None, raw, result)
     return result
 
-def save_json(result: dict, file_path="storage/data.json"):
+def save_json(result: dict, file_path="storage/_data.json"):
     with open(file_path, 'w', encoding='utf-8') as fd:
         json.dump(result, fd, ensure_ascii=False, indent=3)
 

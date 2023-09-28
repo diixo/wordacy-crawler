@@ -76,7 +76,7 @@ def extract_headings(raw, result = set()):
         result.add(s)
 
 def read_ahref(raw, structure=dict()):
-    all = raw.find_all("a")
+    all = raw.find_all("a", {"class":"d-block text-dark"})
     for a in all:
         #s = str_tokenize_words(translate(a.get_text()))
         #s = ' '.join([w.lower() for w in s if (w == "IT") or (not is_digit(w) and (w.lower() not in stopwords))])

@@ -17,7 +17,7 @@ Analizer - analyze input page by content of DOM-elements like keywords, lists, p
    # crawl with filter
    crawler.run("https://devopedia.org", ["/search/", "/user/"])
 
-   #save opened json
+   #save opened json with key["hostname"] = [urls]
    crawler.save_json()
 ```
 

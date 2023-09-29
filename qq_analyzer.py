@@ -9,15 +9,17 @@ class Analyzer:
 
       self.urls = set()
       self.content = dict()
+      self.filepath = ""
 
-   def load_json(self, filepath: str):
+   def open_json(self, filepath: str):
       path = Path(filepath)
       if path.exists():
          fd = open(filepath, 'r', encoding='utf-8')
          self.content = json.load(fd)
+      self.filepath = filepath
 
-   def save_json(self, filepath):
-      qq.save_json(self.content, filepath)
+   def save_json(self):
+      if self.filepath != "": qq.save_json(self.content, self.filepath)
 
 
    def load_storage(self):
@@ -74,9 +76,9 @@ if __name__ == "__main__":
    #u5 = "https://www.programiz.com/r"
 
    analyzer = Analyzer()
-   analyzer.load_json("storage/allainews.com.json")
+   analyzer.open_json("storage/allainews.com.json")
    analyzer.learn("https://allainews.com/news/")
-   analyzer.save_json("storage/allainews.com.json")
+   analyzer.save_json()
    
    analyzer = Analyzer()
    #analyzer.learn_file('process/techopedia-train-db-v5.data')

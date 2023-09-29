@@ -25,6 +25,7 @@ class Crawler:
       self.unknown = set()
       self.skip = set()
       self.filter = []
+      self.filepath = ""
 
    def open_json(self, filepath:str):
       path = Path(filepath)
@@ -35,9 +36,13 @@ class Crawler:
             self.all.update(i)
             self.new.extend(i)
          print(self.all)
+      
+      self.filepath = filepath
 
    def save_json(self, result = dict()):
-      filepath = "./storage/" + self.hostname() + ".json"
+      filepath = self.filepath
+      #if filepath == "": filepath = "./storage/" + self.hostname() + ".json"
+
       for item in self.skip: self.all.discard(item)
       result[self.home] = sorted(self.all)
 

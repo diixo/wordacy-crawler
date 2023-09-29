@@ -1,7 +1,7 @@
 ## html-crawler
 
 ### Crawler
-Crawler - search and collect all finding URL's from specified source web-page. Possibility to save collection into json-format
+Crawler - search and collect all finding URL's from specified source web-page. Save generated urls list into json-format
 
 ### Tokenizer
 Tokenizer - split sentences on separated words

@@ -7,14 +7,12 @@ Crawler - search and collect all finding URL's from specified source web-page. P
 Tokenizer - split sentences on separated words
 
 ### Analizer
-Analizer - analyze pages with collect content of DOM-elements like keywords, lists, p-tags, a-tags, span-tags, h1-h6 headers.
+Analizer - analyze input page with by content of DOM-elements like keywords, lists, p-tags, a-tags, span-tags, h1-h6 headers.
 
 ### Examples:
 ```python
    crawler = Crawler()
    techopedia = crawler.open_json("some.json")
-   crawler.run("https://kotlinandroid.org/")
-   crawler.run("https://javascriptcode.org/")
 
    # crawl with filter
    crawler.run("https://devopedia.org", ["/search/", "/user/"])

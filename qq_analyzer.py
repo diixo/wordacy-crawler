@@ -12,6 +12,7 @@ class Analyzer:
       self.filepath = ""
 
    def open_json(self, filepath: str):
+      self.urls = set()
       path = Path(filepath)
       if path.exists():
          fd = open(filepath, 'r', encoding='utf-8')

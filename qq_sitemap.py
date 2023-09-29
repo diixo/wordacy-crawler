@@ -31,10 +31,11 @@ def make_sitemap(url, filter):
 
 def main():
 
-   make_sitemap("https://openfuture.ai", 
-      ["/user", "/blog/", "/contact-us", "/privacy-policy", "/terms-conditions", "/about-us", "/ai-tools/"])
+   make_sitemap("https://www.infoworld.com", ["/author/", "/user/", "/uk/"])
 
    return
+   make_sitemap("https://openfuture.ai", 
+      ["/user", "/blog/", "/contact-us", "/privacy-policy", "/terms-conditions", "/about-us", "/ai-tools/"])
 
    make_sitemap(
       "https://www.techopedia.com",

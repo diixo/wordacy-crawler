@@ -185,8 +185,6 @@ def open_aivalley():
 
 def main():
 
-   open_aivalley()
-
    crawler = Crawler()
    techopedia = crawler.open_json("storage/www.techopedia.com.json")
 

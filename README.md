@@ -7,7 +7,7 @@ Crawler - search and collect all finding URL's from specified source web-page. P
 Tokenizer - split sentences on separated words
 
 ### Analizer
-Analizer - analyze input page with by content of DOM-elements like keywords, lists, p-tags, a-tags, span-tags, h1-h6 headers.
+Analizer - analyze input page by content of DOM-elements like keywords, lists, p-tags, a-tags, span-tags, h1-h6 headers.
 
 ### Examples:
 ```python

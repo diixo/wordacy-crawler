@@ -36,8 +36,8 @@ Analizer - analyze pages with collect content of DOM-elements like keywords, lis
    analyzer = Analyzer()
    analyzer.load_storage()
    analyzer.learn_file('template/template.html')
-   analyzer.learn(url1)
-   analyzer.learn(url2)
-   analyzer.learn(url3)
+   analyzer.learn(url_1)
+   analyzer.learn(url_2)
+   analyzer.learn(url_3)
    analyzer.save_storage()
 ```

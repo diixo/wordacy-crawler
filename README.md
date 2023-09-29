@@ -40,6 +40,14 @@ Analizer - analyze input page by content of DOM-elements like keywords, lists, p
    analyzer.save_storage()
 ```
 Save logical storage, as pair of two files: **storage/_data.json** and **storage/_urls.json**
-```
+```python
    analyzer.save_storage()
+```
+Format of output json-file (**storage/_data.json**):
+```json
+{
+   "keywords": []
+   "data": {},
+   "headings": []
+}
 ```

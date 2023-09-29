@@ -25,7 +25,7 @@ Analizer - analyze pages with collect content of DOM-elements like keywords, lis
 
 ```python
    analyzer = Analyzer()
-   analyzer.load_json("some.json")
+   analyzer.open_json("some.json")
    analyzer.learn("https://allainews.com/news/")
 
    #save opened json

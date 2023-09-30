@@ -3,7 +3,7 @@ import json
 from pathlib import Path
 import qq_parser as qq
 
-class Flow:
+class FlowAnalyzer:
 
    def __init__(self):
 
@@ -45,11 +45,13 @@ class Flow:
 
 
 if __name__ == "__main__":
-   flow = Flow()
+   flow = FlowAnalyzer()
    flow.queue_json("storage/www.futuretools.io.json")
    flow.queue_json("storage/aivalley.ai.json")
    flow.queue_json("storage/openfuture.ai.json")
    flow.save_json("storage/_flow.json")
-   flow = Flow()
+   flow = FlowAnalyzer()
    flow.queue_json("storage/_flow.json")
+   print(flow)
+   flow.load_json("storage/_flow.json")
    print(flow)

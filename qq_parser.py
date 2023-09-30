@@ -193,7 +193,7 @@ def extract_structure(raw, result:dict):
                                 break
         ul.extract()
 ########################################################################
-def parse(url, raw, result = {}):
+def parse(raw, result = {}):
 
     structure = result.get('data', dict())
     keywords = set(result.get('keywords', []))
@@ -216,12 +216,12 @@ def parse_url(url, result = dict()):
     req = Request(url, headers={'User-Agent': 'XYZ/3.0'})
     html = urllib.request.urlopen(req).read()
     raw = BeautifulSoup(html, features="html.parser")
-    parse(url, raw, result)
+    parse(raw, result)
     return result
 
 def parse_file(filename, result = dict()):
     raw = BeautifulSoup(open(filename, encoding='utf-8'), "html.parser")
-    parse(None, raw, result)
+    parse(raw, result)
     return result
 
 def save_json(result: dict, file_path="storage/_data.json"):

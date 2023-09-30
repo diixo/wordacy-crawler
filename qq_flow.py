@@ -49,6 +49,7 @@ if __name__ == "__main__":
    flow.queue_json("storage/www.futuretools.io.json")
    flow.queue_json("storage/aivalley.ai.json")
    flow.queue_json("storage/openfuture.ai.json")
+   flow.queue_json("storage/allainews.com.json")
    flow.save_json("storage/_flow.json")
    flow = FlowAnalyzer()
    flow.queue_json("storage/_flow.json")

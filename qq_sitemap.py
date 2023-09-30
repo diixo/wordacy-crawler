@@ -9,7 +9,7 @@ def save_json(hostname:str, result:dict):
    with open(filepath, 'w', encoding='utf-8') as fd:
       json.dump(result, fd, ensure_ascii=False, indent=3)
 
-def make_sitemap(url, filter):
+def make_sitemap(url, filter=[]):
 
    url = str.strip(url, '/')
 
@@ -31,9 +31,11 @@ def make_sitemap(url, filter):
 
 def main():
 
+   make_sitemap("https://allainews.com")
+   return
+
    make_sitemap("https://www.infoworld.com", ["/author/", "/user/", "/uk/"])
 
-   return
    make_sitemap("https://openfuture.ai", 
       ["/user", "/blog/", "/contact-us", "/privacy-policy", "/terms-conditions", "/about-us", "/ai-tools/"])
 

@@ -77,7 +77,7 @@ if __name__ == "__main__":
    #u5 = "https://www.programiz.com/r"
 
    analyzer = Analyzer()
-   analyzer.open_json("storage/allainews.com.json")
+   analyzer.open_json("storage/allainews-news.json")
    analyzer.learn("https://allainews.com/news/")
    analyzer.save_json()
    

@@ -20,7 +20,7 @@ class FlowAnalyzer:
       s2 = "\n".join([f"   [{k}] = {len(v)}" for k, v in self.urls.items()])
       return s1 + s2
 
-   def queue_json(self, filepath:str):
+   def enqueue_json(self, filepath:str):
       path = Path(filepath)
       if path.exists():
          fd = open(filepath, 'r', encoding='utf-8')
@@ -46,13 +46,13 @@ class FlowAnalyzer:
 
 if __name__ == "__main__":
    flow = FlowAnalyzer()
-   flow.queue_json("storage/www.futuretools.io.json")
-   flow.queue_json("storage/aivalley.ai.json")
-   flow.queue_json("storage/openfuture.ai.json")
-   flow.queue_json("storage/allainews.com.json")
+   flow.enqueue_json("storage/www.futuretools.io.json")
+   flow.enqueue_json("storage/aivalley.ai.json")
+   flow.enqueue_json("storage/openfuture.ai.json")
+   flow.enqueue_json("storage/allainews.com.json")
    flow.save_json("storage/_flow.json")
    flow = FlowAnalyzer()
-   flow.queue_json("storage/_flow.json")
+   flow.enqueue_json("storage/_flow.json")
    print(flow)
    flow.load_json("storage/_flow.json")
    print(flow)

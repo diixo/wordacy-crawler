@@ -186,7 +186,7 @@ def open_aivalley():
 def main():
 
    crawler = Crawler()
-   techopedia = crawler.open_json("storage/www.techopedia.com.json")
+   crawler.open_json("storage/www.techopedia.com.json")
 
    #crawler.run("https://kotlinandroid.org/")
    #crawler.run("https://javascriptcode.org/")

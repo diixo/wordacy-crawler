@@ -20,6 +20,15 @@ Analizer - analyze input page by content of DOM-elements like keywords, lists, p
    #save opened json with key["hostname"] = [urls]
    crawler.save_json()
 ```
+Format of output json-file as urls-list:
+```json
+{
+   "https://domain-name.com": [
+      "https://domain-name.com/url_1/",
+      "https://domain-name.com/url_2/"
+   ]
+}
+```
 
 ```python
    analyzer = Analyzer()

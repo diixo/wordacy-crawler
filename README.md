@@ -55,7 +55,7 @@ Save logical storage, as pair of two files: **storage/_data.json** and **storage
 Format of output json-file (**storage/_data.json**):
 ```json
 {
-   "keywords": []
+   "keywords": [],
    "data": {},
    "headings": []
 }

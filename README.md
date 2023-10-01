@@ -11,13 +11,16 @@ Analizer - analyze input page by content of DOM-elements like keywords, lists, p
 
 ### Examples:
 ```python
-   crawler = Crawler()
-   techopedia = crawler.open_json("some.json")
+   crawler = Crawler2(recursive=False)
+   crawler.open_json("urls.json")
 
-   # crawl with filter
-   crawler.run("https://devopedia.org", ["/search/", "/user/"])
+   crawler.enqueue_url("https://name-1.com/sub/page", ["/privacy-policy"])
+   crawler.enqueue_url("https://name-2.com/sub/page", ["/terms-of-use"])
+   crawler.enqueue_url("https://name-3.com/sub/page", ["/donation"])
 
-   #save opened json with key["hostname"] = [urls]
+   crawler.run()
+
+   # save "urls.json"
    crawler.save_json()
 ```
 Format of output json-file as urls-list:

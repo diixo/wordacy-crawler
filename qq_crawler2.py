@@ -43,7 +43,6 @@ class Crawler2:
          filename = f"{t.year}-{t.month}-{t.day}_{t.hour}-{t.minute}-{t.second}-{t.microsecond}"
          filepath = "./storage/" + filename + ".json"
 
-
       result = dict()
       for host in self.hostnames.keys():
          result[host] = sorted(self.hostnames[host])
@@ -156,7 +155,7 @@ class Crawler2:
       return False
 
 
-   def enqueue_file(self, filepath:str, domain:str):
+   def extract_from_file(self, filepath:str, domain:str):
       self.clear()
       raw = BeautifulSoup(open(filepath, encoding='utf-8'), features="html.parser")
       self.extract_urls(raw, domain)
@@ -199,8 +198,11 @@ def main():
    crawler = Crawler2(recursive=False)
    crawler.open_json("storage/crawler-2.json")
 
-   crawler.enqueue_url("https://www.pythontutorial.net/python-concurrency/", ["/privacy-policy", "/contact", "/donation"])
-   crawler.enqueue_url("https://kotlinandroid.org/kotlin/kotlin-hello-world/", ["/privacy-policy", "/contact-us", "/terms-of-use"])
+   crawler.enqueue_url("https://www.pythontutorial.net/python-concurrency/",
+      ["/privacy-policy", "/contact", "/donation"])
+
+   crawler.enqueue_url("https://kotlinandroid.org/kotlin/kotlin-hello-world/",
+      ["/privacy-policy", "/contact-us", "/terms-of-use"])
 
    crawler.run()
    crawler.save_json()

@@ -21,7 +21,6 @@ class Crawler2:
 
    def __init__(self, recursive=False):
       self.new = deque()
-      self.all = set()
       self.unknown = set()
       self.skip = set()
       self.filter = []
@@ -186,21 +185,19 @@ class Crawler2:
          print("KeyboardInterrupt exception raised")
       except:
          print("Unexpected error raised:", sys.exc_info()[0])
-      finally:
-         self.save_json()
 
 ###############################################################################################
 
 def main():
 
-   crawler = Crawler2()
+   crawler = Crawler2(recursive=False)
    crawler.open_json("storage/crawler-2.json")
 
-   crawler.enqueue_url("https://riptutorial.com/cplusplus", [])
    crawler.enqueue_url("https://www.pythontutorial.net/python-concurrency/", [])
+   crawler.enqueue_url("https://kotlinandroid.org/kotlin/kotlin-hello-world/", [])
 
    crawler.run()
-
+   crawler.save_json()
 
 if __name__ == "__main__":
    main()

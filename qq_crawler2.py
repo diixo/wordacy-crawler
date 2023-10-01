@@ -87,6 +87,8 @@ class Crawler2:
          self.hostnames[hostname].add(url_str)
          if self.recursive:
             self.new.append(url_str)
+      
+         #if logging: print(f"...on: {len(self.new)+1}, [{len(self.hostnames[hostname])}] [skipped={len(self.skip)}]")
 
    def enqueue_url(self, url_str: str, filter=[]):
       url_str = url_str.strip('/')
@@ -121,8 +123,8 @@ class Crawler2:
                         self.add_new(ref)
                      elif logging: print(f"Unexpected syntax error: url={sref}")
                   else:
-                     self.unknown.add(u_hostname)
-                     #self.unknown.add(sref)
+                     #self.unknown.add(u_hostname)
+                     self.unknown.add(sref)
 
    def open_url(self, url:str, parser:str):
       try:
@@ -149,39 +151,43 @@ class Crawler2:
       return False
 
 
-   def open_file(self, filepath:str, domain:str):
+   def enqueue_file(self, filepath:str, domain:str):
       self.clear()
       raw = BeautifulSoup(open(filepath, encoding='utf-8'), features="html.parser")
-      self.extract_urls(raw, urlparse(domain).hostname)
+      self.extract_urls(raw, domain)
 
 
    def run(self):
       counter = 0
+      try:
+         while(len(self.new) > 0):
+            url = self.new.popleft()
+            counter += 1
 
-      while(len(self.new) > 0):
-         url = self.new.popleft()
-         counter += 1
+            with requests.Session() as session:
 
-         with requests.Session() as session:
+               retry = Retry(connect=3, backoff_factor=0.5)
+               adapter = HTTPAdapter(max_retries=retry)
+               session.mount('http://', adapter)
+               session.mount('https://', adapter)
 
-            retry = Retry(connect=3, backoff_factor=0.5)
-            adapter = HTTPAdapter(max_retries=retry)
-            session.mount('http://', adapter)
-            session.mount('https://', adapter)
+               Content_Type = session.head(url).headers["Content-Type"]
+               
+               if "text/html" in Content_Type:
+                  self.open_url(url, "html.parser")
 
-            Content_Type = session.head(url).headers["Content-Type"]
-            
-            if "text/html" in Content_Type:
-               self.open_url(url, "html.parser")
-
-            elif "text/xml" in Content_Type:
-               if logging: print(f"...on: XML={url}")
-               self.open_url(url, "xml")
-               self.skip.add(url)
-
-         #if logging: print(f"...on: {counter}, all={len(self.all)} [skipped={len(self.skip)}]")
-         time.sleep(1.0)
-      #return self.all
+               elif "text/xml" in Content_Type:
+                  if logging: print(f"...on: XML={url}")
+                  self.open_url(url, "xml")
+                  self.skip.add(url)
+            if logging: print(f"...on: {counter}, [{len(self.new)}] [skipped={len(self.skip)}]")
+            time.sleep(1.0)
+      except KeyboardInterrupt:
+         print("KeyboardInterrupt exception raised")
+      except:
+         print("Unexpected error raised:", sys.exc_info()[0])
+      finally:
+         self.save_json()
 
 ###############################################################################################
 
@@ -193,15 +199,8 @@ def main():
    crawler.enqueue_url("https://riptutorial.com/cplusplus", [])
    crawler.enqueue_url("https://www.pythontutorial.net/python-concurrency/", [])
 
-   try:
-      crawler.run()
+   crawler.run()
 
-   except KeyboardInterrupt:
-      print("KeyboardInterrupt exception raised")
-   except:
-      print("Unexpected error raised:", sys.exc_info()[0])
-   finally:
-      crawler.save_json()
 
 if __name__ == "__main__":
    main()

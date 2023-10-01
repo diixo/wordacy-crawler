@@ -90,8 +90,7 @@ class Crawler2:
          self.hostnames[hostname].add(url_str)
          if self.recursive:
             self.new.append(url_str)
-      
-         #if logging: print(f"...on: {len(self.new)+1}, [{len(self.hostnames[hostname])}] [skipped={len(self.skip)}]")
+
 
    def enqueue_url(self, url_str: str, filter=[]):
       url_str = url_str.strip('/')
@@ -152,7 +151,6 @@ class Crawler2:
       except:
             print("Unexpected urlopen-error:", sys.exc_info()[0])
       self.skip.add(url)
-      return False
 
 
    def extract_from_file(self, filepath:str, domain:str):

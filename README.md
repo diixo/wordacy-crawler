@@ -10,6 +10,10 @@ Tokenizer - split sentences on separated words
 Analizer - analyze input page by content of DOM-elements like keywords, lists, p-tags, a-tags, span-tags, h1-h6 headers.
 
 ### Examples:
+Parameter **recursive**=False crawl only links from specified urls.
+
+Parameter **recursive**=True crawl with traversing recursively (all links from each domain).
+
 ```python
    crawler = Crawler2(recursive=False)
    crawler.open_json("urls.json")

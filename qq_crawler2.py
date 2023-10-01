@@ -23,7 +23,7 @@ class Crawler2:
       self.new = deque()
       self.unknown = set()
       self.skip = set()
-      self.filter = []
+      self.filters = dict()
       self.filepath = ""
       self.hostnames = dict()
       self.recursive = recursive
@@ -61,6 +61,7 @@ class Crawler2:
       self.hostnames.clear()
       self.unknown.clear()
       self.skip.clear()
+      self.filters.clear()
 
    def is_url_valid(self, url_str:str):
       avoid = [ ".php", "#", ".asp?", "mailto:", ".map", ".ttf",
@@ -71,16 +72,20 @@ class Crawler2:
          ".exe", ".sfx", ".msi", ".cgi"]
       for i in avoid:
          if str.find(url_str, i) >= 0: return False
-
-      for f in self.filter:
-         if str.find(url_str, f) >= 0: return False
       return True
+
+   def is_filtered(self, url_str:str):
+      hostname = urlparse(url_str).hostname
+      filter = self.filters[hostname]
+      for f in filter:
+         if str.find(url_str, f) >= 0: return True
+      return False
 
    def add_new(self, url_str: str):
       url_str = url_str.strip('/')
       hostname = urlparse(url_str).hostname
 
-      if not self.is_url_valid(url_str):
+      if not self.is_url_valid(url_str) or self.is_filtered(url_str):
          self.skip.add(url_str)
       elif url_str not in self.hostnames[hostname]:
          self.hostnames[hostname].add(url_str)
@@ -95,8 +100,9 @@ class Crawler2:
 
       if hostname not in self.hostnames:
          self.hostnames[hostname] = set()
+         self.filters[hostname] = filter
 
-      if not self.is_url_valid(url_str):
+      if not self.is_url_valid(url_str) or self.is_filtered(url_str):
          self.skip.add(url_str, hostname)
       elif url_str not in self.hostnames[hostname]:
          self.hostnames[hostname].add(url_str)
@@ -193,8 +199,8 @@ def main():
    crawler = Crawler2(recursive=False)
    crawler.open_json("storage/crawler-2.json")
 
-   crawler.enqueue_url("https://www.pythontutorial.net/python-concurrency/", [])
-   crawler.enqueue_url("https://kotlinandroid.org/kotlin/kotlin-hello-world/", [])
+   crawler.enqueue_url("https://www.pythontutorial.net/python-concurrency/", ["/privacy-policy", "/contact", "/donation"])
+   crawler.enqueue_url("https://kotlinandroid.org/kotlin/kotlin-hello-world/", ["/privacy-policy", "/contact-us", "/terms-of-use"])
 
    crawler.run()
    crawler.save_json()

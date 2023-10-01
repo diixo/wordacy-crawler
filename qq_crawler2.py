@@ -36,8 +36,9 @@ class Crawler2:
       
       self.filepath = filepath
 
-   def save_json(self, result = dict()):
-      filepath = self.filepath
+   def save_json(self, filepath=""):
+      if not filepath:
+         filepath = self.filepath
       if (filepath == "") or (filepath != "" and Path(filepath).exists()):
          t = dt.now()
          filename = f"{t.year}-{t.month}-{t.day}_{t.hour}-{t.minute}-{t.second}-{t.microsecond}"

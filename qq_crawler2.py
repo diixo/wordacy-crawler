@@ -3,6 +3,7 @@ import sys
 import re
 import requests
 import json
+from datetime import datetime as dt
 from collections import deque
 from bs4 import BeautifulSoup
 from pathlib import Path
@@ -18,48 +19,51 @@ logging = True
 
 class Crawler2:
 
-   def __init__(self):
-      self.home = ""
+   def __init__(self, recursive=False):
       self.new = deque()
       self.all = set()
       self.unknown = set()
       self.skip = set()
       self.filter = []
       self.filepath = ""
+      self.hostnames = dict()
+      self.recursive = recursive
 
    def open_json(self, filepath:str):
       path = Path(filepath)
       if path.exists():
          fd = open(filepath, 'r', encoding='utf-8')
-         result = json.load(fd)
-         for i in result.values():
-            self.all.update(i)
-            self.new.extend(i)
-         print(self.all)
+         self.hostnames = json.load(fd)
       
       self.filepath = filepath
 
    def save_json(self, result = dict()):
       filepath = self.filepath
-      #if filepath == "": filepath = "./storage/" + self.hostname() + ".json"
+      if (filepath == "") or (filepath != "" and Path(filepath).exists()):
+         t = dt.now()
+         filename = f"{t.year}-{t.month}-{t.day}_{t.hour}-{t.minute}-{t.second}-{t.microsecond}"
+         filepath = "./storage/" + filename + ".json"
 
-      for item in self.skip: self.all.discard(item)
-      result[self.home] = sorted(self.all)
+
+      result = dict()
+      for host in self.hostnames.keys():
+         result[host] = sorted(self.hostnames[host])
 
       with open(filepath, 'w', encoding='utf-8') as fd:
          json.dump(result, fd, ensure_ascii=False, indent=3)
 
-      with open(filepath + ".skipped.txt", 'w', encoding='utf-8') as fd:
-         json.dump(sorted(self.skip), fd, ensure_ascii=False, indent=3)
+      if len(self.skip) > 0:
+         with open(filepath + ".skipped.txt", 'w', encoding='utf-8') as fd:
+            json.dump(sorted(self.skip), fd, ensure_ascii=False, indent=3)
 
 
    def clear(self):
       self.new.clear()
-      self.all.clear()
+      self.hostnames.clear()
       self.unknown.clear()
       self.skip.clear()
 
-   def is_url_valid(self, url_str:str)->bool:
+   def is_url_valid(self, url_str:str):
       avoid = [ ".php", "#", ".asp?", "mailto:", ".map", ".ttf",
          ".pptx", ".ppt", ".xls", ".xlsx", ".xml", ".xlt", ".pdf", ".doc", ".docx", ".chm",
          ".jpg", ".jpeg", ".png", ".svg", ".ico", ".bmp", ".gif", ".tiff", ".exif",
@@ -75,19 +79,34 @@ class Crawler2:
 
    def add_new(self, url_str: str):
       url_str = url_str.strip('/')
+      hostname = urlparse(url_str).hostname
+
       if not self.is_url_valid(url_str):
          self.skip.add(url_str)
-      elif url_str not in self.all:
-         #print(f"added new: {url_str}")
+      elif url_str not in self.hostnames[hostname]:
+         self.hostnames[hostname].add(url_str)
+         if self.recursive:
+            self.new.append(url_str)
+
+   def enqueue_url(self, url_str: str, filter=[]):
+      url_str = url_str.strip('/')
+      hostname = urlparse(url_str).hostname
+
+      if hostname not in self.hostnames:
+         self.hostnames[hostname] = set()
+
+      if not self.is_url_valid(url_str):
+         self.skip.add(url_str, hostname)
+      elif url_str not in self.hostnames[hostname]:
+         self.hostnames[hostname].add(url_str)
          self.new.append(url_str)
-         self.all.add(url_str)
 
-   def hostname(self):
-      if self.home: return urlparse(self.home).hostname
-      return self.home
 
-   def extract_urls(self, raw):
-      hostname = self.hostname()
+   def extract_urls(self, raw, url):
+      host = urlparse(url)
+      hostname = host.hostname
+      home = host.scheme + '://' + hostname
+      #home = host[0] + '://' + host[1]
 
       alls = raw.find_all(['a', 'loc'])
       for link in alls:
@@ -97,8 +116,8 @@ class Crawler2:
                   sref = re.sub("http://", "https://", sref).strip()
                   u_hostname = urlparse(sref).hostname
                   if (not u_hostname) or (u_hostname == hostname):  #as relative
-                     ref = urljoin(self.home, sref)
-                     if re.search(self.home, ref):
+                     ref = urljoin(home, sref)
+                     if re.search(home, ref):
                         self.add_new(ref)
                      elif logging: print(f"Unexpected syntax error: url={sref}")
                   else:
@@ -109,13 +128,14 @@ class Crawler2:
       try:
             req = Request(url, headers={'User-Agent': 'XYZ/3.0'})
             response = urlopen(req)
-            if logging and (response.status == 301):
+            status = response.status
+            if logging and (status in [301, 302]):
                print(f"new_url = {response.geturl()}")
             html = response.read()
 
             raw = BeautifulSoup(html, features=parser)
 
-            self.extract_urls(raw)
+            self.extract_urls(raw, url)
             return True
       except urllib.error.URLError as e:
             if hasattr(e, 'code'): print("URLErr_code:", e.code, f"url={url}")
@@ -131,20 +151,11 @@ class Crawler2:
 
    def open_file(self, filepath:str, domain:str):
       self.clear()
-      self.home = domain.strip('/')
       raw = BeautifulSoup(open(filepath, encoding='utf-8'), features="html.parser")
-      self.extract_urls(raw)
+      self.extract_urls(raw, urlparse(domain).hostname)
 
 
-   def apply_filter(self, filter=[]):
-      self.filter = [self.home.strip('/') + item for item in filter]
-
-
-   def run(self, domain: str, filter=[]):
-      self.home = domain.strip('/')
-      self.clear()
-      self.add_new(self.home)
-      self.apply_filter(filter)
+   def run(self):
       counter = 0
 
       while(len(self.new) > 0):
@@ -168,33 +179,22 @@ class Crawler2:
                self.open_url(url, "xml")
                self.skip.add(url)
 
-         if logging: print(f"...on: {counter}, all={len(self.all)} [skipped={len(self.skip)}]")
+         #if logging: print(f"...on: {counter}, all={len(self.all)} [skipped={len(self.skip)}]")
          time.sleep(1.0)
-      return self.all
+      #return self.all
 
 ###############################################################################################
-def open_futuretools():
-   crawler = Crawler2()
-   crawler.open_file("./data/futuretools.html", "https://futuretools.link")
-   crawler.save_json()
-
-def open_aivalley():
-   crawler = Crawler2()
-   crawler.open_file("./data/aivalley.html", "https://aivalley.ai")
-   crawler.save_json()
 
 def main():
 
    crawler = Crawler2()
-   techopedia = crawler.open_json("storage/www.techopedia.com.json")
+   crawler.open_json("storage/crawler-2.json")
+
+   crawler.enqueue_url("https://riptutorial.com/cplusplus", [])
+   crawler.enqueue_url("https://www.pythontutorial.net/python-concurrency/", [])
 
    try:
-      crawler.run("https://devopedia.org", [
-         "/search/",
-         "/user/",
-         "/site/",
-         "/site-map/dashboard",
-         "/site-map/faq-help"])
+      crawler.run()
 
    except KeyboardInterrupt:
       print("KeyboardInterrupt exception raised")
@@ -203,3 +203,5 @@ def main():
    finally:
       crawler.save_json()
 
+if __name__ == "__main__":
+   main()

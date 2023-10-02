@@ -27,7 +27,7 @@ Parameter **recursive**=True crawl with traversing recursively (all links from e
    # save "urls.json"
    crawler.save_json()
 ```
-Format of output json-file as urls-list:
+**Crawler2** output json-file as urls-list:
 ```json
 {
    "https://domain-name.com": [

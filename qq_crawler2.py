@@ -39,7 +39,7 @@ class Crawler2:
    def save_json(self, filepath=""):
       if not filepath:
          filepath = self.filepath
-      if (filepath == "") or (filepath != "" and Path(filepath).exists()):
+      if (filepath == "") or Path(filepath).exists():
          t = dt.now()
          filename = f"{t.year}-{t.month}-{t.day}_{t.hour}-{t.minute}-{t.second}-{t.microsecond}"
          filepath = "./storage/" + filename + ".json"
@@ -211,5 +211,6 @@ def main():
    crawler.run()
    crawler.save_json()
 
+###############################################################################################
 if __name__ == "__main__":
    main()

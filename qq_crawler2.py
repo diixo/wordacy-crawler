@@ -81,6 +81,11 @@ class Crawler2:
          if str.find(url_str, f) >= 0: return True
       return False
 
+   def set_filter(self, url_str: str, filter=[]):
+      url_str = url_str.strip('/')
+      hostname = urlparse(url_str).hostname
+      self.filters[hostname] = filter
+
    def add_new(self, url_str: str):
       url_str = url_str.strip('/')
       hostname = urlparse(url_str).hostname

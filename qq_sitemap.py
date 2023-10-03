@@ -26,13 +26,14 @@ def make_sitemap(url, filter=[]):
    print(f"sz={len(urls)}")
    result = dict()
    result[url] = sorted(urls)
-   save_json(urlparse(url).hostname, result=result)
+   save_json("sitemap-" + urlparse(url).hostname, result=result)
 
 
 def main():
 
-   make_sitemap("https://allainews.com")
    return
+
+   make_sitemap("https://allainews.com")
 
    make_sitemap("https://www.infoworld.com", ["/author/", "/user/", "/uk/"])
 

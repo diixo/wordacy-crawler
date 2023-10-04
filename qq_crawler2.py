@@ -39,7 +39,7 @@ class Crawler2:
    def save_json(self, filepath=""):
       if not filepath:
          filepath = self.filepath
-      if (filepath == "") or Path(filepath).exists():
+      if (filepath == ""):
          t = dt.now()
          filename = f"{t.year}-{t.month}-{t.day}_{t.hour}-{t.minute}-{t.second}-{t.microsecond}"
          filepath = "./storage/" + filename + ".json"
@@ -98,17 +98,14 @@ class Crawler2:
             self.new.append(url_str)
 
 
-   def enqueue_url(self, url_str: str, filter=[]):
+   def enqueue_url(self, url_str: str):
       url_str = url_str.strip('/')
       hostname = urlparse(url_str).hostname
 
       if hostname not in self.hostnames:
          self.hostnames[hostname] = set()
-         self.filters[hostname] = filter
 
-      if not self.is_url_valid(url_str) or self.is_filtered(url_str):
-         self.skip.add(url_str, hostname)
-      elif url_str not in self.hostnames[hostname]:
+      if url_str not in self.hostnames[hostname]:
          self.hostnames[hostname].add(url_str)
          self.new.append(url_str)
 
@@ -202,11 +199,11 @@ def main():
    crawler = Crawler2(recursive=False)
    crawler.open_json("storage/crawler-2.json")
 
-   crawler.enqueue_url("https://www.pythontutorial.net/python-concurrency/",
-      ["/privacy-policy", "/contact", "/donation"])
+   crawler.enqueue_url("https://www.pythontutorial.net/python-concurrency/")
+   crawler.set_filter("https://www.pythontutorial.net", ["/privacy-policy", "/contact", "/donation"])
 
-   crawler.enqueue_url("https://kotlinandroid.org/kotlin/kotlin-hello-world/",
-      ["/privacy-policy", "/contact-us", "/terms-of-use"])
+   crawler.enqueue_url("https://kotlinandroid.org/kotlin/kotlin-hello-world/")
+   crawler.set_filter("https://kotlinandroid.org", ["/privacy-policy", "/contact-us", "/terms-of-use"])
 
    crawler.run()
    crawler.save_json()

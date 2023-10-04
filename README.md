@@ -18,9 +18,13 @@ Parameter **recursive**=True crawl with traversing recursively (all links from e
    crawler = Crawler2(recursive=False)
    crawler.open_json("urls.json")
 
-   crawler.enqueue_url("https://name-1.com/sub/page", ["/privacy-policy"])
-   crawler.enqueue_url("https://name-2.com/sub/page", ["/terms-of-use"])
-   crawler.enqueue_url("https://name-3.com/sub/page", ["/donation"])
+   crawler.enqueue_url("https://name-1.com/sub/page")
+   crawler.enqueue_url("https://name-2.com/sub/page")
+   crawler.enqueue_url("https://name-3.com/sub/page")
+
+   crawler.set_filter("https://name-1.com", ["/privacy-policy"])
+   crawler.set_filter("https://name-2.com", ["/privacy-policy"])
+   crawler.set_filter("https://name-3.com", ["/privacy-policy"])
 
    crawler.run()
 

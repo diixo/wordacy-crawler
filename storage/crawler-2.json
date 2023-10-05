@@ -1,5 +1,5 @@
 {
-   "www.pythontutorial.net": [
+   "https://www.pythontutorial.net": [
       "https://www.pythontutorial.net",
       "https://www.pythontutorial.net/about",
       "https://www.pythontutorial.net/advanced-python",
@@ -53,7 +53,7 @@
       "https://www.pythontutorial.net/python-unit-testing",
       "https://www.pythontutorial.net/tkinter"
    ],
-   "kotlinandroid.org": [
+   "https://kotlinandroid.org": [
       "https://kotlinandroid.org",
       "https://kotlinandroid.org/kotlin",
       "https://kotlinandroid.org/kotlin-android",

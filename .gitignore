@@ -9,4 +9,3 @@ build/
 *idea/
 __build/*.txt
 process/*.json
-storage/*.json

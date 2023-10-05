@@ -156,8 +156,18 @@ class Crawler2:
       self.skip.add(url)
 
 
-   def extract_from_file(self, filepath:str, domain:str):
+   def extract_from_file(self, filepath:str, domain:str, filter=[]):
       self.clear()
+      host = urlparse(domain)
+      hostname = host.hostname
+      home = host.scheme + '://' + hostname
+
+      if hostname not in self.hostnames:
+         self.hostnames[hostname] = set()
+
+      self.set_filter(domain, filter=filter)
+      self.filepath = "./storage/" + hostname + ".json"
+      print(f"<< filepath = {self.filepath}")
       raw = BeautifulSoup(open(filepath, encoding='utf-8'), features="html.parser")
       self.extract_urls(raw, domain)
 
@@ -193,6 +203,12 @@ class Crawler2:
          print("Unexpected error raised:", sys.exc_info()[0])
 
 ###############################################################################################
+
+def open_futuretools():
+   crawler = Crawler2()
+   crawler.extract_from_file("./data/futuretools.html", "https://www.futuretools.io", 
+      ["/submit-a-tool", "/?d", "/faq", "/learn", "/?tags="])
+   crawler.save_json()
 
 def main():
 

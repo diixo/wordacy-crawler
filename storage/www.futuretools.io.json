@@ -1,13 +1,10 @@
 {
-   "https://www.futuretools.io": [
+   "www.futuretools.io": [
       "https://www.futuretools.io",
-      "https://www.futuretools.io/faq",
       "https://www.futuretools.io/glossary",
-      "https://www.futuretools.io/learn",
       "https://www.futuretools.io/newly-added",
       "https://www.futuretools.io/news",
       "https://www.futuretools.io/newsletter",
-      "https://www.futuretools.io/submit-a-tool",
       "https://www.futuretools.io/tags/ai-detection",
       "https://www.futuretools.io/tags/matts-picks",
       "https://www.futuretools.io/tags/prompt-guides",
@@ -686,7 +683,6 @@
       "https://www.futuretools.io/tools/fadr",
       "https://www.futuretools.io/tools/fakeyou",
       "https://www.futuretools.io/tools/fantoons",
-      "https://www.futuretools.io/tools/faqx",
       "https://www.futuretools.io/tools/fathom",
       "https://www.futuretools.io/tools/fathom-lexicon",
       "https://www.futuretools.io/tools/favird",

@@ -30,6 +30,8 @@ def main():
 
    return
 
+   make_sitemap("https://ai-search.io/")
+
    make_sitemap("https://allainews.com")
 
    make_sitemap("https://www.infoworld.com", ["/author/", "/user/", "/uk/"])

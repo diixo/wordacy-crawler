@@ -206,7 +206,7 @@ def parse(raw, result = {}):
     hhh.update(li_raw.keys())
 
     #extract_structure(raw, structure)
-    aaa = read_ahref(raw, structure)
+    read_ahref(raw, structure)
 
     result['keywords'] = sorted(keywords)
     result['data'] = structure

@@ -14,6 +14,7 @@ Parameter **recursive**=False crawl only links from specified urls.
 
 Parameter **recursive**=True crawl with traversing recursively (all links from each domain).
 
+### 1) Crawl web-page:
 ```python
    crawler = Crawler2(recursive=False)
    crawler.open_json("urls.json")
@@ -31,12 +32,19 @@ Parameter **recursive**=True crawl with traversing recursively (all links from e
    # save "urls.json"
    crawler.save_json()
 ```
+### 2) Crawl local html-file:
+Extract all links of specified domain from local file:
+```python
+   crawler = Crawler2()
+   crawler.extract_from_file("filename.html", "https://name.com/", ["/privacy-policy"])
+   crawler.save_json()
+```
 **Crawler2** output json-file as urls-list:
 ```json
 {
-   "https://domain-name.com": [
-      "https://domain-name.com/url_1/",
-      "https://domain-name.com/url_2/"
+   "https://name.com": [
+      "https://name.com/url_1/",
+      "https://name.com/url_2/"
    ]
 }
 ```

@@ -4,7 +4,7 @@ from urllib.parse import urlparse
 from usp.tree import sitemap_tree_for_homepage
 
 def save_json(hostname:str, result:dict):
-   filepath = "./storage/" + hostname + ".json"
+   filepath = "./storage/-" + hostname + ".json"
    with open(filepath, 'w', encoding='utf-8') as fd:
       json.dump(result, fd, ensure_ascii=False, indent=3)
 

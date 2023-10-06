@@ -2,6 +2,8 @@ import os
 import io
 import urllib.parse
 import json
+import re
+import uuid
 
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
@@ -137,3 +139,22 @@ def parseFile(filename, train_db):
     raw = BeautifulSoup(open(filename, encoding='utf-8'), "html.parser")
     parse(raw, train_db)
 ########################################################################
+
+def main():
+    url = "https://www.geeksforgeeks.org"
+
+    name =  re.sub("https://", "", url) + f"_{uuid.uuid4().hex}.txt"
+    name = "data/" + name
+
+    train_db = open(name, 'w', encoding='utf-8')
+
+    # clean raw text
+    parseURL(url, train_db)
+    #list_dir("./html", train_db)
+
+    train_db.close()
+    print("<<")
+
+
+if __name__ == "__main__":
+    main()

@@ -17,6 +17,11 @@ from urllib3.util.retry import Retry
 
 logging = True
 
+def url_hostname(url_str:str):
+   url_str = url_str.strip('/')
+   host = urlparse(url_str)
+   return host.scheme + "://" + host.hostname
+
 class Crawler2:
 
    def __init__(self, recursive=False):
@@ -75,20 +80,19 @@ class Crawler2:
       return True
 
    def is_filtered(self, url_str:str):
-      hostname = urlparse(url_str).hostname
+      hostname = url_hostname(url_str)
       filter = self.filters[hostname]
       for f in filter:
          if str.find(url_str, f) >= 0: return True
       return False
 
    def set_filter(self, url_str: str, filter=[]):
-      url_str = url_str.strip('/')
-      hostname = urlparse(url_str).hostname
+      hostname = url_hostname(url_str)
       self.filters[hostname] = filter
 
    def add_new(self, url_str: str):
       url_str = url_str.strip('/')
-      hostname = urlparse(url_str).hostname
+      hostname = url_hostname(url_str)
 
       if not self.is_url_valid(url_str) or self.is_filtered(url_str):
          self.skip.add(url_str)
@@ -100,7 +104,7 @@ class Crawler2:
 
    def enqueue_url(self, url_str: str):
       url_str = url_str.strip('/')
-      hostname = urlparse(url_str).hostname
+      hostname = url_hostname(url_str)
 
       if hostname not in self.hostnames:
          self.hostnames[hostname] = set()
@@ -158,15 +162,13 @@ class Crawler2:
 
    def extract_from_file(self, filepath:str, domain:str, filter=[]):
       self.clear()
-      host = urlparse(domain)
-      hostname = host.hostname
-      home = host.scheme + '://' + hostname
+      home = url_hostname(domain)
 
-      if hostname not in self.hostnames:
-         self.hostnames[hostname] = set()
+      if home not in self.hostnames:
+         self.hostnames[home] = set()
 
       self.set_filter(domain, filter=filter)
-      self.filepath = "./storage/" + hostname + ".json"
+      self.filepath = "./storage/" + urlparse(home).hostname + ".json"
       print(f"<< filepath = {self.filepath}")
       raw = BeautifulSoup(open(filepath, encoding='utf-8'), features="html.parser")
       self.extract_urls(raw, domain)
@@ -206,11 +208,14 @@ class Crawler2:
 
 def open_futuretools():
    crawler = Crawler2()
-   crawler.extract_from_file("./data/futuretools.html", "https://www.futuretools.io", 
+   crawler.extract_from_file("./data/futuretools.html", "https://www.futuretools.io/", 
       ["/submit-a-tool", "/?d", "/faq", "/learn", "/?tags="])
    crawler.save_json()
 
 def main():
+
+   open_futuretools()
+   return
 
    crawler = Crawler2(recursive=False)
    crawler.open_json("storage/crawler-2.json")

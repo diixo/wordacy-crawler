@@ -1,4 +1,4 @@
-## html-crawler
+# html-crawler
 
 ### Crawler
 Crawler - search and collect all finding URL's from specified source web-page. Save generated urls list into json-format
@@ -51,7 +51,7 @@ Extract all links of specified domain from local file:
    ]
 }
 ```
-
+### 3) Smart analysis the content from url's:
 ```python
    analyzer = Analyzer()
    analyzer.open_json("some.json")

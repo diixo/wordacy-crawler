@@ -36,7 +36,9 @@ Parameter **recursive**=True crawl with traversing recursively (all links from e
 Extract all links of specified domain from local file:
 ```python
    crawler = Crawler2()
-   crawler.extract_from_file("filename.html", "https://name.com/", ["/privacy-policy"])
+   crawler.extract_from_file("filename.html", "https://domain.com/", ["/privacy-policy"])
+
+   # save output-file as ./storage/domain.com.json
    crawler.save_json()
 ```
 **Crawler2** output json-file as urls-list:

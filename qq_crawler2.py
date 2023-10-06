@@ -46,7 +46,7 @@ class Crawler2:
          filepath = self.filepath
       if (filepath == ""):
          t = dt.now()
-         filename = f"{t.year}-{t.month}-{t.day}_{t.hour}-{t.minute}-{t.second}-{t.microsecond}"
+         filename = f"{t.year}-{t.month}-{t.day}_{t.hour}-{t.minute}-{t.second}"#-{t.microsecond}"
          filepath = "./storage/" + filename + ".json"
 
       result = dict()
@@ -213,9 +213,6 @@ def open_futuretools():
    crawler.save_json()
 
 def main():
-
-   open_futuretools()
-   return
 
    crawler = Crawler2(recursive=False)
    crawler.open_json("storage/crawler-2.json")

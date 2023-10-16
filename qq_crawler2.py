@@ -197,7 +197,7 @@ class Crawler2:
                   if logging: print(f"...on: XML={url}")
                   self.open_url(url, "xml")
                   self.skip.add(url)
-            if logging: print(f"...on: {counter}, [{len(self.new)}] [skipped={len(self.skip)}]")
+            if logging: print(f"...on: {counter}, [remained={len(self.new)}] [skipped={len(self.skip)}]")
             time.sleep(1.0)
       except KeyboardInterrupt:
          print("KeyboardInterrupt exception raised")

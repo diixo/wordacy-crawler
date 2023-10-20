@@ -1,6 +1,5 @@
 import re
 from collections import Counter
-from tokenizer import tokenize
 from pathlib import Path
 import qq_parser as qq
 
@@ -101,9 +100,9 @@ class Prediction:
 
    ##########################################################
    def predict(self, str_line: str, stopwords = set()):
-      work_str = tokenize(str_line, stopwords)
+      work_str = qq.translate(str_line, stopwords)
       tokenList = str_tokenize(work_str)
-        
+
       ngram = {1:[], 2:[]}
 
       for i in range(2):

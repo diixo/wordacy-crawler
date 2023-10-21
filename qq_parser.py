@@ -227,11 +227,11 @@ def parse(raw, result = {}, hhh_mask = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6']):
 def parse_url(url, result = dict(), hhh_mask = None):
     req = Request(url, headers={'User-Agent': 'XYZ/3.0'})
     html = urllib.request.urlopen(req).read()
+    raw = BeautifulSoup(html, features="html.parser") 
     if hhh_mask:
-        raw = BeautifulSoup(html, features="html.parser", hhh_mask=hhh_mask)
+        parse(raw, result, hhh_mask=hhh_mask)
     else:
-        raw = BeautifulSoup(html, features="html.parser") 
-    parse(raw, result)
+        parse(raw, result)
     return result
 
 def parse_file(filename, result = dict()):

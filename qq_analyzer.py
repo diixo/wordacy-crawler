@@ -1,4 +1,4 @@
-
+import time
 import json
 from pathlib import Path
 import qq_parser as qq
@@ -76,24 +76,31 @@ def test():
    crawler.set_filter(url, [
       "/terms/", 
       "/privacy/", 
-      "/about/", 
       "/accounts/", 
       "/filtered/", 
       "/videos/", 
-      "/podcasts/", 
       "/feed/", 
       "/topic/",
-      "/source/"
+      "/source/",
+      "/news/feed",
+      "/term",
+      "/about",
+      "/podcasts"
       ])
    crawler.run()
 
    urls = crawler.get_urls(url)
-   for u in urls:
-      print(u)
+   print(f"urls={len(urls)}")
+   #for u in urls:
+   #   print(u)
 
    analyzer = Analyzer()
    analyzer.open_json("storage/allainews-news.json")
    analyzer.learn(url)
+   for u in urls:
+      print(f"...on: {u}")
+      #analyzer.learn(u, ["h1", "H1"])
+      #time.sleep(2.0)
    analyzer.save_json()
 
 

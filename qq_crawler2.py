@@ -204,8 +204,11 @@ class Crawler2:
       except:
          print("Unexpected error raised:", sys.exc_info()[0])
 
-   def get_urls(self):
-      return self.urls
+   def get_urls(self, url: str):
+      if url:
+         return self.urls.get(url_hostname(url), [])
+      else:
+         return self.urls
 
 ###############################################################################################
 

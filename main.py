@@ -25,6 +25,7 @@ def str_to_ngrams(str_line: str, stopwords: set()):
 
     punctuation = " ©®-%$!?:,;\'\" @~&()=*_<=>{|}[/]^\\"
     result = []
+    exclude = { "2d", "3d", "3g", "4g", "5g", "6g" }
 
     for item in strips:
 
@@ -35,7 +36,7 @@ def str_to_ngrams(str_line: str, stopwords: set()):
         tokens = []
         for w in word_list:
             wlow = w.lower()
-            if (w == "IT") or (wlow == "c#"):
+            if (w == "IT") or (wlow == "c#") or (wlow in exclude):
                 tokens.append(wlow)
             else:
                 wlow = wlow.strip("#")

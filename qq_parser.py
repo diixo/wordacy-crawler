@@ -21,6 +21,10 @@ def is_digit(word: str):
     w = re.sub(r'[$]?[-+]?[\d]*[.,\:]?[\d]+[ %\"\'\)\+]*', "", word)
     return not w
 
+def is_complex_digit(word: str):
+    w = re.sub(r'[$]?[-+]?[\d]*[.,\:]?[\d]+[ %\"\'\)\+]*[A-Za-z0-9]?', "", word)
+    return not w
+
 def str_tokenize_words(s: str):
     s = re.findall("(\.?\w[\w'\.&-]*\w|\w\+*#?)", s)
     if s: return s
@@ -29,7 +33,7 @@ def str_tokenize_words(s: str):
 def is_word(word: str, stopwords=set()):
     #word = re.search("[\[\]\}\{=@\*]")
     if (re.sub("[A-Za-z0-9#\'\./_&+-]", "", word) == "") and len(word) > 1:
-        if ((word not in stopwords) and not word.isdigit() and not is_digit(word)):
+        if ((word not in stopwords) and not word.isdigit() and not is_complex_digit(word)):
             return True
     return False
 

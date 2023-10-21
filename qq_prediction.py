@@ -1,4 +1,5 @@
 import re
+from operator import itemgetter
 from collections import Counter
 from pathlib import Path
 import qq_parser as qq
@@ -99,17 +100,8 @@ class Prediction:
       self.trigrams_freq_dict = {}  # freq_dict for trigrams
 
    def __str__(self) -> str:
-      return f"1:{len(self.unigrams_freq_dict)}, 2:{len(self.bigrams_freq_dict)}, 3:{len(self.trigrams_freq_dict)}"
+      return f"Prediction: [#1:{len(self.unigrams_freq_dict)}, #2:{len(self.bigrams_freq_dict)}, #3:{len(self.trigrams_freq_dict)}]"
 
-   ##########################################################
-   def predict(self, str_line: str, stopwords = set()):
-      work_str = qq.translate(str_line, stopwords)
-      tokenList = str_tokenize(work_str)
-
-      ngram = {1:[], 2:[]}
-
-      for i in range(2):
-         ngram[i+1] = list(ngrams(tokenList, i+1))[-1]
    ##########################################################
 
    def predict_next(self, str_line: str):
@@ -194,4 +186,31 @@ class Prediction:
          len(self.unigrams), counter1, len(self.bigrams), counter2, len(self.trigrams)))
 
       print(f"<< unigrams, candidates new.sz={counter_n}({counter_1})")
+##########################################################
+
+   def get_sorted(self):
+      result = {
+         1:sorted(self.unigrams_freq_dict.items(), key=itemgetter(1), reverse=True),
+         2:sorted(self.bigrams_freq_dict.items(), key=itemgetter(1), reverse=True),        
+         3:sorted(self.trigrams_freq_dict.items(), key=itemgetter(1), reverse=True)
+      }
+      return result
+
+   def get_dicts(self):
+      result = {
+        1:sorted(self.unigrams), 
+        2:sorted(self.bigrams), 
+        3:sorted(self.trigrams)
+      }
+      return result
+
+##########################################################
+   def predict(str_line: str, stopwords = set()):
+      work_str = qq.translate(str_line, stopwords)
+      tokenList = str_tokenize(work_str)
+
+      ngram = {1:[], 2:[]}
+
+      for i in range(2):
+         ngram[i+1] = list(ngrams(tokenList, i+1))[-1]
 ##########################################################

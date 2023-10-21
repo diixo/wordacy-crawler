@@ -76,13 +76,7 @@
          "#workplace"
       ],
       [
-         "+22"
-      ],
-      [
          ".net"
-      ],
-      [
-         "000+"
       ],
       [
          "000-year-old"
@@ -91,34 +85,16 @@
          "000th"
       ],
       [
-         "1-4"
-      ],
-      [
          "1-bit"
       ],
       [
          "1-hour"
       ],
       [
-         "1.0"
-      ],
-      [
          "1.05b"
       ],
       [
-         "1.3"
-      ],
-      [
-         "1.3.7"
-      ],
-      [
-         "1.37"
-      ],
-      [
          "1.3b"
-      ],
-      [
-         "1.5"
       ],
       [
          "1.5m"
@@ -127,16 +103,7 @@
          "1.5m+"
       ],
       [
-         "1.6"
-      ],
-      [
-         "1.7"
-      ],
-      [
          "1.7b"
-      ],
-      [
-         "1.9.2"
       ],
       [
          "1/10"
@@ -146,9 +113,6 @@
       ],
       [
          "10.5m"
-      ],
-      [
-         "10.6"
       ],
       [
          "10.6m"
@@ -193,9 +157,6 @@
          "10/month"
       ],
       [
-         "100+"
-      ],
-      [
          "100k"
       ],
       [
@@ -238,9 +199,6 @@
          "12v"
       ],
       [
-         "13-17"
-      ],
-      [
          "13b"
       ],
       [
@@ -263,12 +221,6 @@
       ],
       [
          "14m"
-      ],
-      [
-         "15-40"
-      ],
-      [
-         "15.5"
       ],
       [
          "15/10"
@@ -295,9 +247,6 @@
          "16m"
       ],
       [
-         "17.9"
-      ],
-      [
          "17.9b"
       ],
       [
@@ -305,9 +254,6 @@
       ],
       [
          "18-agency"
-      ],
-      [
-         "1800+"
       ],
       [
          "18th-century"
@@ -340,19 +286,10 @@
          "2-powered"
       ],
       [
-         "2.0"
-      ],
-      [
-         "2.1"
-      ],
-      [
          "2.5b"
       ],
       [
          "2.5x"
-      ],
-      [
-         "2.7"
       ],
       [
          "2.8m"
@@ -370,9 +307,6 @@
          "2/3"
       ],
       [
-         "20+"
-      ],
-      [
          "20/month"
       ],
       [
@@ -385,9 +319,6 @@
          "200m"
       ],
       [
-         "2023-2024"
-      ],
-      [
          "2024."
       ],
       [
@@ -398,9 +329,6 @@
       ],
       [
          "22b"
-      ],
-      [
-         "23.9"
       ],
       [
          "23andme"
@@ -425,9 +353,6 @@
       ],
       [
          "273.7m"
-      ],
-      [
-         "29.97"
       ],
       [
          "2ab"
@@ -460,18 +385,6 @@
          "3-year"
       ],
       [
-         "3.0"
-      ],
-      [
-         "3.11.6"
-      ],
-      [
-         "3.12"
-      ],
-      [
-         "3.2"
-      ],
-      [
          "3.25m"
       ],
       [
@@ -479,9 +392,6 @@
       ],
       [
          "3.4m"
-      ],
-      [
-         "3.5"
       ],
       [
          "3.5-day"
@@ -532,16 +442,7 @@
          "4-bit"
       ],
       [
-         "4.0"
-      ],
-      [
-         "4.25.0"
-      ],
-      [
          "4.58m"
-      ],
-      [
-         "40+"
       ],
       [
          "400-page"
@@ -578,9 +479,6 @@
       ],
       [
          "5-word"
-      ],
-      [
-         "50+"
       ],
       [
          "50m"
@@ -683,9 +581,6 @@
       ],
       [
          "9.5m"
-      ],
-      [
-         "9.99"
       ],
       [
          "9/10"
@@ -25693,24 +25588,12 @@
          "distinguished"
       ],
       [
-         "+22",
-         "rag"
-      ],
-      [
          ".net",
          "rocks"
       ],
       [
-         "000+",
-         "daily"
-      ],
-      [
          "000th",
          "level"
-      ],
-      [
-         "1-4",
-         "sampling"
       ],
       [
          "1-bit",
@@ -25725,24 +25608,8 @@
          "series"
       ],
       [
-         "1.3",
-         "billion"
-      ],
-      [
-         "1.3.7",
-         "released"
-      ],
-      [
          "1.3b",
          "revenue"
-      ],
-      [
-         "1.5",
-         "billion"
-      ],
-      [
-         "1.5",
-         "million"
       ],
       [
          "1.5m",
@@ -25753,24 +25620,12 @@
          "users"
       ],
       [
-         "1.6",
-         "million"
-      ],
-      [
          "1.7b",
          "acquire"
       ],
       [
-         "1.9.2",
-         "released"
-      ],
-      [
          "10.5m",
          "seed"
-      ],
-      [
-         "10.6",
-         "build"
       ],
       [
          "10.6m",
@@ -25779,10 +25634,6 @@
       [
          "10/month",
          "ai"
-      ],
-      [
-         "100+",
-         "wildlife"
       ],
       [
          "100m",
@@ -25857,10 +25708,6 @@
          "gpu"
       ],
       [
-         "13-17",
-         "adds"
-      ],
-      [
          "13b",
          "benchmarks"
       ],
@@ -25895,14 +25742,6 @@
       [
          "14m",
          "inaugural"
-      ],
-      [
-         "15-40",
-         "data"
-      ],
-      [
-         "15.5",
-         "yoy"
       ],
       [
          "150m",
@@ -25941,10 +25780,6 @@
          "abstract"
       ],
       [
-         "17.9",
-         "billion"
-      ],
-      [
          "17.9b",
          "q3"
       ],
@@ -25955,10 +25790,6 @@
       [
          "18-agency",
          "intelligence"
-      ],
-      [
-         "1800+",
-         "start-ups"
       ],
       [
          "18th-century",
@@ -26005,24 +25836,12 @@
          "chatbot"
       ],
       [
-         "2.0",
-         "big"
-      ],
-      [
-         "2.0",
-         "weds"
-      ],
-      [
          "2.5b",
          "valuation"
       ],
       [
          "2.5x",
          "gpu"
-      ],
-      [
-         "2.7",
-         "billion"
       ],
       [
          "2.8m",
@@ -26035,10 +25854,6 @@
       [
          "2/10",
          "8/10"
-      ],
-      [
-         "20+",
-         "states"
       ],
       [
          "2000-year-old",
@@ -26055,10 +25870,6 @@
       [
          "200m",
          "kitty"
-      ],
-      [
-         "2023-2024",
-         "complete"
       ],
       [
          "20b",
@@ -26165,22 +25976,6 @@
          "space"
       ],
       [
-         "3.0",
-         "rise"
-      ],
-      [
-         "3.11.6",
-         "available"
-      ],
-      [
-         "3.2",
-         "lbs"
-      ],
-      [
-         "3.2",
-         "million"
-      ],
-      [
          "3.25m",
          "seed"
       ],
@@ -26191,22 +25986,6 @@
       [
          "3.4m",
          "frames"
-      ],
-      [
-         "3.5",
-         "anthropic"
-      ],
-      [
-         "3.5",
-         "claude"
-      ],
-      [
-         "3.5",
-         "days"
-      ],
-      [
-         "3.5",
-         "turbo"
       ],
       [
          "3.5-day",
@@ -26333,28 +26112,8 @@
          "floating"
       ],
       [
-         "4.0",
-         "ai"
-      ],
-      [
-         "4.0",
-         "chatbot"
-      ],
-      [
-         "4.0",
-         "generative"
-      ],
-      [
-         "4.25.0",
-         "released"
-      ],
-      [
          "4.58m",
          "revenue"
-      ],
-      [
-         "40+",
-         "generative"
       ],
       [
          "400-page",
@@ -26403,10 +26162,6 @@
       [
          "5-word",
          "chatgpt"
-      ],
-      [
-         "50+",
-         "ai"
       ],
       [
          "50m",
@@ -26547,10 +26302,6 @@
       [
          "8x",
          "faster"
-      ],
-      [
-         "9.99",
-         "month"
       ],
       [
          "9/10",
@@ -26946,15 +26697,15 @@
       ],
       [
          "accuracy",
-         "+22"
-      ],
-      [
-         "accuracy",
          "boomerang"
       ],
       [
          "accuracy",
          "large"
+      ],
+      [
+         "accuracy",
+         "rag"
       ],
       [
          "accurate",
@@ -28082,7 +27833,7 @@
       ],
       [
          "aged",
-         "13-17"
+         "adds"
       ],
       [
          "agency",
@@ -28227,10 +27978,6 @@
       [
          "ai",
          "#240"
-      ],
-      [
-         "ai",
-         "2.0"
       ],
       [
          "ai",
@@ -35770,10 +35517,6 @@
       ],
       [
          "avatars",
-         "2.0"
-      ],
-      [
-         "avatars",
          "meta"
       ],
       [
@@ -38598,10 +38341,6 @@
       ],
       [
          "brings",
-         "50+"
-      ],
-      [
-         "brings",
          "ai"
       ],
       [
@@ -41142,10 +40881,6 @@
       ],
       [
          "chatgpt",
-         "3.5"
-      ],
-      [
-         "chatgpt",
          "accept"
       ],
       [
@@ -41511,6 +41246,10 @@
       [
          "chatgpt",
          "training"
+      ],
+      [
+         "chatgpt",
+         "turbo"
       ],
       [
          "chatgpt",
@@ -42711,10 +42450,6 @@
       [
          "clothing",
          "guide"
-      ],
-      [
-         "cloud",
-         "2.0"
       ],
       [
          "cloud",
@@ -46098,7 +45833,7 @@
       ],
       [
          "crossed",
-         "1.3"
+         "billion"
       ],
       [
          "crossed",
@@ -47994,10 +47729,6 @@
       ],
       [
          "decidiffusion",
-         "1.0"
-      ],
-      [
-         "decidiffusion",
          "million"
       ],
       [
@@ -48679,10 +48410,6 @@
       [
          "denny's",
          "trillion-dollar"
-      ],
-      [
-         "deno",
-         "1.37"
       ],
       [
          "deno's",
@@ -49998,11 +49725,11 @@
       ],
       [
          "distillation",
-         "1-4"
+         "method"
       ],
       [
          "distillation",
-         "method"
+         "sampling"
       ],
       [
          "distilling",
@@ -50839,10 +50566,6 @@
       [
          "dutch",
          "join"
-      ],
-      [
-         "dvc",
-         "3.0"
       ],
       [
          "dying",
@@ -52834,11 +52557,15 @@
       ],
       [
          "ernie",
-         "4.0"
+         "ai"
       ],
       [
          "ernie",
-         "ai"
+         "chatbot"
+      ],
+      [
+         "ernie",
+         "generative"
       ],
       [
          "ernie",
@@ -54714,10 +54441,6 @@
       ],
       [
          "feature",
-         "1800+"
-      ],
-      [
-         "feature",
          "customize"
       ],
       [
@@ -54779,6 +54502,10 @@
       [
          "feature",
          "sk"
+      ],
+      [
+         "feature",
+         "start-ups"
       ],
       [
          "feature",
@@ -57950,7 +57677,7 @@
       ],
       [
          "generate-sitemap",
-         "1.9.2"
+         "released"
       ],
       [
          "generated",
@@ -59782,7 +59509,11 @@
       ],
       [
          "gpt",
-         "3.5"
+         "anthropic"
+      ],
+      [
+         "gpt",
+         "claude"
       ],
       [
          "gpt",
@@ -60723,10 +60454,6 @@
       [
          "habib",
          "humanloop"
-      ],
-      [
-         "habitat",
-         "3.0"
       ],
       [
          "habits",
@@ -66138,10 +65865,6 @@
       ],
       [
          "invests",
-         "1.3"
-      ],
-      [
-         "invests",
          "anthropic"
       ],
       [
@@ -66550,7 +66273,7 @@
       ],
       [
          "javadoc-cleanup",
-         "1.3.7"
+         "released"
       ],
       [
          "javascript",
@@ -66955,10 +66678,6 @@
       [
          "jpmorgan's",
          "dimon"
-      ],
-      [
-         "jq",
-         "1.7"
       ],
       [
          "js...with",
@@ -69550,10 +69269,6 @@
       ],
       [
          "lightning",
-         "2.1"
-      ],
-      [
-         "lightning",
          "ai"
       ],
       [
@@ -69570,11 +69285,11 @@
       ],
       [
          "lightweight",
-         "3.2"
+         "deployment"
       ],
       [
          "lightweight",
-         "deployment"
+         "lbs"
       ],
       [
          "likens",
@@ -71735,10 +71450,6 @@
       [
          "manageengine",
          "launches"
-      ],
-      [
-         "management",
-         "3.0"
       ],
       [
          "management",
@@ -77829,10 +77540,6 @@
          "optimization"
       ],
       [
-         "novelistai",
-         "2.0"
-      ],
-      [
          "novelty",
          "detection"
       ],
@@ -79630,7 +79337,7 @@
       ],
       [
          "opensilver",
-         "2.0"
+         "weds"
       ],
       [
          "opensource",
@@ -80946,7 +80653,7 @@
       ],
       [
          "passes",
-         "1.5"
+         "billion"
       ],
       [
          "passing",
@@ -81174,7 +80881,7 @@
       ],
       [
          "pays",
-         "15-40"
+         "data"
       ],
       [
          "pays",
@@ -81214,7 +80921,7 @@
       ],
       [
          "pcs",
-         "9.99"
+         "month"
       ],
       [
          "pdfs",
@@ -85390,7 +85097,7 @@
       ],
       [
          "pyaction",
-         "4.25.0"
+         "released"
       ],
       [
          "pyenv",
@@ -85418,15 +85125,11 @@
       ],
       [
          "python",
-         "3.11.6"
-      ],
-      [
-         "python",
-         "3.12"
-      ],
-      [
-         "python",
          "apps"
+      ],
+      [
+         "python",
+         "available"
       ],
       [
          "python",
@@ -85603,10 +85306,6 @@
       [
          "python's",
          "problem"
-      ],
-      [
-         "pytorch",
-         "2.1"
       ],
       [
          "pytorch",
@@ -86074,10 +85773,6 @@
       ],
       [
          "quotes",
-         "20+"
-      ],
-      [
-         "quotes",
          "states"
       ],
       [
@@ -86382,19 +86077,11 @@
       ],
       [
          "raises",
-         "1.5"
-      ],
-      [
-         "raises",
          "1.7b"
       ],
       [
          "raises",
          "10.5m"
-      ],
-      [
-         "raises",
-         "10.6"
       ],
       [
          "raises",
@@ -86419,10 +86106,6 @@
       [
          "raises",
          "25m"
-      ],
-      [
-         "raises",
-         "3.2"
       ],
       [
          "raises",
@@ -86455,6 +86138,10 @@
       [
          "raises",
          "9.5m"
+      ],
+      [
+         "raises",
+         "build"
       ],
       [
          "raises",
@@ -87042,7 +86729,7 @@
       ],
       [
          "recalls",
-         "1.6"
+         "million"
       ],
       [
          "recast",
@@ -88697,10 +88384,6 @@
          "tied"
       ],
       [
-         "resume",
-         "29.97"
-      ],
-      [
          "resumes",
          "cost"
       ],
@@ -88890,10 +88573,6 @@
       ],
       [
          "revenue",
-         "15.5"
-      ],
-      [
-         "revenue",
          "20/month"
       ],
       [
@@ -88919,6 +88598,10 @@
       [
          "revenue",
          "year"
+      ],
+      [
+         "revenue",
+         "yoy"
       ],
       [
          "reversal",
@@ -89431,10 +89114,6 @@
       [
          "road",
          "network"
-      ],
-      [
-         "roadmap",
-         "2023-2024"
       ],
       [
          "roadmap",
@@ -91486,14 +91165,6 @@
       ],
       [
          "sdk",
-         "2.0"
-      ],
-      [
-         "sdk",
-         "23.9"
-      ],
-      [
-         "sdk",
          "ai-powered"
       ],
       [
@@ -91511,10 +91182,6 @@
       [
          "seamlessly",
          "integrated"
-      ],
-      [
-         "search",
-         "2.0"
       ],
       [
          "search",
@@ -94050,7 +93717,7 @@
       ],
       [
          "soars",
-         "17.9"
+         "billion"
       ],
       [
          "sobo",
@@ -94162,10 +93829,6 @@
       ],
       [
          "software",
-         "3.0"
-      ],
-      [
-         "software",
          "advanced"
       ],
       [
@@ -94239,6 +93902,10 @@
       [
          "software",
          "requirements"
+      ],
+      [
+         "software",
+         "rise"
       ],
       [
          "software",
@@ -98054,7 +97721,7 @@
       ],
       [
          "targets",
-         "1.3"
+         "billion"
       ],
       [
          "targets",
@@ -100094,10 +99761,6 @@
       ],
       [
          "top",
-         "40+"
-      ],
-      [
-         "top",
          "adtech"
       ],
       [
@@ -100506,10 +100169,6 @@
       ],
       [
          "trained",
-         "100+"
-      ],
-      [
-         "trained",
          "ai"
       ],
       [
@@ -100555,6 +100214,10 @@
       [
          "trained",
          "voice"
+      ],
+      [
+         "trained",
+         "wildlife"
       ],
       [
          "training",
@@ -100823,10 +100486,6 @@
       [
          "translate",
          "podcasts"
-      ],
-      [
-         "translatevideo",
-         "2.0"
       ],
       [
          "translation",
@@ -105666,10 +105325,6 @@
       ],
       [
          "web",
-         "2.0"
-      ],
-      [
-         "web",
          "answers"
       ],
       [
@@ -105679,6 +105334,10 @@
       [
          "web",
          "apps"
+      ],
+      [
+         "web",
+         "big"
       ],
       [
          "web",
@@ -106330,10 +105989,6 @@
       ],
       [
          "work",
-         "3.5"
-      ],
-      [
-         "work",
          "alone"
       ],
       [
@@ -106343,6 +105998,10 @@
       [
          "work",
          "datascience"
+      ],
+      [
+         "work",
+         "days"
       ],
       [
          "work",
@@ -106726,10 +106385,6 @@
       ],
       [
          "worth",
-         "2.7"
-      ],
-      [
-         "worth",
          "billion"
       ],
       [
@@ -106923,10 +106578,6 @@
       [
          "xdr",
          "infiniband"
-      ],
-      [
-         "xgboost",
-         "2.0"
       ],
       [
          "xgboost",
@@ -107391,19 +107042,9 @@
          "paper"
       ],
       [
-         "000+",
-         "daily",
-         "emails"
-      ],
-      [
          "000th",
          "level",
          "20b"
-      ],
-      [
-         "1-4",
-         "sampling",
-         "steps"
       ],
       [
          "1-bit",
@@ -107411,39 +107052,9 @@
          "large"
       ],
       [
-         "1.3",
-         "billion",
-         "annual"
-      ],
-      [
-         "1.3",
-         "billion",
-         "annualized"
-      ],
-      [
-         "1.3",
-         "billion",
-         "micron"
-      ],
-      [
          "1.3b",
          "revenue",
          "year"
-      ],
-      [
-         "1.5",
-         "billion",
-         "interactions"
-      ],
-      [
-         "1.5",
-         "million",
-         "pre-series"
-      ],
-      [
-         "1.6",
-         "million",
-         "gas-powered"
       ],
       [
          "1.7b",
@@ -107456,19 +107067,9 @@
          "funding"
       ],
       [
-         "10.6",
-         "build",
-         "conversational"
-      ],
-      [
          "10/month",
          "ai",
          "assistant"
-      ],
-      [
-         "100+",
-         "wildlife",
-         "songs"
       ],
       [
          "100m",
@@ -107566,16 +107167,6 @@
          "fund"
       ],
       [
-         "15-40",
-         "data",
-         "science"
-      ],
-      [
-         "15.5",
-         "yoy",
-         "euro"
-      ],
-      [
          "150m",
          "2.5b",
          "valuation"
@@ -107611,19 +107202,9 @@
          "big"
       ],
       [
-         "17.9",
-         "billion",
-         "rest"
-      ],
-      [
          "170b+",
          "acquisitions",
          "satya"
-      ],
-      [
-         "1800+",
-         "start-ups",
-         "dubai"
       ],
       [
          "18th-century",
@@ -107671,16 +107252,6 @@
          "trained"
       ],
       [
-         "2.0",
-         "big",
-         "data"
-      ],
-      [
-         "2.0",
-         "weds",
-         "vb.net"
-      ],
-      [
          "2.5b",
          "valuation",
          "busy"
@@ -107714,16 +107285,6 @@
          "200m",
          "kitty",
          "pay"
-      ],
-      [
-         "2023-2024",
-         "complete",
-         "road"
-      ],
-      [
-         "2023-2024",
-         "complete",
-         "roadmap"
       ],
       [
          "20b",
@@ -107811,11 +107372,6 @@
          "missions"
       ],
       [
-         "3.0",
-         "rise",
-         "ai"
-      ],
-      [
          "3.25m",
          "seed",
          "answer"
@@ -107829,16 +107385,6 @@
          "3.4m",
          "frames",
          "annotated"
-      ],
-      [
-         "3.5",
-         "anthropic",
-         "features"
-      ],
-      [
-         "3.5",
-         "days",
-         "week"
       ],
       [
          "3.5-day",
@@ -107956,16 +107502,6 @@
          "point"
       ],
       [
-         "4.0",
-         "ai",
-         "model"
-      ],
-      [
-         "4.0",
-         "generative",
-         "ai"
-      ],
-      [
          "4.58m",
          "revenue",
          "20/month"
@@ -107974,11 +107510,6 @@
          "4.58m",
          "revenue",
          "month"
-      ],
-      [
-         "40+",
-         "generative",
-         "ai"
       ],
       [
          "400-page",
@@ -108039,11 +107570,6 @@
          "5-word",
          "chatgpt",
          "prompt"
-      ],
-      [
-         "50+",
-         "ai",
-         "tools"
       ],
       [
          "50m",
@@ -108559,11 +108085,6 @@
          "account",
          "start",
          "own"
-      ],
-      [
-         "accuracy",
-         "+22",
-         "rag"
       ],
       [
          "accuracy",
@@ -109799,11 +109320,6 @@
          "age-warping",
          "friends",
          "ai"
-      ],
-      [
-         "aged",
-         "13-17",
-         "adds"
       ],
       [
          "agency",
@@ -117812,11 +117328,6 @@
       ],
       [
          "announces",
-         "habitat",
-         "3.0"
-      ],
-      [
-         "announces",
          "health",
          "language"
       ],
@@ -119008,7 +118519,7 @@
       [
          "arc",
          "gpt",
-         "3.5"
+         "anthropic"
       ],
       [
          "arc",
@@ -123742,11 +123253,6 @@
       ],
       [
          "brings",
-         "50+",
-         "ai"
-      ],
-      [
-         "brings",
          "ai",
          "apps"
       ],
@@ -123754,6 +123260,11 @@
          "brings",
          "ai",
          "assistants"
+      ],
+      [
+         "brings",
+         "ai",
+         "tools"
       ],
       [
          "brings",
@@ -126467,11 +125978,6 @@
       ],
       [
          "chatgpt",
-         "3.5",
-         "turbo"
-      ],
-      [
-         "chatgpt",
          "accept",
          "speech"
       ],
@@ -127233,7 +126739,7 @@
       [
          "children",
          "work",
-         "3.5"
+         "days"
       ],
       [
          "china",
@@ -128328,7 +127834,7 @@
       [
          "cloud",
          "pcs",
-         "9.99"
+         "month"
       ],
       [
          "cloud",
@@ -129489,11 +128995,6 @@
          "complete",
          "road",
          "map."
-      ],
-      [
-         "complete",
-         "roadmap",
-         "2023-2024"
       ],
       [
          "completion",
@@ -131612,8 +131113,8 @@
       ],
       [
          "crossed",
-         "1.3",
-         "billion"
+         "billion",
+         "annualized"
       ],
       [
          "crossed",
@@ -131843,7 +131344,7 @@
       [
          "current",
          "web",
-         "2.0"
+         "big"
       ],
       [
          "curriculum",
@@ -133679,11 +133180,6 @@
          "deal",
          "value",
          "company"
-      ],
-      [
-         "deal",
-         "worth",
-         "2.7"
       ],
       [
          "deal",
@@ -135593,7 +135089,7 @@
       [
          "diffusion",
          "distillation",
-         "1-4"
+         "sampling"
       ],
       [
          "diffusion",
@@ -135987,8 +135483,8 @@
       ],
       [
          "distillation",
-         "1-4",
-         "sampling"
+         "sampling",
+         "steps"
       ],
       [
          "distilling",
@@ -138768,27 +138264,22 @@
       [
          "erica",
          "passes",
-         "1.5"
-      ],
-      [
-         "ernie",
-         "4.0",
-         "ai"
-      ],
-      [
-         "ernie",
-         "4.0",
-         "chatbot"
-      ],
-      [
-         "ernie",
-         "4.0",
-         "generative"
+         "billion"
       ],
       [
          "ernie",
          "ai",
          "good"
+      ],
+      [
+         "ernie",
+         "ai",
+         "model"
+      ],
+      [
+         "ernie",
+         "generative",
+         "ai"
       ],
       [
          "erotic",
@@ -140702,11 +140193,6 @@
       ],
       [
          "feature",
-         "1800+",
-         "start-ups"
-      ],
-      [
-         "feature",
          "customize",
          "smart"
       ],
@@ -140769,6 +140255,11 @@
          "feature",
          "sk",
          "hynix"
+      ],
+      [
+         "feature",
+         "start-ups",
+         "dubai"
       ],
       [
          "feature",
@@ -140874,11 +140365,6 @@
          "features",
          "product",
          "lineup"
-      ],
-      [
-         "features",
-         "python",
-         "3.12"
       ],
       [
          "features",
@@ -141368,7 +140854,7 @@
       [
          "fine-tune",
          "chatgpt",
-         "3.5"
+         "turbo"
       ],
       [
          "fine-tune",
@@ -143253,7 +142739,7 @@
       [
          "funding",
          "soars",
-         "17.9"
+         "billion"
       ],
       [
          "fundraising",
@@ -144169,11 +143655,6 @@
          "generate",
          "submodels",
          "zero"
-      ],
-      [
-         "generate-sitemap",
-         "1.9.2",
-         "released"
       ],
       [
          "generated",
@@ -147182,13 +146663,8 @@
       ],
       [
          "gpt",
-         "3.5",
-         "anthropic"
-      ],
-      [
-         "gpt",
-         "3.5",
-         "claude"
+         "anthropic",
+         "features"
       ],
       [
          "gpt",
@@ -147293,7 +146769,7 @@
       [
          "gpt-4",
          "ernie",
-         "4.0"
+         "chatbot"
       ],
       [
          "gpt-4",
@@ -149906,11 +149382,6 @@
          "lead"
       ],
       [
-         "hpc",
-         "sdk",
-         "23.9"
-      ],
-      [
          "hq",
          "nasa",
          "campus"
@@ -150321,11 +149792,6 @@
          "approach"
       ],
       [
-         "hybrid",
-         "search",
-         "2.0"
-      ],
-      [
          "hynix",
          "hbm3e",
          "memory"
@@ -150398,7 +149864,7 @@
       [
          "hyundai",
          "recalls",
-         "1.6"
+         "million"
       ],
       [
          "hyundai",
@@ -152433,11 +151899,6 @@
       [
          "insurance",
          "quotes",
-         "20+"
-      ],
-      [
-         "insurance",
-         "quotes",
          "states"
       ],
       [
@@ -153557,11 +153018,6 @@
       ],
       [
          "invests",
-         "1.3",
-         "billion"
-      ],
-      [
-         "invests",
          "anthropic",
          "apple"
       ],
@@ -153569,6 +153025,11 @@
          "invests",
          "billion",
          "anthropic"
+      ],
+      [
+         "invests",
+         "billion",
+         "micron"
       ],
       [
          "invests",
@@ -153963,7 +153424,7 @@
       [
          "japan",
          "invests",
-         "1.3"
+         "billion"
       ],
       [
          "japan",
@@ -154019,11 +153480,6 @@
          "java",
          "paul",
          "bakker"
-      ],
-      [
-         "javadoc-cleanup",
-         "1.3.7",
-         "released"
       ],
       [
          "javascript",
@@ -154761,11 +154217,6 @@
          "surprisingly"
       ],
       [
-         "kicked",
-         "cloud",
-         "2.0"
-      ],
-      [
          "kickstart",
          "ai",
          "edit"
@@ -154809,11 +154260,6 @@
          "killer",
          "app",
          "bigger"
-      ],
-      [
-         "killer",
-         "resume",
-         "29.97"
       ],
       [
          "killing",
@@ -155044,11 +154490,6 @@
          "knowledge",
          "graphs",
          "text"
-      ],
-      [
-         "knowledge",
-         "management",
-         "3.0"
       ],
       [
          "known",
@@ -156938,7 +156379,7 @@
       [
          "learning",
          "pays",
-         "15-40"
+         "data"
       ],
       [
          "learning",
@@ -157574,11 +157015,6 @@
          "lights",
          "using",
          "ai"
-      ],
-      [
-         "lightweight",
-         "3.2",
-         "lbs"
       ],
       [
          "lightweight",
@@ -159182,11 +158618,6 @@
       ],
       [
          "magic",
-         "avatars",
-         "2.0"
-      ],
-      [
-         "magic",
          "cnn",
          "pooling"
       ],
@@ -159228,7 +158659,7 @@
       [
          "magicschool",
          "brings",
-         "50+"
+         "ai"
       ],
       [
          "main",
@@ -163023,12 +162454,12 @@
       [
          "model",
          "trained",
-         "100+"
+         "orca"
       ],
       [
          "model",
          "trained",
-         "orca"
+         "wildlife"
       ],
       [
          "model",
@@ -166418,7 +165849,7 @@
       [
          "nexusflow",
          "raises",
-         "10.6"
+         "build"
       ],
       [
          "ng",
@@ -166559,11 +165990,6 @@
          "nod.ai",
          "sign",
          "things"
-      ],
-      [
-         "node",
-         "sdk",
-         "2.0"
       ],
       [
          "nodes",
@@ -167983,7 +167409,7 @@
       [
          "oorja",
          "raises",
-         "1.5"
+         "million"
       ],
       [
          "open",
@@ -168778,7 +168204,7 @@
       [
          "openai",
          "targets",
-         "1.3"
+         "billion"
       ],
       [
          "openai",
@@ -169032,8 +168458,8 @@
       ],
       [
          "opensilver",
-         "2.0",
-         "weds"
+         "weds",
+         "vb.net"
       ],
       [
          "opensource",
@@ -169438,7 +168864,7 @@
       [
          "outperforms",
          "gpt",
-         "3.5"
+         "claude"
       ],
       [
          "outperforms",
@@ -170332,8 +169758,8 @@
       ],
       [
          "passes",
-         "1.5",
-         "billion"
+         "billion",
+         "interactions"
       ],
       [
          "passing",
@@ -170547,8 +169973,8 @@
       ],
       [
          "pays",
-         "15-40",
-         "data"
+         "data",
+         "science"
       ],
       [
          "pays",
@@ -170584,11 +170010,6 @@
          "pca",
          "theory",
          "implementation"
-      ],
-      [
-         "pcs",
-         "9.99",
-         "month"
       ],
       [
          "pdfs",
@@ -174686,11 +174107,6 @@
          "openai"
       ],
       [
-         "pyaction",
-         "4.25.0",
-         "released"
-      ],
-      [
          "pyramid",
          "reporting",
          "proactive"
@@ -174704,11 +174120,6 @@
          "pytest",
          "dentro",
          "pytest"
-      ],
-      [
-         "python",
-         "3.11.6",
-         "available"
       ],
       [
          "python",
@@ -174948,7 +174359,7 @@
       [
          "q3",
          "revenue",
-         "15.5"
+         "yoy"
       ],
       [
          "q3",
@@ -175337,11 +174748,6 @@
       ],
       [
          "quotes",
-         "20+",
-         "states"
-      ],
-      [
-         "quotes",
          "states",
          "raised"
       ],
@@ -175657,18 +175063,8 @@
       ],
       [
          "raises",
-         "1.5",
-         "million"
-      ],
-      [
-         "raises",
          "1.7b",
          "acquire"
-      ],
-      [
-         "raises",
-         "10.6",
-         "build"
       ],
       [
          "raises",
@@ -175699,11 +175095,6 @@
          "raises",
          "25m",
          "series"
-      ],
-      [
-         "raises",
-         "3.2",
-         "million"
       ],
       [
          "raises",
@@ -175747,6 +175138,11 @@
       ],
       [
          "raises",
+         "build",
+         "conversational"
+      ],
+      [
+         "raises",
          "ethical",
          "concerns"
       ],
@@ -175764,6 +175160,11 @@
          "raises",
          "million",
          "new"
+      ],
+      [
+         "raises",
+         "million",
+         "pre-series"
       ],
       [
          "raises",
@@ -175844,11 +175245,6 @@
          "rao",
          "says",
          "mdash"
-      ],
-      [
-         "rapid",
-         "ai",
-         "2.0"
       ],
       [
          "rapidly",
@@ -176332,8 +175728,8 @@
       ],
       [
          "recalls",
-         "1.6",
-         "million"
+         "million",
+         "gas-powered"
       ],
       [
          "recast",
@@ -178473,7 +177869,7 @@
       [
          "retrieval",
          "accuracy",
-         "+22"
+         "rag"
       ],
       [
          "retrieval",
@@ -178622,13 +178018,8 @@
       ],
       [
          "revenue",
-         "15.5",
-         "yoy"
-      ],
-      [
-         "revenue",
          "crossed",
-         "1.3"
+         "billion"
       ],
       [
          "revenue",
@@ -178639,6 +178030,11 @@
          "revenue",
          "growth",
          "customer"
+      ],
+      [
+         "revenue",
+         "yoy",
+         "euro"
       ],
       [
          "review",
@@ -179578,7 +178974,7 @@
       [
          "rolls",
          "ernie",
-         "4.0"
+         "generative"
       ],
       [
          "rolls",
@@ -184017,8 +183413,8 @@
       ],
       [
          "soars",
-         "17.9",
-         "billion"
+         "billion",
+         "rest"
       ],
       [
          "sobo",
@@ -184157,11 +183553,6 @@
       ],
       [
          "software",
-         "3.0",
-         "rise"
-      ],
-      [
-         "software",
          "advanced",
          "analytics"
       ],
@@ -184234,6 +183625,11 @@
          "software",
          "requirements",
          "userdoc"
+      ],
+      [
+         "software",
+         "rise",
+         "ai"
       ],
       [
          "software",
@@ -185503,7 +184899,7 @@
       [
          "star",
          "feature",
-         "1800+"
+         "start-ups"
       ],
       [
          "starburst",
@@ -187262,11 +186658,6 @@
       ],
       [
          "support",
-         "dvc",
-         "3.0"
-      ],
-      [
-         "support",
          "energy-hungry",
          "ai"
       ],
@@ -187558,7 +186949,7 @@
       [
          "swyx",
          "software",
-         "3.0"
+         "rise"
       ],
       [
          "symbol",
@@ -188102,8 +187493,8 @@
       ],
       [
          "targets",
-         "1.3",
-         "billion"
+         "billion",
+         "annual"
       ],
       [
          "targets",
@@ -188633,7 +188024,7 @@
       [
          "teens",
          "aged",
-         "13-17"
+         "adds"
       ],
       [
          "teens",
@@ -189942,11 +189333,6 @@
       ],
       [
          "tool",
-         "python",
-         "3.12"
-      ],
-      [
-         "tool",
          "revolutionize",
          "products"
       ],
@@ -190249,11 +189635,6 @@
          "tools",
          "web",
          "interface"
-      ],
-      [
-         "top",
-         "40+",
-         "generative"
       ],
       [
          "top",
@@ -190712,11 +190093,6 @@
       ],
       [
          "trained",
-         "100+",
-         "wildlife"
-      ],
-      [
-         "trained",
          "ai",
          "assistant"
       ],
@@ -190759,6 +190135,11 @@
          "trained",
          "slave",
          "labor"
+      ],
+      [
+         "trained",
+         "wildlife",
+         "songs"
       ],
       [
          "training",
@@ -192948,11 +192329,6 @@
       [
          "unveils",
          "decidiffusion",
-         "1.0"
-      ],
-      [
-         "unveils",
-         "decidiffusion",
          "million"
       ],
       [
@@ -192983,7 +192359,7 @@
       [
          "unveils",
          "ernie",
-         "4.0"
+         "ai"
       ],
       [
          "unveils",
@@ -193259,11 +192635,6 @@
          "updates",
          "export",
          "curbs"
-      ],
-      [
-         "updates",
-         "pytorch",
-         "2.1"
       ],
       [
          "updates",
@@ -196592,13 +195963,13 @@
       ],
       [
          "web",
-         "2.0",
-         "big"
+         "applications",
+         "python"
       ],
       [
          "web",
-         "applications",
-         "python"
+         "big",
+         "data"
       ],
       [
          "web",
@@ -197277,13 +196648,13 @@
       ],
       [
          "work",
-         "3.5",
-         "days"
+         "bad",
+         "idea"
       ],
       [
          "work",
-         "bad",
-         "idea"
+         "days",
+         "week"
       ],
       [
          "work",
@@ -197679,11 +197050,6 @@
          "worst",
          "month",
          "year"
-      ],
-      [
-         "worth",
-         "2.7",
-         "billion"
       ],
       [
          "worth",

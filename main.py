@@ -37,8 +37,12 @@ def split_to_ngrams(str_line: str, stopwords: set()):
         tokens = []
         for w in word_list:
             wlow = w.lower()
-            if (w == "IT") or qq.is_word(wlow, stopwords):
+            if (w == "IT") or (wlow == "c#"):
                 tokens.append(wlow)
+            else:
+                wlow = wlow.strip("#")
+                if qq.is_word(wlow, stopwords):
+                    tokens.append(wlow)
 
         result.append(tokens)
     return result

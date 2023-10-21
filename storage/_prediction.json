@@ -1,81 +1,6 @@
 {
    "1": [
       [
-         "#1"
-      ],
-      [
-         "#12"
-      ],
-      [
-         "#138"
-      ],
-      [
-         "#139"
-      ],
-      [
-         "#140"
-      ],
-      [
-         "#2"
-      ],
-      [
-         "#221"
-      ],
-      [
-         "#222"
-      ],
-      [
-         "#223"
-      ],
-      [
-         "#239"
-      ],
-      [
-         "#240"
-      ],
-      [
-         "#4"
-      ],
-      [
-         "#46"
-      ],
-      [
-         "#47"
-      ],
-      [
-         "#48"
-      ],
-      [
-         "#67"
-      ],
-      [
-         "#68"
-      ],
-      [
-         "#69"
-      ],
-      [
-         "#8"
-      ],
-      [
-         "#ecai2023"
-      ],
-      [
-         "#ijcai2023"
-      ],
-      [
-         "#learnedtoday"
-      ],
-      [
-         "#powerplatform"
-      ],
-      [
-         "#sharepoint"
-      ],
-      [
-         "#workplace"
-      ],
-      [
          ".net"
       ],
       [
@@ -7495,6 +7420,9 @@
          "ebay's"
       ],
       [
+         "ecai2023"
+      ],
+      [
          "echelon"
       ],
       [
@@ -11560,6 +11488,9 @@
          "iisc"
       ],
       [
+         "ijcai2023"
+      ],
+      [
          "illinois"
       ],
       [
@@ -13292,6 +13223,9 @@
       ],
       [
          "learned"
+      ],
+      [
+         "learnedtoday"
       ],
       [
          "learner"
@@ -17624,6 +17558,9 @@
       ],
       [
          "powering"
+      ],
+      [
+         "powerplatform"
       ],
       [
          "powers"
@@ -25560,34 +25497,6 @@
    ],
    "2": [
       [
-         "#1",
-         "data"
-      ],
-      [
-         "#138",
-         "dalle-3"
-      ],
-      [
-         "#139",
-         "multimodal"
-      ],
-      [
-         "#140",
-         "yasa-1"
-      ],
-      [
-         "#ecai2023",
-         "outstanding"
-      ],
-      [
-         "#ecai2023",
-         "tweets"
-      ],
-      [
-         "#ijcai2023",
-         "distinguished"
-      ],
-      [
          ".net",
          "rocks"
       ],
@@ -27966,18 +27875,6 @@
       [
          "agreement",
          "north"
-      ],
-      [
-         "ai",
-         "#12"
-      ],
-      [
-         "ai",
-         "#239"
-      ],
-      [
-         "ai",
-         "#240"
       ],
       [
          "ai",
@@ -39333,11 +39230,11 @@
       ],
       [
          "canada's",
-         "#1"
+         "ai"
       ],
       [
          "canada's",
-         "ai"
+         "data"
       ],
       [
          "canceled",
@@ -44165,7 +44062,7 @@
       ],
       [
          "congratulations",
-         "#ecai2023"
+         "ecai2023"
       ],
       [
          "congress",
@@ -50776,6 +50673,14 @@
          "first"
       ],
       [
+         "ecai2023",
+         "outstanding"
+      ],
+      [
+         "ecai2023",
+         "tweets"
+      ],
+      [
          "echelon",
          "matrix"
       ],
@@ -52458,10 +52363,6 @@
       [
          "epik-inspired",
          "app"
-      ],
-      [
-         "episode",
-         "#8"
       ],
       [
          "epri",
@@ -62880,6 +62781,10 @@
          "partner"
       ],
       [
+         "ijcai2023",
+         "distinguished"
+      ],
+      [
          "illumina",
          "acquisition"
       ],
@@ -70773,18 +70678,6 @@
       ],
       [
          "machina",
-         "#221"
-      ],
-      [
-         "machina",
-         "#222"
-      ],
-      [
-         "machina",
-         "#223"
-      ],
-      [
-         "machina",
          "labs"
       ],
       [
@@ -77032,18 +76925,6 @@
          "week"
       ],
       [
-         "newsletter",
-         "#67"
-      ],
-      [
-         "newsletter",
-         "#68"
-      ],
-      [
-         "newsletter",
-         "#69"
-      ],
-      [
          "newsrooms",
          "world"
       ],
@@ -81685,18 +81566,6 @@
       ],
       [
          "picks",
-         "#46"
-      ],
-      [
-         "picks",
-         "#47"
-      ],
-      [
-         "picks",
-         "#48"
-      ],
-      [
-         "picks",
          "15m"
       ],
       [
@@ -82509,19 +82378,11 @@
       ],
       [
          "podcast",
-         "#138"
-      ],
-      [
-         "podcast",
-         "#139"
-      ],
-      [
-         "podcast",
-         "#140"
-      ],
-      [
-         "podcast",
          "appearance"
+      ],
+      [
+         "podcast",
+         "dalle-3"
       ],
       [
          "podcast",
@@ -82545,7 +82406,15 @@
       ],
       [
          "podcast",
+         "multimodal"
+      ],
+      [
+         "podcast",
          "voices"
+      ],
+      [
+         "podcast",
+         "yasa-1"
       ],
       [
          "podcaster's",
@@ -83538,14 +83407,6 @@
       [
          "preventing",
          "health"
-      ],
-      [
-         "preview",
-         "#1"
-      ],
-      [
-         "preview",
-         "#2"
       ],
       [
          "preview",
@@ -105485,10 +105346,6 @@
       ],
       [
          "week",
-         "#4"
-      ],
-      [
-         "week",
          "10/16"
       ],
       [
@@ -107021,26 +106878,6 @@
       ]
    ],
    "3": [
-      [
-         "#1",
-         "data",
-         "ai"
-      ],
-      [
-         "#139",
-         "multimodal",
-         "chatgpt"
-      ],
-      [
-         "#ecai2023",
-         "outstanding",
-         "paper"
-      ],
-      [
-         "#ijcai2023",
-         "distinguished",
-         "paper"
-      ],
       [
          "000th",
          "level",
@@ -112820,21 +112657,6 @@
          "ai",
          "news",
          "week"
-      ],
-      [
-         "ai",
-         "newsletter",
-         "#67"
-      ],
-      [
-         "ai",
-         "newsletter",
-         "#68"
-      ],
-      [
-         "ai",
-         "newsletter",
-         "#69"
       ],
       [
          "ai",
@@ -124378,13 +124200,13 @@
       ],
       [
          "canada's",
-         "#1",
-         "data"
+         "ai",
+         "ambitions"
       ],
       [
          "canada's",
-         "ai",
-         "ambitions"
+         "data",
+         "ai"
       ],
       [
          "cancels",
@@ -124760,11 +124582,6 @@
          "carrie",
          "lazorchak",
          "chief"
-      ],
-      [
-         "cars",
-         "episode",
-         "#8"
       ],
       [
          "cars",
@@ -129403,7 +129220,7 @@
       ],
       [
          "congratulations",
-         "#ecai2023",
+         "ecai2023",
          "outstanding"
       ],
       [
@@ -132220,21 +132037,6 @@
          "data",
          "llm",
          "using"
-      ],
-      [
-         "data",
-         "machina",
-         "#221"
-      ],
-      [
-         "data",
-         "machina",
-         "#222"
-      ],
-      [
-         "data",
-         "machina",
-         "#223"
       ],
       [
          "data",
@@ -136505,6 +136307,11 @@
          "ebay's",
          "first",
          "chief"
+      ],
+      [
+         "ecai2023",
+         "outstanding",
+         "paper"
       ],
       [
          "echelon",
@@ -150122,6 +149929,11 @@
          "set"
       ],
       [
+         "ijcai2023",
+         "distinguished",
+         "paper"
+      ],
+      [
          "illusion",
          "tumbling",
          "inflation"
@@ -155457,11 +155269,6 @@
          "service"
       ],
       [
-         "launch",
-         "week",
-         "#4"
-      ],
-      [
          "launched",
          "ai",
          "quantum"
@@ -158324,17 +158131,17 @@
       [
          "lwiai",
          "podcast",
-         "#138"
+         "dalle-3"
       ],
       [
          "lwiai",
          "podcast",
-         "#139"
+         "multimodal"
       ],
       [
          "lwiai",
          "podcast",
-         "#140"
+         "yasa-1"
       ],
       [
          "lxt",
@@ -171578,23 +171385,13 @@
       ],
       [
          "podcast",
-         "#138",
-         "dalle-3"
-      ],
-      [
-         "podcast",
-         "#139",
-         "multimodal"
-      ],
-      [
-         "podcast",
-         "#140",
-         "yasa-1"
-      ],
-      [
-         "podcast",
          "ieee",
          "spectrum"
+      ],
+      [
+         "podcast",
+         "multimodal",
+         "chatgpt"
       ],
       [
          "podcast",
@@ -181019,7 +180816,7 @@
       [
          "seat",
          "canada's",
-         "#1"
+         "data"
       ],
       [
          "seattle's",
@@ -186473,16 +186270,6 @@
       ],
       [
          "summit",
-         "preview",
-         "#1"
-      ],
-      [
-         "summit",
-         "preview",
-         "#2"
-      ],
-      [
-         "summit",
          "provide",
          "solutions"
       ],
@@ -189790,21 +189577,6 @@
          "top",
          "people",
          "artificial"
-      ],
-      [
-         "top",
-         "picks",
-         "#46"
-      ],
-      [
-         "top",
-         "picks",
-         "#47"
-      ],
-      [
-         "top",
-         "picks",
-         "#48"
       ],
       [
          "top",
@@ -196160,16 +195932,6 @@
          "week",
          "9/10",
          "15/10"
-      ],
-      [
-         "week",
-         "ai",
-         "#239"
-      ],
-      [
-         "week",
-         "ai",
-         "#240"
       ],
       [
          "week",

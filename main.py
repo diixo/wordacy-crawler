@@ -41,7 +41,7 @@ def main():
     stopwords = load_dictionaries()
 
     analyzer = Analyzer()
-    analyzer.open_json("storage/allainews-news.json")
+    analyzer.open_json("storage/_prediction-allainews-news.json")
     
     content = analyzer.content.get("data", dict())
 

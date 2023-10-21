@@ -2,6 +2,7 @@
 import json
 from pathlib import Path
 import qq_parser as qq
+from qq_crawler2 import Crawler2
 
 class Analyzer:
 
@@ -36,12 +37,12 @@ class Analyzer:
          fd = open(rel + path.name, 'r', encoding='utf-8')
          self.urls = set(json.load(fd))
 
-   def learn(self, url: str):
+   def learn(self, url: str, hhh_mask = None):
       url = url.lower().strip('/')
       if url in self.urls:
          print(f"url={url} already")
       else:
-         qq.parse_url(url, self.content)
+         qq.parse_url(url, self.content, hhh_mask=hhh_mask)
          self.urls.add(url)
 
    def learn_file(self, filepath: str):
@@ -66,6 +67,36 @@ class Analyzer:
    def analyse(self, url: str):
       pass
 
+
+def test():
+   url = "https://allainews.com/news/"
+
+   crawler = Crawler2()
+   crawler.enqueue_url(url)
+   crawler.set_filter(url, [
+      "/terms/", 
+      "/privacy/", 
+      "/about/", 
+      "/accounts/", 
+      "/filtered/", 
+      "/videos/", 
+      "/podcasts/", 
+      "/feed/", 
+      "/topic/",
+      "/source/"
+      ])
+   crawler.run()
+
+   urls = crawler.get_urls(url)
+   for u in urls:
+      print(u)
+
+   analyzer = Analyzer()
+   analyzer.open_json("storage/allainews-news.json")
+   analyzer.learn(url)
+   analyzer.save_json()
+
+
 if __name__ == "__main__":
    u1 = "https://pythonexamples.org/"
    u2 = "https://kotlinandroid.org/"
@@ -76,10 +107,7 @@ if __name__ == "__main__":
    #u5 = "https://www.javatpoint.com/python-variables"
    #u5 = "https://www.programiz.com/r"
 
-   analyzer = Analyzer()
-   analyzer.open_json("storage/allainews-news.json")
-   analyzer.learn("https://allainews.com/news/")
-   analyzer.save_json()
+   test()
    
    analyzer = Analyzer()
    #analyzer.learn_file('process/techopedia-train-db-v5.data')

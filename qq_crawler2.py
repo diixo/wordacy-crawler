@@ -30,14 +30,14 @@ class Crawler2:
       self.skip = set()
       self.filters = dict()
       self.filepath = ""
-      self.hostnames = dict()
+      self.urls = dict()
       self.recursive = recursive
 
    def open_json(self, filepath:str):
       path = Path(filepath)
       if path.exists():
          fd = open(filepath, 'r', encoding='utf-8')
-         self.hostnames = json.load(fd)
+         self.urls = json.load(fd)
       
       self.filepath = filepath
 
@@ -50,8 +50,8 @@ class Crawler2:
          filepath = "./storage/" + filename + ".json"
 
       result = dict()
-      for host in self.hostnames.keys():
-         result[host] = sorted(self.hostnames[host])
+      for host in self.urls.keys():
+         result[host] = sorted(self.urls[host])
 
       with open(filepath, 'w', encoding='utf-8') as fd:
          json.dump(result, fd, ensure_ascii=False, indent=3)
@@ -63,7 +63,7 @@ class Crawler2:
 
    def clear(self):
       self.new.clear()
-      self.hostnames.clear()
+      self.urls.clear()
       self.unknown.clear()
       self.skip.clear()
       self.filters.clear()
@@ -96,8 +96,8 @@ class Crawler2:
 
       if not self.is_url_valid(url_str) or self.is_filtered(url_str):
          self.skip.add(url_str)
-      elif url_str not in self.hostnames[hostname]:
-         self.hostnames[hostname].add(url_str)
+      elif url_str not in self.urls[hostname]:
+         self.urls[hostname].add(url_str)
          if self.recursive:
             self.new.append(url_str)
 
@@ -106,11 +106,11 @@ class Crawler2:
       url_str = url_str.strip('/')
       hostname = url_hostname(url_str)
 
-      if hostname not in self.hostnames:
-         self.hostnames[hostname] = set()
+      if hostname not in self.urls:
+         self.urls[hostname] = set()
 
-      if url_str not in self.hostnames[hostname]:
-         self.hostnames[hostname].add(url_str)
+      if url_str not in self.urls[hostname]:
+         self.urls[hostname].add(url_str)
          self.new.append(url_str)
 
 
@@ -164,8 +164,8 @@ class Crawler2:
       self.clear()
       home = url_hostname(domain)
 
-      if home not in self.hostnames:
-         self.hostnames[home] = set()
+      if home not in self.urls:
+         self.urls[home] = set()
 
       self.set_filter(domain, filter=filter)
       self.filepath = "./storage/" + urlparse(home).hostname + ".json"
@@ -203,6 +203,9 @@ class Crawler2:
          print("KeyboardInterrupt exception raised")
       except:
          print("Unexpected error raised:", sys.exc_info()[0])
+
+   def get_urls(self):
+      return self.urls
 
 ###############################################################################################
 

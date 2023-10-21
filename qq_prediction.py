@@ -98,6 +98,9 @@ class Prediction:
       self.bigrams_freq_dict  = {}  # freq_dict for bigrams
       self.trigrams_freq_dict = {}  # freq_dict for trigrams
 
+   def __str__(self) -> str:
+      return f"1:{len(self.unigrams_freq_dict)}, 2:{len(self.bigrams_freq_dict)}, 3:{len(self.trigrams_freq_dict)}"
+
    ##########################################################
    def predict(self, str_line: str, stopwords = set()):
       work_str = qq.translate(str_line, stopwords)

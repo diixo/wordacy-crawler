@@ -221,8 +221,10 @@ def parse(raw, result = {}, hhh_mask = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6']):
     read_ahref(raw, structure)
 
     result['keywords'] = sorted(keywords)
-    result['data'] = structure
-    result['headings'] = sorted(hhh)
+    result['data'] = dict()
+    hhh = sorted(hhh)
+    hhh.extend(structure.keys())
+    result['headings'] = hhh
 
 def parse_url(url, result = dict(), hhh_mask = None):
     req = Request(url, headers={'User-Agent': 'XYZ/3.0'})

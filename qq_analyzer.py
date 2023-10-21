@@ -115,6 +115,7 @@ if __name__ == "__main__":
    #u5 = "https://www.programiz.com/r"
 
    test()
+   exit(0)
    
    analyzer = Analyzer()
    #analyzer.learn_file('process/techopedia-train-db-v5.data')

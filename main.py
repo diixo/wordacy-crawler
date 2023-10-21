@@ -10,16 +10,14 @@ from qq_prediction import Prediction
 import qq_parser as qq
 
 
-def load_dictionaries():
-    stopwords = set()
+def load_stopwords():
     diix = Path("data/stopwords.txt")
     if diix.exists():
-        stopwords = sorted([line.replace('\n', '') for line in open(str(diix), 'r', encoding='utf-8').readlines()])
-        return set(stopwords)
-    return stopwords
+        return set([line.replace('\n', '') for line in open(str(diix), 'r', encoding='utf-8').readlines()])
+    return set()
 
 
-def split_to_ngrams(str_line: str, stopwords: set()):
+def str_to_ngrams(str_line: str, stopwords: set()):
 
     line1 = str_line.replace(". ", "! ")
     line1 = re.sub('[!?;,:\[\]\(\)]', "!", line1)
@@ -44,12 +42,12 @@ def split_to_ngrams(str_line: str, stopwords: set()):
                 if qq.is_word(wlow, stopwords):
                     tokens.append(wlow)
 
-        result.append(tokens)
+        if tokens: result.append(tokens)
     return result
 
 
 def test_prediction():
-    stopwords = load_dictionaries()
+    stopwords = load_stopwords()
 
     analyzer = Analyzer()
     #open constant version:
@@ -60,7 +58,7 @@ def test_prediction():
     prediction = Prediction()
     for string in content.keys():
         string = qq.translate(string)
-        ngrams = split_to_ngrams(string, stopwords)
+        ngrams = str_to_ngrams(string, stopwords)
         for tokens in ngrams:
             prediction.add_tokens(tokens)
 
@@ -80,9 +78,6 @@ def test_prediction():
     tpl = prediction.predict_next("ai")
     print(tpl)
 
-
-#s = "John's mom went there, but he wasn't c++, c#, .net, Q&A/Q-A, #nope i_t at-all'. So' she said: 'Where are& viix.co. !!' 'A a'"
-#result = split_to_ngrams(s)
 
 if __name__ == "__main__":
     test_prediction()

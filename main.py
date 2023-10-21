@@ -17,7 +17,15 @@ def load_dictionaries():
         return set(stopwords)
     return stopwords
 
-def split_to_ngrams(str_line: str):
+def is_word(word: str, stopwords=set()):
+    #word = re.search("[\[\]\}\{=@\*]")
+    if (re.sub("[A-Za-z0-9#\'\./_&+-]", "", word) == "") and len(word) > 1:
+        if ((word not in stopwords) and not word.isdigit()):
+            return True
+    return False
+
+
+def split_to_ngrams(str_line: str, stopwords: set()):
 
     line1 = str_line.replace(". ", "! ")
     line1 = re.sub('[!?;,:\[\]\(\)]', "!", line1)
@@ -31,9 +39,10 @@ def split_to_ngrams(str_line: str):
         #words_list = [x.strip(" ") for x in item.split(" ") if (x != '')]
         #words_list = [x.strip(punctuation) if x not in self.dictionary else x for x in item.split(" ") if (x != '')]
 
-        words_list = [x.strip(punctuation) for x in item.split(" ") if (x.strip(punctuation) != '')]
+        word_list = [x.strip(punctuation) for x in item.split(" ") if (x.strip(punctuation) != '')]
+        tokens = [w for w in word_list if is_word(w, stopwords)]
 
-        result.append(words_list)
+        result.append(tokens)
     return result
 
 
@@ -48,7 +57,7 @@ def main():
     prediction = Prediction()
     for string in content.keys():
         string = string.lower()
-        ngrams = split_to_ngrams(string)
+        ngrams = split_to_ngrams(string, stopwords)
         for tokens in ngrams:
             prediction.add_tokens(tokens)
 

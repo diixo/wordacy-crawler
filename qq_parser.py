@@ -80,8 +80,8 @@ def extract_keywords(raw, result = set()):
     result.update([set_text(t.get_text()) for t in tgs])
     if logging: print(f"<<<< tags:{len(tgs)}")
 
-def extract_headings(raw, result = set()):
-    hhh = raw.find_all(['h1', 'h2', 'h3', 'h4', 'h5', 'h6'])
+def extract_headings(raw, hhh_mask, result = set()):
+    hhh = raw.find_all(hhh_mask)
     for h in hhh:
         s = str_tokenize_words(translate(h.get_text()))
         s = ' '.join([w.lower() for w in s if (w == "IT") or (not is_digit(w) and (w.lower() not in stopwords))])
@@ -205,14 +205,14 @@ def extract_structure(raw, result:dict):
                                 break
         ul.extract()
 ########################################################################
-def parse(raw, result = {}):
+def parse(raw, result = {}, hhh_mask = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6']):
 
     structure = result.get('data', dict())
     keywords = set(result.get('keywords', []))
     hhh = set(result.get('headings', []))
 
     extract_keywords(raw, keywords)
-    extract_headings(raw, hhh)
+    extract_headings(raw, hhh_mask, hhh)
 
     li_raw = read_li(raw, 1)
     hhh.update(li_raw.keys())
@@ -224,10 +224,13 @@ def parse(raw, result = {}):
     result['data'] = structure
     result['headings'] = sorted(hhh)
 
-def parse_url(url, result = dict()):
+def parse_url(url, result = dict(), hhh_mask = None):
     req = Request(url, headers={'User-Agent': 'XYZ/3.0'})
     html = urllib.request.urlopen(req).read()
-    raw = BeautifulSoup(html, features="html.parser")
+    if hhh_mask:
+        raw = BeautifulSoup(html, features="html.parser", hhh_mask=hhh_mask)
+    else:
+        raw = BeautifulSoup(html, features="html.parser") 
     parse(raw, result)
     return result
 

@@ -21,6 +21,7 @@ class Analyzer:
       self.filepath = filepath
 
    def save_json(self):
+
       # TODO: remove in future
       #d = self.content.get("headings", dict())
       #self.content["headings"] = dict.fromkeys(d, "")
@@ -37,6 +38,7 @@ class Analyzer:
       if path.exists():
          fd = open(rel + path.name, 'r', encoding='utf-8')
          self.content = json.load(fd)
+
          # TODO: remove in future
          #d = self.content.get("headings", dict())
          #self.content["headings"] = dict.fromkeys(d, "")

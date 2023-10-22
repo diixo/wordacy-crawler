@@ -1,7 +1,7 @@
 import time
 import json
 from pathlib import Path
-import qq_parser as qq
+import qq_parser as qq_parser
 from qq_crawler2 import Crawler2
 
 class Analyzer:
@@ -22,8 +22,8 @@ class Analyzer:
 
    def save_json(self):
       # TODO: remove in future
-      d = self.content.get("headings", dict())
-      self.content["headings"] = dict.fromkeys(d, "")
+      #d = self.content.get("headings", dict())
+      #self.content["headings"] = dict.fromkeys(d, "")
 
       if self.filepath != "": 
          with open(self.filepath, 'w', encoding='utf-8') as fd:
@@ -38,8 +38,8 @@ class Analyzer:
          fd = open(rel + path.name, 'r', encoding='utf-8')
          self.content = json.load(fd)
          # TODO: remove in future
-         d = self.content.get("headings", dict())
-         self.content["headings"] = dict.fromkeys(d, "")
+         #d = self.content.get("headings", dict())
+         #self.content["headings"] = dict.fromkeys(d, "")
 
       path = Path(rel + "_urls.json")
       if path.exists():
@@ -52,7 +52,7 @@ class Analyzer:
          #print(f"url={url} already")
          return False
       else:
-         qq.parse_url(url, self.content, hhh_mask=hhh_mask)
+         qq_parser.parse_url(url, self.content, hhh_mask=hhh_mask)
          self.urls[url] = ""
          return True
 
@@ -62,13 +62,13 @@ class Analyzer:
          print(f"file={path.name} already")
       else:
          if path.exists():
-            qq.parse_file(filepath, self.content)
+            qq_parser.parse_file(filepath, self.content)
             self.urls.add(path.name)
 
    def save_storage(self, filename="_data.json"):
       rel = "./storage/"
 
-      qq.save_json(self.content, rel + filename)
+      qq_parser.save_json(self.content, rel + filename)
 
       filename="_urls.json"
       with open(rel + filename, 'w', encoding='utf-8') as fd:

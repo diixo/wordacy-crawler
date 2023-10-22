@@ -1,5 +1,5 @@
 import re
-import qq_parser as qq
+
 
 def is_digit(word: str):
     w = re.sub(r'[$]?[-+]?[\d]*[.,\:]?[\d]+[ %\"\'\)\+]*', "", word)
@@ -13,6 +13,14 @@ def str_tokenize_words(s: str):
     s = re.findall("(\.?\w[\w'\.&-]*\w|\w\+*#?)", s)
     if s: return s
     return []
+
+def is_word(word: str, stopwords=set()):
+    #word = re.search("[\[\]\}\{=@\*]")
+    if (re.sub("[A-Za-z0-9#\'\./_&+-]", "", word) == "") and len(word) > 1:
+        if ((word not in stopwords) and not word.isdigit() and not is_complex_digit(word)):
+            return True
+    return False
+
 
 def translate(txt: str):
     translation = {
@@ -51,7 +59,7 @@ def str_to_ngrams(str_line: str, stopwords: set()):
                 tokens.append(wlow)
             else:
                 wlow = wlow.strip("#")
-                if qq.is_word(wlow, stopwords):
+                if is_word(wlow, stopwords):
                     tokens.append(wlow)
 
         if tokens: result.append(tokens)

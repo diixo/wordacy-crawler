@@ -20,14 +20,6 @@ logging = False
 stopwords = set()
 
 
-def is_word(word: str, stopwords=set()):
-    #word = re.search("[\[\]\}\{=@\*]")
-    if (re.sub("[A-Za-z0-9#\'\./_&+-]", "", word) == "") and len(word) > 1:
-        if ((word not in stopwords) and not word.isdigit() and not qq.is_complex_digit(word)):
-            return True
-    return False
-
-
 def sanitize(str_line: str) -> bool:
     return not re.search(r'http:|https:|www\.', str_line, re.IGNORECASE)
 

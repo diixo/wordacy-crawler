@@ -36,6 +36,9 @@ class Analyzer:
       if path.exists():
          fd = open(rel + path.name, 'r', encoding='utf-8')
          self.content = json.load(fd)
+         # TODO: remove in future
+         d = self.content.get("headings", dict())
+         self.content["headings"] = dict.fromkeys(d, "")
 
       path = Path(rel + "_urls.json")
       if path.exists():
@@ -122,7 +125,6 @@ if __name__ == "__main__":
    #u5 = "https://www.programiz.com/r"
 
    test()
-   exit(0)
    
    analyzer = Analyzer()
    #analyzer.learn_file('process/techopedia-train-db-v5.data')

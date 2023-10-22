@@ -5284,7 +5284,13 @@
       "I upgraded my AI girlfriend. and now she remembers stuff about me..": "",
       "Introducing Bloggy: The Open-Source Blogging Platform Built with Python and Django": "",
       "A New AI Study from MIT Shows How Deep Neural Networks Don't See the World the Way We Do": "",
-      "[R] Do you read ML/DL/AI related scientific papers? How do you filter them?": ""
+      "[R] Do you read ML/DL/AI related scientific papers? How do you filter them?": "",
+      "AI diagnoses brain tumors in 90 minutes or less": "",
+      "Build A Web App Using Django": "",
+      "Pandas-based library for graphing emotion events with LMs for in-depth sentiment analysis": "",
+      "ChatGPT is not a good psychotherapist, researchers warn": "",
+      "Data labeling service for keypoints / pose [D]": "",
+      "Assessing the strategic centers for VR and AI business success": ""
    },
    "urls": {
       "https://allainews.com/news": "",
@@ -5458,6 +5464,12 @@
       "https://allainews.com/item/i-upgraded-my-ai-girlfriend-and-now-she-remembers-stuff-about-me-2023-10-22": "",
       "https://allainews.com/item/introducing-bloggy-the-open-source-blogging-platform-built-with-python-and-django-2023-10-22": "",
       "https://allainews.com/item/a-new-ai-study-from-mit-shows-how-deep-neural-networks-dont-see-the-world-the-way-we-do-2023-10-22": "",
-      "https://allainews.com/item/r-do-you-read-mldlai-related-scientific-papers-how-do-you-filter-them-2023-10-22": ""
+      "https://allainews.com/item/r-do-you-read-mldlai-related-scientific-papers-how-do-you-filter-them-2023-10-22": "",
+      "https://allainews.com/item/ai-diagnoses-brain-tumors-in-90-minutes-or-less-2023-10-22": "",
+      "https://allainews.com/item/build-a-web-app-using-django-2023-10-22": "",
+      "https://allainews.com/item/pandas-based-library-for-graphing-emotion-events-with-lms-for-in-depth-sentiment-analysis-2023-10-22": "",
+      "https://allainews.com/item/chatgpt-is-not-a-good-psychotherapist-researchers-warn-2023-10-22": "",
+      "https://allainews.com/item/data-labeling-service-for-keypoints-pose-d-2023-10-22": "",
+      "https://allainews.com/item/assessing-the-strategic-centers-for-vr-and-ai-business-success-2023-10-22": ""
    }
 }

@@ -49,7 +49,7 @@
          "azure"
       ],
       [
-         "banque"
+         "bank"
       ],
       [
          "based"
@@ -211,9 +211,6 @@
          "founding"
       ],
       [
-         "france"
-      ],
-      [
          "game"
       ],
       [
@@ -256,7 +253,7 @@
          "iii"
       ],
       [
-         "ile"
+         "ile-de-france"
       ],
       [
          "india"
@@ -637,7 +634,7 @@
       ],
       [
          "analyst",
-         "banque"
+         "bank"
       ],
       [
          "analyst",
@@ -728,8 +725,8 @@
          "data"
       ],
       [
-         "banque",
-         "ile"
+         "bank",
+         "ile-de-france"
       ],
       [
          "based",
@@ -1110,10 +1107,6 @@
       [
          "iii",
          "data"
-      ],
-      [
-         "ile",
-         "france"
       ],
       [
          "india",
@@ -1801,8 +1794,8 @@
       ],
       [
          "analyst",
-         "banque",
-         "ile"
+         "bank",
+         "ile-de-france"
       ],
       [
          "analyst",
@@ -1878,11 +1871,6 @@
          "azure",
          "data",
          "engineer"
-      ],
-      [
-         "banque",
-         "ile",
-         "france"
       ],
       [
          "based",
@@ -2007,7 +1995,7 @@
       [
          "data",
          "analyst",
-         "banque"
+         "bank"
       ],
       [
          "data",

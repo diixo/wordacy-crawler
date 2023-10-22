@@ -85,7 +85,7 @@ def extract_headings(raw, hhh_mask, result = dict()):
     for h in hhh:
         s = translate(h.get_text())
         #s = "".join([w for w in s if (w == "IT") or (not is_digit(w) and (w not in stopwords))])
-        result[s] = 0
+        result[s] = ""
 
 def read_ahref(raw, structure=dict()):
     all = raw.find_all("a")

@@ -96,7 +96,7 @@ def test():
 
    analyzer = Analyzer()
    analyzer.open_json("storage/allainews-news.json")
-   analyzer.learn(url)
+   analyzer.learn(url, ["h1", "H1"])
    for u in urls:
       print(f"...on: {u}")
       #analyzer.learn(u, ["h1", "H1"])

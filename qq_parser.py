@@ -80,15 +80,15 @@ def extract_keywords(raw, result = set()):
     result.update([set_text(t.get_text()) for t in tgs])
     if logging: print(f"<<<< tags:{len(tgs)}")
 
-def extract_headings(raw, hhh_mask, result = set()):
+def extract_headings(raw, hhh_mask, result = dict()):
     hhh = raw.find_all(hhh_mask)
     for h in hhh:
-        s = str_tokenize_words(translate(h.get_text()))
-        s = ' '.join([w.lower() for w in s if (w == "IT") or (not is_digit(w) and (w.lower() not in stopwords))])
-        result.add(s)
+        s = translate(h.get_text())
+        #s = "".join([w for w in s if (w == "IT") or (not is_digit(w) and (w not in stopwords))])
+        result[s] = 0
 
 def read_ahref(raw, structure=dict()):
-    all = raw.find_all("a", {"class":"d-block text-dark"})
+    all = raw.find_all("a")
     for a in all:
         #s = str_tokenize_words(translate(a.get_text()))
         #s = ' '.join([w.lower() for w in s if (w == "IT") or (not is_digit(w) and (w.lower() not in stopwords))])
@@ -206,24 +206,22 @@ def extract_structure(raw, result:dict):
         ul.extract()
 ########################################################################
 def parse(raw, result = {}, hhh_mask = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6']):
-
+    hhh = dict()
     structure = result.get('data', dict())
     keywords = set(result.get('keywords', []))
-    hhh = set(result.get('headings', []))
+    hhh = result.get('headings', dict())
 
     extract_keywords(raw, keywords)
     extract_headings(raw, hhh_mask, hhh)
 
     li_raw = read_li(raw, 1)
-    hhh.update(li_raw.keys())
+    #hhh.update(li_raw.keys())
 
     #extract_structure(raw, structure)
-    read_ahref(raw, structure)
+    #read_ahref(raw, structure)
 
     result['keywords'] = sorted(keywords)
-    result['data'] = dict()
-    hhh = sorted(hhh)
-    hhh.extend(structure.keys())
+    result['data'] = structure
     result['headings'] = hhh
 
 def parse_url(url, result = dict(), hhh_mask = None):

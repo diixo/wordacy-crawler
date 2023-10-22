@@ -61,7 +61,7 @@ class Analyzer:
    def learn_file(self, filepath: str):
       path = Path(filepath)
       if path.name in self.urls:
-         print(f"file={path.name} already")
+         print(f"[Analyzer] file={path.name} already")
       else:
          if path.exists():
             qq_parser.parse_file(filepath, self.content)

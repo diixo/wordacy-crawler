@@ -80,6 +80,9 @@ def test_prediction():
     tpl = prediction.predict_next("ai")
     print(tpl)
 
+    tpl = prediction.predict_next("software")
+    print(tpl)
+
 
 if __name__ == "__main__":
     test_prediction()

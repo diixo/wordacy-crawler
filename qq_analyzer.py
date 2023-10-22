@@ -77,9 +77,6 @@ class Analyzer:
          json.dump(sorted(self.urls), fd, ensure_ascii=False, indent=3)
 
 
-   def analyse(self, url: str):
-      pass
-
 
 def test():
    url = "https://allainews.com/news/"
@@ -105,11 +102,11 @@ def test():
 
    urls = crawler.get_urls(url)
    print(f"urls={len(urls)}")
-
+   ###########################
 
    analyzer = Analyzer()
    analyzer.open_json("storage/allainews-news.json")
-   analyzer.learn(url, ["h1", "H1"])
+
    for u in urls:
       if analyzer.learn(u, ["h1", "H1"]):
          print(f"[Analyzer] ...on: {u}")

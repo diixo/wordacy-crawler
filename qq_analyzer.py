@@ -17,7 +17,6 @@ class Analyzer:
       if path.exists():
          fd = open(filepath, 'r', encoding='utf-8')
          self.content = json.load(fd)
-      #self.content["urls"] = dict()
       self.urls = self.content.get("urls", dict())
       self.filepath = filepath
 
@@ -27,7 +26,6 @@ class Analyzer:
 
       if self.filepath != "": 
          with open(self.filepath, 'w', encoding='utf-8') as fd:
-            #self.content["urls"] = dict.fromkeys(self.urls, "")
             json.dump(self.content, fd, ensure_ascii=False, indent=3)         
 
 
@@ -101,8 +99,7 @@ def test():
 
    urls = crawler.get_urls(url)
    print(f"urls={len(urls)}")
-   #for u in urls:
-   #   print(u)
+
 
    analyzer = Analyzer()
    analyzer.open_json("storage/allainews-news.json")

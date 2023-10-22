@@ -1,8 +1,11 @@
 import re
 import qq_parser as qq
 
-s = "John's mom went there, but he wasn't c++, c#, .net, Q&A/Q-A, #nope i_t IT at-all'. So' she said: 'Where are& viix.co. !!' 'A a'"
 
+def str_tokenize_words(s: str):
+    s = re.findall("(\.?\w[\w'\.&-]*\w|\w\+*#?)", s)
+    if s: return s
+    return []
 
 def translate(txt: str):
     translation = {
@@ -46,3 +49,20 @@ def str_to_ngrams(str_line: str, stopwords: set()):
 
         if tokens: result.append(tokens)
     return result
+
+##########################################
+
+if __name__ == "__main__":
+
+    #d_test = [ "160", "160)", "160.0", "+160", "+160.0", "$0.2%", "$.225%", "$.225%", 
+    #            "$.225%", "$.225%%", "$+.225%", "$,225%", "$:225%", "$+55%%%" ]
+    #for i in d_test: print(is_digit(i))
+    ################################################################################
+
+    s = "John's mom went there, but he wasn't c++, c#, .net, Q&A/Q-A, #nope i_t IT at-all'. So' she said: 'Where are& viix.co. !!' 'A a'"
+    
+    list_1 = str_tokenize_words(s)
+
+    print(list_1)
+
+    print(str_to_ngrams(s, []))

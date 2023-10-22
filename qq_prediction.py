@@ -19,7 +19,7 @@ def add_ngrams_freqDict(ngram_freq_dict, ngramList):
             ngram_freq_dict[tpl] = 1
 ##########################################################
 def str_tokenize(str_line: str, stopwords = None):
-   word_list = qq.str_tokenize_words(str_line)
+   word_list = qq_grammar.str_tokenize_words(str_line)
    if word_list:
       if stopwords:
          return [w for w in word_list if w not in stopwords]

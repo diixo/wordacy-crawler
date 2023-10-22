@@ -7,7 +7,6 @@ from pathlib import Path
 
 from qq_analyzer import Analyzer
 from qq_prediction import Prediction
-import qq_parser as qq
 import qq_grammar as qq_grammar
 
 

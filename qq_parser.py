@@ -11,7 +11,7 @@ from bs4 import BeautifulSoup
 from urllib.parse import urlparse
 from urllib.request import Request
 
-import qq_grammar as qq_grammar
+import qq_grammar as qq
 
 ########################################################################
 
@@ -45,7 +45,7 @@ def sanitize(str_line: str) -> bool:
 
 
 def set_text(txt: str):
-    return qq_grammar.translate(txt).lower()
+    return qq.translate(txt).lower()
 
 
 def extract_keywords(raw, result = set()):
@@ -73,17 +73,17 @@ def extract_keywords(raw, result = set()):
 def extract_headings(raw, hhh_mask, result = dict()):
     hhh = raw.find_all(hhh_mask)
     for h in hhh:
-        s = qq_grammar.translate(h.get_text())
+        s = qq.translate(h.get_text())
         #s = "".join([w for w in s if (w == "IT") or (not is_digit(w) and (w not in stopwords))])
         result[s] = ""
 
 def read_ahref(raw, structure=dict()):
     all = raw.find_all("a")
     for a in all:
-        #s = str_tokenize_words(qq_grammar.translate(a.get_text()))
+        #s = str_tokenize_words(qq.translate(a.get_text()))
         #s = ' '.join([w.lower() for w in s if (w == "IT") or (not is_digit(w) and (w.lower() not in stopwords))])
         # save original text:
-        s = str.strip(qq_grammar.translate(a.get_text()))
+        s = str.strip(qq.translate(a.get_text()))
         if s: structure[s] = structure.get(s, 0) + 0
 
 def read_li(raw, sz: int):

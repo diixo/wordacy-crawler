@@ -13,12 +13,13 @@ class Analyzer:
       self.filepath = ""
 
    def open_json(self, filepath: str):
-      self.urls = set()
       path = Path(filepath)
       if path.exists():
          fd = open(filepath, 'r', encoding='utf-8')
          self.content = json.load(fd)
       self.filepath = filepath
+      hurls = self.content.get("headings", dict())
+      self.urls = set(hurls.values())
 
    def save_json(self):
       if self.filepath != "": qq.save_json(self.content, self.filepath)
@@ -41,9 +42,11 @@ class Analyzer:
       url = url.lower().strip('/')
       if url in self.urls:
          print(f"url={url} already")
+         return False
       else:
          qq.parse_url(url, self.content, hhh_mask=hhh_mask)
          self.urls.add(url)
+         return True
 
    def learn_file(self, filepath: str):
       path = Path(filepath)
@@ -99,8 +102,8 @@ def test():
    analyzer.learn(url, ["h1", "H1"])
    for u in urls:
       print(f"...on: {u}")
-      #analyzer.learn(u, ["h1", "H1"])
-      #time.sleep(2.0)
+      if analyzer.learn(u, ["h1", "H1"]):
+         time.sleep(2.0)
    analyzer.save_json()
 
 

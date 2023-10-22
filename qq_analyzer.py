@@ -8,7 +8,7 @@ class Analyzer:
 
    def __init__(self):
 
-      self.urls = set()
+      self.urls = dict()
       self.content = dict()
       self.filepath = ""
 
@@ -17,12 +17,15 @@ class Analyzer:
       if path.exists():
          fd = open(filepath, 'r', encoding='utf-8')
          self.content = json.load(fd)
+      #self.content["urls"] = dict()
+      self.urls = self.content.get("urls", dict())
       self.filepath = filepath
-      hurls = self.content.get("headings", dict())
-      self.urls = set(hurls.values())
 
    def save_json(self):
-      if self.filepath != "": qq.save_json(self.content, self.filepath)
+      if self.filepath != "": 
+         with open(self.filepath, 'w', encoding='utf-8') as fd:
+            #self.content["urls"] = dict.fromkeys(self.urls, "")
+            json.dump(self.content, fd, ensure_ascii=False, indent=3)         
 
 
    def load_storage(self):
@@ -41,11 +44,11 @@ class Analyzer:
    def learn(self, url: str, hhh_mask = None):
       url = url.lower().strip('/')
       if url in self.urls:
-         print(f"url={url} already")
+         #print(f"url={url} already")
          return False
       else:
          qq.parse_url(url, self.content, hhh_mask=hhh_mask)
-         self.urls.add(url)
+         self.urls[url] = ""
          return True
 
    def learn_file(self, filepath: str):
@@ -88,7 +91,8 @@ def test():
       "/news/feed",
       "/term",
       "/about",
-      "/podcasts"
+      "/podcasts",
+      "/sources.md"
       ])
    crawler.run()
 

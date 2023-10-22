@@ -80,12 +80,12 @@ def extract_keywords(raw, result = set()):
     result.update([set_text(t.get_text()) for t in tgs])
     if logging: print(f"<<<< tags:{len(tgs)}")
 
-def extract_headings(url, raw, hhh_mask, result = dict()):
+def extract_headings(raw, hhh_mask, result = dict()):
     hhh = raw.find_all(hhh_mask)
     for h in hhh:
         s = translate(h.get_text())
         #s = "".join([w for w in s if (w == "IT") or (not is_digit(w) and (w not in stopwords))])
-        result[s] = url
+        result[s] = ""
 
 def read_ahref(raw, structure=dict()):
     all = raw.find_all("a")
@@ -205,14 +205,14 @@ def extract_structure(raw, result:dict):
                                 break
         ul.extract()
 ########################################################################
-def parse(url:str, raw, result = {}, hhh_mask = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6']):
+def parse(raw, result = {}, hhh_mask = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6']):
     hhh = dict()
     structure = result.get('data', dict())
     keywords = set(result.get('keywords', []))
     hhh = result.get('headings', dict())
 
     extract_keywords(raw, keywords)
-    extract_headings(url, raw, hhh_mask, hhh)
+    extract_headings(raw, hhh_mask, hhh)
 
     li_raw = read_li(raw, 1)
     #hhh.update(li_raw.keys())
@@ -229,14 +229,14 @@ def parse_url(url, result = dict(), hhh_mask = None):
     html = urllib.request.urlopen(req).read()
     raw = BeautifulSoup(html, features="html.parser") 
     if hhh_mask:
-        parse(url, raw, result, hhh_mask=hhh_mask)
+        parse(raw, result, hhh_mask=hhh_mask)
     else:
-        parse(url, raw, result)
+        parse(raw, result)
     return result
 
 def parse_file(filename, result = dict()):
     raw = BeautifulSoup(open(filename, encoding='utf-8'), "html.parser")
-    parse(filename, raw, result)
+    parse(raw, result)
     return result
 
 def save_json(result: dict, file_path="storage/_data.json"):

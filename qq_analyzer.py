@@ -22,6 +22,9 @@ class Analyzer:
       self.filepath = filepath
 
    def save_json(self):
+      #d = self.content.get("headings", dict())
+      #self.content["headings"] = dict.fromkeys(d, "")
+
       if self.filepath != "": 
          with open(self.filepath, 'w', encoding='utf-8') as fd:
             #self.content["urls"] = dict.fromkeys(self.urls, "")
@@ -105,8 +108,8 @@ def test():
    analyzer.open_json("storage/allainews-news.json")
    analyzer.learn(url, ["h1", "H1"])
    for u in urls:
-      print(f"...on: {u}")
       if analyzer.learn(u, ["h1", "H1"]):
+         print(f"...on: {u}")
          time.sleep(2.0)
    analyzer.save_json()
 

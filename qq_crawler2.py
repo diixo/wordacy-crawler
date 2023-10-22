@@ -131,7 +131,7 @@ class Crawler2:
                      ref = urljoin(home, sref)
                      if re.search(home, ref):
                         self.add_new(ref)
-                     elif logging: print(f"Unexpected syntax error: url={sref}")
+                     elif logging: print(f"[Crawler2] Unexpected syntax error: url={sref}")
                   else:
                      #self.unknown.add(u_hostname)
                      self.unknown.add(sref)
@@ -142,7 +142,7 @@ class Crawler2:
             response = urlopen(req)
             status = response.status
             if logging and (status in [301, 302]):
-               print(f"new_url = {response.geturl()}")
+               print(f"[Crawler2] new_url = {response.geturl()}")
             html = response.read()
 
             raw = BeautifulSoup(html, features=parser)
@@ -194,10 +194,10 @@ class Crawler2:
                   self.open_url(url, "html.parser")
 
                elif "text/xml" in Content_Type:
-                  if logging: print(f"...on: XML={url}")
+                  if logging: print(f"[Crawler2] ...on: XML={url}")
                   self.open_url(url, "xml")
                   self.skip.add(url)
-            if logging: print(f"...on: {counter}, [remained={len(self.new)}] [skipped={len(self.skip)}]")
+            if logging: print(f"[Crawler2] ...on: {counter}, [remained={len(self.new)}] [skipped={len(self.skip)}]")
             time.sleep(1.0)
       except KeyboardInterrupt:
          print("KeyboardInterrupt exception raised")

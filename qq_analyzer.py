@@ -109,7 +109,7 @@ def test():
    analyzer.learn(url, ["h1", "H1"])
    for u in urls:
       if analyzer.learn(u, ["h1", "H1"]):
-         print(f"...on: {u}")
+         print(f"[Analyzer] ...on: {u}")
          time.sleep(2.0)
    analyzer.save_json()
 

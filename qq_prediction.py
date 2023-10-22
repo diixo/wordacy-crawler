@@ -2,8 +2,7 @@ import re
 from operator import itemgetter
 from collections import Counter
 from pathlib import Path
-import qq_parser as qq
-import qq_grammar as qq_grammar
+import qq_grammar as qq
 
 ########################################################################
 # nltk.ngrams
@@ -19,7 +18,7 @@ def add_ngrams_freqDict(ngram_freq_dict, ngramList):
             ngram_freq_dict[tpl] = 1
 ##########################################################
 def str_tokenize(str_line: str, stopwords = None):
-   word_list = qq_grammar.str_tokenize_words(str_line)
+   word_list = qq.str_tokenize_words(str_line)
    if word_list:
       if stopwords:
          return [w for w in word_list if w not in stopwords]
@@ -192,7 +191,7 @@ class Prediction:
    def get_sorted(self):
       result = {
          1:sorted(self.unigrams_freq_dict.items(), key=itemgetter(1), reverse=True),
-         2:sorted(self.bigrams_freq_dict.items(), key=itemgetter(1), reverse=True),        
+         2:sorted(self.bigrams_freq_dict.items(),  key=itemgetter(1), reverse=True),        
          3:sorted(self.trigrams_freq_dict.items(), key=itemgetter(1), reverse=True)
       }
       return result
@@ -207,7 +206,7 @@ class Prediction:
 
 ##########################################################
    def predict(str_line: str, stopwords = set()):
-      work_str = qq_grammar.translate(str_line, stopwords)
+      work_str = qq.translate(str_line, stopwords)
       tokenList = str_tokenize(work_str)
 
       ngram = {1:[], 2:[]}

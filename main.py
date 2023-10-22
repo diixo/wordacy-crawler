@@ -54,7 +54,8 @@ def test_prediction():
     #open constant version:
     analyzer.open_json("storage/_prediction-allainews-news.json")
     
-    content = analyzer.content.get("headings", dict())
+    content = analyzer.content.get("keywords", dict())
+    content = dict.fromkeys(content, "")
 
     prediction = Prediction()
     for string in content.keys():

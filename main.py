@@ -30,7 +30,7 @@ def test_prediction():
 
     prediction = Prediction()
     for string in content.keys():
-        string = qq.translate(string)
+        string = qq_grammar.translate(string)
         ngrams = qq_grammar.str_to_ngrams(string, stopwords)
         for tokens in ngrams:
             prediction.add_tokens(tokens)

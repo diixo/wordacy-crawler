@@ -11,6 +11,8 @@ from bs4 import BeautifulSoup
 from urllib.parse import urlparse
 from urllib.request import Request
 
+import qq_grammar as qq_grammar
+
 ########################################################################
 
 logging = False
@@ -41,21 +43,9 @@ def is_word(word: str, stopwords=set()):
 def sanitize(str_line: str) -> bool:
     return not re.search(r'http:|https:|www\.', str_line, re.IGNORECASE)
 
-def translate(txt: str):
-    translation = {
-        0xfffd: 0x0020, 0x00b7: 0x0020, 0xfeff: 0x0020, 0x2026: 0x0020, 0x2713: 0x0020, 0x205F: 0x0020, 0x202c: 0x0020, 
-        0x202a: 0x0020, 0x200e: 0x0020, 0x200d: 0x0020, 0x200c: 0x0020, 0x200b: 0x0020, 0x2002: 0x0020, 0x2003: 0x0020, 
-        0x2009: 0x0020, 0x2011: 0x002d, 0x2015: 0x002d, 0x201e: 0x0020, 0x2028: 0x0020, 0x2032: 0x0027, 0x2012: 0x002d, 
-        0x0080: 0x0020, 0x0094: 0x0020, 0x009c: 0x0020, 0xFE0F: 0x0020, 0x200a: 0x0020, 0x202f: 0x0020, 0x2033: 0x0020, 
-        0x2013: 0x0020, 0x00a0: 0x0020, 0x2705: 0x0020, 0x2714: 0x0020, # 0x2013: 0x002d
-        0x201c: 0x0020, 0x201d: 0x0020, 0x021f: 0x0020, 0x0022: 0x0020, 0x2019: 0x0027, 0x2018: 0x0027, 0x201b: 0x0027, 
-        0x0060: 0x0027, 0x00ab: 0x0020, 0x00bb: 0x0020, 0x2026: 0x002e, 0x2014: 0x0020 } # 0x2014: 0x002d
-
-    txt = txt.translate(translation)
-    return txt.strip()
 
 def set_text(txt: str):
-    return translate(txt).lower()
+    return qq_grammar.translate(txt).lower()
 
 
 def extract_keywords(raw, result = set()):
@@ -83,17 +73,17 @@ def extract_keywords(raw, result = set()):
 def extract_headings(raw, hhh_mask, result = dict()):
     hhh = raw.find_all(hhh_mask)
     for h in hhh:
-        s = translate(h.get_text())
+        s = qq_grammar.translate(h.get_text())
         #s = "".join([w for w in s if (w == "IT") or (not is_digit(w) and (w not in stopwords))])
         result[s] = ""
 
 def read_ahref(raw, structure=dict()):
     all = raw.find_all("a")
     for a in all:
-        #s = str_tokenize_words(translate(a.get_text()))
+        #s = str_tokenize_words(qq_grammar.translate(a.get_text()))
         #s = ' '.join([w.lower() for w in s if (w == "IT") or (not is_digit(w) and (w.lower() not in stopwords))])
         # save original text:
-        s = str.strip(translate(a.get_text()))
+        s = str.strip(qq_grammar.translate(a.get_text()))
         if s: structure[s] = structure.get(s, 0) + 0
 
 def read_li(raw, sz: int):

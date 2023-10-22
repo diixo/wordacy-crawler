@@ -3,6 +3,7 @@ from operator import itemgetter
 from collections import Counter
 from pathlib import Path
 import qq_parser as qq
+import qq_grammar as qq_grammar
 
 ########################################################################
 # nltk.ngrams
@@ -206,7 +207,7 @@ class Prediction:
 
 ##########################################################
    def predict(str_line: str, stopwords = set()):
-      work_str = qq.translate(str_line, stopwords)
+      work_str = qq_grammar.translate(str_line, stopwords)
       tokenList = str_tokenize(work_str)
 
       ngram = {1:[], 2:[]}

@@ -19,18 +19,11 @@ logging = False
 
 stopwords = set()
 
-def is_digit(word: str):
-    w = re.sub(r'[$]?[-+]?[\d]*[.,\:]?[\d]+[ %\"\'\)\+]*', "", word)
-    return not w
-
-def is_complex_digit(word: str):
-    w = re.sub(r'[$]?[-+]?[\d]*[.,\:]?[\d]+[ %\"\'\)\+]*[A-Za-z0-9]?', "", word)
-    return not w
 
 def is_word(word: str, stopwords=set()):
     #word = re.search("[\[\]\}\{=@\*]")
     if (re.sub("[A-Za-z0-9#\'\./_&+-]", "", word) == "") and len(word) > 1:
-        if ((word not in stopwords) and not word.isdigit() and not is_complex_digit(word)):
+        if ((word not in stopwords) and not word.isdigit() and not qq.is_complex_digit(word)):
             return True
     return False
 
@@ -49,17 +42,17 @@ def extract_keywords(raw, result = set()):
     for el in elements:
         s = el.attrs.get("content", "")
         s = str.replace(s, ',', ';').split(';')
-        result.update([set_text(w) for w in s if (w == "IT") or (not is_digit(w) and (w.lower() not in stopwords))])
+        result.update([set_text(w) for w in s if (w == "IT") or (not qq.is_digit(w) and (w.lower() not in stopwords))])
     elements = raw.find_all("meta", {"name":"Keywords"})
     for el in elements:
         s = el.attrs.get("content", "")
         s = str.replace(s, ',', ';').split(';')
-        result.update([set_text(w) for w in s if (w == "IT") or (not is_digit(w) and (w.lower() not in stopwords))])
+        result.update([set_text(w) for w in s if (w == "IT") or (not qq.is_digit(w) and (w.lower() not in stopwords))])
     elements = raw.find_all("meta", {"name":"KEYWORDS"})
     for el in elements:
         s = el.attrs.get("content", "")
         s = str.replace(s, ',', ';').split(';')
-        result.update([set_text(w) for w in s if (w == "IT") or (not is_digit(w) and (w.lower() not in stopwords))])
+        result.update([set_text(w) for w in s if (w == "IT") or (not qq.is_digit(w) and (w.lower() not in stopwords))])
     
     tgs = raw.find_all('tag')
     result.update([set_text(t.get_text()) for t in tgs])
@@ -69,14 +62,14 @@ def extract_headings(raw, hhh_mask, result = dict()):
     hhh = raw.find_all(hhh_mask)
     for h in hhh:
         s = qq.translate(h.get_text())
-        #s = "".join([w for w in s if (w == "IT") or (not is_digit(w) and (w not in stopwords))])
+        #s = "".join([w for w in s if (w == "IT") or (not qq.is_digit(w) and (w not in stopwords))])
         result[s] = ""
 
 def read_ahref(raw, structure=dict()):
     all = raw.find_all("a")
     for a in all:
         #s = str_tokenize_words(qq.translate(a.get_text()))
-        #s = ' '.join([w.lower() for w in s if (w == "IT") or (not is_digit(w) and (w.lower() not in stopwords))])
+        #s = ' '.join([w.lower() for w in s if (w == "IT") or (not qq.is_digit(w) and (w.lower() not in stopwords))])
         # save original text:
         s = str.strip(qq.translate(a.get_text()))
         if s: structure[s] = structure.get(s, 0) + 0

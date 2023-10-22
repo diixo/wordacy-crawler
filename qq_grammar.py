@@ -1,6 +1,13 @@
 import re
 import qq_parser as qq
 
+def is_digit(word: str):
+    w = re.sub(r'[$]?[-+]?[\d]*[.,\:]?[\d]+[ %\"\'\)\+]*', "", word)
+    return not w
+
+def is_complex_digit(word: str):
+    w = re.sub(r'[$]?[-+]?[\d]*[.,\:]?[\d]+[ %\"\'\)\+]*[A-Za-z0-9]?', "", word)
+    return not w
 
 def str_tokenize_words(s: str):
     s = re.findall("(\.?\w[\w'\.&-]*\w|\w\+*#?)", s)
@@ -54,10 +61,12 @@ def str_to_ngrams(str_line: str, stopwords: set()):
 
 if __name__ == "__main__":
 
-    #d_test = [ "160", "160)", "160.0", "+160", "+160.0", "$0.2%", "$.225%", "$.225%", 
-    #            "$.225%", "$.225%%", "$+.225%", "$,225%", "$:225%", "$+55%%%" ]
-    #for i in d_test: print(is_digit(i))
+    d_test = [ "160", "160)", "160.0", "+160", "+160.0", "$0.2%", "$.225%", "$.225%", 
+                "$.225%", "$.225%%", "$+.225%", "$,225%", "$:225%", "$+55%%%" ]
+    for i in d_test: print(is_digit(i))
     ################################################################################
+
+    for i in d_test: print(is_complex_digit(i + "v"))
 
     s = "John's mom went there, but he wasn't c++, c#, .net, Q&A/Q-A, #nope i_t IT at-all'. So' she said: 'Where are& viix.co. !!' 'A a'"
     

@@ -23,38 +23,21 @@ class Analyzer:
          self.content["urls"] = dict()
       self.urls = self.content["urls"]
 
-   def save_json(self):
-
+   def save_json(self, filepath = None):
       # TODO: remove in future
       #d = self.content.get("headings", dict())
       #self.content["headings"] = dict.fromkeys(d, "")
 
-      if self.filepath != "": 
-         with open(self.filepath, 'w', encoding='utf-8') as fd:
-            json.dump(self.content, fd, ensure_ascii=False, indent=3)         
+      if filepath != None:
+         self.filepath = filepath
 
-
-   def load_storage(self):
-      rel = "./storage/"
-
-      path = Path(rel + "_data.json")
-      if path.exists():
-         fd = open(rel + path.name, 'r', encoding='utf-8')
-         self.content = json.load(fd)
-
-         # TODO: remove in future
-         #d = self.content.get("headings", dict())
-         #self.content["headings"] = dict.fromkeys(d, "")
-
-      if not self.content.get("urls"):
-         self.content["urls"] = dict()
-      self.urls = self.content["urls"]
+      with open(self.filepath, 'w', encoding='utf-8') as fd:
+         json.dump(self.content, fd, ensure_ascii=False, indent=3)
 
 
    def learn(self, url: str, hhh_mask = None):
       url = url.lower().strip('/')
       if url in self.urls:
-         #print(f"url={url} already")
          return False
       else:
          qq_parser.parse_url(url, self.content, hhh_mask=hhh_mask)
@@ -69,11 +52,6 @@ class Analyzer:
          if path.exists():
             qq_parser.parse_file(filepath, self.content)
             self.urls[path.name] = ""
-
-   def save_storage(self, filename="_data.json"):
-      rel = "./storage/"
-
-      qq_parser.save_json(self.content, rel + filename)
 
 
 def test():
@@ -125,11 +103,11 @@ if __name__ == "__main__":
    
    analyzer = Analyzer()
    #analyzer.learn_file('process/techopedia-train-db-v5.data')
-   analyzer.load_storage()
+   analyzer.open_json("./storage/_data.json")
    analyzer.learn_file('template/template.html')
    analyzer.learn(u1)
    analyzer.learn(u2)
    analyzer.learn(u3)
    analyzer.learn(u4)
-   analyzer.save_storage()
+   analyzer.save_json()
 

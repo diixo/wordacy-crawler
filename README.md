@@ -52,26 +52,18 @@ Extract all links of specified domain from local file:
 }
 ```
 ### 3) Smart analysis the content from url's:
+
 ```python
    analyzer = Analyzer()
    analyzer.open_json("some.json")
-   analyzer.learn_url("https://allainews.com/news/")
-
-   #save opened json
-   analyzer.save_json()
-```
-
-```python
-   analyzer = Analyzer()
-   analyzer.open_json("./storage/_data.json")
-   analyzer.learn_file('template/template.html')
+   analyzer.learn_file("template/template.html")
    analyzer.learn_url(url_1)
    analyzer.learn_url(url_2)
    analyzer.learn_url(url_3)
    analyzer.save_json()
 ```
 
-Format of output json-file (**storage/_data.json**):
+Format of output json-file:
 ```json
 {
    "keywords": [],

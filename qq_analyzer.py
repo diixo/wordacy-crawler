@@ -24,18 +24,13 @@ class Analyzer:
       self.urls = self.content["urls"]
 
    def save_json(self, filepath = None):
-      # TODO: remove in future
-      #d = self.content.get("headings", dict())
-      #self.content["headings"] = dict.fromkeys(d, "")
-
       if filepath != None:
          self.filepath = filepath
-
       with open(self.filepath, 'w', encoding='utf-8') as fd:
          json.dump(self.content, fd, ensure_ascii=False, indent=3)
 
 
-   def learn(self, url: str, hhh_mask = None):
+   def learn_url(self, url: str, hhh_mask = None):
       url = url.lower().strip('/')
       if url in self.urls:
          return False
@@ -52,6 +47,20 @@ class Analyzer:
          if path.exists():
             qq_parser.parse_file(filepath, self.content)
             self.urls[path.name] = ""
+
+   def import_json(self, filepath: str):
+      if not self.content.get("urls"):
+         self.content["urls"] = dict()
+      self.urls = self.content["urls"]
+
+      hhh = self.content.get("headings", dict())
+      self.content["headings"] = dict.fromkeys(hhh, "")
+
+      path = Path(filepath)
+      if path.exists():
+         fd = open(filepath, 'r', encoding='utf-8')
+         self.content = json.load(fd)
+      self.filepath = filepath
 
 
 def test():
@@ -83,13 +92,13 @@ def test():
    analyzer.open_json("storage/allainews-news.json")
 
    for u in urls:
-      if analyzer.learn(u, ["h1", "H1"]):
+      if analyzer.learn_url(u, ["h1", "H1"]):
          print(f"[Analyzer] ...on [{len(urls)}]: {u}")
          time.sleep(2.0)
    analyzer.save_json()
 
 
-if __name__ == "__main__":
+def dataset():
    u1 = "https://pythonexamples.org/"
    u2 = "https://kotlinandroid.org/"
    u3 = "https://www.javatpoint.com/"
@@ -98,16 +107,17 @@ if __name__ == "__main__":
    #u5 = "https://javascriptcode.org/"
    #u5 = "https://www.javatpoint.com/python-variables"
    #u5 = "https://www.programiz.com/r"
-
-   test()
    
    analyzer = Analyzer()
    #analyzer.learn_file('process/techopedia-train-db-v5.data')
    analyzer.open_json("./storage/_data.json")
    analyzer.learn_file('template/template.html')
-   analyzer.learn(u1)
-   analyzer.learn(u2)
-   analyzer.learn(u3)
-   analyzer.learn(u4)
+   analyzer.learn_url(u1)
+   analyzer.learn_url(u2)
+   analyzer.learn_url(u3)
+   analyzer.learn_url(u4)
    analyzer.save_json()
 
+
+if __name__ == "__main__":
+   test()

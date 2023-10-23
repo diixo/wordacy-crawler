@@ -204,6 +204,15 @@ class Prediction:
       }
       return result
 
+   def get_1(self, w:str):
+      return self.unigrams_freq_dict.get(tuple([w]), 0)
+
+   def get_2(self, w1:str, w2:str):
+      return self.bigrams_freq_dict.get(tuple([w1, w2]), 0)
+
+   def get_3(self, w1:str, w2:str, w3:str):
+      return self.trigrams_freq_dict.get(tuple([w1, w2, w3]), 0)
+
 ##########################################################
    def predict(str_line: str, stopwords = set()):
       work_str = qq.translate(str_line, stopwords)

@@ -53,6 +53,9 @@ def test_prediction():
     tpl = prediction.predict_next("software")
     print(tpl)
 
+    print(prediction.get_1("ai"))
+    print(prediction.get_2("software", "engineer"))
+
 
 if __name__ == "__main__":
     test_prediction()

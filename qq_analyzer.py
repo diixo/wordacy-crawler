@@ -17,8 +17,11 @@ class Analyzer:
       if path.exists():
          fd = open(filepath, 'r', encoding='utf-8')
          self.content = json.load(fd)
-      self.urls = self.content.get("urls", dict())
       self.filepath = filepath
+
+      if not self.content.get("urls"):
+         self.content["urls"] = dict()
+      self.urls = self.content["urls"]
 
    def save_json(self):
 
@@ -43,10 +46,10 @@ class Analyzer:
          #d = self.content.get("headings", dict())
          #self.content["headings"] = dict.fromkeys(d, "")
 
-      path = Path(rel + "_urls.json")
-      if path.exists():
-         fd = open(rel + path.name, 'r', encoding='utf-8')
-         self.urls = set(json.load(fd))
+      if not self.content.get("urls"):
+         self.content["urls"] = dict()
+      self.urls = self.content["urls"]
+
 
    def learn(self, url: str, hhh_mask = None):
       url = url.lower().strip('/')
@@ -61,21 +64,16 @@ class Analyzer:
    def learn_file(self, filepath: str):
       path = Path(filepath)
       if path.name in self.urls:
-         print(f"[Analyzer] file={path.name} already")
+         print(f"[Analyzer] file={path.name} done already")
       else:
          if path.exists():
             qq_parser.parse_file(filepath, self.content)
-            self.urls.add(path.name)
+            self.urls[path.name] = ""
 
    def save_storage(self, filename="_data.json"):
       rel = "./storage/"
 
       qq_parser.save_json(self.content, rel + filename)
-
-      filename="_urls.json"
-      with open(rel + filename, 'w', encoding='utf-8') as fd:
-         json.dump(sorted(self.urls), fd, ensure_ascii=False, indent=3)
-
 
 
 def test():
@@ -101,7 +99,6 @@ def test():
    crawler.run()
 
    urls = crawler.get_urls(url)
-   print(f"urls={len(urls)}")
    ###########################
 
    analyzer = Analyzer()
@@ -109,7 +106,7 @@ def test():
 
    for u in urls:
       if analyzer.learn(u, ["h1", "H1"]):
-         print(f"[Analyzer] ...on: {u}")
+         print(f"[Analyzer] ...on [{len(urls)}]: {u}")
          time.sleep(2.0)
    analyzer.save_json()
 

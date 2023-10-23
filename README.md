@@ -55,7 +55,7 @@ Extract all links of specified domain from local file:
 ```python
    analyzer = Analyzer()
    analyzer.open_json("some.json")
-   analyzer.learn("https://allainews.com/news/")
+   analyzer.learn_url("https://allainews.com/news/")
 
    #save opened json
    analyzer.save_json()
@@ -63,17 +63,14 @@ Extract all links of specified domain from local file:
 
 ```python
    analyzer = Analyzer()
-   analyzer.load_storage()
+   analyzer.open_json("./storage/_data.json")
    analyzer.learn_file('template/template.html')
-   analyzer.learn(url_1)
-   analyzer.learn(url_2)
-   analyzer.learn(url_3)
-   analyzer.save_storage()
+   analyzer.learn_url(url_1)
+   analyzer.learn_url(url_2)
+   analyzer.learn_url(url_3)
+   analyzer.save_json()
 ```
-Save logical storage, as pair of two files: **storage/_data.json** and **storage/_urls.json**
-```python
-   analyzer.save_storage()
-```
+
 Format of output json-file (**storage/_data.json**):
 ```json
 {

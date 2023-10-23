@@ -8,8 +8,9 @@ class Analyzer:
 
    def __init__(self):
 
-      self.urls = dict()
       self.content = dict()
+      self.content["urls"] = dict()
+      self.urls = self.content["urls"]
       self.filepath = ""
 
    def open_json(self, filepath: str):
@@ -121,3 +122,4 @@ def dataset():
 
 if __name__ == "__main__":
    test()
+   #dataset()

@@ -33,7 +33,8 @@ def translate(txt: str):
         0x0060: 0x0027, 0x00ab: 0x0020, 0x00bb: 0x0020, 0x2026: 0x002e, 0x2014: 0x0020 } # 0x2014: 0x002d
 
     txt = txt.translate(translation)
-    txt = re.sub("[^\u0020-\u022a]", " ", txt, re.UNICODE)
+    #txt = re.sub("[^\u0020-\u022a]", " ", txt, re.UNICODE)
+    txt = re.sub("[^\u0020-\u0500]", " ", txt, re.UNICODE)
     return txt.strip()
 
 

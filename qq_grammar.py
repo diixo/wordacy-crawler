@@ -33,6 +33,7 @@ def translate(txt: str):
         0x0060: 0x0027, 0x00ab: 0x0020, 0x00bb: 0x0020, 0x2026: 0x002e, 0x2014: 0x0020 } # 0x2014: 0x002d
 
     txt = txt.translate(translation)
+    #txt = re.sub("[^\u0020-\u022a]", " ", txt, re.UNICODE)
     return txt.strip()
 
 
@@ -51,7 +52,7 @@ def str_to_ngrams(str_line: str, stopwords: set()):
         #words_list = [x.strip(" ") for x in item.split(" ") if (x != '')]
         #words_list = [x.strip(punctuation) if x not in self.dictionary else x for x in item.split(" ") if (x != '')]
 
-        word_list = [x.strip(punctuation) for x in item.split(" ") if (x.strip(punctuation) != '')]
+        word_list = [x.strip(punctuation).rstrip(".") for x in item.split(" ") if (x.strip(punctuation) != '')]
         tokens = []
         for w in word_list:
             wlow = w.lower()

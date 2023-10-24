@@ -2,6 +2,7 @@ import time
 import json
 from pathlib import Path
 import qq_parser as qq_parser
+import qq_grammar as qq
 from qq_crawler2 import Crawler2
 
 class Analyzer:
@@ -23,6 +24,13 @@ class Analyzer:
       if not self.content.get("urls"):
          self.content["urls"] = dict()
       self.urls = self.content["urls"]
+
+      #headings = self.content["headings"]
+      #new = dict()
+      #print(len(headings.keys()))
+      #for item in headings.keys():
+      #   new[qq.translate(item)] = ""
+      #self.content["headings"] = new;
 
    def save_json(self, filepath = None):
       if filepath != None:

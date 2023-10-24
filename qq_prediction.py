@@ -204,14 +204,6 @@ class Prediction:
       }
       return result
 
-   def get_dicts_sorted(self):
-      result = {
-        "n1":sorted(self.unigrams), 
-        "n2":sorted(self.bigrams), 
-        "n3":sorted(self.trigrams)
-      }
-      return result
-
    def get_1(self, w:str):
       return self.unigrams_freq_dict.get(tuple([w]), 0)
 

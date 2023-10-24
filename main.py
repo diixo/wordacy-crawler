@@ -37,10 +37,6 @@ def test_prediction():
 
     print(prediction)
 
-    file_path="storage/_prediction.json"
-    with open(file_path, 'w', encoding='utf-8') as fd:
-        json.dump(prediction.get_dicts_sorted(), fd, ensure_ascii=False, indent=3)
-
     if True:
         file_path="storage/_prediction-freq.json"
         with open(file_path, 'w', encoding='utf-8') as fd:

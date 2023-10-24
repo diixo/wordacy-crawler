@@ -188,19 +188,27 @@ class Prediction:
       print(f"<< unigrams, candidates new.sz={counter_n}({counter_1})")
 ##########################################################
 
+   def get_sorted_freq(self):
+      result = {
+         "n1":sorted(self.unigrams_freq_dict.items(), key=itemgetter(1), reverse=True),
+         "n2":sorted(self.bigrams_freq_dict.items(),  key=itemgetter(1), reverse=True),        
+         "n3":sorted(self.trigrams_freq_dict.items(), key=itemgetter(1), reverse=True)
+      }
+      return result
+
    def get_sorted(self):
       result = {
-         1:sorted(self.unigrams_freq_dict.items(), key=itemgetter(1), reverse=True),
-         2:sorted(self.bigrams_freq_dict.items(),  key=itemgetter(1), reverse=True),        
-         3:sorted(self.trigrams_freq_dict.items(), key=itemgetter(1), reverse=True)
+         "n1":sorted(self.unigrams_freq_dict.items()),
+         "n2":sorted(self.bigrams_freq_dict.items()),        
+         "n3":sorted(self.trigrams_freq_dict.items())
       }
       return result
 
    def get_dicts(self):
       result = {
-        1:sorted(self.unigrams), 
-        2:sorted(self.bigrams), 
-        3:sorted(self.trigrams)
+        "n1":sorted(self.unigrams), 
+        "n2":sorted(self.bigrams), 
+        "n3":sorted(self.trigrams)
       }
       return result
 

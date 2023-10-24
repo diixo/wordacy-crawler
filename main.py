@@ -56,6 +56,16 @@ def test_prediction():
     print(prediction.get_1("ai"))
     print(prediction.get_2("software", "engineer"))
 
+    result = prediction.get_sorted()
+    result_freq = prediction.get_sorted_freq()
+
+    for i in range(50):
+        print(result_freq["n1"][i][0], result_freq["n1"][i][1])
+
+    for i in range(50):
+        print(result_freq["n2"][i][0], result_freq["n2"][i][1])
+
+
 
 if __name__ == "__main__":
     test_prediction()

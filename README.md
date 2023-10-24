@@ -66,8 +66,9 @@ Extract all links of specified domain from local file:
 Format of output json-file:
 ```json
 {
+   "urls": {},
    "keywords": [],
    "data": {},
-   "headings": []
+   "headings": {}
 }
 ```

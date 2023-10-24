@@ -25,12 +25,6 @@ class Analyzer:
          self.content["urls"] = dict()
       self.urls = self.content["urls"]
 
-      #headings = self.content["headings"]
-      #new = dict()
-      #print(len(headings.keys()))
-      #for item in headings.keys():
-      #   new[qq.translate(item)] = ""
-      #self.content["headings"] = new;
 
    def save_json(self, filepath = None):
       if filepath != None:

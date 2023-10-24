@@ -34,7 +34,7 @@ def test_prediction():
         for tokens in ngrams:
             prediction.add_tokens(tokens)
 
-    result = prediction.get_dicts()
+    result = prediction.get_dicts_sorted()
 
     print(prediction)
 
@@ -43,9 +43,9 @@ def test_prediction():
         json.dump(result, fd, ensure_ascii=False, indent=3)
 
     if False:
-        file_path="storage/_prediction-sorted.json"
+        file_path="storage/_prediction-freq.json"
         with open(file_path, 'w', encoding='utf-8') as fd:
-            json.dump(prediction.get_sorted(), fd, ensure_ascii=False, indent=3)
+            json.dump(prediction.get_freq(), fd, ensure_ascii=False, indent=3)
 
     tpl = prediction.predict_next("ai")
     print(tpl)
@@ -56,8 +56,8 @@ def test_prediction():
     print(prediction.get_1("ai"))
     print(prediction.get_2("software", "engineer"))
 
-    result = prediction.get_sorted()
-    result_freq = prediction.get_sorted_freq()
+    result = prediction.get_freq()
+    result_freq = prediction.get_freq_sorted()
 
     for i in range(50):
         print(result_freq["n1"][i][0], result_freq["n1"][i][1])

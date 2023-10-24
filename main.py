@@ -24,7 +24,7 @@ def test_prediction():
     #open constant version:
     analyzer.open_json("storage/_prediction-allainews-news.json")
     
-    content = analyzer.content.get("keywords", dict())
+    content = analyzer.content.get("headings", dict())
     content = dict.fromkeys(content, "")
 
     prediction = Prediction()
@@ -34,15 +34,14 @@ def test_prediction():
         for tokens in ngrams:
             prediction.add_tokens(tokens)
 
-    result = prediction.get_dicts_sorted()
 
     print(prediction)
 
     file_path="storage/_prediction.json"
     with open(file_path, 'w', encoding='utf-8') as fd:
-        json.dump(result, fd, ensure_ascii=False, indent=3)
+        json.dump(prediction.get_dicts_sorted(), fd, ensure_ascii=False, indent=3)
 
-    if False:
+    if True:
         file_path="storage/_prediction-freq.json"
         with open(file_path, 'w', encoding='utf-8') as fd:
             json.dump(prediction.get_freq(), fd, ensure_ascii=False, indent=3)

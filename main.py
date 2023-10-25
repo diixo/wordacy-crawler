@@ -11,9 +11,9 @@ import qq_grammar as qq_grammar
 
 
 def load_stopwords():
-    diix = Path("data/stopwords.txt")
-    if diix.exists():
-        return set([line.replace('\n', '') for line in open(str(diix), 'r', encoding='utf-8').readlines()])
+    f = Path("data/stopwords.txt")
+    if f.exists():
+        return set([line.replace('\n', '') for line in open(str(f), 'r', encoding='utf-8').readlines()])
     return set()
 
 
@@ -23,6 +23,9 @@ def test_prediction():
     analyzer = Analyzer()
     #open constant version:
     analyzer.open_json("storage/_prediction-allainews-news.json")
+
+    #open dynamic version:
+    #analyzer.open_json("storage/allainews-news.json")
     
     content = analyzer.content.get("headings", dict())
     content = dict.fromkeys(content, "")
@@ -37,10 +40,9 @@ def test_prediction():
 
     print(prediction)
 
-    if True:
-        file_path="storage/_prediction-freq.json"
-        with open(file_path, 'w', encoding='utf-8') as fd:
-            json.dump(prediction.get_freq(), fd, ensure_ascii=False, indent=3)
+    file_path="storage/_prediction-freq.json"
+    with open(file_path, 'w', encoding='utf-8') as fd:
+        json.dump(prediction.get_freq(), fd, ensure_ascii=False, indent=3)
 
     tpl = prediction.predict_next("ai")
     print(tpl)

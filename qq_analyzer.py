@@ -95,10 +95,11 @@ def test():
    analyzer.open_json("storage/allainews-news.json")
 
    for u in urls:
-      if analyzer.learn_url(u, ["h1", "H1"]):
+      if analyzer.learn_url(u, hhh_mask=["h1", "H1"]):
          print(f"[Analyzer] ...on [{len(urls)}]: {u}")
          time.sleep(2.0)
    analyzer.save_json()
+   print(f"<< {len(analyzer.content.get('headings', dict()))}")
 
 
 def dataset():

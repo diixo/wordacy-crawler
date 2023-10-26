@@ -44,23 +44,24 @@ def test_prediction():
     with open(file_path, 'w', encoding='utf-8') as fd:
         json.dump(prediction.get_freq(), fd, ensure_ascii=False, indent=3)
 
-    tpl = prediction.predict_next("ai")
-    print(tpl)
+    if False:
+        tpl = prediction.predict_next("ai")
+        print(tpl)
 
-    tpl = prediction.predict_next("software")
-    print(tpl)
+        tpl = prediction.predict_next("software")
+        print(tpl)
 
-    print(prediction.get_1("ai"))
-    print(prediction.get_2("software", "engineer"))
+        print(prediction.get_1("ai"))
+        print(prediction.get_2("software", "engineering"))
 
-    result = prediction.get_freq()
-    result_freq = prediction.get_freq_sorted()
+        result = prediction.get_freq()
+        result_freq = prediction.get_freq_sorted()
 
-    for i in range(50):
-        print(result_freq["n1"][i][0], result_freq["n1"][i][1])
+        for i in range(50):
+            print(result_freq["n1"][i][0], result_freq["n1"][i][1])
 
-    for i in range(50):
-        print(result_freq["n2"][i][0], result_freq["n2"][i][1])
+        for i in range(50):
+            print(result_freq["n2"][i][0], result_freq["n2"][i][1])
 
 
 

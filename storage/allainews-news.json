@@ -5839,7 +5839,21 @@
       "Honor says its new phone lets you open apps with your eyes": "",
       "Sort Text Numbers": "",
       "Meet MATA, an AI Research Assistant for Scientific Data": "",
-      "Learning Cloud Platforms": ""
+      "Learning Cloud Platforms": "",
+      "[R] Researchers discover in-context learning creates task vectors in LLMs": "",
+      "Execute Jina embeddings with a CLI using llm-embed-jina": "",
+      "Germany's richest man wants to ensure Europe has an OpenAI rival": "",
+      "This AI Paper Introduces CLIN: A Continually Learning Language Agent that Excels in Both Task Adaptation and Generalization to Unseen Tasks and Environments in a Pure Zero-Shot Setup": "",
+      "Is a Convex Optimization class good for Data Science?": "",
+      "[R] Human-like systematic generalization through a meta-learning neural network": "",
+      "Elevating Sample Quality: OpenAI's Consistency Models Training Techniques Redefine the Game": "",
+      "[D] LLMs playing chess are sensitive to how the position came to be": "",
+      "Is this the only European fintech that's cracked the US?": "",
+      "Vector DB directory structuring - ideal?": "",
+      "Can Salespeople Trust AI to Do All the Busywork?": "",
+      "Mastering Django Now: A Comprehensive Guide from Beginner to Advanced": "",
+      "UK's Sunak to Warn of Risks Posed by AI Ahead of Global Summit": "",
+      "Leaked UK's final AI Safety Summit communiqu&eacute; does not mention a new scientific body to study AI risks, and says it should be done using existing collaborations (Joseph Bambridge/Politico)": ""
    },
    "urls": {
       "https://allainews.com/news": "",
@@ -6777,6 +6791,20 @@
       "https://allainews.com/item/honor-says-its-new-phone-lets-you-open-apps-with-your-eyes-2023-10-25": "",
       "https://allainews.com/item/sort-text-numbers-2023-10-25": "",
       "https://allainews.com/item/meet-mata-an-ai-research-assistant-for-scientific-data-2023-10-26": "",
-      "https://allainews.com/item/learning-cloud-platforms-2023-10-25": ""
+      "https://allainews.com/item/learning-cloud-platforms-2023-10-25": "",
+      "https://allainews.com/item/r-researchers-discover-in-context-learning-creates-task-vectors-in-llms-2023-10-25": "",
+      "https://allainews.com/item/execute-jina-embeddings-with-a-cli-using-llm-embed-jina-2023-10-26": "",
+      "https://allainews.com/item/germanys-richest-man-wants-to-ensure-europe-has-an-openai-rival-2023-10-26": "",
+      "https://allainews.com/item/this-ai-paper-introduces-clin-a-continually-learning-language-agent-that-excels-in-both-task-adaptation-and-generalization-to-unse-2023-10-26": "",
+      "https://allainews.com/item/is-a-convex-optimization-class-good-for-data-science-2023-10-25": "",
+      "https://allainews.com/item/r-human-like-systematic-generalization-through-a-meta-learning-neural-network-2023-10-25": "",
+      "https://allainews.com/item/elevating-sample-quality-openais-consistency-models-training-techniques-redefine-the-game-2023-10-26": "",
+      "https://allainews.com/item/d-llms-playing-chess-are-sensitive-to-how-the-position-came-to-be-2023-10-25": "",
+      "https://allainews.com/item/is-this-the-only-european-fintech-thats-cracked-the-us-2023-10-26": "",
+      "https://allainews.com/item/vector-db-directory-structuring-ideal-2023-10-25": "",
+      "https://allainews.com/item/can-salespeople-trust-ai-to-do-all-the-busywork-2023-10-26": "",
+      "https://allainews.com/item/mastering-django-now-a-comprehensive-guide-from-beginner-to-advanced-2023-10-25": "",
+      "https://allainews.com/item/uks-sunak-to-warn-of-risks-posed-by-ai-ahead-of-global-summit-2023-10-25": "",
+      "https://allainews.com/item/leaked-uks-final-ai-safety-summit-communiqueacute-does-not-mention-a-new-scientific-body-to-study-ai-risks-and-says-it-should-be-d-2023-10-26": ""
    }
 }

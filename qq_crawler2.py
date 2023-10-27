@@ -214,14 +214,14 @@ class Crawler2:
 
 def open_futuretools():
    crawler = Crawler2()
-   crawler.extract_from_file("./data/futuretools.html", "https://www.futuretools.io/", 
+   crawler.extract_from_file("./test/futuretools.html", "https://www.futuretools.io/", 
       ["/submit-a-tool", "/?d", "/faq", "/learn", "/?tags="])
    crawler.save_json()
 
 def main():
 
    crawler = Crawler2(recursive=False)
-   crawler.open_json("storage/crawler-2.json")
+   crawler.open_json("test/crawler-2.json")
 
    crawler.enqueue_url("https://www.pythontutorial.net/python-concurrency/")
    crawler.set_filter("https://www.pythontutorial.net", ["/privacy-policy", "/contact", "/donation"])

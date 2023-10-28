@@ -81,7 +81,7 @@ class Crawler2:
 
    def is_filtered(self, url_str:str):
       hostname = url_hostname(url_str)
-      filter = self.filters[hostname]
+      filter = self.filters.get(hostname, [])
       for f in filter:
          if str.find(url_str + "/", f) >= 0: return True
       return False
@@ -105,6 +105,7 @@ class Crawler2:
    def enqueue_url(self, url_str: str):
       url_str = url_str.strip('/')
       hostname = url_hostname(url_str)
+      self.set_filter(url_str, [])
 
       if hostname not in self.urls:
          self.urls[hostname] = set()
@@ -212,13 +213,21 @@ class Crawler2:
 
 ###############################################################################################
 
-def open_futuretools():
+def test_futuretools():
    crawler = Crawler2()
    crawler.extract_from_file("./test/futuretools.html", "https://www.futuretools.io/", 
       ["/submit-a-tool", "/?d", "/faq", "/learn", "/?tags="])
    crawler.save_json()
 
+def test_unite_ai():
+   crawler = Crawler2(recursive=True)
+   crawler.enqueue_url("https://www.unite.ai/")
+   crawler.run()
+   crawler.save_json()
+
 def main():
+
+   return
 
    crawler = Crawler2(recursive=False)
    crawler.open_json("test/crawler-2.json")

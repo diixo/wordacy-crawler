@@ -38,6 +38,7 @@ class Crawler2:
       if path.exists():
          fd = open(filepath, 'r', encoding='utf-8')
          self.urls = json.load(fd)
+         self.new = deque(self.urls.get(".new", deque()))
       
       self.filepath = filepath
 
@@ -52,6 +53,12 @@ class Crawler2:
       result = dict()
       for host in self.urls.keys():
          result[host] = sorted(self.urls[host])
+
+      if (len(self.new) > 0):
+         result[".new"] = list(self.new)
+      else:
+         result[".new"] = None
+         result.pop(".new")
 
       with open(filepath, 'w', encoding='utf-8') as fd:
          json.dump(result, fd, ensure_ascii=False, indent=3)
@@ -74,7 +81,7 @@ class Crawler2:
          ".jpg", ".jpeg", ".png", ".svg", ".ico", ".bmp", ".gif", ".tiff", ".exif",
          ".pps", ".webp", ".txt", ".cmd", ".md" ".js", ".json", ".css", ".scss",
          ".zip", ".tar", ".rar", ".xz", ".gz", ".tgz", ".pkg", ".cab", ".jar", ".iso", 
-         ".exe", ".sfx", ".msi", ".cgi"]
+         ".exe", ".sfx", ".msi", ".cgi", ".mp4"]
       for i in avoid:
          if str.find(url_str, i) >= 0: return False
       return True
@@ -126,7 +133,7 @@ class Crawler2:
          if hasattr(link, 'attrs'):
                sref = link.attrs.get('href', None)
                if sref:
-                  sref = re.sub("http://", "https://", sref).strip()
+                  sref = re.sub("http://", "https://", sref).strip().lower()
                   u_hostname = urlparse(sref).hostname
                   if (not u_hostname) or (u_hostname == hostname):  #as relative
                      ref = urljoin(home, sref)
@@ -222,26 +229,52 @@ def test_futuretools():
 def test_unite_ai():
    crawler = Crawler2(recursive=True)
    crawler.enqueue_url("https://www.unite.ai/")
+   crawler.open_json("test/www.unite.ai.json")
+
    crawler.set_filter("https://www.unite.ai/", [
       "mailto:",
       "javascript:",
-      "/author/",
+      "/author",
       "/blogger",
       "/user/login",
       "/privacy-policy",
       "/terms-and-conditions",
-      "/about-us",
       "/contact-us",
       "/meet-the-team",
       "/press-tools",
       "/imagesai",
-      "/our-cherter"
+      "/our-cherter",
+      "/cdn-cgi",
+      "/?", "=%", "/%", 
+      "/de/", "/es/", "/fr/", "/id/", "/it/", "/ja/", "/ko/", "/nl/", "/no/", "/pl/", "/pt/", "/ru/", "/tr/", "/vi/",
+      "/about",
+      "/affiliate-terms",
+      "/agencies",
+      "/careers",
+      "/compatibilities",
+      "/contact",
+      "/contactus",
+      "/features",
+      "/integrations",
+      "/partner",
+      "/partner-apply",
+      "/pricing",
+      "/privacy",
+      "/refunds",
+      "/terms",
+      "/enterprise",
+      "/faq",
+      "/how-does-it-work",
+      "/privacy",
+      "/terms",
+      "/partner",
+      "/price"
       ])
    crawler.run()
    crawler.save_json("test/www.unite.ai.json")
 
 def main():
-
+   test_unite_ai()
    return
 
    crawler = Crawler2(recursive=False)

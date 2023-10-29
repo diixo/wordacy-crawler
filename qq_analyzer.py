@@ -88,8 +88,8 @@ def test():
       ])
    crawler.run()
 
-   urls = crawler.get_urls(url)
    ###########################
+   urls = crawler.get_urls(url)
 
    analyzer = Analyzer()
    analyzer.open_json("storage/allainews-news.json")

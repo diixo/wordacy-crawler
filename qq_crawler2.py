@@ -47,7 +47,7 @@ class Crawler2:
       if (filepath == ""):
          t = dt.now()
          filename = f"{t.year}-{t.month}-{t.day}_{t.hour}-{t.minute}-{t.second}"#-{t.microsecond}"
-         filepath = "./storage/" + filename + ".json"
+         filepath = "./test/" + filename + ".json"
 
       result = dict()
       for host in self.urls.keys():
@@ -222,8 +222,23 @@ def test_futuretools():
 def test_unite_ai():
    crawler = Crawler2(recursive=True)
    crawler.enqueue_url("https://www.unite.ai/")
+   crawler.set_filter("https://www.unite.ai/", [
+      "mailto:",
+      "javascript:",
+      "/author/",
+      "/blogger",
+      "/user/login",
+      "/privacy-policy",
+      "/terms-and-conditions",
+      "/about-us",
+      "/contact-us",
+      "/meet-the-team",
+      "/press-tools",
+      "/imagesai",
+      "/our-cherter"
+      ])
    crawler.run()
-   crawler.save_json()
+   crawler.save_json("test/www.unite.ai.json")
 
 def main():
 

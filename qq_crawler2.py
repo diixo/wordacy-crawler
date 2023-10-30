@@ -39,6 +39,7 @@ class Crawler2:
          fd = open(filepath, 'r', encoding='utf-8')
          self.urls = json.load(fd)
          self.new = deque(self.urls.get(".new", deque()))
+         print(f"<< [Crawler2]::open_json[remained={len(self.new)}]")
       
       self.filepath = filepath
 

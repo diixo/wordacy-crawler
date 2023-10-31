@@ -269,7 +269,8 @@ def test_unite_ai():
       "/privacy",
       "/terms",
       "/partner",
-      "/price"
+      "/price",
+      "/support"
       ])
    crawler.run()
    crawler.save_json("test/www.unite.ai.json")

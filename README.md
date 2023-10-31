@@ -48,7 +48,8 @@ Extract all links of specified domain from local file:
    "https://name.com": [
       "https://name.com/url_1/",
       "https://name.com/url_2/"
-   ]
+   ],
+   ".new": []
 }
 ```
 ### 3) Smart analysis the content from url's:

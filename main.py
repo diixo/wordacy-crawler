@@ -44,7 +44,7 @@ def test_prediction():
     with open(file_path, 'w', encoding='utf-8') as fd:
         json.dump(prediction.get_freq(), fd, ensure_ascii=False, indent=3)
 
-    if False:
+    if True:
         ccc = 36
         amount = 50
         tpl = prediction.predict_next("ai")
@@ -60,12 +60,14 @@ def test_prediction():
 
         print(ccc*"-")
         for i in range(amount):
-            print(f"{result_freq['n1'][i][0]}: {result_freq['n1'][i][1]}")
+            print(f"{result_freq['1'][i][0]}: {result_freq['1'][i][1]}")
         print(ccc*"-")
 
         for i in range(amount):
-            print(f"{result_freq['n2'][i][0]}: {result_freq['n2'][i][1]}")
+            print(f"{result_freq['2'][i][0]}: {result_freq['2'][i][1]}")
         print(ccc*"-")
+
+        prediction.load_json("storage/_prediction-freq.json")
 
 
 if __name__ == "__main__":

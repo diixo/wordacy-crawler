@@ -1,10 +1,13 @@
-import re
+import json
 from operator import itemgetter
 from collections import Counter
 from pathlib import Path
 import qq_grammar as qq
 
 ########################################################################
+def ntuple(content, n):
+   return tuple(content[0:n])
+
 # nltk.ngrams
 def ngrams(content, n):
    ngramList = [tuple(content[i:i+n]) for i in range(len(content)-n+1)]
@@ -190,17 +193,17 @@ class Prediction:
 
    def get_freq_sorted(self):
       result = {
-         "n1":sorted(self.unigrams_freq_dict.items(), key=itemgetter(1), reverse=True),
-         "n2":sorted(self.bigrams_freq_dict.items(),  key=itemgetter(1), reverse=True),        
-         "n3":sorted(self.trigrams_freq_dict.items(), key=itemgetter(1), reverse=True)
+         '1':sorted(self.unigrams_freq_dict.items(), key=itemgetter(1), reverse=True),
+         '2':sorted(self.bigrams_freq_dict.items(),  key=itemgetter(1), reverse=True),        
+         '3':sorted(self.trigrams_freq_dict.items(), key=itemgetter(1), reverse=True)
       }
       return result
 
    def get_freq(self):
       result = {
-         "n1":sorted(self.unigrams_freq_dict.items()),
-         "n2":sorted(self.bigrams_freq_dict.items()),        
-         "n3":sorted(self.trigrams_freq_dict.items())
+         '1':sorted(self.unigrams_freq_dict.items()),
+         '2':sorted(self.bigrams_freq_dict.items()),        
+         '3':sorted(self.trigrams_freq_dict.items())
       }
       return result
 
@@ -212,6 +215,31 @@ class Prediction:
 
    def get_3(self, w1:str, w2:str, w3:str):
       return self.trigrams_freq_dict.get(tuple([w1, w2, w3]), 0)
+
+   def load_json(self, filepath: str):
+      path = Path(filepath)
+      if path.exists():
+         fd = open(filepath, 'r', encoding='utf-8')
+         json_content = json.load(fd)
+         n1 = json_content['1']
+         n2 = json_content['2']
+         n3 = json_content['3']
+
+         self.unigrams_freq_dict = dict(zip(
+            [ ntuple(i[0], 1) for i in n1 ], 
+            [ i[1] for i in n1 ]))
+
+         self.bigrams_freq_dict = dict(zip(
+            [ ntuple(i[0], 2) for i in n2 ], 
+            [ i[1] for i in n2 ]))
+         
+         self.trigrams_freq_dict = dict(zip(
+            [ ntuple(i[0], 3) for i in n3 ], 
+            [ i[1] for i in n3 ]))
+
+         self.unigrams = set(self.unigrams_freq_dict.keys())
+         self.bigrams = set(self.bigrams_freq_dict.keys())
+         self.trigrams = set(self.trigrams_freq_dict.keys())
 
 ##########################################################
    def predict(str_line: str, stopwords = set()):

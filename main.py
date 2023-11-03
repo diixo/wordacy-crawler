@@ -45,6 +45,8 @@ def test_prediction():
         json.dump(prediction.get_freq(), fd, ensure_ascii=False, indent=3)
 
     if False:
+        ccc = 36
+        amount = 50
         tpl = prediction.predict_next("ai")
         print(tpl)
 
@@ -54,15 +56,16 @@ def test_prediction():
         print(prediction.get_1("ai"))
         print(prediction.get_2("software", "engineering"))
 
-        result = prediction.get_freq()
         result_freq = prediction.get_freq_sorted()
 
-        for i in range(50):
-            print(result_freq["n1"][i][0], result_freq["n1"][i][1])
+        print(ccc*"-")
+        for i in range(amount):
+            print(f"{result_freq['n1'][i][0]}: {result_freq['n1'][i][1]}")
+        print(ccc*"-")
 
-        for i in range(50):
-            print(result_freq["n2"][i][0], result_freq["n2"][i][1])
-
+        for i in range(amount):
+            print(f"{result_freq['n2'][i][0]}: {result_freq['n2'][i][1]}")
+        print(ccc*"-")
 
 
 if __name__ == "__main__":

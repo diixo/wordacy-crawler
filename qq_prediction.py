@@ -241,6 +241,10 @@ class Prediction:
          self.bigrams = set(self.bigrams_freq_dict.keys())
          self.trigrams = set(self.trigrams_freq_dict.keys())
 
+   def save_json(self, filepath = None):
+      with open(filepath, 'w', encoding='utf-8') as fd:
+         json.dump(self.get_freq(), fd, ensure_ascii=False, indent=3)
+
 ##########################################################
    def predict(str_line: str, stopwords = set()):
       work_str = qq.translate(str_line, stopwords)

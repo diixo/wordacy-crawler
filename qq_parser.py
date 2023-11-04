@@ -2,6 +2,7 @@ import os
 import io
 import json
 import re
+import ssl
 from pathlib import Path
 import urllib.parse
 
@@ -16,7 +17,7 @@ import qq_grammar as qq
 ########################################################################
 
 logging = False
-
+SSL_CONTEXT=ssl._create_unverified_context()
 stopwords = set()
 
 
@@ -56,6 +57,14 @@ def extract_headings(raw, hhh_mask, result = dict()):
         s = qq.translate(h.get_text())
         #s = "".join([w for w in s if (w == "IT") or (not qq.is_digit(w) and (w not in stopwords))])
         result[s] = ""
+
+    if len(hhh) == 0:
+        elements = raw.find_all("meta", {"property":"og:title"})
+        for elem in elements:
+            s = elem.attrs.get("content", None)
+            if s:
+                result[qq.translate(s)] = ""
+
 
 def read_ahref(raw, structure=dict()):
     all = raw.find_all("a")
@@ -196,7 +205,8 @@ def parse(raw, result = {}, hhh_mask = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6']):
 
 def parse_url(url, result = dict(), hhh_mask = None):
     req = Request(url, headers={'User-Agent': 'XYZ/3.0'})
-    html = urllib.request.urlopen(req).read()
+    #html = urllib.request.urlopen(req).read()
+    html = urllib.request.urlopen(req, context = SSL_CONTEXT).read()
     raw = BeautifulSoup(html, features="html.parser") 
     if hhh_mask:
         parse(raw, result, hhh_mask=hhh_mask)

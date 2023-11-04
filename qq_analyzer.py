@@ -102,6 +102,13 @@ def test_url_to_dataset():
    analyzer.save_json()
    print(f"<< [Analyzer] :{len(analyzer.content.get('headings', dict()))}")
 
+def test_with_ssl():
+   analyzer = Analyzer()
+   analyzer.open_json("storage/ssl-content.json")
+   analyzer.learn_url("https://www.linkedin.com/pulse/exploring-linear-regression-gradient-descent-mean-squared-ravi-singh", ["h1"])
+   #analyzer.learn_url("https://www.marktechpost.com/2023/10/22/google-ai-presents-pali-3-a-smaller-faster-and-stronger-vision-language-model-vlm-that-compares-favorably-to-similar-models-that-are-10x-larger")
+   analyzer.save_json()
+
 
 def dataset():
    u1 = "https://pythonexamples.org/"
@@ -126,4 +133,5 @@ def dataset():
 
 if __name__ == "__main__":
    test_url_to_dataset()
+   #test_with_ssl()
    #dataset()

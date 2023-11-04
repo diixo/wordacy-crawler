@@ -5,8 +5,9 @@ from pathlib import Path
 import qq_grammar as qq
 
 ########################################################################
-def ntuple(content, n):
-   return tuple(content[0:n])
+#make tuple from list
+def ntuple(content: list, sz: int):
+   return tuple(content[0:sz])
 
 # nltk.ngrams
 def ngrams(content, n):

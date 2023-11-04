@@ -17,7 +17,7 @@ def load_stopwords():
     return set()
 
 
-def test_prediction():
+def test_headings_to_prediction():
     stopwords = load_stopwords()
 
     analyzer = Analyzer()
@@ -37,12 +37,12 @@ def test_prediction():
         for tokens in ngrams:
             prediction.add_tokens(tokens)
 
-
     print(prediction)
 
     if True:
         file_path="storage/_prediction-freq.json"
         prediction.save_json(file_path)
+        prediction.load_json(file_path)
 
         ccc = 36
         amount = 50
@@ -66,9 +66,7 @@ def test_prediction():
             print(f"{result_freq['2'][i][0]}: {result_freq['2'][i][1]}")
         print(ccc*"-")
 
-        prediction.load_json(file_path)
-        prediction.save_json(file_path)
 
 
 if __name__ == "__main__":
-    test_prediction()
+    test_headings_to_prediction()

@@ -238,7 +238,7 @@ class Prediction:
             [ i[1] for i in n3 ]))
 
          self.unigrams = set(self.unigrams_freq_dict.keys())
-         self.bigrams = set(self.bigrams_freq_dict.keys())
+         self.bigrams  = set(self.bigrams_freq_dict.keys())
          self.trigrams = set(self.trigrams_freq_dict.keys())
 
    def save_json(self, filepath = None):

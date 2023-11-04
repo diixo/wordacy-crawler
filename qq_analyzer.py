@@ -66,7 +66,7 @@ class Analyzer:
       self.filepath = filepath
 
 
-def test():
+def test_url_to_dataset():
    url = "https://allainews.com/news/"
 
    crawler = Crawler2()
@@ -125,5 +125,5 @@ def dataset():
 
 
 if __name__ == "__main__":
-   test()
+   test_url_to_dataset()
    #dataset()

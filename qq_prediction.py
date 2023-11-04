@@ -5,7 +5,7 @@ from pathlib import Path
 import qq_grammar as qq
 
 ########################################################################
-#make tuple from list
+#make tuple from list of strings
 def ntuple(content: list, sz: int):
    return tuple(content[0:sz])
 
@@ -17,9 +17,9 @@ def ngrams(content, n):
 def add_ngrams_freqDict(ngram_freq_dict, ngramList):
    for tpl in ngramList:
       if tpl in ngram_freq_dict:
-            ngram_freq_dict[tpl] += 1
+         ngram_freq_dict[tpl] += 1
       else:
-            ngram_freq_dict[tpl] = 1
+         ngram_freq_dict[tpl] = 1
 ##########################################################
 def str_tokenize(str_line: str, stopwords = None):
    word_list = qq.str_tokenize_words(str_line)

@@ -1,4 +1,5 @@
 import json
+from pathlib import Path
 
 # graph should be construct from keywords-section of json dataset
 # should provide fast searching by unigram, bigram
@@ -26,18 +27,16 @@ class PredictionSearch:
                dct[tpl[0]] = 1
       else:
          for tpl in ngramList:
+            key = " ".join(tpl[0:id-1])
             value = tpl[id-1]
-            t = tuple(tpl[0:id-1])
-            if len(t) == 1: t = tpl[0]
-            else: continue
 
-            #print(f"{t} : {value}")
-            dct_freq = dct.get(t, { value : 0 })
+            #print(f"{key} : {value}")
+            dct_freq = dct.get(key, { value : 0 })
 
             fr = dct_freq[value] if (value in dct_freq) else 0
             dct_freq[value] = fr + 1
 
-            dct[t] = dct_freq
+            dct[key] = dct_freq
 
 
    def add_tokens(self, tokens: list):
@@ -53,3 +52,9 @@ class PredictionSearch:
       if filepath:
          with open(filepath, 'w', encoding='utf-8') as fd:
             json.dump(self.graph, fd, ensure_ascii=False, indent=3)
+
+   def load_json(self, filepath: str):
+      path = Path(filepath)
+      if path.exists():
+         fd = open(filepath, 'r', encoding='utf-8')
+         self.graph = json.load(fd)

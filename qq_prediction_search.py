@@ -58,3 +58,31 @@ class PredictionSearch:
       if path.exists():
          fd = open(filepath, 'r', encoding='utf-8')
          self.graph = json.load(fd)
+
+   def search(self, grams_list: list):
+      sz = len(grams_list)
+      if sz >= len(self.graph): return []
+
+      d = self.graph[str(sz+1)]
+      items = d.get(" ".join(grams_list), dict())
+
+      result = dict()
+      for k, v in items.items():
+         vector = result.get(v, None)
+         if vector:
+            vector.append(k)
+         else:
+            result[v] = [k]
+
+      srt = sorted(result.items(), reverse=True)
+      #srt=list(tuple(cntr, [...]))
+
+      result = []
+      cntr = 0
+      for tpl in srt:
+         if len(result) + len(tpl[1]) <= 50:
+            result.extend(tpl[1])
+            cntr += 1
+         else: break
+      print(f"results: [{cntr}:{len(srt)}]")
+      return result

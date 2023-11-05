@@ -8,7 +8,7 @@ from pathlib import Path
 from qq_analyzer import Analyzer
 from qq_prediction import Prediction
 from qq_prediction_search import PredictionSearch
-import qq_grammar as qq_grammar
+import qq_grammar as qq
 
 
 def load_stopwords():
@@ -35,15 +35,15 @@ def test_headings_to_prediction():
     search = PredictionSearch()
 
     for string in content.keys():
-        string = qq_grammar.translate(string)
-        ngrams = qq_grammar.str_to_ngrams(string, stopwords)
+        string = qq.translate(string)
+        ngrams = qq.str_to_ngrams(string, stopwords)
         for tokens in ngrams:
             prediction.add_tokens(tokens)
             search.add_tokens(tokens)
 
     print(prediction)
 
-    if True:
+    if False:
         file_path="storage/_prediction-freq.json"
         prediction.save_json(file_path)
         prediction.load_json(file_path)
@@ -71,6 +71,12 @@ def test_headings_to_prediction():
             print(f"{result_freq['2'][i][0]}: {result_freq['2'][i][1]}")
         print(ccc*"-")
 
+    while True:
+        user_input = input(">>>")
+        grams = qq.str_tokenize_words(user_input)
+        if user_input == "-x": break
+        result = search.search(grams)
+        print(result)
 
 
 if __name__ == "__main__":

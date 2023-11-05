@@ -47,6 +47,7 @@ def test_headings_to_prediction():
         file_path="storage/_prediction-freq.json"
         prediction.save_json(file_path)
         prediction.load_json(file_path)
+        search.save_json("storage/prediction-search.json")
 
         ccc = 36
         amount = 50

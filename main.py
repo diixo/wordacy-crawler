@@ -7,6 +7,7 @@ from pathlib import Path
 
 from qq_analyzer import Analyzer
 from qq_prediction import Prediction
+from qq_prediction_search import PredictionSearch
 import qq_grammar as qq_grammar
 
 
@@ -31,11 +32,14 @@ def test_headings_to_prediction():
     content = dict.fromkeys(content, "")
 
     prediction = Prediction()
+    search = PredictionSearch()
+
     for string in content.keys():
         string = qq_grammar.translate(string)
         ngrams = qq_grammar.str_to_ngrams(string, stopwords)
         for tokens in ngrams:
             prediction.add_tokens(tokens)
+            search.add_tokens(tokens)
 
     print(prediction)
 

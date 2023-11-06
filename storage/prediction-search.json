@@ -66,8 +66,6 @@
       "8/10": 2,
       "9/10": 2,
       "9/11": 2,
-      "9/28/2023": 2,
-      "9/29/2023": 1,
       "a.i": 21,
       "a.i.'s": 1,
       "a/b": 1,
@@ -26329,8 +26327,7 @@
          "tourism": 1
       },
       "central": {
-         "bank": 1,
-         "9/29/2023": 1
+         "bank": 1
       },
       "bank": {
          "assembles": 1,
@@ -26600,9 +26597,6 @@
          "articles": 1,
          "impact": 1,
          "news": 1
-      },
-      "briefs": {
-         "9/28/2023": 1
       },
       "strains": {
          "meet": 1
@@ -56483,9 +56477,6 @@
       "insidebigdata ai": {
          "news": 1
       },
-      "news briefs": {
-         "9/28/2023": 1
-      },
       "chip industry": {
          "strains": 1
       },
@@ -58903,9 +58894,6 @@
       },
       "industry rumor": {
          "central": 1
-      },
-      "rumor central": {
-         "9/29/2023": 1
       },
       "confluent announces": {
          "apache": 1

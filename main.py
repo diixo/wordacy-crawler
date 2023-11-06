@@ -70,9 +70,8 @@ def test_headings_to_prediction():
             print(f"{result_freq['2'][i][0]}: {result_freq['2'][i][1]}")
         print(ccc*"-")
 
-    #######################################################
-    if False:
         search.save_json("storage/prediction-search.json")
+    #######################################################
 
     while True:
         user_input = input(">>>")

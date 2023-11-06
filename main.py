@@ -73,8 +73,8 @@ def test_headings_to_prediction():
 
     while True:
         user_input = input(">>>")
-        grams = qq.str_tokenize_words(user_input)
         if user_input == "-x": break
+        grams = qq.str_tokenize_words(user_input)
         result = search.search(grams)
         print(result)
 

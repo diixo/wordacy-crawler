@@ -49,6 +49,9 @@ class PredictionSearch:
       self.add_ngrams_freq(3, ngrams_3)
 
    def save_json(self, filepath = None):
+      dict1 = self.graph["1"]
+      self.graph["1"] = dict(sorted(dict1.items()))
+
       if filepath:
          with open(filepath, 'w', encoding='utf-8') as fd:
             json.dump(self.graph, fd, ensure_ascii=False, indent=3)

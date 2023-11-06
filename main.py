@@ -47,7 +47,6 @@ def test_headings_to_prediction():
         file_path="storage/_prediction-freq.json"
         prediction.save_json(file_path)
         prediction.load_json(file_path)
-        search.save_json("storage/prediction-search.json")
 
         ccc = 36
         amount = 50
@@ -71,12 +70,17 @@ def test_headings_to_prediction():
             print(f"{result_freq['2'][i][0]}: {result_freq['2'][i][1]}")
         print(ccc*"-")
 
+    #######################################################
+    if True:
+        search.save_json("storage/prediction-search.json")
+
     while True:
         user_input = input(">>>")
         if user_input == "-x": break
-        grams = qq.str_tokenize_words(user_input)
-        result = search.search(grams)
-        print(result)
+        else:
+            grams = qq.str_tokenize_words(user_input)
+            result = search.search(grams)
+            print(result)
 
 
 if __name__ == "__main__":

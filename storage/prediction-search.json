@@ -8,12 +8,8 @@
       "1.5m+": 1,
       "1/10": 1,
       "1/2": 1,
-      "10/1/2023": 1,
       "10/16": 1,
       "10/2": 1,
-      "10/3/2023": 1,
-      "10/7/2023": 1,
-      "10/8/2023": 1,
       "10/month": 1,
       "12pc": 1,
       "13ft": 1,
@@ -10795,7 +10791,6 @@
          "discussion": 1,
          "app": 2,
          "site": 1,
-         "10/8/2023": 1,
          "google's": 1
       },
       "cisco": {
@@ -21891,7 +21886,6 @@
          "deloitte": 1,
          "report": 1,
          "reveals": 2,
-         "10/3/2023": 1,
          "rankings": 1,
          "generative": 1,
          "finds": 2,
@@ -45963,8 +45957,7 @@
          "roundup": 4,
          "briefs": 1,
          "week": 4,
-         "discussion": 1,
-         "10/8/2023": 1
+         "discussion": 1
       },
       "news roundup": {
          "cisco": 1,
@@ -65369,9 +65362,6 @@
       },
       "text ai": {
          "images": 1
-      },
-      "ai report": {
-         "10/3/2023": 1
       },
       "cloud-native applications": {
          "observability": 1

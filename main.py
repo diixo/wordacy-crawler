@@ -71,16 +71,16 @@ def test_headings_to_prediction():
         print(ccc*"-")
 
     #######################################################
-    if True:
+    if False:
         search.save_json("storage/prediction-search.json")
 
     while True:
         user_input = input(">>>")
-        if user_input == "-x": break
-        else:
-            grams = qq.str_tokenize_words(user_input)
-            result = search.search(grams)
-            print(result)
+
+        grams = qq.str_tokenize_words(user_input)
+        if len(grams) == 0: break
+        result = search.search(grams)
+        print(result)
 
 
 if __name__ == "__main__":

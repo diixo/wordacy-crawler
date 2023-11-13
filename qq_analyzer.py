@@ -110,7 +110,7 @@ def test_with_ssl():
    analyzer.save_json()
 
 
-def dataset():
+def test_dataset():
    u1 = "https://pythonexamples.org/"
    u2 = "https://kotlinandroid.org/"
    u3 = "https://www.javatpoint.com/"
@@ -134,4 +134,4 @@ def dataset():
 if __name__ == "__main__":
    test_url_to_dataset()
    #test_with_ssl()
-   #dataset()
+   #test_dataset()

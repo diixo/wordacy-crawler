@@ -83,8 +83,9 @@ class PredictionSearch:
       result = []
       cntr = 0
       for tpl in srt:
-         if len(result) + len(tpl[1]) <= 50:
+         if len(result) < 50:
             result.extend(tpl[1])
+            print(f"{tpl[0]}:{tpl[1]}")
             cntr += 1
          else: break
       print(f"results: [{cntr}:{len(srt)}]")

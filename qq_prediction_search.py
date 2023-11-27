@@ -66,8 +66,9 @@ class PredictionSearch:
       sz = len(grams_list)
       if sz >= len(self.graph): return []
 
+      str_request = " ".join(grams_list)
       d = self.graph[str(sz+1)]
-      items = d.get(" ".join(grams_list), dict())
+      items = d.get(str_request, dict())
 
       result = dict()
       for k, v in items.items():
@@ -85,7 +86,7 @@ class PredictionSearch:
       for tpl in srt:
          if len(result) < 50:
             result.extend(tpl[1])
-            print(f"{tpl[0]}:{tpl[1]}")
+            print(f"[{str_request}]:{tpl[1]}:{tpl[0]}")
             cntr += 1
          else: break
       print(f"results: [{cntr}:{len(srt)}]")

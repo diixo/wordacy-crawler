@@ -2,7 +2,6 @@ import time
 import json
 from pathlib import Path
 import qq_parser as qq_parser
-import qq_grammar as qq
 from qq_crawler2 import Crawler2
 
 class Analyzer:

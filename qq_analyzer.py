@@ -93,7 +93,7 @@ def test_url_to_dataset():
    analyzer = Analyzer()
    analyzer.open_json("storage/allainews-news.json")
 
-   analyzer.learn_file("template/keywords.html")
+   #analyzer.learn_file("template/keywords.html")
 
    print(f">> [Analyzer] :{len(analyzer.content.get('headings', dict()))}")
    for u in urls:

@@ -93,6 +93,8 @@ def test_url_to_dataset():
    analyzer = Analyzer()
    analyzer.open_json("storage/allainews-news.json")
 
+   #analyzer.learn_file("storage/tags.html")
+
    print(f">> [Analyzer] :{len(analyzer.content.get('headings', dict()))}")
    for u in urls:
       if analyzer.learn_url(u, hhh_mask=["h1", "H1"]):

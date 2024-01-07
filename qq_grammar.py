@@ -44,7 +44,7 @@ def translate(txt: str):
     return txt.strip()
 
 
-def str_to_ngrams(str_line: str, stopwords: set()):
+def str_to_ngrams(str_line: str, stopwords: set(), exclude = { "2d", "3d", "3g", "4g", "5g", "6g" }):
    
     line1 = str_line.replace(". ", "! ")
     line1 = re.sub('[!?;,:\[\]\(\)]', "!", line1)
@@ -52,7 +52,6 @@ def str_to_ngrams(str_line: str, stopwords: set()):
 
     punctuation = " ©®-%$!?:,;\'\" @~&()=*_<=>{|}[/]^\\"
     result = []
-    exclude = { "2d", "3d", "3g", "4g", "5g", "6g" }
 
     for item in strips:
 

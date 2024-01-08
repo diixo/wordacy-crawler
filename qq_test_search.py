@@ -30,7 +30,6 @@ class SearchTest:
         with open('./storage/allainews-news.json', 'r', encoding='utf-8') as fd:
             content = json.load(fd)
             keywords = content.get("keywords", list())
-
             ##########################################################################
 
             for string in keywords:

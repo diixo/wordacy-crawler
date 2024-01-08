@@ -9,10 +9,6 @@ import qq_grammar as qq
 def ntuple(content: list, sz: int):
    return tuple(content[0:sz])
 
-# nltk.ngrams
-def ngrams(content, n):
-   ngramList = [tuple(content[i:i+n]) for i in range(len(content)-n+1)]
-   return ngramList
 ########################################################################
 def add_ngrams_freqDict(ngram_freq_dict, ngramList):
    for tpl in ngramList:
@@ -137,22 +133,22 @@ class Prediction:
       return len(self.unigrams)
 
    def add_word(self, word: str):
-      ngrams_1 = ngrams([word], 1)
+      ngrams_1 = qq.ngrams([word], 1)
       add_ngrams_freqDict(self.unigrams_freq_dict, ngrams_1)
       self.unigrams.update(ngrams_1)  # unique inserting
 
    def add_tokens(self, tokens: list):
-      ngrams_1 = ngrams(tokens, 1)
-      ngrams_2 = ngrams(tokens, 2)
-      ngrams_3 = ngrams(tokens, 3)
-
-      add_ngrams_freqDict(self.unigrams_freq_dict, ngrams_1)
-      add_ngrams_freqDict(self.bigrams_freq_dict,  ngrams_2)
-      add_ngrams_freqDict(self.trigrams_freq_dict, ngrams_3)
+      ngrams_1 = qq.ngrams(tokens, 1)
+      ngrams_2 = qq.ngrams(tokens, 2)
+      ngrams_3 = qq.ngrams(tokens, 3)
 
       self.unigrams.update(ngrams_1)  # unique inserting
       self.bigrams.update(ngrams_2)   # unique inserting
       self.trigrams.update(ngrams_3)  # unique inserting
+
+      add_ngrams_freqDict(self.unigrams_freq_dict, ngrams_1)
+      add_ngrams_freqDict(self.bigrams_freq_dict,  ngrams_2)
+      add_ngrams_freqDict(self.trigrams_freq_dict, ngrams_3)
 
    def finalize(self, dictionary = set()):
       if self.size() == 0: return
@@ -254,5 +250,5 @@ class Prediction:
       ngram = {1:[], 2:[]}
 
       for i in range(2):
-         ngram[i+1] = list(ngrams(tokenList, i+1))[-1]
+         ngram[i+1] = list(qq.ngrams(tokenList, i+1))[-1]
 ##########################################################

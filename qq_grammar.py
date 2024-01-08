@@ -1,5 +1,9 @@
 import re
 
+# nltk.ngrams
+def ngrams(content, n):
+   ngramList = [tuple(content[i:i+n]) for i in range(len(content)-n+1)]
+   return ngramList
 
 def is_digit(word: str):
     w = re.sub(r'[$]?[-+]?[\d]*[.,\:]?[\d]+[ %\"\'\)\+]*', "", word)

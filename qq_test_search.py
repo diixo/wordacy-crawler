@@ -1,5 +1,6 @@
 
 import qq_grammar as qq
+import json
 
 class SearchTest:
 
@@ -23,20 +24,27 @@ class SearchTest:
             ngrams_3 = qq.ngrams(tokens, 3)
             self.trigrams.update(ngrams_3)
 
-    def set_keywords(self, keywords = list()):
+    def set_keywords(self):
         stopwords = set()
 
-        for string in keywords:
-            string = qq.translate(string)
-            ngrams = qq.str_to_ngrams(string, stopwords)
-            for gram in ngrams:
-                self.add_tokens(gram)
-        return None
+        with open('./storage/allainews-news.json', 'r', encoding='utf-8') as fd:
+            content = json.load(fd)
+            keywords = content.get("keywords", list())
+
+            ##########################################################################
+
+            for string in keywords:
+                ngrams = qq.str_to_ngrams(string, stopwords)
+                for grams in ngrams:
+                    self.add_tokens(grams)
+        
+        ##########################################################################
+        print(f"uni={len(self.unigrams)}, bi={len(self.bigrams)}, tri={len(self.trigrams)}")
 
 def main():
     keywords = ["data science", "neural networks", "ai news"]
     test = SearchTest()
-    test.set_keywords(keywords=keywords)
+    test.set_keywords()
 
 if __name__ == '__main__':
     main()

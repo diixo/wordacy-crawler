@@ -48,12 +48,16 @@ class SearchTest:
         result.extend([" ".join(gram) for gram in ngrams_2 if gram in self.bigrams])
         
         ngrams_3 = qq.ngrams(grams, 3)
-        result.extend([" ".join(gram) for gram in ngrams_3 if gram is self.trigrams])
+        result.extend([" ".join(gram) for gram in ngrams_3 if gram in self.trigrams])
         # TODO: unique results
         return result
 
 def main():
     test = SearchTest()
+
+    result = test.calculate_tags("Large Language model: Java News Roundup: Spring Shell, Micronaut, JReleaser, JobRunr", 
+        set())
+    print(result)
 
 if __name__ == '__main__':
     main()

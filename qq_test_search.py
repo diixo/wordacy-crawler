@@ -33,9 +33,8 @@ class SearchTest:
             ##########################################################################
 
             for string in keywords:
-                ngrams = qq.str_to_ngrams(string, stopwords)
-                for grams in ngrams:
-                    self.add_tokens(grams)
+                grams = qq.str_tokenize_words(string)
+                self.add_tokens(grams)
         
         ##########################################################################
         print(f"uni={len(self.unigrams)}, bi={len(self.bigrams)}, tri={len(self.trigrams)}")

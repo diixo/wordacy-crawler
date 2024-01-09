@@ -3,6 +3,14 @@ import json
 from pathlib import Path
 import qq_parser as qq_parser
 from qq_crawler2 import Crawler2
+import qq_grammar as qq
+from qq_prediction import Prediction
+
+def load_stopwords():
+    f = Path("data/stopwords.txt")
+    if f.exists():
+        return set([line.replace('\n', '') for line in open(str(f), 'r', encoding='utf-8').readlines()])
+    return set()
 
 class Analyzer:
 
@@ -102,6 +110,38 @@ def test_url_to_dataset():
          time.sleep(2.0)
    analyzer.save_json()
    print(f"<< [Analyzer] :{len(analyzer.content.get('headings', dict()))}")
+
+   ####################### analyze keywords #######################
+   stopwords = load_stopwords()
+
+   prediction = Prediction()
+   keywords = analyzer.content.get("keywords", list())
+   content = analyzer.content.get("headings", dict())
+
+   for string in content.keys():
+      string = qq.translate(string)
+      ngrams = qq.str_to_ngrams(string, stopwords)
+      for tokens in ngrams:
+         prediction.add_tokens(tokens)
+
+   result = dict()
+   for sentence in keywords:
+      tokens = qq.str_tokenize_words(sentence)
+      sz = len(tokens)
+      grams = tuple(tokens[0:sz])
+
+      count = 0
+      if sz == 1:
+         count = prediction.unigrams_freq_dict.get(grams, count)
+      if sz == 2:
+         count = prediction.bigrams_freq_dict.get(grams, count)
+      if sz == 3:
+         count = prediction.trigrams_freq_dict.get(grams, count) 
+
+      if count > 0: result[sentence] = count
+
+   print(f"keywords.sz={len(keywords)}, result.sz={len(result)}")
+
 
 def test_with_ssl():
    analyzer = Analyzer()

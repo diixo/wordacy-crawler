@@ -56,14 +56,13 @@ class PredictionSearch:
 
    def save_json(self, filepath = None):
       dict1 = self.graph["1"]
-      result = set(sorted(dict1.keys()))
+      result = sorted(dict1.keys())
 
-      diixonary = load_words("data/diixonary.txt")
-      diixonary.update(load_words("data/dictionary.txt"))
+      diixonary = load_words("data/db-full.txt")
 
       result = [word for word in result if word not in diixonary]
 
-      #print(len(result))
+      print("Result sorted words to " + filepath + ": " + str(len(result)))
 
       if filepath:
          with open(filepath, 'w', encoding='utf-8') as fd:

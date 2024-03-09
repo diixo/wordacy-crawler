@@ -1,4 +1,4 @@
-cross-platform
+﻿cross-platform
 library
 ios
 devices

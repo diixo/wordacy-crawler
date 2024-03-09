@@ -9,6 +9,12 @@ def tgrams(content, n):
    ngramList = [tuple(content[i:i+n]) for i in range(len(content)-n+1)]
    return ngramList
 
+def load_words(str_path : str):
+    f = Path(str_path)
+    if f.exists():
+        return set([line.replace('\n', '') for line in open(str(f), 'r', encoding='utf-8').readlines() if len(line)>1])
+    return set()
+
 class PredictionSearch:
 
    def __init__(self):
@@ -50,11 +56,18 @@ class PredictionSearch:
 
    def save_json(self, filepath = None):
       dict1 = self.graph["1"]
-      self.graph["1"] = dict(sorted(dict1.items()))
+      result = set(sorted(dict1.keys()))
+
+      diixonary = load_words("data/diixonary.txt")
+      diixonary.update(load_words("data/dictionary.txt"))
+
+      result = [word for word in result if word not in diixonary]
+
+      #print(len(result))
 
       if filepath:
          with open(filepath, 'w', encoding='utf-8') as fd:
-            json.dump(self.graph, fd, ensure_ascii=False, indent=3)
+            json.dump(result, fd, ensure_ascii=False, indent=3)
 
    def load_json(self, filepath: str):
       path = Path(filepath)

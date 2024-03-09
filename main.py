@@ -23,7 +23,7 @@ def test_headings_to_prediction():
 
     analyzer = Analyzer()
     #open constant version:
-    analyzer.open_json("storage/_prediction-allainews-news.json")
+    analyzer.open_json("storage/allainews-news.json")
 
     #open dynamic version:
     #analyzer.open_json("storage/allainews-news.json")
@@ -77,9 +77,10 @@ def test_headings_to_prediction():
         user_input = input(">>>")
 
         grams = qq.str_tokenize_words(user_input)
-        if len(grams) == 0: break
+        if len(grams) == 0:
+            search.save_json("storage/prediction-search-1.json")
+            break
         result = search.search(grams)
-        print(result)
 
 
 if __name__ == "__main__":

@@ -60,6 +60,8 @@ class PredictionSearch:
 
       diixonary = load_words("data/db-full.txt")
 
+      print("Loaded dictionary sz: " + str(len(diixonary)))
+
       result = [word for word in result if word not in diixonary]
 
       print("Result sorted words to " + filepath + ": " + str(len(result)))

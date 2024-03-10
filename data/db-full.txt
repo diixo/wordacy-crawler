@@ -841,6 +841,7 @@ characterizes
 characterizing
 charge
 charged
+chatted
 cheat
 check
 checked
@@ -9225,6 +9226,7 @@ cstdlib
 csv
 cto
 cube
+cubes
 cubic
 cuboid
 cuda
@@ -9410,6 +9412,7 @@ debugger
 debuggers
 decade
 decades
+deceleration
 decentralization
 decentralized
 deception
@@ -9420,6 +9423,7 @@ decimals
 decision
 decision-making
 decisions
+decisive
 declaration
 declarations
 declarative

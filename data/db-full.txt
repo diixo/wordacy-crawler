@@ -391,7 +391,6 @@ architecting
 archived
 are
 aren't
-aren’t
 arguably
 argue
 argued
@@ -769,12 +768,11 @@ cancel
 canceled
 canceling
 cancels
+cann't
 cannot
-cann’t
 canonicalize
 canonicalizes
 cant
-can’t
 capitalize
 capitalized
 capture
@@ -1295,8 +1293,6 @@ costs
 could
 could've
 couldn't
-couldn’t
-could’ve
 counsel
 counseling
 count
@@ -1733,7 +1729,6 @@ dictated
 dictates
 did
 didn't
-didn’t
 die
 died
 dies
@@ -1937,7 +1932,6 @@ documenting
 does
 doesn't
 doesnt
-doesn’t
 doing
 dominate
 dominated
@@ -1948,7 +1942,6 @@ donate
 donated
 done
 dont
-don’t
 double
 doubly
 doubt
@@ -2089,7 +2082,6 @@ elongates
 else
 else's
 elsewhere
-else’s
 elucidate
 elucidated
 elucidates
@@ -2845,7 +2837,6 @@ hacked
 hacks
 had
 hadn't
-hadn’t
 hailed
 halfway
 halted
@@ -2885,7 +2876,6 @@ harnessing
 has
 hashed
 hasn't
-hasn’t
 hassled
 hate
 hated
@@ -2894,7 +2884,6 @@ haunt
 haunted
 have
 haven't
-haven’t
 having
 havn't
 he
@@ -2926,15 +2915,12 @@ hereafter
 hereby
 herein
 hereupon
-here’s
 hers
 herself
 hesitate
 hesitated
 hesitates
 hey
-he’d
-he’s
 hi
 hid
 hidden
@@ -3387,7 +3373,6 @@ irritates
 irritating
 is
 isn't
-isn’t
 isolate
 isolated
 isolates
@@ -3408,13 +3393,6 @@ iterations
 iteratively
 its
 itself
-it’d
-it’ll
-it’s
-i’d
-i’ll
-i’m
-i’ve
 jammed
 jitter
 jittered
@@ -3535,7 +3513,6 @@ let`s
 lets
 lettered
 letting
-let’s
 leveled
 leveling
 leverage
@@ -3891,7 +3868,7 @@ necessitated
 need
 needed
 needing
-needn’t
+needn't
 needs
 negate
 negated
@@ -5627,8 +5604,6 @@ she
 she'd
 she'll
 she's
-she’ll
-she’s
 shift
 shifted
 shifting
@@ -5648,8 +5623,6 @@ shot
 should
 should've
 shouldn't
-shouldn’t
-should’ve
 shout
 shouted
 shoutout
@@ -6189,8 +6162,6 @@ that'd
 that'll
 that's
 thats
-that’ll
-that’s
 the
 their
 theirs
@@ -6200,6 +6171,7 @@ themselves
 then
 theoretically
 there
+there'll
 there're
 there's
 thereafter
@@ -6210,18 +6182,12 @@ thereof
 thereout
 theres
 thereupon
-there’ll
-there’s
 these
 they
 they'd
 they'll
 they're
 they've
-they’d
-they’ll
-they’re
-they’ve
 thine
 think
 thinking
@@ -6781,7 +6747,6 @@ washed-out
 washing
 wasn't
 wasn`t
-wasn’t
 waste
 wasted
 wastes
@@ -6813,12 +6778,6 @@ went
 were
 weren't
 weren`t
-weren’t
-we‘re
-we’d
-we’ll
-we’re
-we’ve
 what
 what'll
 what're
@@ -6832,7 +6791,6 @@ whatfor
 whatis
 whats
 whatsoever
-what’s
 when
 when's
 whence
@@ -6880,11 +6838,6 @@ wholly
 whom
 whomever
 whose
-who’d
-who’ll
-who’re
-who’s
-who’ve
 why
 why's
 why`s
@@ -6922,7 +6875,6 @@ wondered
 wondering
 wonders
 wont
-won’t
 wore
 work
 worked
@@ -6936,8 +6888,6 @@ worrying
 would
 would've
 wouldn't
-wouldn’t
-would’ve
 wrap
 wrap-up
 wrapped
@@ -6975,10 +6925,6 @@ your's
 yours
 yourself
 yourselves
-you’d
-you’ll
-you’re
-you’ve
 zeroed
 zeroing
 zip

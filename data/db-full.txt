@@ -15,6 +15,7 @@ able
 ably
 abnormally
 abode
+abolish
 abort
 aborted
 aborting
@@ -759,6 +760,8 @@ calling
 callout
 calls
 calm
+calmed
+calming
 came
 can
 can't
@@ -2221,6 +2224,7 @@ enriched
 enriches
 enriching
 enrolling
+enrolls
 ensue
 ensued
 ensues
@@ -2772,6 +2776,7 @@ gleaned
 glimpse
 globally
 glowed
+glowing
 glued
 go
 goes
@@ -7038,8 +7043,10 @@ ability
 ablation
 ablations
 abnormal
+abnormality
 aboard
 abolition
+abortion
 abounding
 above-mentioned
 abovementioned
@@ -7349,6 +7356,7 @@ amplitude
 amqp
 amusing
 anaconda
+anagram
 anagrams
 analog
 analog-to-digital
@@ -7426,8 +7434,11 @@ anns
 annual
 annualized
 annually
+anomalies
 anomalous
 anonymity
+anonymization
+anonymizing
 anonymous
 anonymously
 ansi
@@ -7568,6 +7579,7 @@ articles
 artifact
 artifacts
 artificial
+artificiality
 artist
 artistic
 arts
@@ -7651,6 +7663,7 @@ attainability
 attainable
 attendance
 attendant
+attendee
 attendees
 attending
 attention
@@ -8794,6 +8807,8 @@ comprehensible
 comprehension
 comprehensions
 comprehensive
+compressibility
+compressible
 compressing
 compression
 compressive
@@ -8833,6 +8848,7 @@ conceivable
 conceivably
 concentrating
 concentration
+concentrations
 concept
 conception
 conceptional
@@ -11058,6 +11074,7 @@ functor
 functors
 fundamental
 fundamentals
+funder
 funding
 fundraise
 fundraising
@@ -13302,6 +13319,7 @@ mind
 mindblowing
 minded
 mindful
+mindfully
 mindfulness
 mindless
 mindlessly
@@ -14468,6 +14486,7 @@ parabola
 parabolic
 paradigm
 paradigms
+paradoxically
 paragraph
 paragraphs
 parallax

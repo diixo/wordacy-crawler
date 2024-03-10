@@ -1,4 +1,4 @@
-# html-crawler
+# **wordacy** crawler
 
 ### Crawler
 Crawler - search and collect all finding URL's from specified source web-page. Save generated urls list into json-format

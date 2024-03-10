@@ -10,9 +10,9 @@ Tokenizer - split sentences on separated words
 Analizer - analyze input page by content of DOM-elements like keywords, lists, p-tags, a-tags, span-tags, h1-h6 headers.
 
 ### Params:
-Parameter **Crawler2**(**recursive**=False): crawl only links from specified urls.
+Parameter **Crawler2** (**recursive**=False): crawl only links from specified urls.
 
-Parameter **Crawler2**(**recursive**=True): crawl with traversing recursively (all links from each domain).
+Parameter **Crawler2** (**recursive**=True): crawl with traversing recursively (all links from each domain).
 
 ## Examples:
 ### 1) Crawl web-page:

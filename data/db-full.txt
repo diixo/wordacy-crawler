@@ -427,6 +427,8 @@ aspire
 aspired
 aspires
 aspiring
+assault
+assaulted
 assemble
 assembled
 assembles
@@ -551,6 +553,7 @@ banned
 banning
 bans
 barely
+bargain
 base
 base64
 based
@@ -718,6 +721,7 @@ built
 built-up
 bump
 bumped
+bumping
 bundled
 bundling
 burn
@@ -798,6 +802,7 @@ cast
 casted
 casually
 catalogue
+catapults
 catch
 catched
 catches
@@ -1453,6 +1458,7 @@ declined
 declines
 declining
 decltype
+declutter
 decode
 decoded
 decodes
@@ -1514,6 +1520,7 @@ defaulted
 defeat
 defeating
 defected
+defecting
 defend
 defending
 defends
@@ -1541,6 +1548,7 @@ deftly
 defuse
 defused
 defy
+defying
 degenerate
 degrade
 degraded
@@ -1570,6 +1578,7 @@ deliver
 delivered
 delivering
 delivers
+delocalize
 delve
 delved
 delves
@@ -1629,6 +1638,7 @@ depreciates
 deprive
 deprived
 deprives
+deprocess
 dequeue
 dequeued
 dequeues
@@ -3481,6 +3491,7 @@ leaking
 leaks
 lean
 leaned
+leaning
 leap
 leapt
 learn
@@ -3511,6 +3522,7 @@ less
 let
 let's
 let`s
+letdown
 lets
 lettered
 letting
@@ -3905,6 +3917,7 @@ nonetheless
 noone
 nope
 nor
+normalise
 normalize
 normalized
 normalizes
@@ -4187,7 +4200,9 @@ overtaken
 overtakes
 overthrow
 overtook
+overturn
 overturning
+overturns
 overuse
 overused
 overuses
@@ -4264,6 +4279,7 @@ peek
 penalize
 penalized
 penalizes
+penalizing
 pend
 pending
 per
@@ -4564,6 +4580,7 @@ propose
 proposed
 proposes
 proposing
+propped
 prospecting
 protect
 protected
@@ -5379,6 +5396,7 @@ revived
 revives
 reviving
 revoke
+revokes
 revolutionize
 revolutionized
 revolutionizes
@@ -5705,6 +5723,7 @@ slip
 slip-up
 slipped
 slipping
+slips
 slit
 slotted
 slowing
@@ -5894,6 +5913,7 @@ storing
 straightforwardly
 strain
 strained
+straive
 stratified
 stratifies
 stratify
@@ -6090,11 +6110,14 @@ tabulate
 tabulated
 tackle
 tackled
+tackling
 tagged
 tailored
 take
 takeaway
 takeaways
+takedown
+takedowns
 taken
 takeout
 takeover
@@ -6128,6 +6151,7 @@ tellingly
 tells
 template
 templated
+templating
 templatize
 templatized
 temporally
@@ -6149,6 +6173,9 @@ test
 tested
 testing
 tests
+tether
+tethered
+tethering
 texting
 textually
 textured
@@ -6223,6 +6250,8 @@ till
 tilted
 time-to-time
 timely
+timestamptimestamps
+tinkering
 tired
 tmp
 to
@@ -6315,6 +6344,7 @@ traversed
 traverses
 traversing
 tread
+treading
 treat
 treated
 tremendously
@@ -6332,6 +6362,7 @@ trod
 trodden
 troubled
 troubleshoot
+troubling
 true
 truly
 truncate
@@ -6454,6 +6485,7 @@ undertook
 underused
 undervalued
 underwent
+underwhelms
 undesirably
 undetected
 undetermined
@@ -6498,6 +6530,8 @@ unites
 uniting
 universally
 unlabeled
+unlearn
+unlearning
 unleash
 unleashed
 unleashes
@@ -6577,6 +6611,8 @@ unsupported
 unsure
 unsured
 unsynchronized
+untether
+untethered
 until
 unto
 untouchable
@@ -6622,6 +6658,7 @@ upon
 upped
 upperbound
 uppercased
+uprising
 upsample
 upscaled
 upsert
@@ -6675,10 +6712,13 @@ varied
 varies
 vary
 varying
+vaunted
+vectorised
 vectorize
 vectorized
 vectorizes
 vectorizing
+venturing
 verb
 verified
 verifies
@@ -6768,6 +6808,7 @@ we`re
 we`ve
 wear
 weigh
+weighs
 weighted
 welcome
 welcomed
@@ -7015,9 +7056,9 @@ accelerator
 accelerators
 accent
 accents
+accentuation
 acceptable
 acceptance
-access-control-allow-origin
 accesses
 accessibility
 accessible
@@ -7054,6 +7095,7 @@ acknowledgements
 acknowledgment
 acknowledgments
 acoustic
+acoustics
 acquaintance
 acquaintanceship
 acquisition
@@ -7083,6 +7125,7 @@ acyclic
 ad
 ad-hoc
 ada
+adaboost
 adadelta
 adagrad
 adaptability
@@ -7094,11 +7137,15 @@ adapterview
 adaptive
 adaptiveness
 adaptivity
+adaptors
 adas
+add-in
 add-on
 add-ons
 addendum
 addicted
+addiction
+addictive
 addition
 additions
 additive
@@ -7124,6 +7171,7 @@ administrator
 administrators
 admins
 admission
+admissions
 admonition
 adobe
 adobe's
@@ -7200,14 +7248,68 @@ agreement
 agregation
 ai
 ai's
+ai-accelerated
 ai-agent
+ai-agents
+ai-art
+ai-as-a-service
+ai-as-exploration
+ai-assisted
+ai-augmented
+ai-automated
 ai-based
+ai-capable
+ai-crafted
 ai-created
+ai-defined
+ai-designed
+ai-detection
 ai-driven
+ai-edited
+ai-editorial
+ai-empowered
+ai-enabled
+ai-enabling
+ai-enhanced
+ai-equipped
+ai-faked
+ai-features
+ai-flow
 ai-focused
 ai-generated
+ai-generating
+ai-guidance
 ai-guided
+ai-image
+ai-infused
+ai-integrated
+ai-language
+ai-made
+ai-manipulated
+ai-manufactured
+ai-mechanized
+ai-medical
+ai-mindshare
+ai-ml
+ai-models
+ai-modified
+ai-modify
+ai-native
+ai-optimized
 ai-powered
+ai-product
+ai-regulating
+ai-related
+ai-specific
+ai-spread
+ai-supported
+ai-synthesized
+ai-themed
+ai-upscaling
+ai-voice
+ai-voiced
+ai-write
+ai-written
 aiding
 aiming
 aiohttp
@@ -7336,12 +7438,11 @@ android-asynctask
 android-edittext
 android-emulator
 android-fragments
-android-gradle-plugin
 android-layout
 android-listview
 android-ndk
+android-powered
 android-recyclerview
-android-s
 android-studio
 android-view
 android-webview
@@ -7360,7 +7461,7 @@ angular6
 angular7
 angular8
 angularjs
-angularjs-directive
+animatable
 animating
 animation
 animations
@@ -7403,11 +7504,11 @@ anticipation
 antivirus
 antonyms
 anxiety
+anxious
 anyone's
 apache
 apache-kafka
 apache-spark
-apache-spark-sql
 apache2
 api
 api's
@@ -7533,6 +7634,7 @@ arts
 artwork
 as-is
 asap
+ascent
 ascii
 asciidoc
 asf
@@ -7583,6 +7685,7 @@ assumptions
 assurance
 astonishing
 astonishly
+astoundingly
 asymmetric
 asymmetrical
 asymmetry
@@ -7752,7 +7855,6 @@ axioms
 axios
 axis
 azure
-azure-active-directory
 b-splines
 b-tree
 b2b
@@ -7772,7 +7874,6 @@ backflow
 background
 backgrounds
 backing
-backing-build-system
 backlink
 backlinks
 backlog
@@ -8449,6 +8550,7 @@ client-side
 clients
 clientside
 clientview
+climbing
 clipboard
 clipping
 clobber
@@ -8478,6 +8580,7 @@ cloudnative
 clouds
 clr
 clue
+clueless
 clues
 cluster
 cluster-based
@@ -8541,7 +8644,6 @@ cocoa-touch
 code
 code-base
 code-first
-code-over-configuration
 code-review
 code-sprint
 code-verify
@@ -9278,6 +9380,7 @@ cyberbionic
 cyberbionics
 cybercriminals
 cybernetics
+cyberpunk
 cybersecurity
 cyberspace
 cybersport
@@ -9304,6 +9407,7 @@ dao
 dark
 darknet
 darkside
+dart
 dash
 dashboard
 dashboards
@@ -9495,6 +9599,7 @@ deficiency
 deficient
 definability
 definite
+definiteness
 definition
 definitions
 definitive
@@ -9503,6 +9608,7 @@ deformable
 deformation
 deforming
 defragmentation
+degeneration
 degradation
 degree
 degrees
@@ -9947,6 +10053,7 @@ donating
 donation
 doom
 dos
+dose
 dot
 dotfiles
 dotnet
@@ -9987,6 +10094,7 @@ downtime
 downtime's
 downturn
 doxygen
+dozens
 dpi
 draft
 draft-driven
@@ -10017,7 +10125,6 @@ drnn
 drone
 drones
 drop-down
-drop-down-menu
 drop-in
 drop-off
 dropbox
@@ -10229,6 +10336,8 @@ employing
 employment
 empowering
 empowerly
+empowerment
+emptying
 emulation
 emulator
 emulator's
@@ -10321,7 +10430,6 @@ entitled
 entitlements
 entity
 entity-framework
-entity-framework-core
 entity-tagged
 entrained
 entrance
@@ -10806,6 +10914,8 @@ fixed-price
 fixed-size
 flag
 flags
+flagship
+flagships
 flame
 flares
 flas
@@ -10824,6 +10934,7 @@ flexible
 flexibly
 flight
 flip-flop
+flip-foldable
 flipboard
 floated
 floating
@@ -10979,7 +11090,6 @@ frustrating
 frustration
 frustum
 fsb
-fsb-qpi-dmi
 fscanf
 fstream
 ftp
@@ -10997,6 +11107,7 @@ full-remote
 full-scale
 full-screen
 full-service
+full-sized
 full-stack
 full-stacked
 full-text
@@ -11172,6 +11283,7 @@ globalization
 globals
 globbing
 globe
+glorious
 glossary
 glow
 glsl
@@ -11201,15 +11313,13 @@ google-apps-script
 google-bigquery
 google-chrome
 google-chrome-extension
-google-cloud-firestore
-google-cloud-functions
 google-cloud-platform
 google-managed
 google-maps
 google-sheets
-google-sheets-formula
 googlenet
 googletest
+gorgeous
 gpg
 gps
 gpt
@@ -11295,7 +11405,6 @@ gzip
 gzipped
 habit
 habits
-hack-a-thons
 hackathon
 hackathons
 hacker
@@ -11598,6 +11707,7 @@ hypothetical
 hypothetically
 i'v
 i-t
+i.t
 i_t
 ia-32
 ia-64
@@ -11695,6 +11805,7 @@ impalpable
 impartial
 impatient
 impatiently
+impeccable
 impediment
 imperative
 imperfect
@@ -11792,6 +11903,7 @@ inclined
 inclusion
 inclusive
 incognito
+incoherent
 incomparable
 incompatibilities
 incompatibility
@@ -12489,6 +12601,7 @@ junction
 junior
 junit
 junit4
+junk
 jupyter
 jupyter-notebook
 just-in-time
@@ -12673,6 +12786,7 @@ lectured
 lecturer
 lecturers
 lectures
+led-based
 left-to-right
 legacy
 legal
@@ -12931,6 +13045,7 @@ lucene
 luck
 lucky
 lucrative
+luxuriously
 luxury
 lvalue
 lvalues
@@ -13158,7 +13273,9 @@ menus
 merchandise
 merger
 mergetool
+merit
 meritorious
+merits
 mesh
 mesh-based
 meshes
@@ -13323,9 +13440,13 @@ misconceptions
 misconfiguration
 misconfigured
 miserably
+misgivings
 misguided
+mishaps
+misinfo
 misinformation
 misinterpretation
+mislabeled
 mismanagement
 miss-classified
 missingness
@@ -14098,6 +14219,7 @@ off-line
 off-page
 off-site
 off-topic
+offbeat
 offending
 offensive
 offerings
@@ -14146,6 +14268,7 @@ one-against-all
 one-by-one
 one-day
 one-dimensional
+one-hot
 one-line
 one-off
 one-pass
@@ -14579,6 +14702,7 @@ perfection
 performance
 performances
 performant
+performer
 performers
 perimeter
 period
@@ -14697,6 +14821,7 @@ pitfalls
 pivotal
 pixel
 pixels
+pixilation
 pl
 pl-sql
 placeholder
@@ -14766,7 +14891,6 @@ pointers
 pointless
 points
 pointwise
-pojo-style
 polarization
 policies
 policy
@@ -14971,6 +15095,7 @@ preorder
 preordered
 preparation
 preparations
+preparatory
 preply
 preposition
 prepositions
@@ -15006,6 +15131,7 @@ previous-current-next
 price
 priceless
 prices
+pricey
 primary
 prime
 primer
@@ -15339,7 +15465,6 @@ quoting
 qwerty
 r&d
 r's
-r-leaflet
 r-squared
 r-tree
 rabbitmq
@@ -15671,6 +15796,7 @@ reimagined
 reimagining
 reimplementation
 reinforcement
+reinforcements
 reinforcing
 reinitialization
 reinitializing
@@ -15910,6 +16036,8 @@ reverses
 reversible
 reversibly
 reversing
+reversion
+reviewable
 reviewer
 reviewers
 revision
@@ -15919,6 +16047,8 @@ revival
 revocation
 revolution
 revolutionary
+revolutionised
+revolutionising
 revolutionizing
 rewarding
 reweighting
@@ -15957,6 +16087,8 @@ roadmaps
 roaming
 robot
 robot's
+robotaxi
+robotaxis
 robotic
 robotics
 robotization
@@ -15970,6 +16102,7 @@ roles
 rollable
 rollback
 rollbacks
+rollouts
 rom
 root
 rooted
@@ -16249,6 +16382,8 @@ self-testing
 self-training
 selfhosted
 selfhosting
+selfie
+sell-off
 seller
 sellers
 semantic
@@ -16348,6 +16483,7 @@ severity
 sftp
 sgd
 sh
+shade
 shader
 shaders
 shades
@@ -16370,6 +16506,7 @@ sharp
 sharpen
 sharpening
 sharpest
+sharpness
 sheet
 sheets
 shell
@@ -16550,6 +16687,7 @@ sliding
 sliding-window
 slight
 slightest
+slim
 slope
 slopes
 sloppy
@@ -16571,6 +16709,7 @@ smaller
 smallest
 smalltalk
 smart
+smart-driving
 smart-phones
 smartdevice
 smartdevices
@@ -16708,6 +16847,7 @@ speech-enabled
 speech-to-text
 speedier
 speeding
+speedometer
 speeds
 speedtest
 speedup
@@ -16746,7 +16886,6 @@ spreadsheet-style
 spreadsheets
 spring
 spring-boot
-spring-data-jpa
 spring-mvc
 spring-powered
 spring-security
@@ -16773,6 +16912,8 @@ sqlserver
 sqlsever
 square
 squared
+squared-error
+squared-loss
 squarely
 squares
 src
@@ -16794,6 +16935,7 @@ stacking
 stackoverflow
 stacks
 staff
+staffed
 staffer
 staffers
 staffing
@@ -16915,6 +17057,7 @@ stratifying
 stratum
 stream
 stream-oriented
+streamable
 streamer
 streaming
 streamline
@@ -17046,6 +17189,7 @@ submenu
 submission
 submissions
 submitting
+submodels
 submodule
 submodules
 subnet
@@ -17178,6 +17322,7 @@ superficial
 superficially
 superior
 superiority
+superpowers
 superscaling
 superset
 supersolvable
@@ -17425,6 +17570,8 @@ tendency
 tension
 tensor
 tensor's
+tensor-based
+tensor-view
 tensorflow
 tensorflow's
 tensorflow.js
@@ -17456,7 +17603,6 @@ tessellation
 test-automation
 test-cases
 test-design
-test-drive-development
 test-driven
 test-lead
 testability
@@ -17525,6 +17671,7 @@ thing
 things
 thingy
 thinking-through
+thinner
 thinnest
 third
 third-parties
@@ -17613,6 +17760,7 @@ timesheet
 timesheets
 timespan
 timestamp
+timestamped
 timestamps
 timestep
 timesteps
@@ -17659,6 +17807,7 @@ toolkits
 tools
 toolset
 top
+top-10
 top-down
 top-end
 top-left
@@ -17667,9 +17816,12 @@ top-line
 top-managers
 top-n
 top-of-mind
+top-performing
 top-ranked
 top-rated
 top-scoring
+top-secret
+top-trending
 topic
 topic-focused
 topic-specific
@@ -17698,6 +17850,9 @@ tough
 tougher
 toughest
 toughness
+tour
+tournament
+tournaments
 touts
 tpu
 traceability
@@ -17714,6 +17869,7 @@ tractability
 tractable
 traction
 trade
+trade-in
 trade-off
 trade-offs
 trademark
@@ -17727,6 +17883,7 @@ traffic's
 trail
 trails
 train-test
+trainability
 trainable
 trainee
 trainees
@@ -17746,9 +17903,15 @@ transceivers
 transcended
 transcendent
 transcoding
+transcriber
 transcribing
+transcript
 transcription
+transcriptional
 transcriptions
+transcripts
+transducer
+transducers
 transduction
 transductive
 transferability
@@ -17756,11 +17919,13 @@ transferable
 transference
 transferrable
 transferring
+transform-based
 transformable
 transformational
 transformations
 transformative
 transformer
+transformer-based
 transformers
 transient
 transistor
@@ -17780,6 +17945,7 @@ translators
 transliteration
 translucency
 translucent
+transmissible
 transmission
 transmissions
 transmitter
@@ -17802,8 +17968,12 @@ traversals
 tray
 treatment
 tree
+tree-based
 tree-like
+tree-structure
+tree-structured
 treemap
+treemaps
 trees
 treeview
 tremendous
@@ -17854,6 +18024,7 @@ try-catch-finally
 try-except
 try-except-finally
 try-finally
+try-on
 tryout
 tryouts
 tsql
@@ -17913,6 +18084,7 @@ typical
 typicality
 typo
 typographical
+typos
 ubiquitous
 ubiquity
 ubuntu
@@ -17952,10 +18124,12 @@ unaligned
 unambiguous
 unambiguously
 unannounced
+unanswerable
 unary
 unassigned
 unattended
 unattractive
+unauthorised
 unauthorized
 unavailability
 unavailable
@@ -18184,6 +18358,7 @@ unmanned
 unmarked
 unmarshalled
 unmasked
+unmasking
 unmentioned
 unmistakable
 unmodifiable
@@ -18222,9 +18397,11 @@ unprintable
 unprivileged
 unprocessable
 unprocessed
+unproductive
 unprofessional
 unprofitable
 unprotected
+unproven
 unpublish
 unpublishable
 unquoted
@@ -18269,6 +18446,7 @@ unsized
 unskilled
 unsmoothed
 unsolicited
+unsolvable
 unsolved
 unsponsored
 unstable
@@ -18290,6 +18468,7 @@ unsurprising
 unsurprisingly
 unsuspecting
 unsustainable
+untargeted
 untemplated
 untenable
 unterminated
@@ -18299,10 +18478,12 @@ untouchable
 untrackable
 untracked
 untrained
+untranscribed
 untranslated
 untreated
 untrusted
 untrustworthy
+untruthful
 untuned
 unturned
 untyped
@@ -18313,13 +18494,16 @@ unusually
 unvalidated
 unvalued
 unveiling
+unverified
 unvisited
 unwanted
+unwatched
 unweighted
 unwell
 unwieldiness
 unwieldy
 unwilling
+unwillingly
 unwinding
 unwise
 unwonted
@@ -18327,15 +18511,18 @@ unwrapped
 unwritten
 up-sampled
 up-sampling
+up-scaling
 upbeat
 updatable
 updater
 updation
+upday
 upfront
 upgoing
 upgradable
 upheaval
 upheld
+uplimit
 uplink
 uploader
 upper
@@ -18347,6 +18534,8 @@ ups
 upsampled
 upsampling
 upscale
+upscaler
+upscalers
 upscaling
 upsetting
 upside
@@ -18457,6 +18646,7 @@ valueengineering
 valueerror
 valueof
 values
+vanilla
 vanishing
 var
 variability
@@ -18486,7 +18676,9 @@ vc++
 vc++10
 vcpkg
 vector
+vector-based
 vector-space
+vectordb
 vectorizable
 vectorization
 vectorizer
@@ -18538,7 +18730,10 @@ vhdl
 viability
 viable
 viably
+vibe
+vibing
 vibrant
+vibrations
 vice-president
 vice-versa
 video
@@ -18594,6 +18789,10 @@ vmware
 vocabularies
 vocabulary
 voice
+voice-assistant
+voice-based
+voice-controlled
+voice-to-text
 voiced
 voicemail
 voices
@@ -18635,6 +18834,8 @@ w3c
 waitlist
 wake-up
 wakeup
+walk-through
+walkable
 walkaround
 walkthrough
 wall
@@ -18793,6 +18994,10 @@ weeks
 weighed
 weighing
 weight
+weight-averaged
+weight-decomposed
+weight-loss
+weight-space
 weightage
 weighting
 weightings
@@ -18878,8 +19083,11 @@ win98
 win98se
 win9x
 winapi
+winding
 window
 window's
+window-based
+windowed
 windowing
 windows
 windows-based
@@ -18893,6 +19101,7 @@ winners
 winnt
 winsock
 winxp
+wiping
 wire
 wired
 wireframe
@@ -19014,6 +19223,7 @@ xml-parsing
 xmldocument
 xna
 xpath
+xps
 xquery
 xslt
 y-axis
@@ -19034,11 +19244,11 @@ z-index
 z-order
 zend
 zend-framework
-zend-search-lucene
 zero
 zero-bug
 zero-configuration
 zero-initialize
+zero-shot
 zero-sized
 zeroes
 zeros

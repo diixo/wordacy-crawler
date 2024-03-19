@@ -6,10 +6,10 @@ from pathlib import Path
 from qq_analyzer import Analyzer
 
 analyzer = Analyzer()
-analyzer.open_json("dataset.json")
+analyzer.open_json("make-dataset/dataset.json")
 
 def load_urls():
-    f = Path("urls.txt")
+    f = Path("make-dataset/urls.txt")
     if f.exists():
         return [line.replace('\n', '') for line in open(str(f), 'r', encoding='utf-8').readlines()]
     return []

@@ -652,6 +652,7 @@ bluntly
 blurred
 boast
 boasted
+boasts
 bonded
 booked
 booking
@@ -870,6 +871,7 @@ circulated
 circulating
 circumvent
 circumvented
+cites
 citing
 claim
 claimed
@@ -982,6 +984,7 @@ commented
 commenting
 commercialize
 commercialized
+commissioned
 commit
 commits
 committed
@@ -1385,6 +1388,8 @@ cures
 curing
 curiously
 currently
+curtail
+curtailed
 customize
 customized
 customizes
@@ -1849,6 +1854,8 @@ dispatch
 dispatched
 dispatches
 dispatching
+dispel
+dispelled
 dispense
 dispenses
 displace
@@ -2282,6 +2289,7 @@ erasing
 escalate
 escalated
 escalates
+escalating
 escape
 escaped
 escapes
@@ -2582,7 +2590,10 @@ fleetly
 flew
 flex
 flexed
+flexes
+flick
 flickering
+flies
 fling
 flinged
 flinging
@@ -2743,6 +2754,7 @@ gains
 gamified
 gamifies
 gamify
+garnered
 gather
 gathered
 gathers
@@ -5171,6 +5183,8 @@ replacing
 replay
 replayed
 replaying
+replenish
+replenished
 replicate
 replicated
 replicates
@@ -6242,6 +6256,7 @@ thrown
 throws
 thrust
 thus
+ticking
 tied
 tighten
 tightly
@@ -7153,6 +7168,7 @@ additively
 additivity
 addon
 addressable
+adequate
 adherence
 adhering
 adhoc
@@ -7510,6 +7526,7 @@ apache
 apache-kafka
 apache-spark
 apache2
+aperture
 api
 api's
 api-design
@@ -7794,6 +7811,7 @@ autoencoder
 autoencoders
 autoencoding
 autofill
+autofocus
 autogen
 autogpt
 autoload
@@ -8096,6 +8114,7 @@ books
 boolean
 booleans
 boost-up
+booster
 boot
 boot-up
 bootable
@@ -8292,6 +8311,7 @@ caller
 callers
 calmly
 camera
+cameraphones
 cameras
 campaign
 campaigns
@@ -8863,6 +8883,7 @@ compression
 compressive
 compressor
 compromise
+compromises
 compromising
 compulsive
 compulsory
@@ -9126,6 +9147,7 @@ convexity
 convincing
 convnet
 convnets
+convnext
 convolution
 convolution-based
 convolutional
@@ -9738,6 +9760,7 @@ destructor
 destructors
 destructured
 destructuring
+detachable
 detachment
 detail-oriented
 details
@@ -10105,6 +10128,7 @@ drag
 drag-and-drop
 drag-n-drop
 draggable
+dram
 drawable
 drawables
 drawback
@@ -10239,6 +10263,7 @@ efficacious
 efficacy
 efficiencies
 efficiency
+efficientnet
 effort
 effortless
 efforts
@@ -10501,6 +10526,7 @@ erasable
 eraser
 erasure
 ergonomic
+ergonomics
 erlang
 erratic
 erroneous
@@ -10777,6 +10803,7 @@ far-between
 farewell
 fascinating
 fashion
+fashionable
 fast
 fast-forward
 fast-forwarded
@@ -10871,12 +10898,16 @@ financing
 finder
 finders
 fine
+fine-tunable
 fine-tune
 fine-tuned
 fine-tuning
 finer
 finesse
 finest
+finetunable
+finetune
+finetuned
 finetuning
 finger
 fingerprint
@@ -10910,6 +10941,7 @@ five
 fixable
 fixation
 fixed-length
+fixed-point
 fixed-price
 fixed-size
 flag
@@ -10933,6 +10965,7 @@ flexibility
 flexible
 flexibly
 flight
+flights
 flip-flop
 flip-foldable
 flipboard
@@ -10999,6 +11032,7 @@ forked
 forking
 form's
 form-based
+form-factor
 form-feed
 formal
 formalization
@@ -11077,6 +11111,7 @@ freshly
 from-scratch
 front
 front-end
+front-facing
 front-loaded
 frontal
 frontend
@@ -11107,6 +11142,7 @@ full-remote
 full-scale
 full-screen
 full-service
+full-size
 full-sized
 full-stack
 full-stacked
@@ -11274,6 +11310,7 @@ github
 gitignore
 gitlab
 gladly
+glasses
 gleeful
 glitches
 glob
@@ -11511,7 +11548,9 @@ heap
 heap-based
 heaps
 heart
+heat
 heather
+heating
 heavy
 heavyweight
 hefty
@@ -11715,6 +11754,7 @@ iaas
 iam
 ibm
 icon
+iconic
 icons
 icu
 id
@@ -11894,7 +11934,9 @@ incentive
 incentivized
 incept
 inception
+inceptionresnet
 inceptions
+inceptionv3
 inch
 inches
 incident
@@ -11920,6 +11962,7 @@ inconsistencies
 inconsistency
 inconsistent
 inconsistently
+inconspicuous
 inconvenience
 inconvenient
 inconveniently
@@ -12114,6 +12157,7 @@ inquiry
 inquisitive
 insane
 insanely
+inscription
 inscrutable
 insecure
 insensitive
@@ -12801,6 +12845,7 @@ lemmatizing
 length
 lengths
 lengthy
+lens
 lenses
 less-commonly
 lesson
@@ -12889,6 +12934,7 @@ linq
 linq-based
 linq-to-sql
 linux
+linux-based
 linux-kernel
 linux-specific
 linux-x64
@@ -13124,6 +13170,7 @@ manifold
 manipulable
 manipulations
 manipulator
+manipulators
 manual
 manually-assembled
 manuals
@@ -13319,6 +13366,7 @@ micro-service
 micro-services
 micro-techniques
 microarchitecture
+microarchitecture-based
 microbenchmark
 microbrowser
 microchip
@@ -13400,6 +13448,7 @@ mini
 mini-batch
 mini-batches
 mini-led
+mini-pc
 minibatch
 minibatching
 minicomputer
@@ -13420,6 +13469,7 @@ minitest
 minor
 minority
 minus
+minuses
 minute
 minutes
 mips
@@ -13475,6 +13525,9 @@ mobile
 mobile-development
 mobile-first
 mobile-friendly
+mobilenet
+mobilenetv2
+mobilenetv3
 mobiles
 mobility
 mock
@@ -13634,6 +13687,7 @@ multi-paradigm
 multi-person
 multi-platform
 multi-purpose
+multi-range
 multi-scale
 multi-source
 multi-stage
@@ -13791,6 +13845,7 @@ narrow
 narrowed
 narrowing
 nascent
+nasnet
 national
 native
 native-feeling
@@ -13922,6 +13977,7 @@ no-code
 no-sql
 nobody
 nocache
+nocode
 nodding
 node
 node.js
@@ -13997,6 +14053,7 @@ non-native
 non-negative
 non-obvious
 non-occurring
+non-operating
 non-overlapping
 non-parametric
 non-persistent
@@ -14092,6 +14149,7 @@ not-in-place
 notable
 notation
 notations
+note-taking
 notebook
 notebooks
 notepad
@@ -14116,6 +14174,7 @@ now's
 npm
 ntfs
 nuanced
+nuances
 nul
 nul-terminated
 null-pointer
@@ -14498,6 +14557,7 @@ overridable
 oversample
 oversampled
 oversampling
+oversaturated
 overseas
 oversight
 oversimplified
@@ -14512,6 +14572,7 @@ overviewing
 overwhelming
 overwhelmingly
 overworked
+own-brand
 owner
 owners
 ownership
@@ -14622,9 +14683,11 @@ pass-by-value
 pass-through
 passcode
 passive
+passively
 passkey
 passphrase
 password
+password-free
 passwordless
 passwords
 patch
@@ -14673,6 +14736,7 @@ pdo
 peak
 peaked
 peaks
+peculiarities
 peculiarly
 peer
 peer-to-peer
@@ -14766,6 +14830,7 @@ phonetically
 phonological
 photo
 photo's
+photographic
 photography
 photorealistic
 photos
@@ -14876,6 +14941,7 @@ plugs
 plural
 plurality
 plus
+pluses
 png
 pocketbook
 pod
@@ -14932,6 +14998,7 @@ popupmenu
 popups
 pored
 portability
+portables
 portal
 portals
 portfolio
@@ -15478,6 +15545,7 @@ rails
 rails-activerecord
 ram
 rampant
+rampdown
 rand
 random
 randomization
@@ -15517,6 +15585,8 @@ rationally
 ratios
 raw
 ray
+ray-based
+ray-tracing
 rays
 raytracing
 razor
@@ -15592,6 +15662,7 @@ realworld
 reanalysis
 reappearance
 rear
+rear-facing
 rearrangement
 rearrangements
 rearranging
@@ -15742,6 +15813,7 @@ refills
 refinancing
 refinement
 refinements
+reflectance
 reflection
 reflections
 reflective
@@ -15806,6 +15878,7 @@ reintroducing
 reiterating
 rejection
 rejections
+rejuvenated
 relatable
 relatedness
 relation
@@ -15869,6 +15942,9 @@ renormalization
 renovation
 renovations
 renowned
+rental
+renting
+rents
 reoccurring
 reordering
 reorganization
@@ -15880,6 +15956,7 @@ repeatable
 repeater
 repetition
 repetitive
+replaceable
 replacement
 replacements
 replays
@@ -15935,6 +16012,7 @@ researchers
 resection
 resell
 reseller
+resellers
 resemblance
 resembling
 reservation
@@ -16011,6 +16089,7 @@ retargeting
 retention
 retesting
 rethinking
+retiring
 retractable
 retrained
 retrieval
@@ -16152,6 +16231,7 @@ rule-based
 ruled
 rules
 rumored
+rumors
 run's
 run-time
 run-times
@@ -16546,6 +16626,7 @@ shrinkage
 shut-down
 shutdown
 shutdowns
+shutter
 side
 side-by-side
 side-effect
@@ -16584,6 +16665,7 @@ silent
 silhouette
 silhouettes
 silicon
+silicone
 silliest
 silly
 silverlight
@@ -17119,6 +17201,7 @@ styles
 stylesheet
 stylesheets
 styling
+stylish
 stylistic
 stylization
 stylized
@@ -17560,6 +17643,8 @@ telephony
 teleport
 telnet
 temp
+temperature
+temperatures
 template-driven
 templates
 temporal
@@ -17660,6 +17745,7 @@ theories
 theorists
 theory
 there'll
+thermal
 thesaurus
 thesis
 theta
@@ -18044,6 +18130,7 @@ tutorial
 tutorials
 tutoring
 tvos
+tvs
 tweaking
 tweaks
 tweet
@@ -18107,6 +18194,7 @@ uiview
 uiviewcontroller
 ultimate
 ultra
+ultra-compact
 ultra-wide
 ultrabook
 ultrabooks
@@ -18722,6 +18810,7 @@ vertically
 verticals
 vertices
 vga
+vgg
 vgg-16
 vgg16
 vgg19
@@ -19213,6 +19302,7 @@ xamarin
 xaml
 xampp
 xbox
+xception
 xcode
 xda
 xdebug

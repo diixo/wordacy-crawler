@@ -16,7 +16,8 @@ print(len(diixonary))
 f = Path("make-dataset/train.devices.txt")
 if f.exists():
     for line in open(str(f), 'r', encoding='utf-8').readlines():
-        words = qq.str_tokenize_words(line.lower())
+        line = qq.translate(line.lower())
+        words = qq.str_tokenize_words(line)
         result = [w for w in words if (w not in diixonary and not qq.is_digit(w))]
         print(result)
 

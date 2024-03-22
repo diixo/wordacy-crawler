@@ -24,7 +24,7 @@ def url_hostname(url_str:str):
 
 class Crawler2:
 
-   def __init__(self, recursive=False):
+   def __init__(self, delay = 1.0, recursive=False):
       self.new = deque()
       self.unknown = set()
       self.skip = set()
@@ -32,6 +32,7 @@ class Crawler2:
       self.filepath = ""
       self.urls = dict()
       self.recursive = recursive
+      self.delay = delay
 
    def open_json(self, filepath:str):
       path = Path(filepath)
@@ -207,7 +208,7 @@ class Crawler2:
                   self.open_url(url, "xml")
                   self.skip.add(url)
             if logging: print(f"[Crawler2] ...on: {counter}, [remained={len(self.new)}] [skipped={len(self.skip)}]")
-            time.sleep(1.0)
+            time.sleep(self.delay)
       except KeyboardInterrupt:
          print("KeyboardInterrupt exception raised")
       except:

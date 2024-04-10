@@ -31,8 +31,11 @@ if __name__ == "__main__":
         print(len(words), "filtered:", len(filtered), "unique:", len(new_words), )
 
         for w in filtered:
-            freq = result[w] if (w in result) else 0
-            result[w] = freq + 1
+            result[w] = result.get(w, 0) + 1
+
+
+    with open("tmp.json", 'w', encoding='utf-8') as fd:
+        json.dump(result, fd, ensure_ascii=False, indent=3)
 
     print("vocabulary:", len(vocabulary))
     print("<<<", len(result))

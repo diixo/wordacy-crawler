@@ -5,6 +5,7 @@ import qq_parser as qq_parser
 from qq_crawler2 import Crawler2
 import qq_grammar as qq
 from qq_prediction import Prediction
+from qq_prediction_search import load_words
 
 def load_stopwords():
     f = Path("data/stopwords.txt")
@@ -74,7 +75,7 @@ class Analyzer:
 
 
 def test_url_to_dataset():
-   url = "https://allainews.com/news/"
+   url = "https://allainews.com/news"
 
    crawler = Crawler2()
    crawler.enqueue_url(url)
@@ -123,6 +124,12 @@ def test_url_to_dataset():
       ngrams = qq.str_to_ngrams(string, stopwords)
       for tokens in ngrams:
          prediction.add_tokens(tokens)
+
+   # diixonary = load_words("data/db-full.txt")
+   # result = [w[0] for w in prediction.unigrams if w[0] not in diixonary]
+   # with open("_tmp-allainews.json", 'w', encoding='utf-8') as fd:
+   #    json.dump(sorted(result), fd, ensure_ascii=False, indent=3)
+   # exit(0)
 
    result = dict()
    for sentence in keywords:

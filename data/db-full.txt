@@ -4136,12 +4136,14 @@ outscores
 outshare
 outshared
 outsharing
+outstripped
 outward
 outwards
 outweigh
 over
 overall
 overcame
+overclock
 overcome
 overcomes
 overcoming
@@ -4294,6 +4296,7 @@ penalizes
 penalizing
 pend
 pending
+penetrated
 per
 perceive
 perceived
@@ -7357,6 +7360,7 @@ alignments
 alive
 all-access
 all-around
+all-digital
 all-electric
 all-encompassing
 all-in-all
@@ -7385,6 +7389,7 @@ alternately
 alternative
 alternatives
 always-on
+always-on-display
 amazing
 amazingly
 amazon
@@ -7508,9 +7513,12 @@ anonymously
 ansi
 ansible
 ansistring
+antenna
+antennas
 anti-aliasing
 anti-malware
 anti-piracy
+anti-reflective
 anti-spam
 anti-spyware
 anti-virus
@@ -7892,10 +7900,13 @@ backflow
 background
 backgrounds
 backing
+backlight
+backlighting
 backlink
 backlinks
 backlog
 backlogs
+backplane
 backpropagated
 backpropagating
 backpropagation
@@ -7947,6 +7958,7 @@ batches
 batching
 batteries
 battery
+battery-powered
 battle
 battlegrounds
 battles
@@ -8188,6 +8200,7 @@ brief
 briefing
 briefs
 bright
+brighter
 brightness
 brittle
 broad
@@ -8228,6 +8241,7 @@ buildup
 built-in
 built-ins
 builtin
+bulging
 bulk
 bunch
 bundle
@@ -8310,7 +8324,10 @@ callbacks
 caller
 callers
 calmly
+camcorder
 camera
+camera-equipped
+cameraphone
 cameraphones
 cameras
 campaign
@@ -8344,6 +8361,7 @@ captioning
 captions
 car
 card
+cardboard
 cardinality
 cards
 career
@@ -8424,6 +8442,7 @@ chaining
 chains
 challenge
 challenges
+champion
 championship
 chance
 chances
@@ -8681,6 +8700,7 @@ codedeploy
 codefest
 codeforces
 codename
+codenamed
 codepage
 codepoint
 codepoints
@@ -8796,6 +8816,7 @@ communication
 communicational
 communications
 communicative
+communicator
 communities
 community
 commutative
@@ -9110,6 +9131,7 @@ contrarily
 contrary
 contrast
 contrastive
+contrasty
 contraviant
 contribution
 contributions
@@ -9377,6 +9399,7 @@ curves
 curvilinear
 curving
 custom
+customary
 customer
 customer's
 customer-driven
@@ -9536,6 +9559,7 @@ debate
 debian
 debugger
 debuggers
+debut
 decade
 decades
 deceleration
@@ -9870,6 +9894,7 @@ digraph
 dilating
 dilation
 dilemma
+diligence
 diligent
 dimension
 dimensional
@@ -9878,6 +9903,7 @@ dimensionality
 dimensionally
 dimensions
 dimensity
+dimming
 diode
 diodes
 dir
@@ -9948,6 +9974,7 @@ discriminator
 discussion
 discussions
 disgruntled
+disgusting
 disinformation
 disjointness
 disjunction
@@ -9981,6 +10008,7 @@ dissatisfaction
 disseminated
 dissimilar
 dissimilarity
+dissipating
 dissipation
 dissociative
 dissolution
@@ -10593,6 +10621,7 @@ ex
 exabytes
 exactness
 exaggerating
+exaggeration
 exam
 examination
 examinations
@@ -10653,6 +10682,7 @@ expectancy
 expectant
 expectation
 expectations
+expendable
 expense
 expenses
 expensive
@@ -10812,6 +10842,7 @@ fast-paced
 fast-talking
 fast-track
 fastapi
+fasteners
 fastest
 fastest-growing
 fat
@@ -10968,6 +10999,7 @@ flight
 flights
 flip-flop
 flip-foldable
+flip-up
 flipboard
 floated
 floating
@@ -11021,6 +11053,7 @@ foreign
 forerunner
 foreseeable
 foresight
+forest
 forests
 forewarning
 foreword
@@ -11137,6 +11170,7 @@ full-day
 full-feature
 full-featured
 full-fledged
+full-frame
 full-on
 full-remote
 full-scale
@@ -11325,6 +11359,7 @@ glossary
 glow
 glsl
 glut
+glyph
 glyphs
 gmail
 gnns
@@ -11380,6 +11415,7 @@ grammar
 grammar-based
 grammars
 grammatical
+grams
 grand
 grant
 granting
@@ -11478,6 +11514,7 @@ handy
 happenes
 happenings
 happiness
+haptic
 hard-coded
 hardcode
 harddrive
@@ -11586,12 +11623,14 @@ hierarchies
 hierarchy
 high
 high-availability
+high-capacity
 high-definition
 high-demand
 high-density
 high-dimensional
 high-dimensionality
 high-end
+high-energy
 high-engagement
 high-frequency
 high-growth
@@ -11611,6 +11650,7 @@ high-scalability
 high-scalable
 high-skill
 high-speed
+high-stack
 high-tech
 high-throughput
 high-traffic
@@ -12199,6 +12239,7 @@ instantiation
 instantiations
 instinctive
 institute
+institutes
 instruction
 instruction-level
 instructional
@@ -12684,6 +12725,7 @@ key-value
 keyboard
 keyboards
 keycode
+keycontrol
 keydown
 keyerror
 keyevent
@@ -13038,6 +13080,7 @@ long-time
 longer
 longer-term
 longest
+longest-lasting
 longitude
 longitudes
 longstanding
@@ -13073,6 +13116,7 @@ low-order
 low-poly
 low-power
 low-quality
+low-resolution
 low-skill
 lower
 lower-casing
@@ -13120,6 +13164,7 @@ magically
 magicbook
 magnetic
 magnificent
+magnifier
 magnitude
 magnitudes
 mail-security
@@ -13152,6 +13197,7 @@ makers
 malfunction
 malfunctioned
 malfunctioning
+malfunctions
 malicious
 malloc
 malware
@@ -13210,6 +13256,7 @@ mask
 masking
 masks
 mass
+mass-produced
 massive
 master
 master's
@@ -13365,6 +13412,7 @@ micro-level
 micro-service
 micro-services
 micro-techniques
+micro-updates
 microarchitecture
 microarchitecture-based
 microbenchmark
@@ -13449,6 +13497,7 @@ mini-batch
 mini-batches
 mini-led
 mini-pc
+miniature
 minibatch
 minibatching
 minicomputer
@@ -13620,6 +13669,8 @@ motivational
 motivations
 motivators
 motives
+motor
+motors
 mounting
 mouse
 movable
@@ -14550,6 +14601,7 @@ overlays
 overlying
 overparameterization
 overparameterized
+overpaying
 overpriced
 overqualified
 overrated
@@ -14685,6 +14737,7 @@ passcode
 passive
 passively
 passkey
+passkeys
 passphrase
 password
 password-free
@@ -14742,6 +14795,7 @@ peer
 peer-to-peer
 peering
 peers
+penalty
 penetrating
 pentium
 people
@@ -14901,6 +14955,7 @@ plane
 planes
 planet
 plans
+plastic
 platform
 platform's
 platform-independent
@@ -15138,6 +15193,7 @@ prefaced
 preferable
 preference
 preferences
+preferential
 preferentially
 prefetch
 prefetched
@@ -15344,6 +15400,7 @@ proofread
 proofreading
 proofs
 propagation
+propellers
 propensity
 proper
 properties
@@ -15375,6 +15432,7 @@ prototyped
 prototypes
 prototypical
 prototyping
+protruding
 proudly
 provable
 provably
@@ -15514,8 +15572,10 @@ queue
 queue-based
 queueing
 queues
+quick-change
 quicker
 quickest
+quickpanel
 quicksort
 quickstart
 quiet
@@ -15538,6 +15598,7 @@ rabbitmq
 race
 races
 radial
+radiator
 radio
 radius
 raid
@@ -15922,6 +15983,7 @@ remediation
 remedy
 reminder
 reminders
+reminiscent
 remodeling
 remote
 remotes
@@ -16504,6 +16566,7 @@ sensors
 sentence
 sentences
 sentiment
+sentiments
 seo
 seos
 separability
@@ -16596,6 +16659,7 @@ shining
 shiny
 shipped
 shooter
+shooting
 shop
 short-distance
 short-form
@@ -16848,6 +16912,7 @@ software-defined
 software-testing
 softwares
 solid
+solid-state
 solidity
 solr
 solution
@@ -16863,6 +16928,7 @@ sony
 sophistication
 sortable
 sound
+soundcore
 sounding
 sounds
 soup
@@ -16908,6 +16974,7 @@ speciality
 specialization
 specializations
 specializing
+specialties
 specialty
 species
 specific
@@ -16924,6 +16991,7 @@ specs
 spectacular
 spectral
 spectrum
+speculation
 speech
 speech-enabled
 speech-to-text
@@ -17025,6 +17093,7 @@ stage
 staged
 stages
 staging
+stagnation
 stakeholder
 stakeholders
 stale
@@ -17091,6 +17160,7 @@ stemmers
 stemming
 stencil
 step-by-step
+stepless
 stepping
 steps
 stepwise
@@ -17393,6 +17463,7 @@ super
 super-collinearity
 super-computers
 super-fast
+super-powerful
 super-productive
 supercharge
 superclass
@@ -17531,6 +17602,7 @@ tabs
 tabular
 tactic
 tactics
+tactile
 tag
 tag-summary
 tagger
@@ -18005,6 +18077,7 @@ transferable
 transference
 transferrable
 transferring
+transflective
 transform-based
 transformable
 transformational
@@ -18195,6 +18268,9 @@ uiviewcontroller
 ultimate
 ultra
 ultra-compact
+ultra-easy
+ultra-high
+ultra-lightweight
 ultra-wide
 ultrabook
 ultrabooks
@@ -18247,6 +18323,7 @@ unchanged
 uncharged
 uncharted
 uncheck
+unclassified
 unclear
 uncluttered
 uncolored
@@ -18306,6 +18383,7 @@ understandably
 understated
 understatement
 understating
+understudy
 undertaking
 underway
 undeservedly
@@ -18386,6 +18464,7 @@ uniformly
 uniforms
 unigram
 unigrams
+unilateral
 unimaginable
 unimodal
 unimplemented
@@ -18777,6 +18856,7 @@ vehicles
 velocity
 vendor
 vendors
+ventilated
 venture
 ventures
 venue
@@ -18787,6 +18867,7 @@ verbose
 verbosity
 verbs
 verdict
+vergence
 verifiable
 verification
 verifier
@@ -18894,6 +18975,7 @@ volts
 volume
 volumes
 volumetric
+voluminous
 votes
 voting
 vpn
@@ -18967,6 +19049,7 @@ waypoints
 ways
 wcf
 weak
+weakening
 weakly
 weaknesses
 wealth
@@ -19139,6 +19222,7 @@ whopping
 wi-fi
 wicket
 wide
+wide-angle
 wide-character
 wide-reaching
 widely-applicable

@@ -28,7 +28,7 @@ if __name__ == "__main__":
         filtered = [w for w in words if w not in vocabulary and not qq.is_digit(w)]
         new_words = set(filtered)
 
-        print(len(words), ":", len(new_words))
+        print(len(words), "filtered:", len(filtered), "unique:", len(new_words), )
 
         for w in filtered:
             freq = result[w] if (w in result) else 0

@@ -24,9 +24,11 @@ if __name__ == "__main__":
             break;
 
         words = qq.str_tokenize_words(translate(line.lower()))
-        filtered = [w for w in words if w not in vocabulary and not qq.is_digit(w)]
 
-        print(len(words), ":", len(filtered))
+        filtered = [w for w in words if w not in vocabulary and not qq.is_digit(w)]
+        new_words = set(filtered)
+
+        print(len(words), ":", len(new_words))
 
         for w in filtered:
             freq = result[w] if (w in result) else 0
@@ -35,5 +37,5 @@ if __name__ == "__main__":
     print("vocabulary:", len(vocabulary))
     print("<<<", len(result))
 
-    with open("main_txt.json", 'w', encoding='utf-8') as fd:
-        json.dump(result, fd, indent=3)
+    # with open("main_txt.json", 'w', encoding='utf-8') as fd:
+    #     json.dump(result, fd, indent=3)

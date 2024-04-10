@@ -26,9 +26,8 @@ if __name__ == "__main__":
         words = qq.str_tokenize_words(translate(line.lower()))
 
         filtered = [w for w in words if w not in vocabulary and not qq.is_digit(w)]
-        new_words = set(filtered)
 
-        print(len(words), "filtered:", len(filtered), "unique:", len(new_words), )
+        print(len(words), "filtered:", len(filtered), "unique:", len(set(filtered)))
 
         for w in filtered:
             result[w] = result.get(w, 0) + 1

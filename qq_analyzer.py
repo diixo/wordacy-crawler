@@ -125,11 +125,17 @@ def test_url_to_dataset():
       for tokens in ngrams:
          prediction.add_tokens(tokens)
 
-   # diixonary = load_words("data/db-full.txt")
-   # result = [w[0] for w in prediction.unigrams if w[0] not in diixonary]
-   # with open("_tmp-allainews.json", 'w', encoding='utf-8') as fd:
-   #    json.dump(sorted(result), fd, ensure_ascii=False, indent=3)
-   # exit(0)
+   exit(0)
+   diixonary = load_words("data/db-full.txt")
+############################# >>>
+
+   uni_freq = sorted(prediction.unigrams_freq_dict.items())
+   result = [w[0]+" "+str(cntr) for w,cntr in uni_freq if w[0] not in diixonary]
+
+   with open("_tmp-allainews.json", 'w', encoding='utf-8') as fd:
+      json.dump(sorted(result), fd, ensure_ascii=False, indent=3)
+   exit(0)
+############################# <<<
 
    result = dict()
    for sentence in keywords:

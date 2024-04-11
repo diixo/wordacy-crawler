@@ -30,6 +30,9 @@ def main():
 
    return
 
+   make_sitemap("https://www.engadget.com", 
+      ["/rss.xml", "/about/", "/about-our-advertising/", "about/advertise", "/about-faq", "/support"])
+
    make_sitemap("https://www.unite.ai/")
 
    make_sitemap("https://ai-search.io/")

@@ -8,6 +8,7 @@ from pathlib import Path
 from qq_analyzer import Analyzer
 from qq_prediction import Prediction
 from qq_prediction_search import PredictionSearch
+from qq_prediction_search import load_words
 import qq_grammar as qq
 
 
@@ -72,6 +73,15 @@ def test_headings_to_prediction():
 
         search.save_json("storage/prediction-search.json")
     #######################################################
+
+    diixonary = load_words("data/db-full.txt")
+
+    uni_freq = sorted(prediction.unigrams_freq_dict.items())
+    result = [w[0]+" "+str(cntr) for w,cntr in uni_freq if w[0] not in diixonary]
+
+    with open("_tmp-allainews.json", 'w', encoding='utf-8') as fd:
+        json.dump(sorted(result), fd, ensure_ascii=False, indent=3)
+    ############################# <<<
 
     while True:
         user_input = input(">>>")

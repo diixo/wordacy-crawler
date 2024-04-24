@@ -253,7 +253,6 @@ def test_aixploria():
    crawler.enqueue_url("https://www.aixploria.com/en/category/ai-voice-cloning/", 2)
    crawler.enqueue_url("https://www.aixploria.com/en/category/websites-ai/", 7)
    crawler.enqueue_url("https://www.aixploria.com/en/category/writing-web-seo/", 11)
-   crawler.enqueue_url("https://www.aixploria.com/en/category/text-to-video-en/", 3)
 
    crawler.run()
    crawler.save_json("storage/www-aixploria-com.json")

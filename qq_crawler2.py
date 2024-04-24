@@ -27,6 +27,7 @@ class Crawler2:
    def __init__(self, delay = 1.0, recursive=False):
       self.new = deque()
       self.unknown = dict()
+      self.unknown_from = set()
       self.skip = set()
       self.filters = dict()
       self.filepath = ""
@@ -72,6 +73,9 @@ class Crawler2:
 
       with open("db-hostnames", 'w', encoding='utf-8') as fd:
          json.dump(self.unknown, fd, ensure_ascii=False, indent=3)
+
+      with open("db-hostnames-from", 'w', encoding='utf-8') as fd:
+         json.dump(list(self.unknown_from), fd, ensure_ascii=False, indent=3)
 
 
    def clear(self):
@@ -150,6 +154,7 @@ class Crawler2:
                      if u_hostname not in self.unknown:
                         self.unknown[u_hostname] = []
                      self.unknown[u_hostname].append(sref.strip('/'))
+                     self.unknown_from.add(url.strip('/'))
 
                      #self.unknown.add(u_hostname)
                      #self.unknown.add(sref)

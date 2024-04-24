@@ -176,8 +176,87 @@ def test_dataset():
 
 
 def test_aixploria():
-   crawler = Crawler2(delay=3, recursive=True)
+   crawler = Crawler2(delay=3, recursive=False)
    crawler.enqueue_url("https://www.aixploria.com/en")
+
+   crawler.enqueue_url("https://www.aixploria.com/en/category/3d-model/" , 5)
+   crawler.enqueue_url("https://www.aixploria.com/en/category/ai-chat-assistant/", 3)
+   crawler.enqueue_url("https://www.aixploria.com/en/category/ai-detection-en/", 4)
+   crawler.enqueue_url("https://www.aixploria.com/en/category/ia-useful/", 3)
+
+   crawler.enqueue_url("https://www.aixploria.com/en/category/amazing/", 10)
+   crawler.enqueue_url("https://www.aixploria.com/en/category/art-en/", 11)
+   crawler.enqueue_url("https://www.aixploria.com/en/category/assistant-code-en/", 5)
+   crawler.enqueue_url("https://www.aixploria.com/en/category/audio-editing/", 4)
+
+   crawler.enqueue_url("https://www.aixploria.com/en/category/ai-autonomous/", 3)
+   crawler.enqueue_url("https://www.aixploria.com/en/category/avatars-en/", 5)
+   crawler.enqueue_url("https://www.aixploria.com/en/category/business-study/", 13)
+   crawler.enqueue_url("https://www.aixploria.com/en/category/chatbot-ai/", 9)
+
+   crawler.enqueue_url("https://www.aixploria.com/en/category/dating-relationships-ai/", 2)
+   crawler.enqueue_url("https://www.aixploria.com/en/category/developer-tools/", 8)
+   crawler.enqueue_url("https://www.aixploria.com/en/category/e-commerce-en/", 7)
+   crawler.enqueue_url("https://www.aixploria.com/en/category/e-mail-en/", 5)
+
+   crawler.enqueue_url("https://www.aixploria.com/en/category/education-en/" , 16)
+   crawler.enqueue_url("https://www.aixploria.com/en/category/extensions-chatgpt/", 8)
+   crawler.enqueue_url("https://www.aixploria.com/en/category/face-swap-deepfake-en/", 2)
+   crawler.enqueue_url("https://www.aixploria.com/en/category/fashion-en/", 2)
+
+   crawler.enqueue_url("https://www.aixploria.com/en/category/featured-en/", 3)
+   crawler.enqueue_url("https://www.aixploria.com/en/category/files-spreadsheets/", 6)
+   crawler.enqueue_url("https://www.aixploria.com/en/category/finance-en/", 5)
+   crawler.enqueue_url("https://www.aixploria.com/en/category/games-en/", 4)
+
+   crawler.enqueue_url("https://www.aixploria.com/en/category/github-project-ai/", 7)
+   crawler.enqueue_url("https://www.aixploria.com/en/category/healthcare/", 3)
+   crawler.enqueue_url("https://www.aixploria.com/en/category/human-resources-ai/", 6)
+   crawler.enqueue_url("https://www.aixploria.com/en/category/image-editing/", 12)
+
+   crawler.enqueue_url("https://www.aixploria.com/en/category/image-ai-en/", 15)
+   crawler.enqueue_url("https://www.aixploria.com/en/category/imminent-release/", 8)
+   crawler.enqueue_url("https://www.aixploria.com/en/category/last-ai-en/", 124)
+   crawler.enqueue_url("https://www.aixploria.com/en/category/legal-assistants/", 2)
+
+   crawler.enqueue_url("https://www.aixploria.com/en/category/life-assistants/", 16)
+   crawler.enqueue_url("https://www.aixploria.com/en/category/llm-model-ai-en/", 5)
+   crawler.enqueue_url("https://www.aixploria.com/en/category/logo-creation/", 2)
+   crawler.enqueue_url("https://www.aixploria.com/en/category/marketing-ai/", 8)
+
+   crawler.enqueue_url("https://www.aixploria.com/en/category/memory-en/", 2)
+   crawler.enqueue_url("https://www.aixploria.com/en/category/music/", 7)
+   crawler.enqueue_url("https://www.aixploria.com/en/category/no-code-en/", 9)
+   crawler.enqueue_url("https://www.aixploria.com/en/category/popular-ai-tools/", 5)
+
+   crawler.enqueue_url("https://www.aixploria.com/en/category/presentation-en/", 2)
+   crawler.enqueue_url("https://www.aixploria.com/en/category/productivity-en/", 19)
+   crawler.enqueue_url("https://www.aixploria.com/en/category/prompts-help/", 6)
+   crawler.enqueue_url("https://www.aixploria.com/en/category/real-estate/", 3)
+
+   crawler.enqueue_url("https://www.aixploria.com/en/category/research-science-en/", 4)
+   crawler.enqueue_url("https://www.aixploria.com/en/category/robots-devices-ai/", 1)
+   crawler.enqueue_url("https://www.aixploria.com/en/category/search-engine/", 5)
+   crawler.enqueue_url("https://www.aixploria.com/en/category/social-assistants-en/", 11)
+
+   crawler.enqueue_url("https://www.aixploria.com/en/category/storytelling-generator/", 4)
+   crawler.enqueue_url("https://www.aixploria.com/en/category/ai-summarizer/", 6)
+   crawler.enqueue_url("https://www.aixploria.com/en/category/ai-text-generators/", 6)
+   crawler.enqueue_url("https://www.aixploria.com/en/category/voice-reading/", 5)
+
+   crawler.enqueue_url("https://www.aixploria.com/en/category/text-to-video-en/", 3)
+   crawler.enqueue_url("https://www.aixploria.com/en/category/transcriber/", 6)
+   crawler.enqueue_url("https://www.aixploria.com/en/category/translation-ai/", 3)
+   crawler.enqueue_url("https://www.aixploria.com/en/category/travel/", 3)
+   crawler.enqueue_url("https://www.aixploria.com/en/category/video-edition/", 8)
+   crawler.enqueue_url("https://www.aixploria.com/en/category/video-generators/", 9)
+   crawler.enqueue_url("https://www.aixploria.com/en/category/ai-voice-cloning/", 2)
+   crawler.enqueue_url("https://www.aixploria.com/en/category/websites-ai/", 7)
+   crawler.enqueue_url("https://www.aixploria.com/en/category/writing-web-seo/", 11)
+   crawler.enqueue_url("https://www.aixploria.com/en/category/text-to-video-en/", 3)
+
+
+
    crawler.run()
 
 if __name__ == "__main__":

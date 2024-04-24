@@ -71,10 +71,10 @@ class Crawler2:
          with open(filepath + ".skipped.txt", 'w', encoding='utf-8') as fd:
             json.dump(sorted(self.skip), fd, ensure_ascii=False, indent=3)
 
-      with open("db-hostnames", 'w', encoding='utf-8') as fd:
+      with open("db-hostnames.json", 'w', encoding='utf-8') as fd:
          json.dump(self.unknown, fd, ensure_ascii=False, indent=3)
 
-      with open("db-hostnames-from", 'w', encoding='utf-8') as fd:
+      with open("db-hostnames-from.json", 'w', encoding='utf-8') as fd:
          json.dump(list(self.unknown_from), fd, ensure_ascii=False, indent=3)
 
 
@@ -119,7 +119,7 @@ class Crawler2:
             self.new.append(url_str)
 
 
-   def enqueue_url(self, url_str: str):
+   def enqueue_url(self, url_str: str, cntr = 1):
       url_str = url_str.strip('/')
       hostname = url_hostname(url_str)
       self.set_filter(url_str, [])
@@ -130,6 +130,11 @@ class Crawler2:
       if url_str not in self.urls[hostname]:
          self.urls[hostname].add(url_str)
          self.new.append(url_str)
+
+      if cntr > 1:
+         for i in range (2, cntr+1):
+            self.urls[hostname].add(url_str)
+            self.new.append(url_str + "/page/" + str(i))
 
 
    def extract_urls(self, raw, url):
@@ -153,9 +158,12 @@ class Crawler2:
                   else:
                      if u_hostname not in self.unknown:
                         self.unknown[u_hostname] = []
-                     self.unknown[u_hostname].append(sref.strip('/'))
-                     self.unknown_from.add(url.strip('/'))
+                     linkset = set(self.unknown[u_hostname])
+                     linkset.add(sref.strip("/"))
+                     self.unknown[u_hostname] = list(linkset)
 
+                     # force add the current link which the target was found from
+                     self.unknown_from.add(url.strip("/"))
                      #self.unknown.add(u_hostname)
                      #self.unknown.add(sref)
 

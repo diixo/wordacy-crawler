@@ -255,9 +255,8 @@ def test_aixploria():
    crawler.enqueue_url("https://www.aixploria.com/en/category/writing-web-seo/", 11)
    crawler.enqueue_url("https://www.aixploria.com/en/category/text-to-video-en/", 3)
 
-
-
    crawler.run()
+   crawler.save_json("storage/www-aixploria-com.json")
 
 if __name__ == "__main__":
    test_url_to_dataset()

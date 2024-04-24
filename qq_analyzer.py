@@ -112,6 +112,7 @@ def test_url_to_dataset():
    analyzer.save_json()
    print(f"<< [Analyzer] :{len(analyzer.content.get('headings', dict()))}")
 
+   exit(0)
    ####################### analyze keywords #######################
    stopwords = load_stopwords()
 
@@ -174,7 +175,14 @@ def test_dataset():
    analyzer.save_json()
 
 
+def test_aixploria():
+   crawler = Crawler2(delay=3, recursive=True)
+   crawler.enqueue_url("https://www.aixploria.com/en")
+   crawler.run()
+
 if __name__ == "__main__":
    test_url_to_dataset()
    #test_with_ssl()
    #test_dataset()
+
+   #test_aixploria()

@@ -26,13 +26,14 @@ class Crawler2:
 
    def __init__(self, delay = 1.0, recursive=False):
       self.new = deque()
-      self.unknown = set()
+      self.unknown = dict()
       self.skip = set()
       self.filters = dict()
       self.filepath = ""
       self.urls = dict()
       self.recursive = recursive
       self.delay = delay
+
 
    def open_json(self, filepath:str):
       path = Path(filepath)
@@ -68,6 +69,9 @@ class Crawler2:
       if len(self.skip) > 0:
          with open(filepath + ".skipped.txt", 'w', encoding='utf-8') as fd:
             json.dump(sorted(self.skip), fd, ensure_ascii=False, indent=3)
+
+      with open("db-hostnames", 'w', encoding='utf-8') as fd:
+         json.dump(self.unknown, fd, ensure_ascii=False, indent=3)
 
 
    def clear(self):
@@ -143,8 +147,12 @@ class Crawler2:
                         self.add_new(ref)
                      elif logging: print(f"[Crawler2] Unexpected syntax error: url={sref}")
                   else:
+                     if u_hostname not in self.unknown:
+                        self.unknown[u_hostname] = []
+                     self.unknown[u_hostname].append(sref.strip('/'))
+
                      #self.unknown.add(u_hostname)
-                     self.unknown.add(sref)
+                     #self.unknown.add(sref)
 
    def open_url(self, url:str, parser:str):
       try:

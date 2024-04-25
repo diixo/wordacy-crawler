@@ -13,7 +13,7 @@ from urllib.parse import urlparse, urljoin
 from urllib.request import urlopen, Request
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
-#pip install lxml
+
 
 logging = True
 
@@ -181,6 +181,7 @@ class Crawler2:
                      #self.unknown.add(u_hostname)
                      #self.unknown.add(sref)
 
+
    def open_url(self, url:str, parser:str):
       try:
             req = Request(url, headers={'User-Agent': 'XYZ/3.0'})
@@ -257,7 +258,7 @@ class Crawler2:
       except:
          print("Unexpected error raised:", sys.exc_info()[0])
 
-   def get_urls(self, url: str):
+   def get_urls(self, url: str = None):
       if url:
          return self.urls.get(url_hostname(url), [])
       else:

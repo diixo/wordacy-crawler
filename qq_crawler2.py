@@ -91,8 +91,7 @@ class Crawler2:
          ".jpg", ".jpeg", ".png", ".svg", ".ico", ".bmp", ".gif", ".tiff", ".exif",
          ".pps", ".webp", ".txt", ".cmd", ".md" ".js", ".json", ".css", ".scss",
          ".zip", ".tar", ".rar", ".xz", ".gz", ".tgz", ".pkg", ".cab", ".jar", ".iso", 
-         ".exe", ".sfx", ".msi", ".cgi", ".mp4",
-         "twitter.com", "linkedin.com", "/t.me/", "workspace.google.com", "apps.apple.com"]
+         ".exe", ".sfx", ".msi", ".cgi", ".mp4"]
       for i in avoid:
          if str.find(url_str, i) >= 0: return False
       return True
@@ -114,7 +113,7 @@ class Crawler2:
 
       if not self.is_url_valid(url_str) or self.is_filtered(url_str):
          self.skip.add(url_str)
-         print(f"skipped(validation,filtered): {url_str}")
+         #print(f"skipped(validation,filtered): {url_str}")
       elif url_str not in self.urls[hostname]:
          self.urls[hostname].add(url_str)
          if self.recursive:
@@ -162,7 +161,7 @@ class Crawler2:
                         self.unknown[u_hostname] = []
                      linkset = set(self.unknown[u_hostname])
                      linkset.add(sref.strip("/"))
-                     self.unknown[u_hostname] = list(linkset)
+                     self.unknown[u_hostname] = sorted(linkset)
 
                      # force add the current link which the target was found from
                      self.unknown_from.add(url.strip("/"))
@@ -191,7 +190,7 @@ class Crawler2:
       except:
             print("Unexpected urlopen-error:", sys.exc_info()[0])
       self.skip.add(url)
-      print(f"skipped(open_url): {url}")
+      #print(f"skipped(open_url): {url}")
 
 
    def extract_from_file(self, filepath:str, domain:str, filter=[]):
@@ -231,7 +230,7 @@ class Crawler2:
                   if logging: print(f"[Crawler2] ...on: XML={url}")
                   self.open_url(url, "xml")
                   self.skip.add(url)
-                  print(f"skipped(run_type): {url}")
+                  #print(f"skipped(run_type): {url}")
             if logging: print(f"[Crawler2] ...on: {counter}, [remained={len(self.new)}] [skipped={len(self.skip)}]")
             time.sleep(self.delay)
       except KeyboardInterrupt:

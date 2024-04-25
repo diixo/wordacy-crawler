@@ -158,7 +158,9 @@ class Crawler2:
                      elif logging: print(f"[Crawler2] Unexpected syntax error: url={sref}")
                   else:
                      if u_hostname not in self.unknown:
-                        self.unknown[u_hostname] = []
+                        u_home  = urlparse(url).scheme + '://' + u_hostname
+                        self.unknown[u_hostname] = [u_home]
+
                      linkset = set(self.unknown[u_hostname])
                      linkset.add(sref.strip("/"))
                      self.unknown[u_hostname] = sorted(linkset)
@@ -182,8 +184,14 @@ class Crawler2:
             self.extract_urls(raw, url)
             return True
       except urllib.error.URLError as e:
-            if hasattr(e, 'code'): print("URLErr_code:", e.code, f"url={url}")
+            if hasattr(e, 'code'):
+               print("URLErr_code:", e.code, f"url={url}")
+               if str(e.code) == "520":
+                  self.new.append(url)
+                  print(f"push again >> {e.code}_url:{url}")
+
             if hasattr(e, 'reason'): print("URLErr_reason:", e.reason, f"url={url}")
+
       except urllib.error.HTTPError as e:
             if hasattr(e, 'code'): print("HTTPErr_code:", e.code, f"url={url}")
             if hasattr(e, 'reason'): print("HTTPErr_reason:", e.reason, f"url={url}")

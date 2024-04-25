@@ -1,268 +1,6 @@
 {
-   "twitter.com": [
-      "https://twitter.com/aixploria",
-      "https://twitter.com/arthurmensch/status/1752737462663684344",
-      "https://twitter.com/elonmusk",
-      "https://twitter.com/intent/tweet?url=https://www.aixploria.com/en/&text=the ultimate list of best ai tools",
-      "https://twitter.com/intent/tweet?url=https://www.aixploria.com/en/category/3d-model/&text=the+best+ais+that+offer+online+3d+modeling.+design+3d+models+with+texture+and+object+generation+tools.",
-      "https://twitter.com/intent/tweet?url=https://www.aixploria.com/en/category/ai-autonomous/&text=discover+the+best+autonomous+ais+that+can+perform+tasks+without+the+help+of+a+human.+%28agi%29",
-      "https://twitter.com/intent/tweet?url=https://www.aixploria.com/en/category/ai-chat-assistant/&text=a+selection+of+the+best+conversational+ai+chatbots.+they+answer+all+the+questions+you+ask%2c+without+ever+getting+tired.",
-      "https://twitter.com/intent/tweet?url=https://www.aixploria.com/en/category/ai-detection-en/&text=discover+the+list+of+the+best+ai+content+detectors+available+on+the+market.+ideal+for+detecting+ai+content+and+text+written+with+chatgpt.",
-      "https://twitter.com/intent/tweet?url=https://www.aixploria.com/en/category/ai-summarizer/&text=access+a+list+of+ai+tools+that+can+easily+summarize+long+texts%2c+videos+or+podcasts.+increase+your+productivity+quickly%21",
-      "https://twitter.com/intent/tweet?url=https://www.aixploria.com/en/category/ai-text-generators/&text=quickly+find+the+best+ais+to+assist+you+in+writing+your+texts+with+the+many+text+generators+in+this+list.",
-      "https://twitter.com/intent/tweet?url=https://www.aixploria.com/en/category/ai-voice-cloning/&text=a+list+of+the+best+ai+tools+for+cloning+your+voice+and+generating+natural+voices.+clone+your+voice+in+just+a+few+seconds%21",
-      "https://twitter.com/intent/tweet?url=https://www.aixploria.com/en/category/amazing/&text=test+without+further+delay+the+most+amazing%2c+funny+or+wacky+ais.+this+list+contains+something+to+pass+the+time+while+testing+new+and+attractive+ai.",
-      "https://twitter.com/intent/tweet?url=https://www.aixploria.com/en/category/art-en/&text=help+yourself+to+the+best+ai+that+specialize+in+the+field+of+art.+photos%2c+drawings%2c+photographs%2c+paintings%2c+etc.+the+list+is+long%21",
-      "https://twitter.com/intent/tweet?url=https://www.aixploria.com/en/category/assistant-code-en/&text=default+description+text+if+yoast+meta+description+is+empty.",
-      "https://twitter.com/intent/tweet?url=https://www.aixploria.com/en/category/audio-editing/&text=make+your+life+easier+with+the+best+dedicated+ai+audio+editing.+in+an+instant%2c+you+can+correct%2c+improve+and+boost+the+quality+of+your+audio+projects.",
-      "https://twitter.com/intent/tweet?url=https://www.aixploria.com/en/category/avatars-en/&text=explore+the+most+complete+selection+on+the+web+and+discover+all+avatar+generating+ai.",
-      "https://twitter.com/intent/tweet?url=https://www.aixploria.com/en/category/business-study/&text=a+selection+of+the+best+ai+to+improve+your+business+or+your+company.+the+list+is+long+and+you+will+find+the+ones+you+need.",
-      "https://twitter.com/intent/tweet?url=https://www.aixploria.com/en/category/chatbot-ai/&text=ai+chatbots+that+can+answer+any+question+you+or+your+customers+have.+easily+find+the+right+chatbot+for+your+needs.",
-      "https://twitter.com/intent/tweet?url=https://www.aixploria.com/en/category/dating-relationships-ai/&text=find+the+best+ai+to+help+you+on+dating+sites.+put+all+the+chances+on+your+side+to+meet+love%21",
-      "https://twitter.com/intent/tweet?url=https://www.aixploria.com/en/category/developer-tools/&text=access+a+huge+list+of+ais+designed+to+make+your+job+easier.+have+an+ai+assist+you+during+your+coding+sessions+and+save+time.",
-      "https://twitter.com/intent/tweet?url=https://www.aixploria.com/en/category/e-commerce-en/&text=the+best+ai+tools+for+your+e-commerce%3a+take+your+online+store+to+new+heights.+take+advantage+of+this+opportunity+to+increase+your+sales+very+quickly.",
-      "https://twitter.com/intent/tweet?url=https://www.aixploria.com/en/category/e-mail-en/&text=a+list+of+the+best+ai-powered+email+writing+assistants.+let+the+intelligence+write+for+you+and+get+the+perfect+email.",
-      "https://twitter.com/intent/tweet?url=https://www.aixploria.com/en/category/education-en/&text=a+selection+of+the+best+ai+tools+for+education%2c+learning+and+studying.+increase+your+chances+of+academic+success+with+the+help+of+artificial+intelligence.",
-      "https://twitter.com/intent/tweet?url=https://www.aixploria.com/en/category/extensions-chatgpt/&text=discover+the+best+chrome+extensions+and+plugins+for+openai%27s+popular+chatgpt+ai.+quickly+improve+your+productivity+with+new+options.",
-      "https://twitter.com/intent/tweet?url=https://www.aixploria.com/en/category/face-swap-deepfake-en/&text=discover+in+this+directory+the+top+15+of+the+best+ai+tools+to+easily+make+deepfakes+videos.+quickly+find+free+ai+tools+to+make+swap+face.",
-      "https://twitter.com/intent/tweet?url=https://www.aixploria.com/en/category/fashion-en/&text=discover+the+ais+that+help+you+improve+your+clothing+style+and+stay+fashionable.+fashion+ais+are+among+the+most+popular+tools.",
-      "https://twitter.com/intent/tweet?url=https://www.aixploria.com/en/category/featured-en/&text=a+selection+of+ai+tools+carefully+chosen+by+our+team+for+their+quality+and+relevance.+discover+the+most+interesting+ais+of+the+moment.",
-      "https://twitter.com/intent/tweet?url=https://www.aixploria.com/en/category/files-spreadsheets/&text=discover+ai+that+can+easily+analyze%2c+create%2c+summarize%2c+or+simplify+your+files.+gain+productivity+quickly+with+ai.",
-      "https://twitter.com/intent/tweet?url=https://www.aixploria.com/en/category/finance-en/&text=a+list+of+ais+that+will+help+you+in+your+trading+sessions+and+in+the+finance+industry+in+general.",
-      "https://twitter.com/intent/tweet?url=https://www.aixploria.com/en/category/games-en/&text=access+the+list+of+the+best+ai-powered+games.+you+will+also+find+tools+to+improve+your+gameplay+and+avatars.",
-      "https://twitter.com/intent/tweet?url=https://www.aixploria.com/en/category/github-project-ai/&text=discover+the+top+100+most+popular+or+trending+projects+on+the+famous+github+platform.+ranked+according+to+current+trends.",
-      "https://twitter.com/intent/tweet?url=https://www.aixploria.com/en/category/healthcare/&text=check+out+the+list+of+the+best+ais+that+can+help+you+in+the+medical+and+healthcare+industry.",
-      "https://twitter.com/intent/tweet?url=https://www.aixploria.com/en/category/human-resources-ai/&text=discover+the+list+of+the+30+best+ai+tools+for+human+resources.+explore+the+most+popular+tools+for+recruitment%2c+resumes%2c+cover+letters%2c+job+management%2c+etc.",
-      "https://twitter.com/intent/tweet?url=https://www.aixploria.com/en/category/ia-useful/&text=discover+a+list+of+ais+you+won%27t+be+able+to+live+without.+the+most+indispensable+and+practical+ais.",
-      "https://twitter.com/intent/tweet?url=https://www.aixploria.com/en/category/image-ai-en/&text=discover+the+list+of+the+best+50+ai+image+generators.+easily+choose+the+right+image+generator+for+your+projects+or+creations.",
-      "https://twitter.com/intent/tweet?url=https://www.aixploria.com/en/category/image-editing/&text=the+top+40+best+ais+designed+for+image+editing.+edit+your+photos+like+a+pro+even+if+you+don%27t+have+any+knowledge+in+this+field.",
-      "https://twitter.com/intent/tweet?url=https://www.aixploria.com/en/category/imminent-release/&text=the+latest+advances+in+ai+and+future+releases.+get+a+sneak+peek+at+the+ais+that+will+make+the+future+of+tomorrow.",
-      "https://twitter.com/intent/tweet?url=https://www.aixploria.com/en/category/last-ai-en/&text=default+description+text+if+yoast+meta+description+is+empty.",
-      "https://twitter.com/intent/tweet?url=https://www.aixploria.com/en/category/legal-assistants/&text=lawyer+assistants+under+ia+who+know+the+law+well+and+will+help+you+with+your+legal+procedures.",
-      "https://twitter.com/intent/tweet?url=https://www.aixploria.com/en/category/life-assistants/&text=a+list+of+the+50+best+personal+assistants+programmed+to+help+you+in+your+daily+life.",
-      "https://twitter.com/intent/tweet?url=https://www.aixploria.com/en/category/llm-model-ai-en/&text=discover+the+list+of+the+best+llm+models+currently+available+in+the+world.test+them+out+and+keep+up+to+date+with+the+latest+llms+on+the+market.",
-      "https://twitter.com/intent/tweet?url=https://www.aixploria.com/en/category/logo-creation/&text=create+your+logo+easily+with+ai+and+increase+the+visual+impact+of+your+brand.+this+list+will+help+you+find+the+best+ai+logo+generator.",
-      "https://twitter.com/intent/tweet?url=https://www.aixploria.com/en/category/marketing-ai/&text=a+set+of+ai+marketing+tools+for+individuals+and+professionals.+ideal+for+e-commerce+sites+and+advertising+campaigns.",
-      "https://twitter.com/intent/tweet?url=https://www.aixploria.com/en/category/memory-en/&text=improve+and+optimize+your+memory+skills+with+ai+tools.+become+more+productive+with+artificial+intelligence.",
-      "https://twitter.com/intent/tweet?url=https://www.aixploria.com/en/category/music/&text=compose+all+kinds+of+music+with+the+power+of+ai.+creating+and+generating+music+requires+no+special+skills.",
-      "https://twitter.com/intent/tweet?url=https://www.aixploria.com/en/category/no-code-en/&text=creation+of+software+or+digital+solutions+without+code.",
-      "https://twitter.com/intent/tweet?url=https://www.aixploria.com/en/category/popular-ai-tools/&text=top+ai+tools+that+are+currently+popular+on+aixploria.+find+the+world%27s+most+popular+artificial+intelligences+currently+available.",
-      "https://twitter.com/intent/tweet?url=https://www.aixploria.com/en/category/presentation-en/&text=don%27t+waste+any+more+time+and+let+the+ai+make+your+speech.+generate+powerpoint+or+oral+presentation+texts+in+2+clicks.",
-      "https://twitter.com/intent/tweet?url=https://www.aixploria.com/en/category/productivity-en/&text=boost+your+productivity+with+a+list+of+practical+and+productive+ai-powered+tools.",
-      "https://twitter.com/intent/tweet?url=https://www.aixploria.com/en/category/prompts-help/&text=a+selection+of+the+best+tools+to+help+you+design+prompts.+find+inspiration+easily+with+this+list+of+prompts+helpers.",
-      "https://twitter.com/intent/tweet?url=https://www.aixploria.com/en/category/real-estate/&text=a+top+10+of+the+best+ai%27s+in+real+estate+and+interior+design.",
-      "https://twitter.com/intent/tweet?url=https://www.aixploria.com/en/category/research-science-en/&text=a+list+of+ai+assistants+to+help+you+in+your+research%2c+whether+scientific+or+not.",
-      "https://twitter.com/intent/tweet?url=https://www.aixploria.com/en/category/robots-devices-ai/&text=explore+the+25+best+ai-powered+robots+and+machines.+a+selection+of+devices+with+advanced+intelligent+technology+to+use+in+your+life.",
-      "https://twitter.com/intent/tweet?url=https://www.aixploria.com/en/category/search-engine/&text=find+the+perfect+ai+search+engine+for+your+project.+we%27ve+selected+the+30+best+ai+search+engines+on+the+web.",
-      "https://twitter.com/intent/tweet?url=https://www.aixploria.com/en/category/social-assistants-en/&text=increase+your+visibility+on+popular+social+networks+like+tiktok%2c+instagram%2c+twitter%2c+youtube%2c+twitch+or+linkedin.",
-      "https://twitter.com/intent/tweet?url=https://www.aixploria.com/en/category/storytelling-generator/&text=discover+the+best+story-generating+ais+called+storytellers.",
-      "https://twitter.com/intent/tweet?url=https://www.aixploria.com/en/category/text-to-video-en/&text=discover+the+list+of+the+best+ai+capable+of+creating+videos+from+text+via+a+prompt.+this+top+20+ais+in+the+category+text-to-video+is+updated+regularly.",
-      "https://twitter.com/intent/tweet?url=https://www.aixploria.com/en/category/transcriber/&text=a+selection+of+the+best+ai+tools+for+text+to+audio+transcription.+the+conversion+is+automatic+with+artificial+intelligence.",
-      "https://twitter.com/intent/tweet?url=https://www.aixploria.com/en/category/translation-ai/&text=a+list+of+the+best+ai+translators.+all+these+ai+translation+tools+are+particularly+powerful+and+often+free+of+charge.+break+the+language+barrier%21",
-      "https://twitter.com/intent/tweet?url=https://www.aixploria.com/en/category/travel/&text=let+yourself+be+assisted+by+ais+who+will+find+activities+for+your+travels+or+vacations.+best+itineraries%2c+restaurants%2c+museums%2c+etc.",
-      "https://twitter.com/intent/tweet?url=https://www.aixploria.com/en/category/video-edition/&text=the+ranked+list+of+the+best+ais+in+the+video+editing+category.+make+pro+video+editing+a+breeze.",
-      "https://twitter.com/intent/tweet?url=https://www.aixploria.com/en/category/video-generators/&text=generate+high-quality+videos+with+this+list+of+the+best+ai+video+generators.+this+selection+of+ai+video+generation+tools+is+updated+daily.",
-      "https://twitter.com/intent/tweet?url=https://www.aixploria.com/en/category/voice-reading/&text=the+list+of+the+best+voice+generators%2c+ai+voice+readers+and+text-to-speech.+get+these+ais+to+read+what+you+want+-+it%27s+often+free%21",
-      "https://twitter.com/intent/tweet?url=https://www.aixploria.com/en/category/websites-ai/&text=discover+a+selection+of+artificial+intelligences+that+are+able+to+create+a+website+instantly.+also+use+ai+tools+to+improve+their+design.",
-      "https://twitter.com/intent/tweet?url=https://www.aixploria.com/en/category/writing-web-seo/&text=discover+the+biggest+list+of+the+best+ai+tools+for+seo+writing+and+copywriting.+improve+your+search+engine+ranking+quickly+and+easily.",
-      "https://twitter.com/tesla_optimus"
-   ],
-   "www.facebook.com": [
-      "https://www.facebook.com/sharer/sharer.php?u=https://www.aixploria.com/en",
-      "https://www.facebook.com/sharer/sharer.php?u=https://www.aixploria.com/en/category/3d-model",
-      "https://www.facebook.com/sharer/sharer.php?u=https://www.aixploria.com/en/category/ai-autonomous",
-      "https://www.facebook.com/sharer/sharer.php?u=https://www.aixploria.com/en/category/ai-chat-assistant",
-      "https://www.facebook.com/sharer/sharer.php?u=https://www.aixploria.com/en/category/ai-detection-en",
-      "https://www.facebook.com/sharer/sharer.php?u=https://www.aixploria.com/en/category/ai-summarizer",
-      "https://www.facebook.com/sharer/sharer.php?u=https://www.aixploria.com/en/category/ai-text-generators",
-      "https://www.facebook.com/sharer/sharer.php?u=https://www.aixploria.com/en/category/ai-voice-cloning",
-      "https://www.facebook.com/sharer/sharer.php?u=https://www.aixploria.com/en/category/amazing",
-      "https://www.facebook.com/sharer/sharer.php?u=https://www.aixploria.com/en/category/art-en",
-      "https://www.facebook.com/sharer/sharer.php?u=https://www.aixploria.com/en/category/assistant-code-en",
-      "https://www.facebook.com/sharer/sharer.php?u=https://www.aixploria.com/en/category/audio-editing",
-      "https://www.facebook.com/sharer/sharer.php?u=https://www.aixploria.com/en/category/avatars-en",
-      "https://www.facebook.com/sharer/sharer.php?u=https://www.aixploria.com/en/category/business-study",
-      "https://www.facebook.com/sharer/sharer.php?u=https://www.aixploria.com/en/category/chatbot-ai",
-      "https://www.facebook.com/sharer/sharer.php?u=https://www.aixploria.com/en/category/dating-relationships-ai",
-      "https://www.facebook.com/sharer/sharer.php?u=https://www.aixploria.com/en/category/developer-tools",
-      "https://www.facebook.com/sharer/sharer.php?u=https://www.aixploria.com/en/category/e-commerce-en",
-      "https://www.facebook.com/sharer/sharer.php?u=https://www.aixploria.com/en/category/e-mail-en",
-      "https://www.facebook.com/sharer/sharer.php?u=https://www.aixploria.com/en/category/education-en",
-      "https://www.facebook.com/sharer/sharer.php?u=https://www.aixploria.com/en/category/extensions-chatgpt",
-      "https://www.facebook.com/sharer/sharer.php?u=https://www.aixploria.com/en/category/face-swap-deepfake-en",
-      "https://www.facebook.com/sharer/sharer.php?u=https://www.aixploria.com/en/category/fashion-en",
-      "https://www.facebook.com/sharer/sharer.php?u=https://www.aixploria.com/en/category/featured-en",
-      "https://www.facebook.com/sharer/sharer.php?u=https://www.aixploria.com/en/category/files-spreadsheets",
-      "https://www.facebook.com/sharer/sharer.php?u=https://www.aixploria.com/en/category/finance-en",
-      "https://www.facebook.com/sharer/sharer.php?u=https://www.aixploria.com/en/category/games-en",
-      "https://www.facebook.com/sharer/sharer.php?u=https://www.aixploria.com/en/category/github-project-ai",
-      "https://www.facebook.com/sharer/sharer.php?u=https://www.aixploria.com/en/category/healthcare",
-      "https://www.facebook.com/sharer/sharer.php?u=https://www.aixploria.com/en/category/human-resources-ai",
-      "https://www.facebook.com/sharer/sharer.php?u=https://www.aixploria.com/en/category/ia-useful",
-      "https://www.facebook.com/sharer/sharer.php?u=https://www.aixploria.com/en/category/image-ai-en",
-      "https://www.facebook.com/sharer/sharer.php?u=https://www.aixploria.com/en/category/image-editing",
-      "https://www.facebook.com/sharer/sharer.php?u=https://www.aixploria.com/en/category/imminent-release",
-      "https://www.facebook.com/sharer/sharer.php?u=https://www.aixploria.com/en/category/last-ai-en",
-      "https://www.facebook.com/sharer/sharer.php?u=https://www.aixploria.com/en/category/legal-assistants",
-      "https://www.facebook.com/sharer/sharer.php?u=https://www.aixploria.com/en/category/life-assistants",
-      "https://www.facebook.com/sharer/sharer.php?u=https://www.aixploria.com/en/category/llm-model-ai-en",
-      "https://www.facebook.com/sharer/sharer.php?u=https://www.aixploria.com/en/category/logo-creation",
-      "https://www.facebook.com/sharer/sharer.php?u=https://www.aixploria.com/en/category/marketing-ai",
-      "https://www.facebook.com/sharer/sharer.php?u=https://www.aixploria.com/en/category/memory-en",
-      "https://www.facebook.com/sharer/sharer.php?u=https://www.aixploria.com/en/category/music",
-      "https://www.facebook.com/sharer/sharer.php?u=https://www.aixploria.com/en/category/no-code-en",
-      "https://www.facebook.com/sharer/sharer.php?u=https://www.aixploria.com/en/category/popular-ai-tools",
-      "https://www.facebook.com/sharer/sharer.php?u=https://www.aixploria.com/en/category/presentation-en",
-      "https://www.facebook.com/sharer/sharer.php?u=https://www.aixploria.com/en/category/productivity-en",
-      "https://www.facebook.com/sharer/sharer.php?u=https://www.aixploria.com/en/category/prompts-help",
-      "https://www.facebook.com/sharer/sharer.php?u=https://www.aixploria.com/en/category/real-estate",
-      "https://www.facebook.com/sharer/sharer.php?u=https://www.aixploria.com/en/category/research-science-en",
-      "https://www.facebook.com/sharer/sharer.php?u=https://www.aixploria.com/en/category/robots-devices-ai",
-      "https://www.facebook.com/sharer/sharer.php?u=https://www.aixploria.com/en/category/search-engine",
-      "https://www.facebook.com/sharer/sharer.php?u=https://www.aixploria.com/en/category/social-assistants-en",
-      "https://www.facebook.com/sharer/sharer.php?u=https://www.aixploria.com/en/category/storytelling-generator",
-      "https://www.facebook.com/sharer/sharer.php?u=https://www.aixploria.com/en/category/text-to-video-en",
-      "https://www.facebook.com/sharer/sharer.php?u=https://www.aixploria.com/en/category/transcriber",
-      "https://www.facebook.com/sharer/sharer.php?u=https://www.aixploria.com/en/category/translation-ai",
-      "https://www.facebook.com/sharer/sharer.php?u=https://www.aixploria.com/en/category/travel",
-      "https://www.facebook.com/sharer/sharer.php?u=https://www.aixploria.com/en/category/video-edition",
-      "https://www.facebook.com/sharer/sharer.php?u=https://www.aixploria.com/en/category/video-generators",
-      "https://www.facebook.com/sharer/sharer.php?u=https://www.aixploria.com/en/category/voice-reading",
-      "https://www.facebook.com/sharer/sharer.php?u=https://www.aixploria.com/en/category/websites-ai",
-      "https://www.facebook.com/sharer/sharer.php?u=https://www.aixploria.com/en/category/writing-web-seo"
-   ],
-   "www.linkedin.com": [
-      "https://www.linkedin.com/sharearticle?url=https://www.aixploria.com/en/&title=the ultimate list of best ai tools",
-      "https://www.linkedin.com/sharearticle?url=https://www.aixploria.com/en/category/3d-model/&title=the+best+ais+that+offer+online+3d+modeling.+design+3d+models+with+texture+and+object+generation+tools.",
-      "https://www.linkedin.com/sharearticle?url=https://www.aixploria.com/en/category/ai-autonomous/&title=discover+the+best+autonomous+ais+that+can+perform+tasks+without+the+help+of+a+human.+%28agi%29",
-      "https://www.linkedin.com/sharearticle?url=https://www.aixploria.com/en/category/ai-chat-assistant/&title=a+selection+of+the+best+conversational+ai+chatbots.+they+answer+all+the+questions+you+ask%2c+without+ever+getting+tired.",
-      "https://www.linkedin.com/sharearticle?url=https://www.aixploria.com/en/category/ai-detection-en/&title=discover+the+list+of+the+best+ai+content+detectors+available+on+the+market.+ideal+for+detecting+ai+content+and+text+written+with+chatgpt.",
-      "https://www.linkedin.com/sharearticle?url=https://www.aixploria.com/en/category/ai-summarizer/&title=access+a+list+of+ai+tools+that+can+easily+summarize+long+texts%2c+videos+or+podcasts.+increase+your+productivity+quickly%21",
-      "https://www.linkedin.com/sharearticle?url=https://www.aixploria.com/en/category/ai-text-generators/&title=quickly+find+the+best+ais+to+assist+you+in+writing+your+texts+with+the+many+text+generators+in+this+list.",
-      "https://www.linkedin.com/sharearticle?url=https://www.aixploria.com/en/category/ai-voice-cloning/&title=a+list+of+the+best+ai+tools+for+cloning+your+voice+and+generating+natural+voices.+clone+your+voice+in+just+a+few+seconds%21",
-      "https://www.linkedin.com/sharearticle?url=https://www.aixploria.com/en/category/amazing/&title=test+without+further+delay+the+most+amazing%2c+funny+or+wacky+ais.+this+list+contains+something+to+pass+the+time+while+testing+new+and+attractive+ai.",
-      "https://www.linkedin.com/sharearticle?url=https://www.aixploria.com/en/category/art-en/&title=help+yourself+to+the+best+ai+that+specialize+in+the+field+of+art.+photos%2c+drawings%2c+photographs%2c+paintings%2c+etc.+the+list+is+long%21",
-      "https://www.linkedin.com/sharearticle?url=https://www.aixploria.com/en/category/assistant-code-en/&title=default+description+text+if+yoast+meta+description+is+empty.",
-      "https://www.linkedin.com/sharearticle?url=https://www.aixploria.com/en/category/audio-editing/&title=make+your+life+easier+with+the+best+dedicated+ai+audio+editing.+in+an+instant%2c+you+can+correct%2c+improve+and+boost+the+quality+of+your+audio+projects.",
-      "https://www.linkedin.com/sharearticle?url=https://www.aixploria.com/en/category/avatars-en/&title=explore+the+most+complete+selection+on+the+web+and+discover+all+avatar+generating+ai.",
-      "https://www.linkedin.com/sharearticle?url=https://www.aixploria.com/en/category/business-study/&title=a+selection+of+the+best+ai+to+improve+your+business+or+your+company.+the+list+is+long+and+you+will+find+the+ones+you+need.",
-      "https://www.linkedin.com/sharearticle?url=https://www.aixploria.com/en/category/chatbot-ai/&title=ai+chatbots+that+can+answer+any+question+you+or+your+customers+have.+easily+find+the+right+chatbot+for+your+needs.",
-      "https://www.linkedin.com/sharearticle?url=https://www.aixploria.com/en/category/dating-relationships-ai/&title=find+the+best+ai+to+help+you+on+dating+sites.+put+all+the+chances+on+your+side+to+meet+love%21",
-      "https://www.linkedin.com/sharearticle?url=https://www.aixploria.com/en/category/developer-tools/&title=access+a+huge+list+of+ais+designed+to+make+your+job+easier.+have+an+ai+assist+you+during+your+coding+sessions+and+save+time.",
-      "https://www.linkedin.com/sharearticle?url=https://www.aixploria.com/en/category/e-commerce-en/&title=the+best+ai+tools+for+your+e-commerce%3a+take+your+online+store+to+new+heights.+take+advantage+of+this+opportunity+to+increase+your+sales+very+quickly.",
-      "https://www.linkedin.com/sharearticle?url=https://www.aixploria.com/en/category/e-mail-en/&title=a+list+of+the+best+ai-powered+email+writing+assistants.+let+the+intelligence+write+for+you+and+get+the+perfect+email.",
-      "https://www.linkedin.com/sharearticle?url=https://www.aixploria.com/en/category/education-en/&title=a+selection+of+the+best+ai+tools+for+education%2c+learning+and+studying.+increase+your+chances+of+academic+success+with+the+help+of+artificial+intelligence.",
-      "https://www.linkedin.com/sharearticle?url=https://www.aixploria.com/en/category/extensions-chatgpt/&title=discover+the+best+chrome+extensions+and+plugins+for+openai%27s+popular+chatgpt+ai.+quickly+improve+your+productivity+with+new+options.",
-      "https://www.linkedin.com/sharearticle?url=https://www.aixploria.com/en/category/face-swap-deepfake-en/&title=discover+in+this+directory+the+top+15+of+the+best+ai+tools+to+easily+make+deepfakes+videos.+quickly+find+free+ai+tools+to+make+swap+face.",
-      "https://www.linkedin.com/sharearticle?url=https://www.aixploria.com/en/category/fashion-en/&title=discover+the+ais+that+help+you+improve+your+clothing+style+and+stay+fashionable.+fashion+ais+are+among+the+most+popular+tools.",
-      "https://www.linkedin.com/sharearticle?url=https://www.aixploria.com/en/category/featured-en/&title=a+selection+of+ai+tools+carefully+chosen+by+our+team+for+their+quality+and+relevance.+discover+the+most+interesting+ais+of+the+moment.",
-      "https://www.linkedin.com/sharearticle?url=https://www.aixploria.com/en/category/files-spreadsheets/&title=discover+ai+that+can+easily+analyze%2c+create%2c+summarize%2c+or+simplify+your+files.+gain+productivity+quickly+with+ai.",
-      "https://www.linkedin.com/sharearticle?url=https://www.aixploria.com/en/category/finance-en/&title=a+list+of+ais+that+will+help+you+in+your+trading+sessions+and+in+the+finance+industry+in+general.",
-      "https://www.linkedin.com/sharearticle?url=https://www.aixploria.com/en/category/games-en/&title=access+the+list+of+the+best+ai-powered+games.+you+will+also+find+tools+to+improve+your+gameplay+and+avatars.",
-      "https://www.linkedin.com/sharearticle?url=https://www.aixploria.com/en/category/github-project-ai/&title=discover+the+top+100+most+popular+or+trending+projects+on+the+famous+github+platform.+ranked+according+to+current+trends.",
-      "https://www.linkedin.com/sharearticle?url=https://www.aixploria.com/en/category/healthcare/&title=check+out+the+list+of+the+best+ais+that+can+help+you+in+the+medical+and+healthcare+industry.",
-      "https://www.linkedin.com/sharearticle?url=https://www.aixploria.com/en/category/human-resources-ai/&title=discover+the+list+of+the+30+best+ai+tools+for+human+resources.+explore+the+most+popular+tools+for+recruitment%2c+resumes%2c+cover+letters%2c+job+management%2c+etc.",
-      "https://www.linkedin.com/sharearticle?url=https://www.aixploria.com/en/category/ia-useful/&title=discover+a+list+of+ais+you+won%27t+be+able+to+live+without.+the+most+indispensable+and+practical+ais.",
-      "https://www.linkedin.com/sharearticle?url=https://www.aixploria.com/en/category/image-ai-en/&title=discover+the+list+of+the+best+50+ai+image+generators.+easily+choose+the+right+image+generator+for+your+projects+or+creations.",
-      "https://www.linkedin.com/sharearticle?url=https://www.aixploria.com/en/category/image-editing/&title=the+top+40+best+ais+designed+for+image+editing.+edit+your+photos+like+a+pro+even+if+you+don%27t+have+any+knowledge+in+this+field.",
-      "https://www.linkedin.com/sharearticle?url=https://www.aixploria.com/en/category/imminent-release/&title=the+latest+advances+in+ai+and+future+releases.+get+a+sneak+peek+at+the+ais+that+will+make+the+future+of+tomorrow.",
-      "https://www.linkedin.com/sharearticle?url=https://www.aixploria.com/en/category/last-ai-en/&title=default+description+text+if+yoast+meta+description+is+empty.",
-      "https://www.linkedin.com/sharearticle?url=https://www.aixploria.com/en/category/legal-assistants/&title=lawyer+assistants+under+ia+who+know+the+law+well+and+will+help+you+with+your+legal+procedures.",
-      "https://www.linkedin.com/sharearticle?url=https://www.aixploria.com/en/category/life-assistants/&title=a+list+of+the+50+best+personal+assistants+programmed+to+help+you+in+your+daily+life.",
-      "https://www.linkedin.com/sharearticle?url=https://www.aixploria.com/en/category/llm-model-ai-en/&title=discover+the+list+of+the+best+llm+models+currently+available+in+the+world.test+them+out+and+keep+up+to+date+with+the+latest+llms+on+the+market.",
-      "https://www.linkedin.com/sharearticle?url=https://www.aixploria.com/en/category/logo-creation/&title=create+your+logo+easily+with+ai+and+increase+the+visual+impact+of+your+brand.+this+list+will+help+you+find+the+best+ai+logo+generator.",
-      "https://www.linkedin.com/sharearticle?url=https://www.aixploria.com/en/category/marketing-ai/&title=a+set+of+ai+marketing+tools+for+individuals+and+professionals.+ideal+for+e-commerce+sites+and+advertising+campaigns.",
-      "https://www.linkedin.com/sharearticle?url=https://www.aixploria.com/en/category/memory-en/&title=improve+and+optimize+your+memory+skills+with+ai+tools.+become+more+productive+with+artificial+intelligence.",
-      "https://www.linkedin.com/sharearticle?url=https://www.aixploria.com/en/category/music/&title=compose+all+kinds+of+music+with+the+power+of+ai.+creating+and+generating+music+requires+no+special+skills.",
-      "https://www.linkedin.com/sharearticle?url=https://www.aixploria.com/en/category/no-code-en/&title=creation+of+software+or+digital+solutions+without+code.",
-      "https://www.linkedin.com/sharearticle?url=https://www.aixploria.com/en/category/popular-ai-tools/&title=top+ai+tools+that+are+currently+popular+on+aixploria.+find+the+world%27s+most+popular+artificial+intelligences+currently+available.",
-      "https://www.linkedin.com/sharearticle?url=https://www.aixploria.com/en/category/presentation-en/&title=don%27t+waste+any+more+time+and+let+the+ai+make+your+speech.+generate+powerpoint+or+oral+presentation+texts+in+2+clicks.",
-      "https://www.linkedin.com/sharearticle?url=https://www.aixploria.com/en/category/productivity-en/&title=boost+your+productivity+with+a+list+of+practical+and+productive+ai-powered+tools.",
-      "https://www.linkedin.com/sharearticle?url=https://www.aixploria.com/en/category/prompts-help/&title=a+selection+of+the+best+tools+to+help+you+design+prompts.+find+inspiration+easily+with+this+list+of+prompts+helpers.",
-      "https://www.linkedin.com/sharearticle?url=https://www.aixploria.com/en/category/real-estate/&title=a+top+10+of+the+best+ai%27s+in+real+estate+and+interior+design.",
-      "https://www.linkedin.com/sharearticle?url=https://www.aixploria.com/en/category/research-science-en/&title=a+list+of+ai+assistants+to+help+you+in+your+research%2c+whether+scientific+or+not.",
-      "https://www.linkedin.com/sharearticle?url=https://www.aixploria.com/en/category/robots-devices-ai/&title=explore+the+25+best+ai-powered+robots+and+machines.+a+selection+of+devices+with+advanced+intelligent+technology+to+use+in+your+life.",
-      "https://www.linkedin.com/sharearticle?url=https://www.aixploria.com/en/category/search-engine/&title=find+the+perfect+ai+search+engine+for+your+project.+we%27ve+selected+the+30+best+ai+search+engines+on+the+web.",
-      "https://www.linkedin.com/sharearticle?url=https://www.aixploria.com/en/category/social-assistants-en/&title=increase+your+visibility+on+popular+social+networks+like+tiktok%2c+instagram%2c+twitter%2c+youtube%2c+twitch+or+linkedin.",
-      "https://www.linkedin.com/sharearticle?url=https://www.aixploria.com/en/category/storytelling-generator/&title=discover+the+best+story-generating+ais+called+storytellers.",
-      "https://www.linkedin.com/sharearticle?url=https://www.aixploria.com/en/category/text-to-video-en/&title=discover+the+list+of+the+best+ai+capable+of+creating+videos+from+text+via+a+prompt.+this+top+20+ais+in+the+category+text-to-video+is+updated+regularly.",
-      "https://www.linkedin.com/sharearticle?url=https://www.aixploria.com/en/category/transcriber/&title=a+selection+of+the+best+ai+tools+for+text+to+audio+transcription.+the+conversion+is+automatic+with+artificial+intelligence.",
-      "https://www.linkedin.com/sharearticle?url=https://www.aixploria.com/en/category/translation-ai/&title=a+list+of+the+best+ai+translators.+all+these+ai+translation+tools+are+particularly+powerful+and+often+free+of+charge.+break+the+language+barrier%21",
-      "https://www.linkedin.com/sharearticle?url=https://www.aixploria.com/en/category/travel/&title=let+yourself+be+assisted+by+ais+who+will+find+activities+for+your+travels+or+vacations.+best+itineraries%2c+restaurants%2c+museums%2c+etc.",
-      "https://www.linkedin.com/sharearticle?url=https://www.aixploria.com/en/category/video-edition/&title=the+ranked+list+of+the+best+ais+in+the+video+editing+category.+make+pro+video+editing+a+breeze.",
-      "https://www.linkedin.com/sharearticle?url=https://www.aixploria.com/en/category/video-generators/&title=generate+high-quality+videos+with+this+list+of+the+best+ai+video+generators.+this+selection+of+ai+video+generation+tools+is+updated+daily.",
-      "https://www.linkedin.com/sharearticle?url=https://www.aixploria.com/en/category/voice-reading/&title=the+list+of+the+best+voice+generators%2c+ai+voice+readers+and+text-to-speech.+get+these+ais+to+read+what+you+want+-+it%27s+often+free%21",
-      "https://www.linkedin.com/sharearticle?url=https://www.aixploria.com/en/category/websites-ai/&title=discover+a+selection+of+artificial+intelligences+that+are+able+to+create+a+website+instantly.+also+use+ai+tools+to+improve+their+design.",
-      "https://www.linkedin.com/sharearticle?url=https://www.aixploria.com/en/category/writing-web-seo/&title=discover+the+biggest+list+of+the+best+ai+tools+for+seo+writing+and+copywriting.+improve+your+search+engine+ranking+quickly+and+easily."
-   ],
-   "t.me": [
-      "https://t.me/chatlive_ai_bot",
-      "https://t.me/evelynxai",
-      "https://t.me/fraimebot",
-      "https://t.me/share/url?url=https://www.aixploria.com/en/&text=the ultimate list of best ai tools",
-      "https://t.me/share/url?url=https://www.aixploria.com/en/category/3d-model/&text=the+best+ais+that+offer+online+3d+modeling.+design+3d+models+with+texture+and+object+generation+tools.",
-      "https://t.me/share/url?url=https://www.aixploria.com/en/category/ai-autonomous/&text=discover+the+best+autonomous+ais+that+can+perform+tasks+without+the+help+of+a+human.+%28agi%29",
-      "https://t.me/share/url?url=https://www.aixploria.com/en/category/ai-chat-assistant/&text=a+selection+of+the+best+conversational+ai+chatbots.+they+answer+all+the+questions+you+ask%2c+without+ever+getting+tired.",
-      "https://t.me/share/url?url=https://www.aixploria.com/en/category/ai-detection-en/&text=discover+the+list+of+the+best+ai+content+detectors+available+on+the+market.+ideal+for+detecting+ai+content+and+text+written+with+chatgpt.",
-      "https://t.me/share/url?url=https://www.aixploria.com/en/category/ai-summarizer/&text=access+a+list+of+ai+tools+that+can+easily+summarize+long+texts%2c+videos+or+podcasts.+increase+your+productivity+quickly%21",
-      "https://t.me/share/url?url=https://www.aixploria.com/en/category/ai-text-generators/&text=quickly+find+the+best+ais+to+assist+you+in+writing+your+texts+with+the+many+text+generators+in+this+list.",
-      "https://t.me/share/url?url=https://www.aixploria.com/en/category/ai-voice-cloning/&text=a+list+of+the+best+ai+tools+for+cloning+your+voice+and+generating+natural+voices.+clone+your+voice+in+just+a+few+seconds%21",
-      "https://t.me/share/url?url=https://www.aixploria.com/en/category/amazing/&text=test+without+further+delay+the+most+amazing%2c+funny+or+wacky+ais.+this+list+contains+something+to+pass+the+time+while+testing+new+and+attractive+ai.",
-      "https://t.me/share/url?url=https://www.aixploria.com/en/category/art-en/&text=help+yourself+to+the+best+ai+that+specialize+in+the+field+of+art.+photos%2c+drawings%2c+photographs%2c+paintings%2c+etc.+the+list+is+long%21",
-      "https://t.me/share/url?url=https://www.aixploria.com/en/category/assistant-code-en/&text=default+description+text+if+yoast+meta+description+is+empty.",
-      "https://t.me/share/url?url=https://www.aixploria.com/en/category/audio-editing/&text=make+your+life+easier+with+the+best+dedicated+ai+audio+editing.+in+an+instant%2c+you+can+correct%2c+improve+and+boost+the+quality+of+your+audio+projects.",
-      "https://t.me/share/url?url=https://www.aixploria.com/en/category/avatars-en/&text=explore+the+most+complete+selection+on+the+web+and+discover+all+avatar+generating+ai.",
-      "https://t.me/share/url?url=https://www.aixploria.com/en/category/business-study/&text=a+selection+of+the+best+ai+to+improve+your+business+or+your+company.+the+list+is+long+and+you+will+find+the+ones+you+need.",
-      "https://t.me/share/url?url=https://www.aixploria.com/en/category/chatbot-ai/&text=ai+chatbots+that+can+answer+any+question+you+or+your+customers+have.+easily+find+the+right+chatbot+for+your+needs.",
-      "https://t.me/share/url?url=https://www.aixploria.com/en/category/dating-relationships-ai/&text=find+the+best+ai+to+help+you+on+dating+sites.+put+all+the+chances+on+your+side+to+meet+love%21",
-      "https://t.me/share/url?url=https://www.aixploria.com/en/category/developer-tools/&text=access+a+huge+list+of+ais+designed+to+make+your+job+easier.+have+an+ai+assist+you+during+your+coding+sessions+and+save+time.",
-      "https://t.me/share/url?url=https://www.aixploria.com/en/category/e-commerce-en/&text=the+best+ai+tools+for+your+e-commerce%3a+take+your+online+store+to+new+heights.+take+advantage+of+this+opportunity+to+increase+your+sales+very+quickly.",
-      "https://t.me/share/url?url=https://www.aixploria.com/en/category/e-mail-en/&text=a+list+of+the+best+ai-powered+email+writing+assistants.+let+the+intelligence+write+for+you+and+get+the+perfect+email.",
-      "https://t.me/share/url?url=https://www.aixploria.com/en/category/education-en/&text=a+selection+of+the+best+ai+tools+for+education%2c+learning+and+studying.+increase+your+chances+of+academic+success+with+the+help+of+artificial+intelligence.",
-      "https://t.me/share/url?url=https://www.aixploria.com/en/category/extensions-chatgpt/&text=discover+the+best+chrome+extensions+and+plugins+for+openai%27s+popular+chatgpt+ai.+quickly+improve+your+productivity+with+new+options.",
-      "https://t.me/share/url?url=https://www.aixploria.com/en/category/face-swap-deepfake-en/&text=discover+in+this+directory+the+top+15+of+the+best+ai+tools+to+easily+make+deepfakes+videos.+quickly+find+free+ai+tools+to+make+swap+face.",
-      "https://t.me/share/url?url=https://www.aixploria.com/en/category/fashion-en/&text=discover+the+ais+that+help+you+improve+your+clothing+style+and+stay+fashionable.+fashion+ais+are+among+the+most+popular+tools.",
-      "https://t.me/share/url?url=https://www.aixploria.com/en/category/featured-en/&text=a+selection+of+ai+tools+carefully+chosen+by+our+team+for+their+quality+and+relevance.+discover+the+most+interesting+ais+of+the+moment.",
-      "https://t.me/share/url?url=https://www.aixploria.com/en/category/files-spreadsheets/&text=discover+ai+that+can+easily+analyze%2c+create%2c+summarize%2c+or+simplify+your+files.+gain+productivity+quickly+with+ai.",
-      "https://t.me/share/url?url=https://www.aixploria.com/en/category/finance-en/&text=a+list+of+ais+that+will+help+you+in+your+trading+sessions+and+in+the+finance+industry+in+general.",
-      "https://t.me/share/url?url=https://www.aixploria.com/en/category/games-en/&text=access+the+list+of+the+best+ai-powered+games.+you+will+also+find+tools+to+improve+your+gameplay+and+avatars.",
-      "https://t.me/share/url?url=https://www.aixploria.com/en/category/github-project-ai/&text=discover+the+top+100+most+popular+or+trending+projects+on+the+famous+github+platform.+ranked+according+to+current+trends.",
-      "https://t.me/share/url?url=https://www.aixploria.com/en/category/healthcare/&text=check+out+the+list+of+the+best+ais+that+can+help+you+in+the+medical+and+healthcare+industry.",
-      "https://t.me/share/url?url=https://www.aixploria.com/en/category/human-resources-ai/&text=discover+the+list+of+the+30+best+ai+tools+for+human+resources.+explore+the+most+popular+tools+for+recruitment%2c+resumes%2c+cover+letters%2c+job+management%2c+etc.",
-      "https://t.me/share/url?url=https://www.aixploria.com/en/category/ia-useful/&text=discover+a+list+of+ais+you+won%27t+be+able+to+live+without.+the+most+indispensable+and+practical+ais.",
-      "https://t.me/share/url?url=https://www.aixploria.com/en/category/image-ai-en/&text=discover+the+list+of+the+best+50+ai+image+generators.+easily+choose+the+right+image+generator+for+your+projects+or+creations.",
-      "https://t.me/share/url?url=https://www.aixploria.com/en/category/image-editing/&text=the+top+40+best+ais+designed+for+image+editing.+edit+your+photos+like+a+pro+even+if+you+don%27t+have+any+knowledge+in+this+field.",
-      "https://t.me/share/url?url=https://www.aixploria.com/en/category/imminent-release/&text=the+latest+advances+in+ai+and+future+releases.+get+a+sneak+peek+at+the+ais+that+will+make+the+future+of+tomorrow.",
-      "https://t.me/share/url?url=https://www.aixploria.com/en/category/last-ai-en/&text=default+description+text+if+yoast+meta+description+is+empty.",
-      "https://t.me/share/url?url=https://www.aixploria.com/en/category/legal-assistants/&text=lawyer+assistants+under+ia+who+know+the+law+well+and+will+help+you+with+your+legal+procedures.",
-      "https://t.me/share/url?url=https://www.aixploria.com/en/category/life-assistants/&text=a+list+of+the+50+best+personal+assistants+programmed+to+help+you+in+your+daily+life.",
-      "https://t.me/share/url?url=https://www.aixploria.com/en/category/llm-model-ai-en/&text=discover+the+list+of+the+best+llm+models+currently+available+in+the+world.test+them+out+and+keep+up+to+date+with+the+latest+llms+on+the+market.",
-      "https://t.me/share/url?url=https://www.aixploria.com/en/category/logo-creation/&text=create+your+logo+easily+with+ai+and+increase+the+visual+impact+of+your+brand.+this+list+will+help+you+find+the+best+ai+logo+generator.",
-      "https://t.me/share/url?url=https://www.aixploria.com/en/category/marketing-ai/&text=a+set+of+ai+marketing+tools+for+individuals+and+professionals.+ideal+for+e-commerce+sites+and+advertising+campaigns.",
-      "https://t.me/share/url?url=https://www.aixploria.com/en/category/memory-en/&text=improve+and+optimize+your+memory+skills+with+ai+tools.+become+more+productive+with+artificial+intelligence.",
-      "https://t.me/share/url?url=https://www.aixploria.com/en/category/music/&text=compose+all+kinds+of+music+with+the+power+of+ai.+creating+and+generating+music+requires+no+special+skills.",
-      "https://t.me/share/url?url=https://www.aixploria.com/en/category/no-code-en/&text=creation+of+software+or+digital+solutions+without+code.",
-      "https://t.me/share/url?url=https://www.aixploria.com/en/category/popular-ai-tools/&text=top+ai+tools+that+are+currently+popular+on+aixploria.+find+the+world%27s+most+popular+artificial+intelligences+currently+available.",
-      "https://t.me/share/url?url=https://www.aixploria.com/en/category/presentation-en/&text=don%27t+waste+any+more+time+and+let+the+ai+make+your+speech.+generate+powerpoint+or+oral+presentation+texts+in+2+clicks.",
-      "https://t.me/share/url?url=https://www.aixploria.com/en/category/productivity-en/&text=boost+your+productivity+with+a+list+of+practical+and+productive+ai-powered+tools.",
-      "https://t.me/share/url?url=https://www.aixploria.com/en/category/prompts-help/&text=a+selection+of+the+best+tools+to+help+you+design+prompts.+find+inspiration+easily+with+this+list+of+prompts+helpers.",
-      "https://t.me/share/url?url=https://www.aixploria.com/en/category/real-estate/&text=a+top+10+of+the+best+ai%27s+in+real+estate+and+interior+design.",
-      "https://t.me/share/url?url=https://www.aixploria.com/en/category/research-science-en/&text=a+list+of+ai+assistants+to+help+you+in+your+research%2c+whether+scientific+or+not.",
-      "https://t.me/share/url?url=https://www.aixploria.com/en/category/robots-devices-ai/&text=explore+the+25+best+ai-powered+robots+and+machines.+a+selection+of+devices+with+advanced+intelligent+technology+to+use+in+your+life.",
-      "https://t.me/share/url?url=https://www.aixploria.com/en/category/search-engine/&text=find+the+perfect+ai+search+engine+for+your+project.+we%27ve+selected+the+30+best+ai+search+engines+on+the+web.",
-      "https://t.me/share/url?url=https://www.aixploria.com/en/category/social-assistants-en/&text=increase+your+visibility+on+popular+social+networks+like+tiktok%2c+instagram%2c+twitter%2c+youtube%2c+twitch+or+linkedin.",
-      "https://t.me/share/url?url=https://www.aixploria.com/en/category/storytelling-generator/&text=discover+the+best+story-generating+ais+called+storytellers.",
-      "https://t.me/share/url?url=https://www.aixploria.com/en/category/text-to-video-en/&text=discover+the+list+of+the+best+ai+capable+of+creating+videos+from+text+via+a+prompt.+this+top+20+ais+in+the+category+text-to-video+is+updated+regularly.",
-      "https://t.me/share/url?url=https://www.aixploria.com/en/category/transcriber/&text=a+selection+of+the+best+ai+tools+for+text+to+audio+transcription.+the+conversion+is+automatic+with+artificial+intelligence.",
-      "https://t.me/share/url?url=https://www.aixploria.com/en/category/translation-ai/&text=a+list+of+the+best+ai+translators.+all+these+ai+translation+tools+are+particularly+powerful+and+often+free+of+charge.+break+the+language+barrier%21",
-      "https://t.me/share/url?url=https://www.aixploria.com/en/category/travel/&text=let+yourself+be+assisted+by+ais+who+will+find+activities+for+your+travels+or+vacations.+best+itineraries%2c+restaurants%2c+museums%2c+etc.",
-      "https://t.me/share/url?url=https://www.aixploria.com/en/category/video-edition/&text=the+ranked+list+of+the+best+ais+in+the+video+editing+category.+make+pro+video+editing+a+breeze.",
-      "https://t.me/share/url?url=https://www.aixploria.com/en/category/video-generators/&text=generate+high-quality+videos+with+this+list+of+the+best+ai+video+generators.+this+selection+of+ai+video+generation+tools+is+updated+daily.",
-      "https://t.me/share/url?url=https://www.aixploria.com/en/category/voice-reading/&text=the+list+of+the+best+voice+generators%2c+ai+voice+readers+and+text-to-speech.+get+these+ais+to+read+what+you+want+-+it%27s+often+free%21",
-      "https://t.me/share/url?url=https://www.aixploria.com/en/category/websites-ai/&text=discover+a+selection+of+artificial+intelligences+that+are+able+to+create+a+website+instantly.+also+use+ai+tools+to+improve+their+design.",
-      "https://t.me/share/url?url=https://www.aixploria.com/en/category/writing-web-seo/&text=discover+the+biggest+list+of+the+best+ai+tools+for+seo+writing+and+copywriting.+improve+your+search+engine+ranking+quickly+and+easily."
-   ],
    "www.make.com": [
+      "https://www.make.com",
       "https://www.make.com/en?pc=aixploria"
    ],
    "www.menteebot.com": [
@@ -272,6 +10,7 @@
       "https://feedbuck.io"
    ],
    "azure.microsoft.com": [
+      "https://azure.microsoft.com",
       "https://azure.microsoft.com/en-us/blog/introducing-phi-3-redefining-whats-possible-with-slms"
    ],
    "kaiden.ai": [
@@ -281,6 +20,7 @@
       "https://dify.ai"
    ],
    "www.stylar.ai": [
+      "https://www.stylar.ai",
       "https://www.stylar.ai/?via=aixploria",
       "https://www.stylar.ai/tools/ai-design-sketch?via=aixploria",
       "https://www.stylar.ai/tools/generative-fill?via=aixploria"
@@ -289,9 +29,11 @@
       "https://go.grimo.ai"
    ],
    "app.heygen.com": [
+      "https://app.heygen.com",
       "https://app.heygen.com/guest/url2ugc?sid=rewardful&via=aixploria"
    ],
    "github.com": [
+      "https://github.com",
       "https://github.com/agiresearch/openagi",
       "https://github.com/ai-forever/kandinsky-2",
       "https://github.com/apple/ml-mgie",
@@ -356,18 +98,23 @@
       "https://www.meta.ai"
    ],
    "llama.meta.com": [
+      "https://llama.meta.com",
       "https://llama.meta.com/llama3"
    ],
    "duckduckgo.com": [
+      "https://duckduckgo.com",
       "https://duckduckgo.com/?q=duckduckgo&ia=chat"
    ],
    "www.microsoft.com": [
+      "https://www.microsoft.com",
       "https://www.microsoft.com/en-us/research/project/vasa-1"
    ],
    "www.limitless.ai": [
+      "https://www.limitless.ai",
       "https://www.limitless.ai/#pendant"
    ],
    "workspace.google.com": [
+      "https://workspace.google.com",
       "https://workspace.google.com/marketplace/app/claude_for_sheets/909417792257",
       "https://workspace.google.com/marketplace/app/gmail_gpt/899305976589",
       "https://workspace.google.com/marketplace/app/gpt_for_google_forms_quiz_builder_chatgp/37349114302",
@@ -376,94 +123,121 @@
       "https://workspace.google.com/products/vids"
    ],
    "www.wondercraft.ai": [
+      "https://www.wondercraft.ai",
       "https://www.wondercraft.ai/?via=aixploria"
    ],
    "bluegpt.app": [
+      "https://bluegpt.app",
       "https://bluegpt.app/?via=aixploria"
    ],
    "homestage.app": [
       "https://homestage.app"
    ],
    "elevenlabs.io": [
+      "https://elevenlabs.io",
       "https://elevenlabs.io/?from=partnerstephens742",
       "https://elevenlabs.io/dubbing/?from=partnerstephens742",
       "https://elevenlabs.io/voice-changer?from=partnerstephens742"
    ],
    "heygen.com": [
+      "https://heygen.com",
       "https://heygen.com/?sid=rewardful&via=aixploria"
    ],
    "app.leonardo.ai": [
+      "https://app.leonardo.ai",
       "https://app.leonardo.ai/?via=aixploria"
    ],
    "go.fiverr.com": [
+      "https://go.fiverr.com",
       "https://go.fiverr.com/visit/?bta=953550&brand=logomaker"
    ],
    "rytr.me": [
+      "https://rytr.me",
       "https://rytr.me/?via=aixploria"
    ],
    "free-trial.adcreative.ai": [
+      "https://free-trial.adcreative.ai",
       "https://free-trial.adcreative.ai/aixploria"
    ],
    "mubert.com": [
+      "https://mubert.com",
       "https://mubert.com/render/pricing?via=aixploria"
    ],
    "www.chatpdf.com": [
+      "https://www.chatpdf.com",
       "https://www.chatpdf.com/?via=aixploria"
    ],
    "try.quillbot.com": [
+      "https://try.quillbot.com",
       "https://try.quillbot.com/aixploria"
    ],
    "fliki.ai": [
+      "https://fliki.ai",
       "https://fliki.ai/?via=aixploria",
       "https://fliki.ai/tools/tweet-to-video"
    ],
    "www.humata.ai": [
+      "https://www.humata.ai",
       "https://www.humata.ai/?via=aixploria"
    ],
    "writesonic.com": [
+      "https://writesonic.com",
       "https://writesonic.com/?fpr=aixploria",
       "https://writesonic.com/ai-article-writer-generator?fpr=aixploria",
       "https://writesonic.com/chat?fpr=aixploria"
    ],
    "www.synthesia.io": [
+      "https://www.synthesia.io",
       "https://www.synthesia.io/?via=aixploria"
    ],
    "undetectable.ai": [
+      "https://undetectable.ai",
       "https://undetectable.ai/?_by=aixploria"
    ],
    "get.murf.ai": [
+      "https://get.murf.ai",
       "https://get.murf.ai/k28jnfv9u5up"
    ],
    "www.askyourpdf.com": [
+      "https://www.askyourpdf.com",
       "https://www.askyourpdf.com/?via=aixploria"
    ],
    "distrokid.com": [
+      "https://distrokid.com",
       "https://distrokid.com/vip/seven/6819923"
    ],
    "taplio.com": [
+      "https://taplio.com",
       "https://taplio.com/?via=aixploria"
    ],
    "easy-peasy.ai": [
+      "https://easy-peasy.ai",
       "https://easy-peasy.ai/?via=aixploria"
    ],
    "www.beehiiv.com": [
+      "https://www.beehiiv.com",
       "https://www.beehiiv.com/?via=aixploria"
    ],
    "www.getmunch.com": [
+      "https://www.getmunch.com",
       "https://www.getmunch.com/?utm_campaign=influencers&utm_medium=website&utm_source=rewardful&via=2cb341"
    ],
    "get.uizard.io": [
+      "https://get.uizard.io",
       "https://get.uizard.io/aff_c?offer_id=3&aff_id=821"
    ],
    "chapple.ai": [
+      "https://chapple.ai",
       "https://chapple.ai/register?aff=vwzmapq0ohyh"
    ],
    "www.vidnoz.com": [
+      "https://www.vidnoz.com",
       "https://www.vidnoz.com/?a_aid=65ceadc79cea6",
       "https://www.vidnoz.com/face-swap.html?a_aid=65ceadc79cea6",
       "https://www.vidnoz.com/video-translate.html?a_aid=65ceadc79cea6"
    ],
    "get.youai.ai": [
+      "https://get.youai.ai",
       "https://get.youai.ai/75nst9z5kaa7"
    ],
    "midjourney.com": [
@@ -489,6 +263,7 @@
       "https://openai.com/sora"
    ],
    "www.perplexity.ai": [
+      "https://www.perplexity.ai",
       "https://www.perplexity.ai/?referral_code=74l0dirk"
    ],
    "runwayml.com": [
@@ -499,6 +274,7 @@
       "https://civitai.com"
    ],
    "neal.fun": [
+      "https://neal.fun",
       "https://neal.fun/infinite-craft"
    ],
    "ideogram.ai": [
@@ -545,6 +321,7 @@
       "https://www.canva.com"
    ],
    "affiliate.notion.so": [
+      "https://affiliate.notion.so",
       "https://affiliate.notion.so/aixploria"
    ],
    "www.bluewillow.ai": [
@@ -562,20 +339,23 @@
    "www.krea.ai": [
       "https://www.krea.ai"
    ],
-   "gptgo.ai": [
-      "https://gptgo.ai"
-   ],
    "humanaigc.github.io": [
+      "https://humanaigc.github.io",
       "https://humanaigc.github.io/animate-anyone",
       "https://humanaigc.github.io/emote-portrait-alive"
    ],
-   "interiorai.com": [
-      "https://interiorai.com/?via=aixploria"
+   "gptgo.ai": [
+      "https://gptgo.ai"
    ],
    "beta.tome.app": [
       "https://beta.tome.app"
    ],
+   "interiorai.com": [
+      "https://interiorai.com",
+      "https://interiorai.com/?via=aixploria"
+   ],
    "invideo.sjv.io": [
+      "https://invideo.sjv.io",
       "https://invideo.sjv.io/4pvd63"
    ],
    "www.udio.com": [
@@ -601,6 +381,7 @@
       "https://www.grammarly.com/cover-letter"
    ],
    "enriccorona.github.io": [
+      "https://enriccorona.github.io",
       "https://enriccorona.github.io/vlogger"
    ],
    "groq.com": [
@@ -610,9 +391,11 @@
       "https://ps2ai.com"
    ],
    "nvidianews.nvidia.com": [
+      "https://nvidianews.nvidia.com",
       "https://nvidianews.nvidia.com/news/foundation-model-isaac-robotics-platform"
    ],
    "stablediffusionxl.com": [
+      "https://stablediffusionxl.com",
       "https://stablediffusionxl.com/stable-cascade"
    ],
    "chat.lmsys.org": [
@@ -623,6 +406,7 @@
       "https://www.viggle.ai"
    ],
    "deepmind.google": [
+      "https://deepmind.google",
       "https://deepmind.google/discover/blog/alphageometry-an-olympiad-level-ai-system-for-geometry",
       "https://deepmind.google/discover/blog/sima-generalist-ai-agent-for-3d-virtual-environments",
       "https://deepmind.google/technologies/gemini/#gemini-1.5"
@@ -675,9 +459,11 @@
       "https://grok.x.ai"
    ],
    "heypi.com": [
+      "https://heypi.com",
       "https://heypi.com/talk"
    ],
    "cookiedatabase.org": [
+      "https://cookiedatabase.org",
       "https://cookiedatabase.org/tcf/purposes"
    ],
    "lumalabs.ai": [
@@ -688,6 +474,7 @@
       "https://www.kinetix.tech"
    ],
    "nv-tlabs.github.io": [
+      "https://nv-tlabs.github.io",
       "https://nv-tlabs.github.io/get3d"
    ],
    "dreamfusion3d.github.io": [
@@ -718,6 +505,7 @@
       "https://convert.leiapix.com"
    ],
    "captures.lumalabs.ai": [
+      "https://captures.lumalabs.ai",
       "https://captures.lumalabs.ai/imagine"
    ],
    "www.ponzu.gg": [
@@ -739,6 +527,7 @@
       "https://g3d.ai"
    ],
    "stability.ai": [
+      "https://stability.ai",
       "https://stability.ai/news/introducing-stable-lm-2",
       "https://stability.ai/news/introducing-stable-video-3d",
       "https://stability.ai/news/stable-diffusion-3",
@@ -752,6 +541,7 @@
       "https://www.recraft.ai"
    ],
    "guanjunwu.github.io": [
+      "https://guanjunwu.github.io",
       "https://guanjunwu.github.io/4dgs"
    ],
    "www.prometheanai.com": [
@@ -761,6 +551,7 @@
       "https://text-to-cad.zoo.dev"
    ],
    "me.kiui.moe": [
+      "https://me.kiui.moe",
       "https://me.kiui.moe/lgm"
    ],
    "www.sloyd.ai": [
@@ -772,22 +563,26 @@
    "dreamgaussian.github.io": [
       "https://dreamgaussian.github.io"
    ],
-   "human3daigc.github.io": [
-      "https://human3daigc.github.io/mach"
-   ],
    "www.depthify.ai": [
       "https://www.depthify.ai"
    ],
+   "human3daigc.github.io": [
+      "https://human3daigc.github.io",
+      "https://human3daigc.github.io/mach"
+   ],
    "www.hiber3d.com": [
+      "https://www.hiber3d.com",
       "https://www.hiber3d.com/genai"
    ],
    "motion-gpt.github.io": [
       "https://motion-gpt.github.io"
    ],
    "www.meimu.design": [
+      "https://www.meimu.design",
       "https://www.meimu.design/vector-to-3d"
    ],
    "ericguo5513.github.io": [
+      "https://ericguo5513.github.io",
       "https://ericguo5513.github.io/momask"
    ],
    "www.tripo3d.ai": [
@@ -808,16 +603,17 @@
    "insightface.ai": [
       "https://insightface.ai"
    ],
-   "www.masterpiecex.com": [
-      "https://www.masterpiecex.com"
-   ],
    "www.dora.run": [
       "https://www.dora.run"
+   ],
+   "www.masterpiecex.com": [
+      "https://www.masterpiecex.com"
    ],
    "magiscan.app": [
       "https://magiscan.app"
    ],
    "idatapp.com": [
+      "https://idatapp.com",
       "https://idatapp.com/software/3d-converter"
    ],
    "movmi.co": [
@@ -833,6 +629,7 @@
       "https://poly.cam"
    ],
    "liberateyourmind.gumroad.com": [
+      "https://liberateyourmind.gumroad.com",
       "https://liberateyourmind.gumroad.com/l/blendercopilot"
    ],
    "cascadeur.com": [
@@ -843,6 +640,7 @@
       "https://you.com/search?q=who+are+you&tbm=youchat&cfr=chat"
    ],
    "www.nvidia.com": [
+      "https://www.nvidia.com",
       "https://www.nvidia.com/en-in/launchpad/ai",
       "https://www.nvidia.com/en-us/ai-on-rtx/chat-with-rtx-generative-ai",
       "https://www.nvidia.com/en-us/omniverse/apps/audio2face",
@@ -850,6 +648,7 @@
       "https://www.nvidia.com/research/inpainting/index.html"
    ],
    "aws.amazon.com": [
+      "https://aws.amazon.com",
       "https://aws.amazon.com/bedrock",
       "https://aws.amazon.com/bedrock/titan",
       "https://aws.amazon.com/codewhisperer",
@@ -865,6 +664,7 @@
       "https://stupidgpt.lol"
    ],
    "chrome.google.com": [
+      "https://chrome.google.com",
       "https://chrome.google.com/webstore/detail/ai-genius/ohepjelkmfachklkbaidkgeidegifmdj",
       "https://chrome.google.com/webstore/detail/aiprm-for-chatgpt/ojnbohmppadfgpejeebfnmnknjdlckgj",
       "https://chrome.google.com/webstore/detail/arxivgpt/fbbfpcjhnnklhmncjickdipdlhoddjoh",
@@ -904,33 +704,6 @@
    "oppenheimer.app": [
       "https://oppenheimer.app"
    ],
-   "facecheck.id": [
-      "https://facecheck.id"
-   ],
-   "gptzero.me": [
-      "https://gptzero.me"
-   ],
-   "originality.ai": [
-      "https://originality.ai/?lmref=rqj9jq"
-   ],
-   "roboflow.com": [
-      "https://roboflow.com"
-   ],
-   "stealthgpt.ai": [
-      "https://stealthgpt.ai"
-   ],
-   "copyleaks.com": [
-      "https://copyleaks.com"
-   ],
-   "haveibeenencoded.com": [
-      "https://haveibeenencoded.com"
-   ],
-   "www.undetectablegpt.com": [
-      "https://www.undetectablegpt.com"
-   ],
-   "www.gpt4v.net": [
-      "https://www.gpt4v.net"
-   ],
    "www.zerogpt.com": [
       "https://www.zerogpt.com"
    ],
@@ -965,6 +738,7 @@
       "https://www.gptinf.com"
    ],
    "gradientscience.org": [
+      "https://gradientscience.org",
       "https://gradientscience.org/photoguard"
    ],
    "wasitai.com": [
@@ -983,12 +757,14 @@
       "https://www.nuanced.dev"
    ],
    "crossplag.com": [
+      "https://crossplag.com",
       "https://crossplag.com/ai-content-detector"
    ],
    "twelvelabs.io": [
       "https://twelvelabs.io"
    ],
    "platform.openai.com": [
+      "https://platform.openai.com",
       "https://platform.openai.com/ai-text-classifier"
    ],
    "www.gptminus1.com": [
@@ -1024,15 +800,16 @@
       "https://zapier.com/ai/chatbot",
       "https://zapier.com/central"
    ],
+   "faraday.dev": [
+      "https://faraday.dev"
+   ],
    "affiliates.pixelbin.io": [
+      "https://affiliates.pixelbin.io",
       "https://affiliates.pixelbin.io/6umxrnszevbi-o5miiu",
       "https://affiliates.pixelbin.io/aixploria",
       "https://affiliates.pixelbin.io/aixploria2",
       "https://affiliates.pixelbin.io/bsal5vch2gj9-7czmi",
       "https://affiliates.pixelbin.io/plugins-aix"
-   ],
-   "faraday.dev": [
-      "https://faraday.dev"
    ],
    "www.owlift.com": [
       "https://www.owlift.com"
@@ -1054,9 +831,11 @@
       "https://www.machinetranslation.com"
    ],
    "www.mymap.ai": [
+      "https://www.mymap.ai",
       "https://www.mymap.ai/mindmap"
    ],
    "elsaspeak.com": [
+      "https://elsaspeak.com",
       "https://elsaspeak.com/en"
    ],
    "www.similarsongsfinder.com": [
@@ -1066,6 +845,7 @@
       "https://pinokio.computer"
    ],
    "www.coursehero.com": [
+      "https://www.coursehero.com",
       "https://www.coursehero.com/ai-homework-help"
    ],
    "www.watchnowai.com": [
@@ -1108,6 +888,7 @@
       "https://www.playphrase.me"
    ],
    "letsfoodie.com": [
+      "https://letsfoodie.com",
       "https://letsfoodie.com/ai-recipe-generator"
    ],
    "celebvoice.my.canva.site": [
@@ -1168,9 +949,11 @@
       "https://janitorai.com"
    ],
    "www.myheritage.fr": [
+      "https://www.myheritage.fr",
       "https://www.myheritage.fr/deep-nostalgia"
    ],
    "www.fineshare.com": [
+      "https://www.fineshare.com",
       "https://www.fineshare.com/ai-voice-cloning/?ref=aixploria",
       "https://www.fineshare.com/finecam/?ref=aixploria",
       "https://www.fineshare.com/online-voice-changer/?ref=aixploria",
@@ -1191,6 +974,7 @@
       "https://faceswapper.ai"
    ],
    "www.myheritage.com": [
+      "https://www.myheritage.com",
       "https://www.myheritage.com/ai-time-machine"
    ],
    "brickit.app": [
@@ -1217,14 +1001,15 @@
    "www.barbieselfie.ai": [
       "https://www.barbieselfie.ai"
    ],
+   "fudan-generative-vision.github.io": [
+      "https://fudan-generative-vision.github.io",
+      "https://fudan-generative-vision.github.io/champ"
+   ],
    "www.1x.tech": [
       "https://www.1x.tech"
    ],
    "www.momentoai.com": [
       "https://www.momentoai.com"
-   ],
-   "fudan-generative-vision.github.io": [
-      "https://fudan-generative-vision.github.io/champ"
    ],
    "emojis.sh": [
       "https://emojis.sh"
@@ -1245,6 +1030,7 @@
       "https://www.nostalgia.photo"
    ],
    "apps.apple.com": [
+      "https://apps.apple.com",
       "https://apps.apple.com/app/apple-store/id1621101995",
       "https://apps.apple.com/app/id6446793041",
       "https://apps.apple.com/app/id6449190344",
@@ -1264,11 +1050,11 @@
       "https://apps.apple.com/us/app/scribble-ai/id1662081018",
       "https://apps.apple.com/us/app/typho-ai-photo-playground/id6470999411"
    ],
-   "sendfame.com": [
-      "https://sendfame.com"
-   ],
    "dumb-meme.herokuapp.com": [
       "https://dumb-meme.herokuapp.com"
+   ],
+   "sendfame.com": [
+      "https://sendfame.com"
    ],
    "humanfest.chat": [
       "https://humanfest.chat"
@@ -1276,17 +1062,17 @@
    "scrabblecam.com": [
       "https://scrabblecam.com"
    ],
-   "www.chatmate.ai": [
-      "https://www.chatmate.ai"
-   ],
    "influencerfarm.io": [
       "https://influencerfarm.io"
    ],
-   "www.chatgptunwrapped.com": [
-      "https://www.chatgptunwrapped.com"
+   "www.chatmate.ai": [
+      "https://www.chatmate.ai"
    ],
    "aiyearbook.art": [
       "https://aiyearbook.art"
+   ],
+   "www.chatgptunwrapped.com": [
+      "https://www.chatgptunwrapped.com"
    ],
    "earth.atmo.ai": [
       "https://earth.atmo.ai"
@@ -1301,6 +1087,7 @@
       "https://roastmydesk.com"
    ],
    "www.messengerx.io": [
+      "https://www.messengerx.io",
       "https://www.messengerx.io/greenthumb"
    ],
    "swapface.org": [
@@ -1322,13 +1109,11 @@
       "https://www.hairstyleai.com"
    ],
    "debateai.org": [
+      "https://debateai.org",
       "https://debateai.org/debate"
    ],
    "www.coolgiftideas.io": [
       "https://www.coolgiftideas.io"
-   ],
-   "myvocal.ai": [
-      "https://myvocal.ai"
    ],
    "angryemailtranslator.com": [
       "https://angryemailtranslator.com"
@@ -1408,6 +1193,7 @@
       "https://www.magictype.ai"
    ],
    "stockimg.ai": [
+      "https://stockimg.ai",
       "https://stockimg.ai/?via=aixploria"
    ],
    "nightcafe.studio": [
@@ -1421,6 +1207,7 @@
       "https://deepanime.software"
    ],
    "dreamtonics.com": [
+      "https://dreamtonics.com",
       "https://dreamtonics.com/en/synthesizerv"
    ],
    "playgroundai.com": [
@@ -1437,12 +1224,14 @@
       "https://skybox.blockadelabs.com"
    ],
    "www.freepik.com": [
+      "https://www.freepik.com",
       "https://www.freepik.com/ai/pikaso-ai-drawing"
    ],
    "beta.dreamstudio.ai": [
       "https://beta.dreamstudio.ai"
    ],
    "nijijourney.com": [
+      "https://nijijourney.com",
       "https://nijijourney.com/en"
    ],
    "www.cutout.pro": [
@@ -1455,6 +1244,7 @@
       "https://visualelectric.com"
    ],
    "aitestkitchen.withgoogle.com": [
+      "https://aitestkitchen.withgoogle.com",
       "https://aitestkitchen.withgoogle.com/tools/image-fx",
       "https://aitestkitchen.withgoogle.com/tools/music-fx"
    ],
@@ -1474,9 +1264,11 @@
       "https://www.aigur.dev"
    ],
    "www.iamfy.co": [
+      "https://www.iamfy.co",
       "https://www.iamfy.co/studio"
    ],
    "aipicasso.app": [
+      "https://aipicasso.app",
       "https://aipicasso.app/en"
    ],
    "artflow.ai": [
@@ -1498,6 +1290,7 @@
       "https://dreamlike.art"
    ],
    "aicomicfactory.com": [
+      "https://aicomicfactory.com",
       "https://aicomicfactory.com/playground"
    ],
    "www.astria.ai": [
@@ -1543,6 +1336,7 @@
       "https://www.ai-portraits.org"
    ],
    "www.howtoleverageai.com": [
+      "https://www.howtoleverageai.com",
       "https://www.howtoleverageai.com/midjourney-sticker-prompt-generator"
    ],
    "logopictureai.com": [
@@ -1555,13 +1349,14 @@
       "https://www.coloromo.com"
    ],
    "deblank.com": [
+      "https://deblank.com",
       "https://deblank.com/colors"
-   ],
-   "www.aicoloringpages.online": [
-      "https://www.aicoloringpages.online"
    ],
    "pngmaker.ai": [
       "https://pngmaker.ai"
+   ],
+   "www.aicoloringpages.online": [
+      "https://www.aicoloringpages.online"
    ],
    "stickerbaker.com": [
       "https://stickerbaker.com"
@@ -1599,13 +1394,14 @@
    "www.journeyart.ai": [
       "https://www.journeyart.ai"
    ],
-   "www.katalist.ai": [
-      "https://www.katalist.ai"
-   ],
    "ink.trimythic.co": [
       "https://ink.trimythic.co"
    ],
+   "www.katalist.ai": [
+      "https://www.katalist.ai"
+   ],
    "kwanyun.github.io": [
+      "https://kwanyun.github.io",
       "https://kwanyun.github.io/stylesketch_project"
    ],
    "daftart.ai": [
@@ -1630,15 +1426,18 @@
       "https://emojihi.com"
    ],
    "socialbook.io": [
+      "https://socialbook.io",
       "https://socialbook.io/photo-to-cartoon"
    ],
    "discord.com": [
+      "https://discord.com",
       "https://discord.com/invite/chychczhed"
    ],
    "pixelz.ai": [
       "https://pixelz.ai"
    ],
    "more.graphics": [
+      "https://more.graphics",
       "https://more.graphics/patterns"
    ],
    "exactly.ai": [
@@ -1669,11 +1468,11 @@
       "https://clio.so",
       "https://clio.so/maker"
    ],
-   "pixai.art": [
-      "https://pixai.art"
-   ],
    "www.qrcraft.xyz": [
       "https://www.qrcraft.xyz"
+   ],
+   "pixai.art": [
+      "https://pixai.art"
    ],
    "aiqrart.co": [
       "https://aiqrart.co"
@@ -1709,12 +1508,14 @@
       "https://coverdesignai.com"
    ],
    "synthesys.io": [
+      "https://synthesys.io",
       "https://synthesys.io/x"
    ],
    "www.myprint.ai": [
       "https://www.myprint.ai"
    ],
    "www.kittl.com": [
+      "https://www.kittl.com",
       "https://www.kittl.com/feature/ai-text-to-image"
    ],
    "picsart.com": [
@@ -1757,6 +1558,7 @@
       "https://replit.com"
    ],
    "ai.meta.com": [
+      "https://ai.meta.com",
       "https://ai.meta.com/blog/generative-ai-text-images-cm3leon",
       "https://ai.meta.com/blog/seamless-m4t",
       "https://ai.meta.com/llama",
@@ -1786,11 +1588,11 @@
    "www.programming-helper.com": [
       "https://www.programming-helper.com"
    ],
-   "pixels2flutter.dev": [
-      "https://pixels2flutter.dev"
-   ],
    "www.refraction.dev": [
       "https://www.refraction.dev"
+   ],
+   "pixels2flutter.dev": [
+      "https://pixels2flutter.dev"
    ],
    "www.autoregex.xyz": [
       "https://www.autoregex.xyz"
@@ -1811,9 +1613,11 @@
       "https://stenography.dev"
    ],
    "fig.io": [
+      "https://fig.io",
       "https://fig.io/user-manual/ai"
    ],
    "ai.google.dev": [
+      "https://ai.google.dev",
       "https://ai.google.dev/gemma",
       "https://ai.google.dev/gemma/docs/codegemma"
    ],
@@ -1827,6 +1631,7 @@
       "https://cron-ai.vercel.app"
    ],
    "githubnext.com": [
+      "https://githubnext.com",
       "https://githubnext.com/projects/hey-github"
    ],
    "usetusk.ai": [
@@ -1839,6 +1644,7 @@
       "https://kodezi.com"
    ],
    "plugins.jetbrains.com": [
+      "https://plugins.jetbrains.com",
       "https://plugins.jetbrains.com/plugin/20085-codeassist"
    ],
    "tailwindstudio.io": [
@@ -1848,12 +1654,14 @@
       "https://supermaven.com"
    ],
    "toolske.com": [
+      "https://toolske.com",
       "https://toolske.com/text2sql"
    ],
    "www.askcodi.com": [
       "https://www.askcodi.com"
    ],
    "marketplace.visualstudio.com": [
+      "https://marketplace.visualstudio.com",
       "https://marketplace.visualstudio.com/items?itemname=vaibhavacharya.code-gpt-va",
       "https://marketplace.visualstudio.com/items?itemname=yurtsai.maverick"
    ],
@@ -1885,6 +1693,7 @@
       "https://www.cursor.so"
    ],
    "www.airops.com": [
+      "https://www.airops.com",
       "https://www.airops.com/sidekick"
    ],
    "bito.ai": [
@@ -1894,6 +1703,7 @@
       "https://autocodepro.com"
    ],
    "www.raycast.com": [
+      "https://www.raycast.com",
       "https://www.raycast.com/ai"
    ],
    "www.gitfluence.com": [
@@ -1912,6 +1722,7 @@
       "https://podcast.adobe.com"
    ],
    "jammable.com": [
+      "https://jammable.com",
       "https://jammable.com/?aff=aixploria"
    ],
    "vocalremover.org": [
@@ -1924,12 +1735,15 @@
       "https://voicemy.ai"
    ],
    "singify.fineshare.com": [
+      "https://singify.fineshare.com",
       "https://singify.fineshare.com/?ref=aixploria"
    ],
    "audiobox.metademolab.com": [
+      "https://audiobox.metademolab.com",
       "https://audiobox.metademolab.com/maker"
    ],
    "eraserapp.dwave.cc": [
+      "https://eraserapp.dwave.cc",
       "https://eraserapp.dwave.cc/en"
    ],
    "www.voicemod.net": [
@@ -1966,6 +1780,7 @@
       "https://www.optimizerai.xyz"
    ],
    "www.dolby.com": [
+      "https://www.dolby.com",
       "https://www.dolby.com/apps/dolby-on"
    ],
    "speakperfect.co": [
@@ -1978,12 +1793,14 @@
       "https://vocalist.ai"
    ],
    "ai-coustics.com": [
+      "https://ai-coustics.com",
       "https://ai-coustics.com/playground"
    ],
    "podsum.app": [
       "https://podsum.app"
    ],
    "www.audacityteam.org": [
+      "https://www.audacityteam.org",
       "https://www.audacityteam.org/blog/openvino-ai-effects"
    ],
    "www.magicast.ai": [
@@ -1996,6 +1813,7 @@
       "https://podstash.ai"
    ],
    "cybervoice.io": [
+      "https://cybervoice.io",
       "https://cybervoice.io/en"
    ],
    "www.slayerai.com": [
@@ -2039,6 +1857,7 @@
       "https://swe-agent.com"
    ],
    "arxiv.org": [
+      "https://arxiv.org",
       "https://arxiv.org/abs/2301.02111",
       "https://arxiv.org/abs/2310.13828",
       "https://arxiv.org/abs/2311.15230",
@@ -2054,6 +1873,7 @@
       "https://www.aomni.com"
    ],
    "beta.nando.ai": [
+      "https://beta.nando.ai",
       "https://beta.nando.ai/goalgpt.php"
    ],
    "readyplayer.me": [
@@ -2072,12 +1892,14 @@
       "https://avaturn.me"
    ],
    "neural.cam": [
+      "https://neural.cam",
       "https://neural.cam/studio"
    ],
    "beb.ai": [
       "https://beb.ai"
    ],
    "www.livereacting.com": [
+      "https://www.livereacting.com",
       "https://www.livereacting.com/ai-host-for-live-stream"
    ],
    "dreampic.ai": [
@@ -2096,6 +1918,7 @@
       "https://www.kamoto.ai"
    ],
    "www.headshotpro.com": [
+      "https://www.headshotpro.com",
       "https://www.headshotpro.com/tools/free-pfp-generator"
    ],
    "www.digen.ai": [
@@ -2111,6 +1934,7 @@
       "https://pictodream.com"
    ],
    "www.vidyard.com": [
+      "https://www.vidyard.com",
       "https://www.vidyard.com/products/ai-avatars"
    ],
    "gemelo.ai": [
@@ -2120,9 +1944,11 @@
       "https://autodraft.in"
    ],
    "www.vistud.io": [
+      "https://www.vistud.io",
       "https://www.vistud.io/picapiu"
    ],
    "hyperhuman.deemos.com": [
+      "https://hyperhuman.deemos.com",
       "https://hyperhuman.deemos.com/chatavatar"
    ],
    "www.modif.app": [
@@ -2150,18 +1976,22 @@
       "https://aiphotos.ai"
    ],
    "repurpose.io": [
+      "https://repurpose.io",
       "https://repurpose.io/?aff=254843"
    ],
    "www.meetcody.ai": [
       "https://www.meetcody.ai"
    ],
    "echo.win": [
+      "https://echo.win",
       "https://echo.win/referral?code=hwlg17wfxx"
    ],
    "ideabuddy.com": [
+      "https://ideabuddy.com",
       "https://ideabuddy.com/?via=aixploria"
    ],
    "app.getmerlin.in": [
+      "https://app.getmerlin.in",
       "https://app.getmerlin.in/?ref=owi4ztk"
    ],
    "www.chatbot.com": [
@@ -2174,6 +2004,7 @@
       "https://www.pixels.ai"
    ],
    "www.neuronsinc.com": [
+      "https://www.neuronsinc.com",
       "https://www.neuronsinc.com/predict"
    ],
    "www.beautiful.ai": [
@@ -2217,6 +2048,7 @@
       "https://geniusreview.xyz"
    ],
    "app.marbleflows.com": [
+      "https://app.marbleflows.com",
       "https://app.marbleflows.com/ai-generator"
    ],
    "lalaland.ai": [
@@ -2229,24 +2061,30 @@
       "https://donotpay.com"
    ],
    "app.nswr.ai": [
+      "https://app.nswr.ai",
       "https://app.nswr.ai/?via=aixploria"
    ],
    "enterprisedna.co": [
+      "https://enterprisedna.co",
       "https://enterprisedna.co/?rfsn=7862790.15fdb5"
    ],
    "www.naker.io": [
       "https://www.naker.io"
    ],
    "pas.go2cloud.org": [
+      "https://pas.go2cloud.org",
       "https://pas.go2cloud.org/shv2"
    ],
    "www.blobr.io": [
+      "https://www.blobr.io",
       "https://www.blobr.io/api-gateway-chatgpt-plugins"
    ],
    "www.smartscout.com": [
+      "https://www.smartscout.com",
       "https://www.smartscout.com/ai-listing-architect"
    ],
    "glasp.co": [
+      "https://glasp.co",
       "https://glasp.co/ai-writing"
    ],
    "www.enzyme.com": [
@@ -2268,15 +2106,18 @@
       "https://julius.ai"
    ],
    "business.adobe.com": [
+      "https://business.adobe.com",
       "https://business.adobe.com/products/sensei/adobe-sensei.html"
    ],
    "www.notta.ai": [
+      "https://www.notta.ai",
       "https://www.notta.ai/en"
    ],
    "contlo.ai": [
       "https://contlo.ai"
    ],
    "gettrove.co": [
+      "https://gettrove.co",
       "https://gettrove.co/app/landing"
    ],
    "jusi.me": [
@@ -2307,12 +2148,14 @@
       "https://www.swifty.so"
    ],
    "adsby.co": [
+      "https://adsby.co",
       "https://adsby.co/free-ai-ad-text-generator"
    ],
    "coda.io": [
       "https://coda.io"
    ],
    "lemonado.io": [
+      "https://lemonado.io",
       "https://lemonado.io/ai"
    ],
    "coachvox.ai": [
@@ -2333,11 +2176,11 @@
    "www.bizway.io": [
       "https://www.bizway.io"
    ],
-   "getemma.ai": [
-      "https://getemma.ai"
-   ],
    "www.haller.ai": [
       "https://www.haller.ai"
+   ],
+   "getemma.ai": [
+      "https://getemma.ai"
    ],
    "www.bland.ai": [
       "https://www.bland.ai"
@@ -2388,6 +2231,7 @@
       "https://www.humancircles.ai"
    ],
    "wadeandwendy.ai": [
+      "https://wadeandwendy.ai",
       "https://wadeandwendy.ai/wade"
    ],
    "textdrip.com": [
@@ -2397,6 +2241,7 @@
       "https://iki.ai"
    ],
    "www.wonsulting.com": [
+      "https://www.wonsulting.com",
       "https://www.wonsulting.com/networkai"
    ],
    "www.namesnack.com": [
@@ -2409,13 +2254,14 @@
       "https://www.venturekit.ai"
    ],
    "www.ibm.com": [
+      "https://www.ibm.com",
       "https://www.ibm.com/products/watsonx-data"
-   ],
-   "www.guidde.com": [
-      "https://www.guidde.com"
    ],
    "name-drop.ai": [
       "https://name-drop.ai"
+   ],
+   "www.guidde.com": [
+      "https://www.guidde.com"
    ],
    "www.abyssale.com": [
       "https://www.abyssale.com"
@@ -2424,16 +2270,18 @@
       "https://www.merchynt.com"
    ],
    "branition.com": [
+      "https://branition.com",
       "https://branition.com/business-name-generator"
    ],
    "www.lampi.ai": [
       "https://www.lampi.ai"
    ],
-   "getmanifest.ai": [
-      "https://getmanifest.ai/?utm_source=aixploria-listing&utm_medium=listing"
-   ],
    "www.resumatic.ai": [
       "https://www.resumatic.ai"
+   ],
+   "getmanifest.ai": [
+      "https://getmanifest.ai",
+      "https://getmanifest.ai/?utm_source=aixploria-listing&utm_medium=listing"
    ],
    "hypotenuse.ai": [
       "https://hypotenuse.ai"
@@ -2445,6 +2293,7 @@
       "https://www.trypencil.com"
    ],
    "oneword.domains": [
+      "https://oneword.domains",
       "https://oneword.domains/domains-gpt"
    ],
    "generate.universaldata.io": [
@@ -2472,6 +2321,7 @@
       "https://www.guidedtrack.com"
    ],
    "bypeers.ai": [
+      "https://bypeers.ai",
       "https://bypeers.ai/find-and-close-b2b-clients-on-auto-pilot"
    ],
    "meetgeek.ai": [
@@ -2577,6 +2427,7 @@
       "https://ingestai.io"
    ],
    "www.usevacay.com": [
+      "https://www.usevacay.com",
       "https://www.usevacay.com/chatbot"
    ],
    "www.chatbotui.com": [
@@ -2625,6 +2476,7 @@
       "https://www.aichatbot.so"
    ],
    "www.nurgo-software.com": [
+      "https://www.nurgo-software.com",
       "https://www.nurgo-software.com/products/brainsoup"
    ],
    "www.maihem.ai": [
@@ -2637,19 +2489,20 @@
       "https://chatmaxima.com"
    ],
    "go.chatnode.ai": [
+      "https://go.chatnode.ai",
       "https://go.chatnode.ai/directory"
    ],
    "www.twig.so": [
       "https://www.twig.so"
-   ],
-   "interacly.com": [
-      "https://interacly.com"
    ],
    "smmagent.ai": [
       "https://smmagent.ai"
    ],
    "www.dopt.com": [
       "https://www.dopt.com"
+   ],
+   "interacly.com": [
+      "https://interacly.com"
    ],
    "youtube-to-chatbot.streamlit.app": [
       "https://youtube-to-chatbot.streamlit.app"
@@ -2666,16 +2519,17 @@
    "www.techdrivesupportinc.com": [
       "https://www.techdrivesupportinc.com"
    ],
-   "gista.co": [
-      "https://gista.co"
-   ],
    "fixmebot.com": [
       "https://fixmebot.com"
+   ],
+   "gista.co": [
+      "https://gista.co"
    ],
    "ioni.ai": [
       "https://ioni.ai"
    ],
    "charlie.news": [
+      "https://charlie.news",
       "https://charlie.news/about"
    ],
    "personalgpt.app": [
@@ -2775,6 +2629,7 @@
       "https://www.lovegenius.io"
    ],
    "beta.openai.com": [
+      "https://beta.openai.com",
       "https://beta.openai.com/playground"
    ],
    "www.gradio.app": [
@@ -2802,6 +2657,7 @@
       "https://assisterr.xyz"
    ],
    "www.opera.com": [
+      "https://www.opera.com",
       "https://www.opera.com/one"
    ],
    "promptlayer.com": [
@@ -2816,11 +2672,11 @@
    "www.quickchat.ai": [
       "https://www.quickchat.ai"
    ],
-   "www.shaped.ai": [
-      "https://www.shaped.ai"
-   ],
    "gamma.ai": [
       "https://gamma.ai"
+   ],
+   "www.shaped.ai": [
+      "https://www.shaped.ai"
    ],
    "httpie.io": [
       "https://httpie.io"
@@ -2829,6 +2685,7 @@
       "https://appicons.ai"
    ],
    "kenza-ai.github.io": [
+      "https://kenza-ai.github.io",
       "https://kenza-ai.github.io/sagify"
    ],
    "www.helicone.ai": [
@@ -2847,6 +2704,7 @@
       "https://pathway.com"
    ],
    "cloud.google.com": [
+      "https://cloud.google.com",
       "https://cloud.google.com/blog/products/ai-machine-learning/imagen-2-on-vertex-ai-is-now-generally-available",
       "https://cloud.google.com/duet-ai",
       "https://cloud.google.com/speech-to-text",
@@ -2854,9 +2712,11 @@
       "https://cloud.google.com/vertex-ai/docs/generative-ai/medlm/overview"
    ],
    "google.github.io": [
+      "https://google.github.io",
       "https://google.github.io/magika"
    ],
    "www.symanto.com": [
+      "https://www.symanto.com",
       "https://www.symanto.com/get-in-touch"
    ],
    "floneum.com": [
@@ -2875,6 +2735,7 @@
       "https://www.fast.ai"
    ],
    "help.zapier.com": [
+      "https://help.zapier.com",
       "https://help.zapier.com/hc/en-us/articles/15703650952077-use-the-ai-powered-zap-builder-to-generate-zaps-beta"
    ],
    "mixpeek.com": [
@@ -2889,11 +2750,11 @@
    "nuclia.com": [
       "https://nuclia.com"
    ],
-   "www.zevo.ai": [
-      "https://www.zevo.ai"
-   ],
    "www.graphlit.com": [
       "https://www.graphlit.com"
+   ],
+   "www.zevo.ai": [
+      "https://www.zevo.ai"
    ],
    "www.sievedata.com": [
       "https://www.sievedata.com"
@@ -2923,6 +2784,7 @@
       "https://www.autobackend.dev"
    ],
    "www.shuttle.rs": [
+      "https://www.shuttle.rs",
       "https://www.shuttle.rs/ai"
    ],
    "codelessai.vercel.app": [
@@ -2973,28 +2835,32 @@
    "www.tidio.com": [
       "https://www.tidio.com"
    ],
-   "openwidget.com": [
-      "https://openwidget.com"
-   ],
    "herostuff.com": [
       "https://herostuff.com"
    ],
+   "openwidget.com": [
+      "https://openwidget.com"
+   ],
    "writetext.ai": [
+      "https://writetext.ai",
       "https://writetext.ai/woocommerce"
    ],
    "penny.im": [
       "https://penny.im"
    ],
    "www.reviewxpo.com": [
+      "https://www.reviewxpo.com",
       "https://www.reviewxpo.com/shopify-reviews-app"
    ],
    "mengtingchen.github.io": [
+      "https://mengtingchen.github.io",
       "https://mengtingchen.github.io/wear-any-way-page"
    ],
    "www.onmodel.ai": [
       "https://www.onmodel.ai"
    ],
    "ebiz.vanceai.com": [
+      "https://ebiz.vanceai.com",
       "https://ebiz.vanceai.com/background-generator"
    ],
    "vmake.ai": [
@@ -3083,6 +2949,7 @@
       "https://lebesgue.io"
    ],
    "www.hoppycopy.co": [
+      "https://www.hoppycopy.co",
       "https://www.hoppycopy.co/?via=aixploria"
    ],
    "www.hellorobin.ai": [
@@ -3137,6 +3004,7 @@
       "https://draftlab.ai"
    ],
    "reply.io": [
+      "https://reply.io",
       "https://reply.io/sales-email-assistant"
    ],
    "ecold.ai": [
@@ -3203,6 +3071,7 @@
       "https://www.twain.ai"
    ],
    "tinymagic.app": [
+      "https://tinymagic.app",
       "https://tinymagic.app/gmail-gpt-support-agent"
    ],
    "klynk.ai": [
@@ -3221,6 +3090,7 @@
       "https://inboxnarrator.com"
    ],
    "ortto.com": [
+      "https://ortto.com",
       "https://ortto.com/artificial-intelligence-marketing"
    ],
    "www.magicreach.ai": [
@@ -3230,6 +3100,7 @@
       "https://www.emailtriager.com"
    ],
    "fireflies.ai": [
+      "https://fireflies.ai",
       "https://fireflies.ai/?fpr=aixploria"
    ],
    "www.wolframalpha.com": [
@@ -3244,11 +3115,12 @@
    "www.tutorai.me": [
       "https://www.tutorai.me"
    ],
+   "resoomer.com": [
+      "https://resoomer.com",
+      "https://resoomer.com/en"
+   ],
    "consensus.app": [
       "https://consensus.app"
-   ],
-   "resoomer.com": [
-      "https://resoomer.com/en"
    ],
    "chatdoc.com": [
       "https://chatdoc.com"
@@ -3271,11 +3143,11 @@
    "mathgptpro.com": [
       "https://mathgptpro.com"
    ],
-   "www.langotalk.org": [
-      "https://www.langotalk.org"
-   ],
    "mindgrasp.ai": [
       "https://mindgrasp.ai"
+   ],
+   "www.langotalk.org": [
+      "https://www.langotalk.org"
    ],
    "www.gradescope.com": [
       "https://www.gradescope.com"
@@ -3286,11 +3158,11 @@
    "notebooklm.google": [
       "https://notebooklm.google"
    ],
-   "socratic.org": [
-      "https://socratic.org"
-   ],
    "www.findyournextbook.ai": [
       "https://www.findyournextbook.ai"
+   ],
+   "socratic.org": [
+      "https://socratic.org"
    ],
    "educationcopilot.com": [
       "https://educationcopilot.com"
@@ -3301,14 +3173,15 @@
    "www.studyfetch.com": [
       "https://www.studyfetch.com"
    ],
+   "www.mindsmith.ai": [
+      "https://www.mindsmith.ai"
+   ],
    "www.caktus.ai": [
       "https://www.caktus.ai"
    ],
    "math99th.ai": [
+      "https://math99th.ai",
       "https://math99th.ai/digital-sat"
-   ],
-   "www.mindsmith.ai": [
-      "https://www.mindsmith.ai"
    ],
    "www.to-teach.ai": [
       "https://www.to-teach.ai"
@@ -3317,6 +3190,7 @@
       "https://www.roshi.ai"
    ],
    "www.openread.academy": [
+      "https://www.openread.academy",
       "https://www.openread.academy/home"
    ],
    "quizgecko.com": [
@@ -3352,12 +3226,13 @@
    "talkpal.ai": [
       "https://talkpal.ai"
    ],
+   "dgm.sh": [
+      "https://dgm.sh",
+      "https://dgm.sh/home"
+   ],
    "www.khanacademy.org": [
       "https://www.khanacademy.org",
       "https://www.khanacademy.org/khan-labs"
-   ],
-   "dgm.sh": [
-      "https://dgm.sh/home"
    ],
    "soofy.io": [
       "https://soofy.io"
@@ -3381,6 +3256,7 @@
       "https://bookabout.io"
    ],
    "outline.ninja": [
+      "https://outline.ninja",
       "https://outline.ninja/demo-infographic-ninja"
    ],
    "corrector.app": [
@@ -3390,9 +3266,11 @@
       "https://neurospell.com"
    ],
    "opencv.org": [
+      "https://opencv.org",
       "https://opencv.org/university/100-day-ai-career-challenge"
    ],
    "app.undermind.ai": [
+      "https://app.undermind.ai",
       "https://app.undermind.ai/home"
    ],
    "www.schoolhack.ai": [
@@ -3407,11 +3285,11 @@
    "www.proseable.com": [
       "https://www.proseable.com"
    ],
-   "coach.microsoft.com": [
-      "https://coach.microsoft.com"
-   ],
    "divedeck.ai": [
       "https://divedeck.ai"
+   ],
+   "coach.microsoft.com": [
+      "https://coach.microsoft.com"
    ],
    "www.meln.ai": [
       "https://www.meln.ai"
@@ -3429,36 +3307,40 @@
       "https://memoru.io"
    ],
    "academichelp.net": [
+      "https://academichelp.net",
       "https://academichelp.net/free-essay-generator"
    ],
    "oscarstories.com": [
       "https://oscarstories.com"
    ],
-   "mylens.ai": [
-      "https://mylens.ai"
-   ],
    "gptionary.com": [
       "https://gptionary.com"
    ],
-   "www.quriosity.world": [
-      "https://www.quriosity.world/#/coursereq"
+   "mylens.ai": [
+      "https://mylens.ai"
    ],
-   "www.bytelearn.com": [
-      "https://www.bytelearn.com"
+   "www.quriosity.world": [
+      "https://www.quriosity.world",
+      "https://www.quriosity.world/#/coursereq"
    ],
    "gatekeep.ai": [
       "https://gatekeep.ai"
+   ],
+   "www.bytelearn.com": [
+      "https://www.bytelearn.com"
    ],
    "coursefactory.ai": [
       "https://coursefactory.ai"
    ],
    "www.readbay.ai": [
+      "https://www.readbay.ai",
       "https://www.readbay.ai/oyster/home/index"
    ],
    "codekidz.ai": [
       "https://codekidz.ai"
    ],
    "studycrumb.com": [
+      "https://studycrumb.com",
       "https://studycrumb.com/paraphrasing-tool"
    ],
    "www.textero.ai": [
@@ -3519,6 +3401,7 @@
       "https://generator.everlearns.com"
    ],
    "www.prepai.io": [
+      "https://www.prepai.io",
       "https://www.prepai.io/us"
    ],
    "kippy.ai": [
@@ -3531,6 +3414,7 @@
       "https://ideamap.ai"
    ],
    "www.cordial.fr": [
+      "https://www.cordial.fr",
       "https://www.cordial.fr/enligne.php"
    ],
    "gliglish.com": [
@@ -3660,6 +3544,7 @@
       "https://beta.monic.ai"
    ],
    "books.google.com": [
+      "https://books.google.com",
       "https://books.google.com/talktobooks"
    ],
    "textbuddy.com": [
@@ -3669,6 +3554,7 @@
       "https://www.promptstacks.com"
    ],
    "app.adaptiv.me": [
+      "https://app.adaptiv.me",
       "https://app.adaptiv.me/app/home"
    ],
    "www.ordinarypeopleprompts.com": [
@@ -3680,10 +3566,14 @@
    "stunning.so": [
       "https://stunning.so"
    ],
+   "gptzero.me": [
+      "https://gptzero.me"
+   ],
    "speechki.io": [
       "https://speechki.io"
    ],
    "play.google.com": [
+      "https://play.google.com",
       "https://play.google.com/store/apps/details?id=com.openai.chatgpt"
    ],
    "www.web3summary.com": [
@@ -3699,6 +3589,7 @@
       "https://texti.app"
    ],
    "arcwise.app": [
+      "https://arcwise.app",
       "https://arcwise.app/ai"
    ],
    "chatgptwriter.ai": [
@@ -3735,21 +3626,24 @@
       "https://magicreply.io"
    ],
    "simplescraper.io": [
+      "https://simplescraper.io",
       "https://simplescraper.io/scrapetoai"
    ],
    "summereyes.ai": [
       "https://summereyes.ai"
    ],
+   "pdf.ai": [
+      "https://pdf.ai",
+      "https://pdf.ai/tools/resume-ai-scanner"
+   ],
    "monica.im": [
       "https://monica.im"
-   ],
-   "pdf.ai": [
-      "https://pdf.ai/tools/resume-ai-scanner"
    ],
    "www.webpilot.ai": [
       "https://www.webpilot.ai"
    ],
    "chromewebstore.google.com": [
+      "https://chromewebstore.google.com",
       "https://chromewebstore.google.com/detail/docgpt-chatpdf/dpgnglnlpddlohpfkolmfaiokogflmeo"
    ],
    "bearly.ai": [
@@ -3789,9 +3683,11 @@
       "https://www.editgpt.app"
    ],
    "meetglimpse.com": [
+      "https://meetglimpse.com",
       "https://meetglimpse.com/extension"
    ],
    "www.voc.ai": [
+      "https://www.voc.ai",
       "https://www.voc.ai/tools/chatgpt-for-amazon"
    ],
    "snackprompt.com": [
@@ -3822,6 +3718,7 @@
       "https://magicbrief.com"
    ],
    "goodsnooze.gumroad.com": [
+      "https://goodsnooze.gumroad.com",
       "https://goodsnooze.gumroad.com/l/menugpt"
    ],
    "www.teamsmart.ai": [
@@ -3837,12 +3734,14 @@
       "https://social-comments-gpt.com"
    ],
    "remaker.ai": [
+      "https://remaker.ai",
       "https://remaker.ai/face-swap-free"
    ],
    "deepfakesweb.com": [
       "https://deepfakesweb.com"
    ],
    "www.fal.ai": [
+      "https://www.fal.ai",
       "https://www.fal.ai/camera"
    ],
    "deepfakes.lol": [
@@ -3888,6 +3787,7 @@
       "https://makeup.thepersona.app"
    ],
    "www.perfectcorp.com": [
+      "https://www.perfectcorp.com",
       "https://www.perfectcorp.com/fr/consumer"
    ],
    "www.fashionadvisorai.com": [
@@ -3897,15 +3797,18 @@
       "https://wardrobe-ai.com"
    ],
    "gptexcel.uk": [
+      "https://gptexcel.uk",
       "https://gptexcel.uk/?aff=5l8xe"
    ],
    "chatwithpdf.ai": [
+      "https://chatwithpdf.ai",
       "https://chatwithpdf.ai/?aff=aixploria"
    ],
    "tinywow.com": [
       "https://tinywow.com"
    ],
    "numerous.ai": [
+      "https://numerous.ai",
       "https://numerous.ai/?ref=aixploria"
    ],
    "www.adobe.com": [
@@ -3920,12 +3823,14 @@
       "https://gpt.space"
    ],
    "appsource.microsoft.com": [
+      "https://appsource.microsoft.com",
       "https://appsource.microsoft.com/en-us/product/office/wa200005271?src=aixploria.comen&mktcmpid=directory"
    ],
    "www.papermark.io": [
       "https://www.papermark.io"
    ],
    "www.boloforms.com": [
+      "https://www.boloforms.com",
       "https://www.boloforms.com/sheetgod"
    ],
    "www.chatd.ai": [
@@ -3968,27 +3873,31 @@
       "https://rows.com"
    ],
    "equals.com": [
+      "https://equals.com",
       "https://equals.com/ai"
    ],
    "finsheet.io": [
       "https://finsheet.io"
    ],
-   "www.tomat.ai": [
-      "https://www.tomat.ai"
-   ],
    "pdfcandy.com": [
       "https://pdfcandy.com"
    ],
+   "www.tomat.ai": [
+      "https://www.tomat.ai"
+   ],
    "lightpdf.com": [
+      "https://lightpdf.com",
       "https://lightpdf.com/chatdoc"
    ],
    "chat2csv.com": [
       "https://chat2csv.com"
    ],
    "grid.is": [
+      "https://grid.is",
       "https://grid.is/product/grid-sheets"
    ],
    "entreresource.com": [
+      "https://entreresource.com",
       "https://entreresource.com/chatgpt-cheat-sheet"
    ],
    "www.geniussheets.com": [
@@ -4001,6 +3910,7 @@
       "https://www.botsheets.com"
    ],
    "tradeui.com": [
+      "https://tradeui.com",
       "https://tradeui.com/https://tradeui.com/?wpam_id=409"
    ],
    "www.uptrends.ai": [
@@ -4010,6 +3920,7 @@
       "https://www.trustfinta.com"
    ],
    "freshly.ai": [
+      "https://freshly.ai",
       "https://freshly.ai/discuro-form"
    ],
    "finchat.io": [
@@ -4115,6 +4026,7 @@
       "https://www.aitax.com"
    ],
    "play.aidungeon.io": [
+      "https://play.aidungeon.io",
       "https://play.aidungeon.io/main/home"
    ],
    "www.hiddendoor.co": [
@@ -4148,15 +4060,18 @@
       "https://endlessvn.io"
    ],
    "sites.google.com": [
+      "https://sites.google.com",
       "https://sites.google.com/view/genie-2024/home"
    ],
    "humanorai.io": [
       "https://humanorai.io"
    ],
    "store.steampowered.com": [
+      "https://store.steampowered.com",
       "https://store.steampowered.com/app/1889620/ai_roguelite"
    ],
    "signup.buildbox.com": [
+      "https://signup.buildbox.com",
       "https://signup.buildbox.com/?waitlist=true"
    ],
    "playstrict.com": [
@@ -4199,12 +4114,14 @@
       "https://screenshottocode.com"
    ],
    "showlab.github.io": [
+      "https://showlab.github.io",
       "https://showlab.github.io/magicanimate"
    ],
    "clarityai.cc": [
       "https://clarityai.cc"
    ],
    "colab.research.google.com": [
+      "https://colab.research.google.com",
       "https://colab.research.google.com/github/thelastben/fast-stable-diffusion/blob/main/fast_stable_diffusion_automatic1111.ipynb"
    ],
    "upscayl.github.io": [
@@ -4217,6 +4134,7 @@
       "https://supir.xpixel.group"
    ],
    "sweetcocoa.github.io": [
+      "https://sweetcocoa.github.io",
       "https://sweetcocoa.github.io/pop2piano_samples"
    ],
    "coqui.ai": [
@@ -4235,9 +4153,11 @@
       "https://llava.hliu.cc"
    ],
    "kaist-viclab.github.io": [
+      "https://kaist-viclab.github.io",
       "https://kaist-viclab.github.io/fmanet-site"
    ],
    "yuewuhkust.github.io": [
+      "https://yuewuhkust.github.io",
       "https://yuewuhkust.github.io/aniportraitgan"
    ],
    "www.talkform.ai": [
@@ -4247,6 +4167,7 @@
       "https://woebothealth.com"
    ],
    "qoves.com": [
+      "https://qoves.com",
       "https://qoves.com/facial-assessment-tool"
    ],
    "doctor.yourmed.app": [
@@ -4289,15 +4210,18 @@
       "https://skinive.com"
    ],
    "www.lunit.io": [
+      "https://www.lunit.io",
       "https://www.lunit.io/en"
    ],
    "symptomchecker.io": [
       "https://symptomchecker.io"
    ],
    "www.poppylist.com": [
+      "https://www.poppylist.com",
       "https://www.poppylist.com/askpoppy"
    ],
    "glass.health": [
+      "https://glass.health",
       "https://glass.health/ai"
    ],
    "hippocratic-medical-questions.herokuapp.com": [
@@ -4310,6 +4234,7 @@
       "https://www.lavo.ai"
    ],
    "www.aiapply.co": [
+      "https://www.aiapply.co",
       "https://www.aiapply.co/?via=aixploria"
    ],
    "www.ferret.ai": [
@@ -4319,12 +4244,14 @@
       "https://www.careerflow.ai"
    ],
    "resumeworded.com": [
+      "https://resumeworded.com",
       "https://resumeworded.com/index.php"
    ],
    "qatalog.com": [
       "https://qatalog.com"
    ],
    "www.tealhq.com": [
+      "https://www.tealhq.com",
       "https://www.tealhq.com/tools/resume-builder"
    ],
    "www.careered.ai": [
@@ -4340,21 +4267,23 @@
       "https://www.workhub.ai"
    ],
    "fordi.io": [
+      "https://fordi.io",
       "https://fordi.io/chat"
    ],
    "www.taskade.com": [
       "https://www.taskade.com"
    ],
-   "gitmind.com": [
-      "https://gitmind.com"
-   ],
    "www.leet.co": [
       "https://www.leet.co"
+   ],
+   "gitmind.com": [
+      "https://gitmind.com"
    ],
    "deepreview.eu": [
       "https://deepreview.eu"
    ],
    "www.qureos.com": [
+      "https://www.qureos.com",
       "https://www.qureos.com/resume-builder"
    ],
    "www.applaime.com": [
@@ -4406,6 +4335,7 @@
       "https://www.jobscan.co"
    ],
    "www.fingerprintforsuccess.com": [
+      "https://www.fingerprintforsuccess.com",
       "https://www.fingerprintforsuccess.com/for-individuals"
    ],
    "www.wondrful.co": [
@@ -4475,6 +4405,7 @@
       "https://www.remove.bg"
    ],
    "vectorizer.ai": [
+      "https://vectorizer.ai",
       "https://vectorizer.ai/?atk=uout93rt6t"
    ],
    "magnific.ai": [
@@ -4484,9 +4415,11 @@
       "https://imglarger.com"
    ],
    "vectormagic.com": [
+      "https://vectormagic.com",
       "https://vectormagic.com/?atk=uout93rt6t"
    ],
    "pixian.ai": [
+      "https://pixian.ai",
       "https://pixian.ai/?atk=uout93rt6t"
    ],
    "pixelhunter.io": [
@@ -4508,6 +4441,7 @@
       "https://www.vectorizer.io"
    ],
    "dreamoving.github.io": [
+      "https://dreamoving.github.io",
       "https://dreamoving.github.io/dreamoving"
    ],
    "dewatermark.ai": [
@@ -4523,6 +4457,7 @@
       "https://artisse.ai"
    ],
    "aigcdesigngroup.github.io": [
+      "https://aigcdesigngroup.github.io",
       "https://aigcdesigngroup.github.io/replace-anything"
    ],
    "editapp.ai": [
@@ -4534,11 +4469,11 @@
    "retouch4.me": [
       "https://retouch4.me"
    ],
-   "picwish.com": [
-      "https://picwish.com"
-   ],
    "fixblur.com": [
       "https://fixblur.com"
+   ],
+   "picwish.com": [
+      "https://picwish.com"
    ],
    "paintbytext.chat": [
       "https://paintbytext.chat"
@@ -4605,6 +4540,7 @@
       "https://objectremover.com"
    ],
    "www.profilebakery.com": [
+      "https://www.profilebakery.com",
       "https://www.profilebakery.com/en"
    ],
    "www.color.io": [
@@ -4664,6 +4600,7 @@
       "https://www.picwonderful.com"
    ],
    "prisma-ai.com": [
+      "https://prisma-ai.com",
       "https://prisma-ai.com/lensa"
    ],
    "draw3d.online": [
@@ -4689,6 +4626,7 @@
       "https://designer.microsoft.com"
    ],
    "deepai.org": [
+      "https://deepai.org",
       "https://deepai.org/machine-learning-model/text2img"
    ],
    "hotpot.ai": [
@@ -4719,6 +4657,7 @@
       "https://app.pebblely.com"
    ],
    "freepik.com": [
+      "https://freepik.com",
       "https://freepik.com/pikaso/text-to-image"
    ],
    "imgcreator.zmo.ai": [
@@ -4728,6 +4667,7 @@
       "https://getimg.ai"
    ],
    "blog.research.google": [
+      "https://blog.research.google",
       "https://blog.research.google/2024/01/mobilediffusion-rapid-text-to-image.html"
    ],
    "pollinations.ai": [
@@ -4752,6 +4692,7 @@
       "https://svg.io"
    ],
    "gcore.com": [
+      "https://gcore.com",
       "https://gcore.com/cloud/ai-image-generator"
    ],
    "www.airbrush.ai": [
@@ -4760,17 +4701,17 @@
    "picfinder.ai": [
       "https://picfinder.ai"
    ],
-   "www.ipic.ai": [
-      "https://www.ipic.ai"
-   ],
    "deepdreamgenerator.com": [
       "https://deepdreamgenerator.com"
    ],
-   "aiemojigenerator.org": [
-      "https://aiemojigenerator.org"
+   "www.ipic.ai": [
+      "https://www.ipic.ai"
    ],
    "letz.ai": [
       "https://letz.ai"
+   ],
+   "aiemojigenerator.org": [
+      "https://aiemojigenerator.org"
    ],
    "vectorart.ai": [
       "https://vectorart.ai"
@@ -4779,6 +4720,7 @@
       "https://aicoloringpages.net"
    ],
    "piktid.com": [
+      "https://piktid.com",
       "https://piktid.com/eraseid-ai-face-anonymizer"
    ],
    "ezilee.fr": [
@@ -4786,9 +4728,6 @@
    ],
    "www.craiyon.com": [
       "https://www.craiyon.com"
-   ],
-   "www.caspa.ai": [
-      "https://www.caspa.ai"
    ],
    "www.autodraw.com": [
       "https://www.autodraw.com"
@@ -4800,6 +4739,7 @@
       "https://followfox.ai"
    ],
    "topvsbest.com": [
+      "https://topvsbest.com",
       "https://topvsbest.com/aiimagecreator"
    ],
    "www.betterpic.io": [
@@ -4863,6 +4803,7 @@
       "https://variart.ai"
    ],
    "www.artificialstudio.ai": [
+      "https://www.artificialstudio.ai",
       "https://www.artificialstudio.ai/tools"
    ],
    "emu-video.metademolab.com": [
@@ -4876,9 +4817,11 @@
       "https://arc.net"
    ],
    "imagen.research.google": [
+      "https://imagen.research.google",
       "https://imagen.research.google/video"
    ],
    "developer.nvidia.com": [
+      "https://developer.nvidia.com",
       "https://developer.nvidia.com/maxine"
    ],
    "lumiere-video.github.io": [
@@ -4895,6 +4838,7 @@
       "https://walt-video-diffusion.github.io"
    ],
    "google-research.github.io": [
+      "https://google-research.github.io",
       "https://google-research.github.io/seanet/musiclm/examples",
       "https://google-research.github.io/seanet/soundstorm/examples"
    ],
@@ -4902,6 +4846,7 @@
       "https://ltx.studio"
    ],
    "sites.research.google": [
+      "https://sites.research.google",
       "https://sites.research.google/videopoet"
    ],
    "magicvideov2.github.io": [
@@ -4914,23 +4859,28 @@
       "https://www.earthspecies.org"
    ],
    "eeve.com": [
+      "https://eeve.com",
       "https://eeve.com/en-us/willow-x"
    ],
    "research.nvidia.com": [
+      "https://research.nvidia.com",
       "https://research.nvidia.com/labs/par/perfusion",
       "https://research.nvidia.com/labs/toronto-ai/videoldm"
    ],
    "ai.facebook.com": [
+      "https://ai.facebook.com",
       "https://ai.facebook.com/blog/large-language-model-llama-meta-ai",
       "https://ai.facebook.com/blog/yann-lecun-ai-model-i-jepa"
    ],
    "blogs.nvidia.com": [
+      "https://blogs.nvidia.com",
       "https://blogs.nvidia.com/blog/2023/06/01/neuralangelo-ai-research-3d-reconstruction"
    ],
    "imagebind.metademolab.com": [
       "https://imagebind.metademolab.com"
    ],
    "www.reddit.com": [
+      "https://www.reddit.com",
       "https://www.reddit.com/r/singularity/comments/152sne1/inve_interactive_neural_video_editing_from_adobe"
    ],
    "www.deepmind.com": [
@@ -4938,43 +4888,53 @@
       "https://www.deepmind.com/blog/identifying-ai-generated-images-with-synthid"
    ],
    "www.youtube.com": [
+      "https://www.youtube.com",
       "https://www.youtube.com/watch?v=cnfini5cnby&t=4492s",
       "https://www.youtube.com/watch?v=u9mjuukhuzk"
    ],
    "www.aboutamazon.com": [
+      "https://www.aboutamazon.com",
       "https://www.aboutamazon.com/news/retail/amazon-rufus"
    ],
    "pages.cs.huji.ac.il": [
+      "https://pages.cs.huji.ac.il",
       "https://pages.cs.huji.ac.il/adiyoss-lab/magnet"
    ],
    "styledrop.github.io": [
       "https://styledrop.github.io"
    ],
    "stackoverflow.co": [
+      "https://stackoverflow.co",
       "https://stackoverflow.co/labs"
    ],
    "wistlabs.com": [
       "https://wistlabs.com"
    ],
    "www.salesforce.com": [
+      "https://www.salesforce.com",
       "https://www.salesforce.com/news/press-releases/2023/03/07/einstein-generative-ai"
    ],
    "blog.adobe.com": [
+      "https://blog.adobe.com",
       "https://blog.adobe.com/fr/publish/2023/10/12/adobe-max-2023-sneaks"
    ],
    "www.cnbc.com": [
+      "https://www.cnbc.com",
       "https://www.cnbc.com/2023/05/25/jpmorgan-develops-ai-investment-advisor.html"
    ],
    "www.bloomberg.com": [
+      "https://www.bloomberg.com",
       "https://www.bloomberg.com/company/press/bloomberggpt-50-billion-parameter-llm-tuned-finance"
    ],
    "www.cerebras.net": [
+      "https://www.cerebras.net",
       "https://www.cerebras.net/blog/cerebras-gpt-a-family-of-open-compute-efficient-large-language-models"
    ],
    "www.adept.ai": [
       "https://www.adept.ai"
    ],
    "www.reka.ai": [
+      "https://www.reka.ai",
       "https://www.reka.ai/news/reka-core-our-frontier-class-multimodal-language-model"
    ],
    "www.wikipediaarticle.com": [
@@ -5002,13 +4962,16 @@
       "https://redcom.ai"
    ],
    "newsroom.spotify.com": [
+      "https://newsroom.spotify.com",
       "https://newsroom.spotify.com/2024-04-07/spotify-premium-users-can-now-turn-any-idea-into-a-personalized-playlist-with-ai-playlist-in-beta"
    ],
    "www.hubspot.com": [
+      "https://www.hubspot.com",
       "https://www.hubspot.com/blog-topic-generator",
       "https://www.hubspot.com/clip-creator/text-to-video"
    ],
    "txt.cohere.com": [
+      "https://txt.cohere.com",
       "https://txt.cohere.com/command-r-plus-microsoft-azure"
    ],
    "higgsfield.ai": [
@@ -5021,24 +4984,29 @@
       "https://lmstudio.ai"
    ],
    "www.checkout-ds24.com": [
+      "https://www.checkout-ds24.com",
       "https://www.checkout-ds24.com/redir/540531/aixploria/campaignkey"
    ],
    "www.usejackai.com": [
       "https://www.usejackai.com"
    ],
    "mangoseo.io": [
+      "https://mangoseo.io",
       "https://mangoseo.io/?via=aixploria"
    ],
    "scalenut.com": [
+      "https://scalenut.com",
       "https://scalenut.com/?fpr=aixploria"
    ],
    "creatie.ai": [
       "https://creatie.ai"
    ],
    "rightsify.com": [
+      "https://rightsify.com",
       "https://rightsify.com/hydra"
    ],
    "videotok.app": [
+      "https://videotok.app",
       "https://videotok.app/?via=aixploria"
    ],
    "www.arcads.ai": [
@@ -5057,6 +5025,7 @@
       "https://twoshot.app"
    ],
    "www.anthropic.com": [
+      "https://www.anthropic.com",
       "https://www.anthropic.com/news/claude-3-family"
    ],
    "anytalk.ai": [
@@ -5090,6 +5059,7 @@
       "https://postnitro.ai"
    ],
    "augxlabs.com": [
+      "https://augxlabs.com",
       "https://augxlabs.com/storyteller"
    ],
    "zocket.ai": [
@@ -5099,12 +5069,14 @@
       "https://asklegal.bot"
    ],
    "chat.reka.ai": [
+      "https://chat.reka.ai",
       "https://chat.reka.ai/auth/login"
    ],
    "dorik.com": [
       "https://dorik.com"
    ],
    "www.capcut.com": [
+      "https://www.capcut.com",
       "https://www.capcut.com/creative-suite",
       "https://www.capcut.com/tools/ai-video-upscaler"
    ],
@@ -5142,6 +5114,7 @@
       "https://twitterspacegpt.com"
    ],
    "zero1cine.com": [
+      "https://zero1cine.com",
       "https://zero1cine.com/filmmakerprogpt"
    ],
    "typegrow.com": [
@@ -5196,6 +5169,7 @@
       "https://feather.so"
    ],
    "news.samsung.com": [
+      "https://news.samsung.com",
       "https://news.samsung.com/us/samsung-ballie-ai-companion-robot-home-video-ces-2024"
    ],
    "fliz.ai": [
@@ -5211,15 +5185,18 @@
       "https://www.rabbit.tech"
    ],
    "mysports.ai": [
+      "https://mysports.ai",
       "https://mysports.ai/en"
    ],
    "mobile-aloha.github.io": [
       "https://mobile-aloha.github.io"
    ],
    "research.myshell.ai": [
+      "https://research.myshell.ai",
       "https://research.myshell.ai/open-voice"
    ],
    "drawing-prompt.com": [
+      "https://drawing-prompt.com",
       "https://drawing-prompt.com/en"
    ],
    "wonderslide.com": [
@@ -5232,6 +5209,7 @@
       "https://www.morphstudio.com"
    ],
    "www.systransoft.com": [
+      "https://www.systransoft.com",
       "https://www.systransoft.com/translate"
    ],
    "textfx.withgoogle.com": [
@@ -5250,9 +5228,11 @@
       "https://www.tryreplay.io"
    ],
    "faceless.video": [
+      "https://faceless.video",
       "https://faceless.video/?aff=aixploria"
    ],
    "circleboom.com": [
+      "https://circleboom.com",
       "https://circleboom.com/social-media-scheduler"
    ],
    "impakt.com": [
@@ -5304,7 +5284,11 @@
       "https://virbo.wondershare.com"
    ],
    "www.zoom.com": [
+      "https://www.zoom.com",
       "https://www.zoom.com/en/ai-assistant"
+   ],
+   "www.gpt4v.net": [
+      "https://www.gpt4v.net"
    ],
    "www.typeframes.com": [
       "https://www.typeframes.com"
@@ -5343,6 +5327,7 @@
       "https://neets.ai"
    ],
    "www.mrcook.app": [
+      "https://www.mrcook.app",
       "https://www.mrcook.app/en/tools/recipe-generator"
    ],
    "www.smry.ai": [
@@ -5379,6 +5364,7 @@
       "https://scribbler.so"
    ],
    "mobirise.com": [
+      "https://mobirise.com",
       "https://mobirise.com/builder/ai-website-builder.html"
    ],
    "app.kits.ai": [
@@ -5412,6 +5398,7 @@
       "https://moonvalley.ai"
    ],
    "www.videotoblog.ai": [
+      "https://www.videotoblog.ai",
       "https://www.videotoblog.ai/?via=aixploria"
    ],
    "whispertranscribe.com": [
@@ -5428,48 +5415,6 @@
    ],
    "www.bestflights.ai": [
       "https://www.bestflights.ai"
-   ],
-   "dorosiai.com": [
-      "https://dorosiai.com"
-   ],
-   "freelogo.co": [
-      "https://freelogo.co"
-   ],
-   "piktochart.com": [
-      "https://piktochart.com/generative-ai"
-   ],
-   "zaplify.com": [
-      "https://zaplify.com"
-   ],
-   "timetotok.com": [
-      "https://timetotok.com"
-   ],
-   "marauder.world": [
-      "https://marauder.world"
-   ],
-   "chateq.com": [
-      "https://chateq.com"
-   ],
-   "postus.ai": [
-      "https://postus.ai"
-   ],
-   "www.gleek.io": [
-      "https://www.gleek.io"
-   ],
-   "www.neuraltimes.org": [
-      "https://www.neuraltimes.org"
-   ],
-   "textcortex.com": [
-      "https://textcortex.com/?via=aixploria"
-   ],
-   "fliplet.com": [
-      "https://fliplet.com"
-   ],
-   "freeflo.ai": [
-      "https://freeflo.ai"
-   ],
-   "hyperficient.org": [
-      "https://hyperficient.org"
    ],
    "poolplannerai.com": [
       "https://poolplannerai.com"
@@ -5496,6 +5441,7 @@
       "https://thumbmachine.com"
    ],
    "www.word.band": [
+      "https://www.word.band",
       "https://www.word.band/discover"
    ],
    "myreach.io": [
@@ -5505,6 +5451,7 @@
       "https://socialmediabiogenerator.com"
    ],
    "www.semrush.com": [
+      "https://www.semrush.com",
       "https://www.semrush.com/goodcontent/ai-social-media-post-generator"
    ],
    "multilings.com": [
@@ -5513,6 +5460,9 @@
    "www.summit.im": [
       "https://www.summit.im",
       "https://www.summit.im/pathfinder"
+   ],
+   "facecheck.id": [
+      "https://facecheck.id"
    ],
    "v0.dev": [
       "https://v0.dev"
@@ -5540,6 +5490,7 @@
       "https://www.tripbotapp.com"
    ],
    "youai.ai": [
+      "https://youai.ai",
       "https://youai.ai/mindstudio"
    ],
    "product.xyz": [
@@ -5576,6 +5527,7 @@
       "https://exoname.com"
    ],
    "www.tripadvisor.com": [
+      "https://www.tripadvisor.com",
       "https://www.tripadvisor.com/trips"
    ],
    "www.logopony.com": [
@@ -5609,6 +5561,7 @@
       "https://crucible.docnavigator.in"
    ],
    "www.voicebooking.com": [
+      "https://www.voicebooking.com",
       "https://www.voicebooking.com/en/free-voice-over-generator"
    ],
    "copilot2trip.com": [
@@ -5621,6 +5574,7 @@
       "https://www.musi-co.com"
    ],
    "www.zarla.com": [
+      "https://www.zarla.com",
       "https://www.zarla.com/website-builder"
    ],
    "storyboardhero.ai": [
@@ -5648,6 +5602,7 @@
       "https://pageone.livesemantics.com"
    ],
    "olexdsgn.com": [
+      "https://olexdsgn.com",
       "https://olexdsgn.com/figgpt"
    ],
    "mayday.am": [
@@ -5708,6 +5663,7 @@
       "https://www.text-to-speech.online"
    ],
    "paintit.ai": [
+      "https://paintit.ai",
       "https://paintit.ai/interior-ai"
    ],
    "www.voxqube.com": [
@@ -5723,6 +5679,7 @@
       "https://sococal.ai"
    ],
    "www.rephraser.co": [
+      "https://www.rephraser.co",
       "https://www.rephraser.co/paraphrasing-tool"
    ],
    "ai-cowriter.com": [
@@ -5738,6 +5695,7 @@
       "https://videogen.io"
    ],
    "www.patreon.com": [
+      "https://www.patreon.com",
       "https://www.patreon.com/posts/stable-v0-15-84106537"
    ],
    "www.eye2.ai": [
@@ -5753,6 +5711,7 @@
       "https://www.streamingoptions.com"
    ],
    "thecognitivequest.com": [
+      "https://thecognitivequest.com",
       "https://thecognitivequest.com/stable-diffusion-anime-prompt-generator"
    ],
    "submagic.co": [
@@ -5762,6 +5721,7 @@
       "https://www.applydesign.io"
    ],
    "www.radaar.io": [
+      "https://www.radaar.io",
       "https://www.radaar.io/free-tools/social-post-generator"
    ],
    "promptdrive.ai": [
@@ -5785,18 +5745,6 @@
    "cohesive.so": [
       "https://cohesive.so"
    ],
-   "www.teachomatic.net": [
-      "https://www.teachomatic.net"
-   ],
-   "promptspot.xyz": [
-      "https://promptspot.xyz"
-   ],
-   "www.tracksy.ai": [
-      "https://www.tracksy.ai"
-   ],
-   "www.maskmyprompt.com": [
-      "https://www.maskmyprompt.com"
-   ],
    "www.guided.rest": [
       "https://www.guided.rest"
    ],
@@ -5804,9 +5752,11 @@
       "https://www.thumbly.io"
    ],
    "www.mystoryelf.com": [
+      "https://www.mystoryelf.com",
       "https://www.mystoryelf.com/landing"
    ],
    "www.framer.com": [
+      "https://www.framer.com",
       "https://www.framer.com/features/ai/?via=aixploria"
    ],
    "machined.ai": [
@@ -5831,6 +5781,7 @@
       "https://taia.io"
    ],
    "crowdin.com": [
+      "https://crowdin.com",
       "https://crowdin.com/blog/2023/03/14/ai-and-localization-meet-new-crowdin-app"
    ],
    "wnr.ai": [
@@ -5849,6 +5800,7 @@
       "https://www.storybooks.app"
    ],
    "miraitranslate.com": [
+      "https://miraitranslate.com",
       "https://miraitranslate.com/en"
    ],
    "1v1.springworks.in": [
@@ -5860,6 +5812,9 @@
    "klap.app": [
       "https://klap.app"
    ],
+   "www.caspa.ai": [
+      "https://www.caspa.ai"
+   ],
    "keyframes.studio": [
       "https://keyframes.studio"
    ],
@@ -5870,9 +5825,11 @@
       "https://www.captionit.ai"
    ],
    "www.reiwaseda.com": [
+      "https://www.reiwaseda.com",
       "https://www.reiwaseda.com/en/jetcut-ready"
    ],
    "kosuket-dev.github.io": [
+      "https://kosuket-dev.github.io",
       "https://kosuket-dev.github.io/chatgpt-prompt-generator"
    ],
    "sivi.ai": [
@@ -5897,6 +5854,7 @@
       "https://moodpen.com"
    ],
    "lalamu.studio": [
+      "https://lalamu.studio",
       "https://lalamu.studio/demo"
    ],
    "www.archsynth.com": [
@@ -5915,6 +5873,7 @@
       "https://www.taggy.com.mx"
    ],
    "www.yepic.ai": [
+      "https://www.yepic.ai",
       "https://www.yepic.ai/studio"
    ],
    "www.unrealperson.com": [
@@ -5927,6 +5886,7 @@
       "https://promptknit.com"
    ],
    "riverside.fm": [
+      "https://riverside.fm",
       "https://riverside.fm/transcription"
    ],
    "zaplingo.com": [
@@ -5993,6 +5953,7 @@
       "https://www.chatjams.ai"
    ],
    "www.plusdocs.com": [
+      "https://www.plusdocs.com",
       "https://www.plusdocs.com/plus-ai-for-google-slides"
    ],
    "copymate.app": [
@@ -6023,15 +5984,18 @@
       "https://getflux.io"
    ],
    "www.insightjournal.ai": [
+      "https://www.insightjournal.ai",
       "https://www.insightjournal.ai/intro"
    ],
    "labs.kagi.com": [
+      "https://labs.kagi.com",
       "https://labs.kagi.com/fastgpt"
    ],
    "www.brieflyai.com": [
       "https://www.brieflyai.com"
    ],
    "mealpractice.com": [
+      "https://mealpractice.com",
       "https://mealpractice.com/generate"
    ],
    "kindredtales.net": [
@@ -6089,6 +6053,7 @@
       "https://www.literallyanything.io"
    ],
    "serp.ai": [
+      "https://serp.ai",
       "https://serp.ai/tools/ai-voice-assistant"
    ],
    "www.theresapromptforthat.xyz": [
@@ -6110,6 +6075,7 @@
       "https://www.virtuozy.pro"
    ],
    "www.mycelebs.com": [
+      "https://www.mycelebs.com",
       "https://www.mycelebs.com/deepsearch"
    ],
    "www.ctrify.com": [
@@ -6155,6 +6121,7 @@
       "https://www.commentanalyzer.com"
    ],
    "ocr.space": [
+      "https://ocr.space",
       "https://ocr.space/copyfish"
    ],
    "scisummary.com": [
@@ -6162,6 +6129,9 @@
    ],
    "just-prompt.vercel.app": [
       "https://just-prompt.vercel.app"
+   ],
+   "copyleaks.com": [
+      "https://copyleaks.com"
    ],
    "mygpt.thesamur.ai": [
       "https://mygpt.thesamur.ai"
@@ -6308,6 +6278,7 @@
       "https://aigcdeep.com"
    ],
    "socialbee.com": [
+      "https://socialbee.com",
       "https://socialbee.com/social-media-ai-post-generator"
    ],
    "typpo.app": [
@@ -6318,6 +6289,9 @@
    ],
    "www.writesmart.so": [
       "https://www.writesmart.so"
+   ],
+   "haveibeenencoded.com": [
+      "https://haveibeenencoded.com"
    ],
    "www.aipextech.com": [
       "https://www.aipextech.com"
@@ -6333,6 +6307,9 @@
    ],
    "lp.articly.ai": [
       "https://lp.articly.ai"
+   ],
+   "myvocal.ai": [
+      "https://myvocal.ai"
    ],
    "qakaa.com": [
       "https://qakaa.com"
@@ -6353,6 +6330,7 @@
       "https://speechgen.io"
    ],
    "vidds.co": [
+      "https://vidds.co",
       "https://vidds.co/tools/video-automations"
    ],
    "www.virtualstagingai.app": [
@@ -6380,6 +6358,7 @@
       "https://storylab.ai"
    ],
    "flutterflow.io": [
+      "https://flutterflow.io",
       "https://flutterflow.io/ai-gen.html"
    ],
    "gamma.app": [
@@ -6404,6 +6383,7 @@
       "https://seo.ai"
    ],
    "magenta.tensorflow.org": [
+      "https://magenta.tensorflow.org",
       "https://magenta.tensorflow.org/studio"
    ],
    "www.videoleapapp.com": [
@@ -6509,6 +6489,7 @@
       "https://mechanic.fora.chat"
    ],
    "photor.io": [
+      "https://photor.io",
       "https://photor.io/photoscore"
    ],
    "wewritecards.com": [
@@ -6530,15 +6511,26 @@
       "https://consumerai.deeprose.eu"
    ],
    "venngage.com": [
+      "https://venngage.com",
       "https://venngage.com/tools/valentines-day-card-maker"
+   ],
+   "www.neuraltimes.org": [
+      "https://www.neuraltimes.org"
    ],
    "howtoreplyto.com": [
       "https://howtoreplyto.com"
+   ],
+   "marauder.world": [
+      "https://marauder.world"
+   ],
+   "hyperficient.org": [
+      "https://hyperficient.org"
    ],
    "embra.app": [
       "https://embra.app"
    ],
    "designstripe.com": [
+      "https://designstripe.com",
       "https://designstripe.com/ai-cards"
    ],
    "waverly.social": [
@@ -6560,18 +6552,21 @@
       "https://wishesai.com"
    ],
    "www.logoai.com": [
+      "https://www.logoai.com",
       "https://www.logoai.com/logo-maker?partner=2066657"
    ],
    "looka.com": [
       "https://looka.com"
    ],
    "www.namecheap.com": [
+      "https://www.namecheap.com",
       "https://www.namecheap.com/logo-maker"
    ],
    "logocreatorai.com": [
       "https://logocreatorai.com"
    ],
    "brandmark.io": [
+      "https://brandmark.io",
       "https://brandmark.io/tools"
    ],
    "www.unboundcontent.ai": [
@@ -6580,6 +6575,9 @@
    "designs.ai": [
       "https://designs.ai"
    ],
+   "freelogo.co": [
+      "https://freelogo.co"
+   ],
    "turbologo.com": [
       "https://turbologo.com"
    ],
@@ -6587,6 +6585,7 @@
       "https://makelogo.ai"
    ],
    "predis.ai": [
+      "https://predis.ai",
       "https://predis.ai/?ref=aixploria"
    ],
    "contenda.co": [
@@ -6612,6 +6611,9 @@
    ],
    "www.ocoya.net": [
       "https://www.ocoya.net"
+   ],
+   "zaplify.com": [
+      "https://zaplify.com"
    ],
    "www.affable.ai": [
       "https://www.affable.ai"
@@ -6667,11 +6669,11 @@
    "www.sonify.io": [
       "https://www.sonify.io"
    ],
-   "soundraw.io": [
-      "https://soundraw.io"
-   ],
    "rave.dj": [
       "https://rave.dj"
+   ],
+   "soundraw.io": [
+      "https://soundraw.io"
    ],
    "www.splashmusic.com": [
       "https://www.splashmusic.com"
@@ -6695,6 +6697,9 @@
    "www.naturallanguageplaylist.com": [
       "https://www.naturallanguageplaylist.com"
    ],
+   "www.tracksy.ai": [
+      "https://www.tracksy.ai"
+   ],
    "my.brain.fm": [
       "https://my.brain.fm"
    ],
@@ -6705,9 +6710,11 @@
       "https://maroofy.com"
    ],
    "10web.io": [
+      "https://10web.io",
       "https://10web.io/?_from=aixploria"
    ],
    "www.cogniflow.ai": [
+      "https://www.cogniflow.ai",
       "https://www.cogniflow.ai/?aff=aixploria"
    ],
    "www.buildai.space": [
@@ -6718,6 +6725,9 @@
    ],
    "www.magicform.ai": [
       "https://www.magicform.ai"
+   ],
+   "roboflow.com": [
+      "https://roboflow.com"
    ],
    "nanonets.com": [
       "https://nanonets.com"
@@ -6756,6 +6766,7 @@
       "https://www.kili.so"
    ],
    "robovision.ai": [
+      "https://robovision.ai",
       "https://robovision.ai/product/platform"
    ],
    "dust.tt": [
@@ -6798,6 +6809,7 @@
       "https://procys.com"
    ],
    "vwo.com": [
+      "https://vwo.com",
       "https://vwo.com/testing"
    ],
    "www.brancher.ai": [
@@ -6805,6 +6817,9 @@
    ],
    "www.gptagent.com": [
       "https://www.gptagent.com"
+   ],
+   "fliplet.com": [
+      "https://fliplet.com"
    ],
    "ai-surge.cloud": [
       "https://ai-surge.cloud"
@@ -6816,6 +6831,7 @@
       "https://monitaur.ai"
    ],
    "www.welovenocode.com": [
+      "https://www.welovenocode.com",
       "https://www.welovenocode.com/ai-project-description-generator"
    ],
    "www.askviable.com": [
@@ -6891,6 +6907,7 @@
       "https://www.xembly.com"
    ],
    "www.springworks.in": [
+      "https://www.springworks.in",
       "https://www.springworks.in/albus"
    ],
    "checklist.gg": [
@@ -6901,6 +6918,9 @@
    ],
    "steno.ai": [
       "https://steno.ai"
+   ],
+   "www.gleek.io": [
+      "https://www.gleek.io"
    ],
    "typly.app": [
       "https://typly.app"
@@ -6942,9 +6962,11 @@
       "https://www.dallelist.com"
    ],
    "www.steamship.com": [
+      "https://www.steamship.com",
       "https://www.steamship.com/build/prompt-apis"
    ],
    "pheeds.com": [
+      "https://pheeds.com",
       "https://pheeds.com/promptsilo.php"
    ],
    "www.promptbox.ai": [
@@ -6956,6 +6978,12 @@
    "www.promptextend.com": [
       "https://www.promptextend.com"
    ],
+   "freeflo.ai": [
+      "https://freeflo.ai"
+   ],
+   "www.maskmyprompt.com": [
+      "https://www.maskmyprompt.com"
+   ],
    "www.jrnylist.com": [
       "https://www.jrnylist.com"
    ],
@@ -6964,6 +6992,9 @@
    ],
    "www.prompthunt.com": [
       "https://www.prompthunt.com"
+   ],
+   "promptspot.xyz": [
+      "https://promptspot.xyz"
    ],
    "promptomania.com": [
       "https://promptomania.com"
@@ -7007,10 +7038,14 @@
    "www.connectedpapers.com": [
       "https://www.connectedpapers.com"
    ],
+   "chateq.com": [
+      "https://chateq.com"
+   ],
    "www.researchrabbit.ai": [
       "https://www.researchrabbit.ai"
    ],
    "jessezhang.org": [
+      "https://jessezhang.org",
       "https://jessezhang.org/llmdemo"
    ],
    "laion.ai": [
@@ -7062,9 +7097,11 @@
       "https://www.algolia.com"
    ],
    "app.kailualabs.com": [
+      "https://app.kailualabs.com",
       "https://app.kailualabs.com/image-search"
    ],
    "ossinsight.io": [
+      "https://ossinsight.io",
       "https://ossinsight.io/explore"
    ],
    "lexii.ai": [
@@ -7080,6 +7117,7 @@
       "https://nyx.gallery"
    ],
    "piggy.to": [
+      "https://piggy.to",
       "https://piggy.to/magic"
    ],
    "thumbnail-ai.ybouane.com": [
@@ -7115,6 +7153,9 @@
    "peachlyai.xyz": [
       "https://peachlyai.xyz"
    ],
+   "timetotok.com": [
+      "https://timetotok.com"
+   ],
    "postly.ai": [
       "https://postly.ai"
    ],
@@ -7145,16 +7186,21 @@
    "tweethunter.io": [
       "https://tweethunter.io"
    ],
+   "postus.ai": [
+      "https://postus.ai"
+   ],
    "postwise.ai": [
       "https://postwise.ai"
    ],
    "www.brandbastion.com": [
+      "https://www.brandbastion.com",
       "https://www.brandbastion.com/lite"
    ],
    "www.audiolabs.io": [
       "https://www.audiolabs.io"
    ],
    "no-code-ai-model-builder.com": [
+      "https://no-code-ai-model-builder.com",
       "https://no-code-ai-model-builder.com/tweet-me"
    ],
    "www.viralviews.co": [
@@ -7217,6 +7263,9 @@
    "tinystorie.com": [
       "https://tinystorie.com"
    ],
+   "dorosiai.com": [
+      "https://dorosiai.com"
+   ],
    "www.childbook.ai": [
       "https://www.childbook.ai"
    ],
@@ -7233,6 +7282,7 @@
       "https://www.copy.ai"
    ],
    "jenni.ai": [
+      "https://jenni.ai",
       "https://jenni.ai/?via=aixploria"
    ],
    "inkforall.com": [
@@ -7249,6 +7299,9 @@
    ],
    "www.neuraltext.com": [
       "https://www.neuraltext.com"
+   ],
+   "www.undetectablegpt.com": [
+      "https://www.undetectablegpt.com"
    ],
    "www.botowski.com": [
       "https://www.botowski.com"
@@ -7272,18 +7325,21 @@
       "https://www.jounce.ai"
    ],
    "www.play.ht": [
+      "https://www.play.ht",
       "https://www.play.ht/?via=aixploria"
    ],
    "freetts.com": [
       "https://freetts.com"
    ],
    "voiceovermaker.io": [
+      "https://voiceovermaker.io",
       "https://voiceovermaker.io/?ref=254449c3"
    ],
    "uberduck.ai": [
       "https://uberduck.ai"
    ],
    "get.descript.com": [
+      "https://get.descript.com",
       "https://get.descript.com/sx9ahgvct8j9"
    ],
    "ttsreader.com": [
@@ -7365,6 +7421,7 @@
       "https://www.contentfries.com"
    ],
    "www.typestudio.co": [
+      "https://www.typestudio.co",
       "https://www.typestudio.co/tool/video-to-text"
    ],
    "www.supertranslate.ai": [
@@ -7374,6 +7431,7 @@
       "https://sonix.ai"
    ],
    "zeemo.ai": [
+      "https://zeemo.ai",
       "https://zeemo.ai/zmapp"
    ],
    "www.papercup.com": [
@@ -7418,6 +7476,9 @@
    "www.colossyan.com": [
       "https://www.colossyan.com"
    ],
+   "www.teachomatic.net": [
+      "https://www.teachomatic.net"
+   ],
    "wowto.ai": [
       "https://wowto.ai"
    ],
@@ -7438,15 +7499,26 @@
       "https://rotorvideos.com"
    ],
    "www.visla.us": [
+      "https://www.visla.us",
       "https://www.visla.us/ai-video-generator"
    ],
    "reachout.ai": [
       "https://reachout.ai"
    ],
    "www.quinv.io": [
+      "https://www.quinv.io",
       "https://www.quinv.io/ai"
    ],
+   "piktochart.com": [
+      "https://piktochart.com",
+      "https://piktochart.com/generative-ai"
+   ],
+   "textcortex.com": [
+      "https://textcortex.com",
+      "https://textcortex.com/?via=aixploria"
+   ],
    "www.frase.io": [
+      "https://www.frase.io",
       "https://www.frase.io/?via=aixploria"
    ],
    "wordai.com": [
@@ -7466,5 +7538,12 @@
    ],
    "spellbound.cc": [
       "https://spellbound.cc"
+   ],
+   "originality.ai": [
+      "https://originality.ai",
+      "https://originality.ai/?lmref=rqj9jq"
+   ],
+   "stealthgpt.ai": [
+      "https://stealthgpt.ai"
    ]
 }

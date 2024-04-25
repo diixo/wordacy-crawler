@@ -256,8 +256,36 @@ def test_aixploria():
    crawler.enqueue_url("https://www.aixploria.com/en/category/websites-ai/", 7)
    crawler.enqueue_url("https://www.aixploria.com/en/category/writing-web-seo/", 11)
 
-   crawler.run()
-   crawler.save_hostnames("db-hostnames.json")
+   #crawler.run()
+   #crawler.save_hostnames("db-hostnames.json")
+
+   ############## pagination #############
+   page_index = 1
+   page_size = 10
+
+   indexing = list(crawler.unknown.keys())
+   sz = len(indexing)
+
+   result = []
+
+   start_index = (page_index-1) * page_size
+   if start_index < sz:
+      end_index = min(page_index*page_size, len(indexing))
+      result = indexing[end_index - 1:start_index - 1 if start_index != 0 else None:-1]
+      print(result)
+      print(f"{str(start_index)}:{str(end_index)}")
+
+   ############################################
+   num_page = (sz + page_size - 1) // page_size
+   print(f"sz={str(sz)}, num_pages={str(num_page)}")
+
+   if(num_page > page_index):
+      return result, page_index+1
+
+   return result, page_index
+   ############################################
+
+
 
 if __name__ == "__main__":
    test_url_to_dataset()

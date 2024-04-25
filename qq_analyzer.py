@@ -177,6 +177,8 @@ def test_dataset():
 
 def test_aixploria():
    crawler = Crawler2(delay=3, recursive=False)
+   crawler.open_hostnames("db-hostnames.json")
+
    crawler.enqueue_url("https://www.aixploria.com/en")
 
    crawler.enqueue_url("https://www.aixploria.com/en/category/3d-model/" , 5)
@@ -255,7 +257,7 @@ def test_aixploria():
    crawler.enqueue_url("https://www.aixploria.com/en/category/writing-web-seo/", 11)
 
    crawler.run()
-   crawler.save_json("storage/www-aixploria-com.json")
+   crawler.save_hostnames("db-hostnames.json")
 
 if __name__ == "__main__":
    test_url_to_dataset()

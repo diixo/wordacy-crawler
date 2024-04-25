@@ -43,8 +43,22 @@ class Crawler2:
          self.urls = json.load(fd)
          self.new = deque(self.urls.get(".new", deque()))
          print(f"<< [Crawler2]::open_json[remained={len(self.new)}]")
-      
       self.filepath = filepath
+
+   def open_hostnames(self, filepath:str):
+      path = Path(filepath)
+      if path.exists():
+         fd = open(filepath, 'r', encoding='utf-8')
+         self.unknown = json.load(fd)
+         self.unknown_from.clear()
+
+   def save_hostnames(self, filepath=None):
+      if filepath == None:
+         filepath = "db-hostnames.json"
+
+      with open(filepath, 'w', encoding='utf-8') as fd:
+         json.dump(self.unknown, fd, ensure_ascii=False, indent=3)
+
 
    def save_json(self, filepath=""):
       if not filepath:
@@ -71,11 +85,8 @@ class Crawler2:
          with open(filepath + ".skipped.txt", 'w', encoding='utf-8') as fd:
             json.dump(sorted(self.skip), fd, ensure_ascii=False, indent=3)
 
-      with open("db-hostnames.json", 'w', encoding='utf-8') as fd:
-         json.dump(self.unknown, fd, ensure_ascii=False, indent=3)
-
-      with open("db-hostnames-from.json", 'w', encoding='utf-8') as fd:
-         json.dump(list(self.unknown_from), fd, ensure_ascii=False, indent=3)
+      # with open("db-hostnames-from.json", 'w', encoding='utf-8') as fd:
+      #    json.dump(list(self.unknown_from), fd, ensure_ascii=False, indent=3)
 
 
    def clear(self):

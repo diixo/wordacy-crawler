@@ -26,8 +26,8 @@ class Crawler2:
 
    def __init__(self, delay = 1.0, recursive=False):
       self.new = deque()
-      self.unknown = dict()
-      self.unknown_from = set()
+      self.hostnames = dict()
+      self.hostnames_from = set()
       self.skip = set()
       self.filters = dict()
       self.filepath = ""
@@ -49,15 +49,15 @@ class Crawler2:
       path = Path(filepath)
       if path.exists():
          fd = open(filepath, 'r', encoding='utf-8')
-         self.unknown = json.load(fd)
-         self.unknown_from.clear()
+         self.hostnames = json.load(fd)
+         self.hostnames_from.clear()
 
    def save_hostnames(self, filepath=None):
       if filepath == None:
          filepath = "db-hostnames.json"
 
       with open(filepath, 'w', encoding='utf-8') as fd:
-         json.dump(self.unknown, fd, ensure_ascii=False, indent=3)
+         json.dump(self.hostnames, fd, ensure_ascii=False, indent=3)
 
 
    def save_json(self, filepath=""):
@@ -92,7 +92,7 @@ class Crawler2:
    def clear(self):
       self.new.clear()
       self.urls.clear()
-      self.unknown.clear()
+      self.hostnames.clear()
       self.skip.clear()
       self.filters.clear()
 
@@ -149,6 +149,19 @@ class Crawler2:
             self.new.append(url_str + "/page/" + str(i))
 
 
+   def register_url(self, url):
+      url = url.strip("/")
+
+      u_hostname = urlparse(url).hostname
+
+      if u_hostname not in self.hostnames:
+         self.hostnames[u_hostname] = []
+
+      linkset = set(self.hostnames[u_hostname])
+      linkset.add(url)
+      self.hostnames[u_hostname] = sorted(linkset)
+
+
    def extract_urls(self, raw, url):
       host = urlparse(url)
       hostname = host.hostname
@@ -168,18 +181,18 @@ class Crawler2:
                         self.add_new(ref)
                      elif logging: print(f"[Crawler2] Unexpected syntax error: url={sref}")
                   else:
-                     if u_hostname not in self.unknown:
+                     if u_hostname not in self.hostnames:
                         #u_home  = urlparse(url).scheme + '://' + u_hostname
-                        self.unknown[u_hostname] = []
+                        self.hostnames[u_hostname] = []
 
-                     linkset = set(self.unknown[u_hostname])
+                     linkset = set(self.hostnames[u_hostname])
                      linkset.add(sref.strip("/"))
-                     self.unknown[u_hostname] = sorted(linkset)
+                     self.hostnames[u_hostname] = sorted(linkset)
 
                      # force add the current link which the target was found from
-                     self.unknown_from.add(url.strip("/"))
-                     #self.unknown.add(u_hostname)
-                     #self.unknown.add(sref)
+                     self.hostnames_from.add(url.strip("/"))
+                     #self.hostnames.add(u_hostname)
+                     #self.hostnames.add(sref)
 
 
    def open_url(self, url:str, parser:str):

@@ -15,6 +15,26 @@ from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
 
+class ReversePaginator:
+   def __init__(self, data, page_size):
+      self.data = data
+      self.page_size = page_size
+
+   def get_page(self, page_index):
+      result = []
+      sz = len(self.data)
+
+      start_index = max(sz - page_index * self.page_size, 0)
+      end_index = sz - (page_index-1) * self.page_size
+      #   if start_index < sz:
+      #       end_index = min(page_index*self.page_size, sz)
+      result = self.data[end_index - 1: start_index - 1 if start_index != 0 else None: -1]
+      return result
+
+   def num_pages(self):
+      return (len(self.data) + self.page_size - 1) // self.page_size
+
+
 logging = True
 
 def url_hostname(url_str:str):
@@ -25,9 +45,10 @@ def url_hostname(url_str:str):
 class Crawler2:
 
    def __init__(self, delay = 1.0, recursive=False):
-      self.new = deque()
       self.hostnames = dict()
-      self.hostnames_from = set()
+      self.hostnames_indexing = []
+
+      self.new = deque()
       self.skip = set()
       self.filters = dict()
       self.filepath = ""
@@ -50,12 +71,11 @@ class Crawler2:
       if path.exists():
          fd = open(filepath, 'r', encoding='utf-8')
          self.hostnames = json.load(fd)
-         self.hostnames_from.clear()
+         self.hostnames_indexing = list(self.hostnames.keys())
 
    def save_hostnames(self, filepath=None):
       if filepath == None:
          filepath = "db-hostnames.json"
-
       with open(filepath, 'w', encoding='utf-8') as fd:
          json.dump(self.hostnames, fd, ensure_ascii=False, indent=3)
 
@@ -156,6 +176,7 @@ class Crawler2:
 
       if u_hostname not in self.hostnames:
          self.hostnames[u_hostname] = []
+         self.hostnames_indexing.append(u_hostname)
 
       linkset = set(self.hostnames[u_hostname])
       linkset.add(url)
@@ -184,13 +205,12 @@ class Crawler2:
                      if u_hostname not in self.hostnames:
                         #u_home  = urlparse(url).scheme + '://' + u_hostname
                         self.hostnames[u_hostname] = []
+                        self.hostnames_indexing.append(u_hostname)
 
                      linkset = set(self.hostnames[u_hostname])
                      linkset.add(sref.strip("/"))
                      self.hostnames[u_hostname] = sorted(linkset)
 
-                     # force add the current link which the target was found from
-                     self.hostnames_from.add(url.strip("/"))
                      #self.hostnames.add(u_hostname)
                      #self.hostnames.add(sref)
 

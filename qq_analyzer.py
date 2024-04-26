@@ -2,7 +2,7 @@ import time
 import json
 from pathlib import Path
 import qq_parser as qq_parser
-from qq_crawler2 import Crawler2
+from qq_crawler2 import Crawler2, ReversePaginator
 import qq_grammar as qq
 from qq_prediction import Prediction
 
@@ -259,30 +259,10 @@ def test_aixploria():
    #crawler.run()
    #crawler.save_hostnames("db-hostnames.json")
 
-   ############## pagination #############
-   page_index = 1
-   page_size = 10
+   indexing = list(range(6))
+   paginator = ReversePaginator(indexing, 5)
 
-   indexing = list(crawler.unknown.keys())
-   sz = len(indexing)
-
-   result = []
-
-   start_index = (page_index-1) * page_size
-   if start_index < sz:
-      end_index = min(page_index*page_size, len(indexing))
-      result = indexing[end_index - 1:start_index - 1 if start_index != 0 else None:-1]
-      print(result)
-      print(f"{str(start_index)}:{str(end_index)}")
-
-   ############################################
-   num_page = (sz + page_size - 1) // page_size
-   print(f"sz={str(sz)}, num_pages={str(num_page)}")
-
-   if(num_page > page_index):
-      return result, page_index+1
-
-   return result, page_index
+   print(paginator.get_page(1))
    ############################################
 
 

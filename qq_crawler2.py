@@ -169,8 +169,8 @@ class Crawler2:
                      elif logging: print(f"[Crawler2] Unexpected syntax error: url={sref}")
                   else:
                      if u_hostname not in self.unknown:
-                        u_home  = urlparse(url).scheme + '://' + u_hostname
-                        self.unknown[u_hostname] = [u_home]
+                        #u_home  = urlparse(url).scheme + '://' + u_hostname
+                        self.unknown[u_hostname] = []
 
                      linkset = set(self.unknown[u_hostname])
                      linkset.add(sref.strip("/"))

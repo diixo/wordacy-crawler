@@ -265,6 +265,13 @@ def test_aixploria():
    print(paginator.get_page(1))
    ############################################
 
+def test_opentools_ai():
+   crawler = Crawler2(delay=3, recursive=True)
+   crawler.open_hostnames("db-hostnames.json")
+
+   crawler.enqueue_url("https://opentools.ai")
+   crawler.run()
+   crawler.save_hostnames("db-hostnames.json")
 
 
 if __name__ == "__main__":
@@ -273,3 +280,5 @@ if __name__ == "__main__":
    #test_dataset()
 
    #test_aixploria()
+   #test_opentools_ai()
+

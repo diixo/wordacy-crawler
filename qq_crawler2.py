@@ -72,6 +72,7 @@ class Crawler2:
          fd = open(filepath, 'r', encoding='utf-8')
          self.hostnames = json.load(fd)
          self.hostnames_indexing = list(self.hostnames.keys())
+         print(f"<< [Crawler2]::open_hostnames={len(self.hostnames)}")
 
    def save_hostnames(self, filepath=None):
       if filepath == None:

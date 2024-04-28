@@ -267,11 +267,11 @@ def test_aixploria():
 
 def test_opentools_ai():
    crawler = Crawler2(delay=3, recursive=True)
-   crawler.open_hostnames("db-hostnames.json")
+   crawler.open_hostnames("db-hostnames_v2.json")
 
    crawler.enqueue_url("https://opentools.ai")
    crawler.run()
-   crawler.save_hostnames("db-hostnames.json")
+   crawler.save_hostnames("db-hostnames_v2.json")
 
 
 if __name__ == "__main__":

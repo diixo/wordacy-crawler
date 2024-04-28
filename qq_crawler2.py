@@ -78,7 +78,7 @@ class Crawler2:
       if filepath == None:
          filepath = "db-hostnames.json"
       with open(filepath, 'w', encoding='utf-8') as fd:
-         json.dump(self.hostnames, fd, ensure_ascii=False, indent=3)
+         json.dump(self.hostnames, fd, ensure_ascii=False, indent=2)
 
 
    def save_json(self, filepath=""):
@@ -172,16 +172,16 @@ class Crawler2:
 
    def register_url(self, url):
       url = url.strip("/")
-
       u_hostname = urlparse(url).hostname
 
       if u_hostname not in self.hostnames:
-         self.hostnames[u_hostname] = []
+         self.hostnames[u_hostname] = { "urls":[], "type":"1" }
          self.hostnames_indexing.append(u_hostname)
 
-      linkset = set(self.hostnames[u_hostname])
+      hostname_ref = self.hostnames[u_hostname]
+      linkset = set(hostname_ref["urls"])
       linkset.add(url)
-      self.hostnames[u_hostname] = sorted(linkset)
+      hostname_ref["urls"] = sorted(linkset)
 
 
    def extract_urls(self, raw, url):
@@ -204,13 +204,16 @@ class Crawler2:
                      elif logging: print(f"[Crawler2] Unexpected syntax error: url={sref}")
                   else:
                      if u_hostname not in self.hostnames:
-                        #u_home  = urlparse(url).scheme + '://' + u_hostname
-                        self.hostnames[u_hostname] = []
+                        self.hostnames[u_hostname] = { "urls":[], "type":"0" }
                         self.hostnames_indexing.append(u_hostname)
 
-                     linkset = set(self.hostnames[u_hostname])
+                     if sref.find("="+"opentools") > 1:
+                        sref = urlparse(url).scheme + '://' + u_hostname
+
+                     hostname_ref = self.hostnames[u_hostname]
+                     linkset = set(hostname_ref["urls"])
                      linkset.add(sref.strip("/"))
-                     self.hostnames[u_hostname] = sorted(linkset)
+                     hostname_ref["urls"] = sorted(linkset)
 
                      #self.hostnames.add(u_hostname)
                      #self.hostnames.add(sref)

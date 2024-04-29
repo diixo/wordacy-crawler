@@ -1,8 +1,7 @@
 {
   "www.make.com": {
     "urls": [
-      "https://www.make.com",
-      "https://www.make.com/en?pc=aixploria"
+      "https://www.make.com"
     ],
     "type": "0"
   },
@@ -40,21 +39,15 @@
   "www.stylar.ai": {
     "urls": [
       "https://www.stylar.ai",
-      "https://www.stylar.ai/?via=aixploria",
-      "https://www.stylar.ai/tools/ai-design-sketch?via=aixploria",
-      "https://www.stylar.ai/tools/generative-fill?via=aixploria"
+      "https://www.stylar.ai",
+      "https://www.stylar.ai/tools/ai-design-sketch",
+      "https://www.stylar.ai/tools/generative-fill"
     ],
     "type": "0"
   },
   "go.grimo.ai": {
     "urls": [
       "https://go.grimo.ai"
-    ],
-    "type": "0"
-  },
-  "app.heygen.com": {
-    "urls": [
-      "https://app.heygen.com/guest/url2ugc?sid=rewardful&via=aixploria"
     ],
     "type": "0"
   },
@@ -160,13 +153,13 @@
   "www.wondercraft.ai": {
     "urls": [
       "https://www.wondercraft.ai",
-      "https://www.wondercraft.ai/?via=aixploria"
+      "https://www.wondercraft.ai"
     ],
     "type": "0"
   },
   "bluegpt.app": {
     "urls": [
-      "https://bluegpt.app/?via=aixploria"
+      "https://bluegpt.app"
     ],
     "type": "0"
   },
@@ -186,13 +179,13 @@
   },
   "heygen.com": {
     "urls": [
-      "https://heygen.com/?sid=rewardful&via=aixploria"
+      "https://heygen.com"
     ],
     "type": "0"
   },
   "app.leonardo.ai": {
     "urls": [
-      "https://app.leonardo.ai/?via=aixploria"
+      "https://app.leonardo.ai"
     ],
     "type": "0"
   },
@@ -205,7 +198,7 @@
   "rytr.me": {
     "urls": [
       "https://rytr.me",
-      "https://rytr.me/?via=aixploria"
+      "https://rytr.me"
     ],
     "type": "0"
   },
@@ -218,13 +211,13 @@
   "mubert.com": {
     "urls": [
       "https://mubert.com",
-      "https://mubert.com/render/pricing?via=aixploria"
+      "https://mubert.com/render/pricing"
     ],
     "type": "0"
   },
   "www.chatpdf.com": {
     "urls": [
-      "https://www.chatpdf.com/?via=aixploria"
+      "https://www.chatpdf.com"
     ],
     "type": "0"
   },
@@ -237,37 +230,36 @@
   "fliki.ai": {
     "urls": [
       "https://fliki.ai",
-      "https://fliki.ai/?via=aixploria",
+      "https://fliki.ai",
       "https://fliki.ai/tools/tweet-to-video"
     ],
     "type": "0"
   },
   "www.humata.ai": {
     "urls": [
-      "https://www.humata.ai/?via=aixploria"
+      "https://www.humata.ai"
     ],
     "type": "0"
   },
   "writesonic.com": {
     "urls": [
       "https://writesonic.com",
-      "https://writesonic.com/?fpr=aixploria",
-      "https://writesonic.com/ai-article-writer-generator?fpr=aixploria",
-      "https://writesonic.com/chat?fpr=aixploria"
+      "https://writesonic.com",
+      "https://writesonic.com/ai-article-writer-generator",
+      "https://writesonic.com/chat"
     ],
     "type": "0"
   },
   "www.synthesia.io": {
     "urls": [
       "https://www.synthesia.io",
-      "https://www.synthesia.io/?via=aixploria"
+      "https://www.synthesia.io"
     ],
     "type": "0"
   },
   "undetectable.ai": {
     "urls": [
-      "https://undetectable.ai",
-      "https://undetectable.ai/?_by=aixploria"
+      "https://undetectable.ai"
     ],
     "type": "0"
   },
@@ -279,7 +271,7 @@
   },
   "www.askyourpdf.com": {
     "urls": [
-      "https://www.askyourpdf.com/?via=aixploria"
+      "https://www.askyourpdf.com"
     ],
     "type": "0"
   },
@@ -292,20 +284,20 @@
   "taplio.com": {
     "urls": [
       "https://taplio.com",
-      "https://taplio.com/?via=aixploria"
+      "https://taplio.com"
     ],
     "type": "0"
   },
   "easy-peasy.ai": {
     "urls": [
-      "https://easy-peasy.ai/?via=aixploria"
+      "https://easy-peasy.ai"
     ],
     "type": "0"
   },
   "www.beehiiv.com": {
     "urls": [
       "https://www.beehiiv.com",
-      "https://www.beehiiv.com/?via=aixploria"
+      "https://www.beehiiv.com"
     ],
     "type": "0"
   },
@@ -526,7 +518,7 @@
   },
   "interiorai.com": {
     "urls": [
-      "https://interiorai.com/?via=aixploria"
+      "https://interiorai.com"
     ],
     "type": "0"
   },
@@ -1678,12 +1670,12 @@
   "www.fineshare.com": {
     "urls": [
       "https://www.fineshare.com",
-      "https://www.fineshare.com/ai-voice-cloning/?ref=aixploria",
-      "https://www.fineshare.com/finecam/?ref=aixploria",
-      "https://www.fineshare.com/online-voice-changer/?ref=aixploria",
-      "https://www.fineshare.com/speech-to-text-online/?ref=aixploria",
-      "https://www.fineshare.com/voicetrans/?ref=aixploria",
-      "https://www.fineshare.com/zoom-background/?ref=aixploria"
+      "https://www.fineshare.com/ai-voice-cloning",
+      "https://www.fineshare.com/finecam",
+      "https://www.fineshare.com/online-voice-changer",
+      "https://www.fineshare.com/speech-to-text-online",
+      "https://www.fineshare.com/voicetrans",
+      "https://www.fineshare.com/zoom-background"
     ],
     "type": "0"
   },
@@ -2099,7 +2091,7 @@
   },
   "stockimg.ai": {
     "urls": [
-      "https://stockimg.ai/?via=aixploria"
+      "https://stockimg.ai"
     ],
     "type": "0"
   },
@@ -3105,7 +3097,7 @@
   },
   "jammable.com": {
     "urls": [
-      "https://jammable.com/?aff=aixploria"
+      "https://jammable.com"
     ],
     "type": "0"
   },
@@ -3129,7 +3121,7 @@
   },
   "singify.fineshare.com": {
     "urls": [
-      "https://singify.fineshare.com/?ref=aixploria"
+      "https://singify.fineshare.com"
     ],
     "type": "0"
   },
@@ -3578,8 +3570,7 @@
   },
   "repurpose.io": {
     "urls": [
-      "https://repurpose.io",
-      "https://repurpose.io/?aff=254843"
+      "https://repurpose.io"
     ],
     "type": "0"
   },
@@ -3591,19 +3582,19 @@
   },
   "echo.win": {
     "urls": [
-      "https://echo.win/referral?code=hwlg17wfxx"
+      "https://echo.win"
     ],
     "type": "0"
   },
   "ideabuddy.com": {
     "urls": [
-      "https://ideabuddy.com/?via=aixploria"
+      "https://ideabuddy.com"
     ],
     "type": "0"
   },
   "app.getmerlin.in": {
     "urls": [
-      "https://app.getmerlin.in/?ref=owi4ztk"
+      "https://app.getmerlin.in"
     ],
     "type": "0"
   },
@@ -3738,13 +3729,13 @@
   },
   "app.nswr.ai": {
     "urls": [
-      "https://app.nswr.ai/?via=aixploria"
+      "https://app.nswr.ai"
     ],
     "type": "0"
   },
   "enterprisedna.co": {
     "urls": [
-      "https://enterprisedna.co/?rfsn=7862790.15fdb5"
+      "https://enterprisedna.co/"
     ],
     "type": "0"
   },
@@ -4147,8 +4138,7 @@
   },
   "getmanifest.ai": {
     "urls": [
-      "https://getmanifest.ai",
-      "https://getmanifest.ai/?utm_source=aixploria-listing&utm_medium=listing"
+      "https://getmanifest.ai"
     ],
     "type": "0"
   },
@@ -5031,12 +5021,6 @@
     ],
     "type": "0"
   },
-  "help.zapier.com": {
-    "urls": [
-      "https://help.zapier.com/hc/en-us/articles/15703650952077-use-the-ai-powered-zap-builder-to-generate-zaps-beta"
-    ],
-    "type": "0"
-  },
   "mixpeek.com": {
     "urls": [
       "https://mixpeek.com"
@@ -5449,7 +5433,7 @@
   "www.hoppycopy.co": {
     "urls": [
       "https://www.hoppycopy.co",
-      "https://www.hoppycopy.co/?via=aixploria"
+      "https://www.hoppycopy.co"
     ],
     "type": "0"
   },
@@ -5744,7 +5728,7 @@
   },
   "fireflies.ai": {
     "urls": [
-      "https://fireflies.ai/?fpr=aixploria"
+      "https://fireflies.ai"
     ],
     "type": "0"
   },
@@ -7091,7 +7075,7 @@
   },
   "chatwithpdf.ai": {
     "urls": [
-      "https://chatwithpdf.ai/?aff=aixploria"
+      "https://chatwithpdf.ai"
     ],
     "type": "0"
   },
@@ -7104,7 +7088,7 @@
   "numerous.ai": {
     "urls": [
       "https://numerous.ai",
-      "https://numerous.ai/?ref=aixploria"
+      "https://numerous.ai"
     ],
     "type": "0"
   },
@@ -7125,12 +7109,6 @@
   "gpt.space": {
     "urls": [
       "https://gpt.space"
-    ],
-    "type": "0"
-  },
-  "appsource.microsoft.com": {
-    "urls": [
-      "https://appsource.microsoft.com/en-us/product/office/wa200005271?src=aixploria.comen&mktcmpid=directory"
     ],
     "type": "0"
   },
@@ -7912,7 +7890,7 @@
   },
   "www.aiapply.co": {
     "urls": [
-      "https://www.aiapply.co/?via=aixploria"
+      "https://www.aiapply.co"
     ],
     "type": "0"
   },
@@ -9312,12 +9290,6 @@
     ],
     "type": "0"
   },
-  "www.checkout-ds24.com": {
-    "urls": [
-      "https://www.checkout-ds24.com/redir/540531/aixploria/campaignkey"
-    ],
-    "type": "0"
-  },
   "www.usejackai.com": {
     "urls": [
       "https://www.usejackai.com"
@@ -9326,13 +9298,13 @@
   },
   "mangoseo.io": {
     "urls": [
-      "https://mangoseo.io/?via=aixploria"
+      "https://mangoseo.io"
     ],
     "type": "0"
   },
   "scalenut.com": {
     "urls": [
-      "https://scalenut.com/?fpr=aixploria"
+      "https://scalenut.com"
     ],
     "type": "0"
   },
@@ -9350,7 +9322,7 @@
   },
   "videotok.app": {
     "urls": [
-      "https://videotok.app/?via=aixploria"
+      "https://videotok.app"
     ],
     "type": "0"
   },
@@ -9773,7 +9745,7 @@
   },
   "faceless.video": {
     "urls": [
-      "https://faceless.video/?aff=aixploria"
+      "https://faceless.video"
     ],
     "type": "0"
   },
@@ -10100,7 +10072,7 @@
   },
   "www.videotoblog.ai": {
     "urls": [
-      "https://www.videotoblog.ai/?via=aixploria"
+      "https://www.videotoblog.ai"
     ],
     "type": "0"
   },
@@ -10197,7 +10169,7 @@
   },
   "textcortex.com": {
     "urls": [
-      "https://textcortex.com/?via=aixploria"
+      "https://textcortex.com"
     ],
     "type": "0"
   },
@@ -10894,7 +10866,7 @@
   "www.framer.com": {
     "urls": [
       "https://www.framer.com",
-      "https://www.framer.com/features/ai/?via=aixploria"
+      "https://www.framer.com/features/ai"
     ],
     "type": "0"
   },
@@ -12473,7 +12445,7 @@
   "predis.ai": {
     "urls": [
       "https://predis.ai",
-      "https://predis.ai/?ref=aixploria"
+      "https://predis.ai"
     ],
     "type": "0"
   },
@@ -12708,14 +12680,13 @@
   },
   "10web.io": {
     "urls": [
-      "https://10web.io",
-      "https://10web.io/?_from=aixploria"
+      "https://10web.io"
     ],
     "type": "0"
   },
   "www.cogniflow.ai": {
     "urls": [
-      "https://www.cogniflow.ai/?aff=aixploria"
+      "https://www.cogniflow.ai"
     ],
     "type": "0"
   },
@@ -13766,7 +13737,7 @@
   },
   "jenni.ai": {
     "urls": [
-      "https://jenni.ai/?via=aixploria"
+      "https://jenni.ai"
     ],
     "type": "0"
   },
@@ -13844,7 +13815,7 @@
   },
   "www.play.ht": {
     "urls": [
-      "https://www.play.ht/?via=aixploria"
+      "https://www.play.ht"
     ],
     "type": "0"
   },
@@ -14194,7 +14165,7 @@
   "www.frase.io": {
     "urls": [
       "https://www.frase.io",
-      "https://www.frase.io/?via=aixploria"
+      "https://www.frase.io"
     ],
     "type": "0"
   },

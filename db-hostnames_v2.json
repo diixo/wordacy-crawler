@@ -14965,6 +14965,7 @@
   },
   "opentools.ai": {
     "urls": [
+      "https://opentools.ai",
       "https://opentools.ai/tools/indexmysite"
     ],
     "type": "1"
@@ -61975,5 +61976,11 @@
       "https://support.cloudflare.com/hc/en-us/categories/200275218-getting-started"
     ],
     "type": "0"
+  },
+  "topai.tools": {
+    "urls": [
+      "https://topai.tools"
+    ],
+    "type": "1"
   }
 }

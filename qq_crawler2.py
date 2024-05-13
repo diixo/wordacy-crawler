@@ -207,8 +207,9 @@ class Crawler2:
                         self.hostnames[u_hostname] = { "urls":[], "type":"0" }
                         self.hostnames_indexing.append(u_hostname)
 
-                     if sref.find("="+"opentools") > 1:
-                        sref = urlparse(url).scheme + '://' + u_hostname
+                     findex = max(sref.find("?via="), sref.find("?ref="))
+                     if findex > 0:
+                        sref = sref[:findex]
 
                      hostname_ref = self.hostnames[u_hostname]
                      linkset = set(hostname_ref["urls"])

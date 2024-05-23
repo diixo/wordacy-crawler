@@ -62,6 +62,8 @@ class Crawler2:
       if path.exists():
          fd = open(filepath, 'r', encoding='utf-8')
          self.urls = json.load(fd)
+         for domain in self.urls.keys():
+                self.urls[domain] = set(self.urls[domain])
          self.new = deque(self.urls.get(".new", deque()))
          print(f"<< [Crawler2]::open_json[remained={len(self.new)}]")
       self.filepath = filepath

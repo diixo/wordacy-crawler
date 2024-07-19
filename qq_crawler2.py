@@ -191,6 +191,7 @@ class Crawler2:
       #home = host[0] + '://' + host[1]
 
       alls = raw.find_all(['a', 'loc'])
+      print("extract_urls: ", str(len(alls)))
       for link in alls:
          if hasattr(link, 'attrs'):
                sref = link.attrs.get('href', None)

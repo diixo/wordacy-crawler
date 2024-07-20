@@ -249,7 +249,40 @@ def main():
     #url = "https://GeeksforGeeks.org/"
     #result = parse_url(url)
 
+    arxiv_json_classify(result)
+
     save_json(result, file_path="storage/futuretools.json")
+
+categories = {
+    #"cs.SE": ["app", "application"],
+    "cs.MM": ["video", "videos", "animation", "music", "animations"],
+    "cs.GR": ["image", "images", "photo", "photos", "3d", "renders", "rendering", "texture", "textures", "gui", "midjourney", "cg", "art"],
+    "cs.AI": ["chatgpt", "ai", "ai-powered", "huggingface", "ai-generated", "ai-driven", "ai-enhanced", "ai-prompted", "midjourney", "neural"],
+    "cs.CY": ["chatgpt",],                              # Computers and Society
+    "cs.HI": ["chatgpt", "chat", "ui"],                 # Human-Computer Interfaces
+    "cs.SI": ["aggregate", "aggregates", "social", "platform", "platforms"],     # Social and Information Networks
+    "cs.LG": ["llm", "llms", "huggingface", "ml", "neural"],            # Machine learning
+    "cs.CL": ["llm", "llms"],                           # Computation and Language
+    "cs.HC": ["llm", "llms", "ux"],                     # Human-Computer Interaction
+    "cs.IR": ["summarize", "summarization", "extraction", "emails", "documents", "extracts", "summaries", "retrieval",
+              "patterns"],  
+                                                        # information retrieval
+    "cs.NI": ["cloud",],                                # Networking and Internet Architecture
+    #"cs.OS": [ "ios", "macos" ],
+    "cs.SD": ["sound", "voice", "audio", "music", "speech", "voiceovers", "voiceover", "audios"],
+    "cs.CV": ["upscaler", "face", "facial", "augmented"],
+    "cs.PL": ["programming"]
+}
+
+def arxiv_json_classify(dataset: list):
+    for item in dataset:
+        words = qq.str_tokenize_words(item["abstract"].lower())
+        for term, keywords in categories.items():
+            keywords = set(keywords)
+            for word in words:
+                if word in keywords:
+                    item["terms"] = item["terms"] + " " + term
+                    break
 
 
 if __name__ == "__main__":

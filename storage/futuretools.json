@@ -192,7 +192,7 @@
    {
       "title": "An AI chatbot for online shopping with personalized assistance and product recommendations.",
       "abstract": "An AI chatbot for online shopping with personalized assistance and product recommendations.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.CL"
    },
    {
       "title": "A platform for creating and sharing interactive quizzes, surveys, and polls to engage audiences and gather insights.",
@@ -347,7 +347,7 @@
    {
       "title": "A locally-run chatbot for private conversations.",
       "abstract": "A locally-run chatbot for private conversations.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CL"
    },
    {
       "title": "A tool for task management and productivity.",
@@ -492,7 +492,7 @@
    {
       "title": "A chatbot platform for publishers reader engagement through personalized conversations on websites.",
       "abstract": "A chatbot platform for publishers reader engagement through personalized conversations on websites.",
-      "terms": "cs.SE cs.SI"
+      "terms": "cs.SE cs.SI cs.CL"
    },
    {
       "title": "A tool to automate meeting note-taking by providing summaries, transcripts, and action items from audio recordings.",
@@ -522,7 +522,7 @@
    {
       "title": "A conversational chatbot for content personalization, automation, and data analysis.",
       "abstract": "A conversational chatbot for content personalization, automation, and data analysis.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CL"
    },
    {
       "title": "An app for emotional support and self-reflection through micro-journaling.",
@@ -1072,7 +1072,7 @@
    {
       "title": "A platform to build chatbot for website engagement and conversions.",
       "abstract": "A platform to build chatbot for website engagement and conversions.",
-      "terms": "cs.SE cs.SI"
+      "terms": "cs.SE cs.SI cs.CL"
    },
    {
       "title": "A platform for data analysis and democratize data access.",
@@ -1557,7 +1557,7 @@
    {
       "title": "A tool to creates a personalized chatbot from custom data sources using RTX acceleration.",
       "abstract": "A tool to creates a personalized chatbot from custom data sources using RTX acceleration.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CL"
    },
    {
       "title": "A platform for accessing over 100 AI models through a single API interface.",
@@ -1577,7 +1577,7 @@
    {
       "title": "A chatbot for ethical engagement, avoiding controversy and harm.",
       "abstract": "A chatbot for ethical engagement, avoiding controversy and harm.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CL"
    },
    {
       "title": "A document collaboration platform for knowledge sharing and management through interactive documents and wikis.",
@@ -1712,7 +1712,7 @@
    {
       "title": "A chatbot for free legal answers to user inquiries.",
       "abstract": "A chatbot for free legal answers to user inquiries.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CL"
    },
    {
       "title": "A platform to automate domain parking revenue with customizable templates, ad integration, and DNS control.",
@@ -1997,7 +1997,7 @@
    {
       "title": "A platform to automate customer support with a multilingual AI chatbot.",
       "abstract": "A platform to automate customer support with a multilingual AI chatbot.",
-      "terms": "cs.SE cs.AI cs.SI"
+      "terms": "cs.SE cs.AI cs.SI cs.CL"
    },
    {
       "title": "A tool for preliminary interpretations of X-ray images.",
@@ -2292,7 +2292,7 @@
    {
       "title": "A tool to create customized AI chatbot for websites for user interaction and support.",
       "abstract": "A tool to create customized AI chatbot for websites for user interaction and support.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.CL"
    },
    {
       "title": "A tool to convert text into natural-sounding speech.",
@@ -2427,7 +2427,7 @@
    {
       "title": "An open-source chatbot for productivity assistance that runs 100% offline on your computer.",
       "abstract": "An open-source chatbot for productivity assistance that runs 100% offline on your computer.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CL"
    },
    {
       "title": "A tool to clone voices with style control and multilingual support.",
@@ -3112,7 +3112,7 @@
    {
       "title": "An multilingual AI chatbot for personalized answers and conversations.",
       "abstract": "An multilingual AI chatbot for personalized answers and conversations.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.CL"
    },
    {
       "title": "An eCommerce promotion platform for merchants to improve sales and customer retention.",
@@ -3542,7 +3542,7 @@
    {
       "title": "A tool to create chatbot assistants.",
       "abstract": "A tool to create chatbot assistants.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CL"
    },
    {
       "title": "A tool for personalized customer support with Zendesk.",
@@ -3682,7 +3682,7 @@
    {
       "title": "A tool for speech-to-text transcription in over 90 languages.",
       "abstract": "A tool for speech-to-text transcription in over 90 languages.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SD"
    },
    {
       "title": "A tool for collective software development using intelligent agents.",
@@ -3742,7 +3742,7 @@
    {
       "title": "An browser extension to browse the Internet with a chatbot, AI assistant, and website editor.",
       "abstract": "An browser extension to browse the Internet with a chatbot, AI assistant, and website editor.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.CL"
    },
    {
       "title": "An app to simplify problem-solving and learning.",
@@ -3852,7 +3852,7 @@
    {
       "title": "An chatbot assistant to optimize conversions and sales.",
       "abstract": "An chatbot assistant to optimize conversions and sales.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CL"
    },
    {
       "title": "A tool to generate, analyze, edit, and publish content to popular CMS platforms.",
@@ -3892,7 +3892,7 @@
    {
       "title": "A no-code platform to create and train AI chatbot.",
       "abstract": "A no-code platform to create and train AI chatbot.",
-      "terms": "cs.SE cs.AI cs.SI"
+      "terms": "cs.SE cs.AI cs.SI cs.CL"
    },
    {
       "title": "A tool for personalized digest summaries of your subscribed content.",
@@ -4077,7 +4077,7 @@
    {
       "title": "A whatsapp chatbot for mental health support.",
       "abstract": "A whatsapp chatbot for mental health support.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CL"
    },
    {
       "title": "A tool to launch business ideas.",
@@ -4132,7 +4132,7 @@
    {
       "title": "A tool for voice-to-text conversion.",
       "abstract": "A tool for voice-to-text conversion.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SD"
    },
    {
       "title": "A Google Sheets Apps Script to integrate OpenAI API responses in Google Sheets.",
@@ -4277,7 +4277,7 @@
    {
       "title": "A chatbot platform to save and organize conversations, share content, and use voice input and text-to-speech.",
       "abstract": "A chatbot platform to save and organize conversations, share content, and use voice input and text-to-speech.",
-      "terms": "cs.SE cs.SI cs.SD"
+      "terms": "cs.SE cs.SI cs.CL cs.SD"
    },
    {
       "title": "A tool to turn ideas into actionable plans.",
@@ -4407,7 +4407,7 @@
    {
       "title": "A chatbot for 24/7 customer service.",
       "abstract": "A chatbot for 24/7 customer service.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CL"
    },
    {
       "title": "A tool to generate landing page and blog page content.",
@@ -4487,7 +4487,7 @@
    {
       "title": "A chatbot for ecommerce.",
       "abstract": "A chatbot for ecommerce.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CL"
    },
    {
       "title": "A virtual business analyst to analyze and strategize.",
@@ -4822,7 +4822,7 @@
    {
       "title": "A free chatbot for accessing and understanding PDFs.",
       "abstract": "A free chatbot for accessing and understanding PDFs.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CL"
    },
    {
       "title": "A platform for storing and retrieving unstructured data.",
@@ -5257,7 +5257,7 @@
    {
       "title": "A data analyst chatbot to visualize and analyze data.",
       "abstract": "A data analyst chatbot to visualize and analyze data.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CL"
    },
    {
       "title": "A platform for newsletters and operators to create content.",
@@ -5337,7 +5337,7 @@
    {
       "title": "A platform with document creation process, encryption, a chatbot, and knowledge-based tools.",
       "abstract": "A platform with document creation process, encryption, a chatbot, and knowledge-based tools.",
-      "terms": "cs.SE cs.SI"
+      "terms": "cs.SE cs.SI cs.CL"
    },
    {
       "title": "A platform for optimizing UX and generating customized copy.",
@@ -5552,7 +5552,7 @@
    {
       "title": "A virtual therapist chatbot offering support and understanding to individuals.",
       "abstract": "A virtual therapist chatbot offering support and understanding to individuals.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CL"
    },
    {
       "title": "A tool to write songs and collaboration.",
@@ -6387,7 +6387,7 @@
    {
       "title": "A chatbot that provides 24/7 customer support.",
       "abstract": "A chatbot that provides 24/7 customer support.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CL"
    },
    {
       "title": "A free tool to summarize videos and take notes.",
@@ -6422,7 +6422,7 @@
    {
       "title": "A chatbot for customer service assistance on any website.",
       "abstract": "A chatbot for customer service assistance on any website.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CL"
    },
    {
       "title": "A tool to have conversations with influential figures from history.",
@@ -6527,7 +6527,7 @@
    {
       "title": "An chatbot app to have personalized conversations and personal assistant.",
       "abstract": "An chatbot app to have personalized conversations and personal assistant.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CL"
    },
    {
       "title": "A github respositary for developers to create, deploy, and manage autonomous AI agents.",
@@ -6587,7 +6587,7 @@
    {
       "title": "A free AI chatbot for Discord.",
       "abstract": "A free AI chatbot for Discord.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.CL"
    },
    {
       "title": "A platform for facial recognition, liveness detection, and face matching.",
@@ -6752,7 +6752,7 @@
    {
       "title": "A platform to build customizable chatbot.",
       "abstract": "A platform to build customizable chatbot.",
-      "terms": "cs.SE cs.SI"
+      "terms": "cs.SE cs.SI cs.CL"
    },
    {
       "title": "Optimize website conversions and enhance ROI with data-driven recommendations.",
@@ -6802,7 +6802,7 @@
    {
       "title": "A tool to build chatbot and chatbot widgets trained on user data.",
       "abstract": "A tool to build chatbot and chatbot widgets trained on user data.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CL"
    },
    {
       "title": "A platform to create, edit visualizations using natural language.",
@@ -6977,7 +6977,7 @@
    {
       "title": "A Q&A chatbot for videos.",
       "abstract": "A Q&A chatbot for videos.",
-      "terms": "cs.SE cs.MM"
+      "terms": "cs.SE cs.MM cs.CL"
    },
    {
       "title": "A tool to transcribe spoken words into summarized text.",
@@ -6987,7 +6987,7 @@
    {
       "title": "A chatbot for guidance and advice to help users become a Jedi.",
       "abstract": "A chatbot for guidance and advice to help users become a Jedi.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CL"
    },
    {
       "title": "A spreadsheet editor with formula assistance.",
@@ -7427,7 +7427,7 @@
    {
       "title": "A chatbot provides answers to your questions about twitter algorithm.",
       "abstract": "A chatbot provides answers to your questions about twitter algorithm.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CL"
    },
    {
       "title": "An ai assistant to help with communication and organization.",
@@ -7462,7 +7462,7 @@
    {
       "title": "A tool to convert audio-to-text.",
       "abstract": "A tool to convert audio-to-text.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SD"
    },
    {
       "title": "A suite of AI art, copywriting, and prompting tools all in one place",
@@ -7472,7 +7472,7 @@
    {
       "title": "A Hugging Face space to use AutoGPT.",
       "abstract": "A Hugging Face space to use AutoGPT.",
-      "terms": "cs.SE cs.CV"
+      "terms": "cs.SE cs.AI cs.CV"
    },
    {
       "title": "A platform to convert text into video.",
@@ -7502,7 +7502,7 @@
    {
       "title": "A platform to create chatbot.",
       "abstract": "A platform to create chatbot.",
-      "terms": "cs.SE cs.SI"
+      "terms": "cs.SE cs.SI cs.CL"
    },
    {
       "title": "A virtual receptionist software to automate scheduling, Q&A, and lead generation.",
@@ -7707,7 +7707,7 @@
    {
       "title": "A tool to customize twitch chatbot for streamers.",
       "abstract": "A tool to customize twitch chatbot for streamers.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CL"
    },
    {
       "title": "A ui for chatgpt.",
@@ -7742,7 +7742,7 @@
    {
       "title": "A chatbot to answer tax-related questions.",
       "abstract": "A chatbot to answer tax-related questions.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CL"
    },
    {
       "title": "A tool for nocode app generation.",
@@ -7992,7 +7992,7 @@
    {
       "title": "A tool to build chatbot for telegram.",
       "abstract": "A tool to build chatbot for telegram.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CL"
    },
    {
       "title": "Build custom AI chatbots trained on your data in 5 minutes",
@@ -8622,7 +8622,7 @@
    {
       "title": "A tool for chatbot building.",
       "abstract": "A tool for chatbot building.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CL"
    },
    {
       "title": "An app to generate ai artwork.",
@@ -8867,7 +8867,7 @@
    {
       "title": "A chatbot builder.",
       "abstract": "A chatbot builder.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CL"
    },
    {
       "title": "A search engine for product teams.",
@@ -8892,7 +8892,7 @@
    {
       "title": "A tool to build chatbot using Notion Pages.",
       "abstract": "A tool to build chatbot using Notion Pages.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CL"
    },
    {
       "title": "A tool for logo designs.",
@@ -9107,12 +9107,12 @@
    {
       "title": "A chatbot to generate code completions.",
       "abstract": "A chatbot to generate code completions.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CL"
    },
    {
       "title": "A tool for chatbot building.",
       "abstract": "A tool for chatbot building.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CL"
    },
    {
       "title": "A tool to create custom question answering bot.",
@@ -9237,7 +9237,7 @@
    {
       "title": "A tool to create and integrate a customizable chatbot.",
       "abstract": "A tool to create and integrate a customizable chatbot.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CL"
    },
    {
       "title": "A platform for content generation.",
@@ -9322,7 +9322,7 @@
    {
       "title": "A chatbot tool with HubSpot features.",
       "abstract": "A chatbot tool with HubSpot features.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CL"
    },
    {
       "title": "A tool for audio transcriptions.",
@@ -9412,7 +9412,7 @@
    {
       "title": "A chatgpt chatbot with better response time and UI.",
       "abstract": "A chatgpt chatbot with better response time and UI.",
-      "terms": "cs.SE cs.AI cs.CY cs.HI"
+      "terms": "cs.SE cs.AI cs.CY cs.HI cs.CL"
    },
    {
       "title": "A tool for podcasting to create content.",
@@ -9497,7 +9497,7 @@
    {
       "title": "A tool to convert websites to chatbot.",
       "abstract": "A tool to convert websites to chatbot.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CL"
    },
    {
       "title": "A tool for bookkeeping and finances.",
@@ -9902,7 +9902,7 @@
    {
       "title": "An app for writing and chatbot to generate content.",
       "abstract": "An app for writing and chatbot to generate content.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CL"
    },
    {
       "title": "A tool for blogging and content creation.",
@@ -9922,7 +9922,7 @@
    {
       "title": "A chatbot for job interview practices.",
       "abstract": "A chatbot for job interview practices.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CL"
    },
    {
       "title": "A tool to send custom postcards with custom messages.",
@@ -10192,7 +10192,7 @@
    {
       "title": "A chatbot assistant to find, write, summarize, and generate text.",
       "abstract": "A chatbot assistant to find, write, summarize, and generate text.",
-      "terms": "cs.SE cs.IR"
+      "terms": "cs.SE cs.CL cs.IR"
    },
    {
       "title": "A code generator for WordPress, WooCommerce, and other plugins.",
@@ -10472,7 +10472,7 @@
    {
       "title": "A coding tool to debug, refactor, auto-complete suggestions, error detection and fixes, and a chatbot.",
       "abstract": "A coding tool to debug, refactor, auto-complete suggestions, error detection and fixes, and a chatbot.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CL"
    },
    {
       "title": "An extension for Browsers to proofread, edit, track changes to their content.",
@@ -10627,7 +10627,7 @@
    {
       "title": "A custom chatbot from your own data and integration with websites, apps, and more.",
       "abstract": "A custom chatbot from your own data and integration with websites, apps, and more.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CL"
    },
    {
       "title": "A tool for developers to deploy AI projects and models in a serverless environment.",
@@ -10777,7 +10777,7 @@
    {
       "title": "A chatbot for business strategy, create and edit business plans, conduct market research, and analyze competitors.",
       "abstract": "A chatbot for business strategy, create and edit business plans, conduct market research, and analyze competitors.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CL"
    },
    {
       "title": "A digital voice solution to enhance and customize voices in real-time.",
@@ -10867,7 +10867,7 @@
    {
       "title": "Bing Chatbot With ChatGPT",
       "abstract": "Bing Chatbot With ChatGPT",
-      "terms": "cs.SE cs.AI cs.CY cs.HI"
+      "terms": "cs.SE cs.AI cs.CY cs.HI cs.CL"
    },
    {
       "title": "A platform to build AI models without coding.",
@@ -11132,7 +11132,7 @@
    {
       "title": "Converts your knowledgebase into a chatbot",
       "abstract": "Converts your knowledgebase into a chatbot",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CL"
    },
    {
       "title": "Visual AI text analysis and insight generation tool.",
@@ -11262,7 +11262,7 @@
    {
       "title": "AI Chatbot creator for your website",
       "abstract": "AI Chatbot creator for your website",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.CL"
    },
    {
       "title": "Use AI to write press releases",
@@ -11797,12 +11797,12 @@
    {
       "title": "AI chatbot platform",
       "abstract": "AI chatbot platform",
-      "terms": "cs.SE cs.AI cs.SI"
+      "terms": "cs.SE cs.AI cs.SI cs.CL"
    },
    {
       "title": "AI chatbot platform",
       "abstract": "AI chatbot platform",
-      "terms": "cs.SE cs.AI cs.SI"
+      "terms": "cs.SE cs.AI cs.SI cs.CL"
    },
    {
       "title": "Chrome browser extension that uses AI to help write emails",
@@ -12712,7 +12712,7 @@
    {
       "title": "Terminal-based chatbot creation tool",
       "abstract": "Terminal-based chatbot creation tool",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CL"
    },
    {
       "title": "AI-powered SEO-optimized website copy",
@@ -13837,7 +13837,7 @@
    {
       "title": "AI voice-to-text - Virtual note-taker",
       "abstract": "AI voice-to-text - Virtual note-taker",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.SD"
    },
    {
       "title": "Use AI to write tweets and Twitter threads",

@@ -152,7 +152,7 @@
    {
       "title": "A tool to generate art from text, images, and animations.",
       "abstract": "A tool to generate art from text, images, and animations.",
-      "terms": "cs.SE cs.GR"
+      "terms": "cs.SE cs.MM cs.GR"
    },
    {
       "title": "A platform to transform creative ideas, images and characters into videos.",
@@ -807,7 +807,7 @@
    {
       "title": "A tool to automatically generate fantasy novels from prompts, including plot, chapters and cover art.",
       "abstract": "A tool to automatically generate fantasy novels from prompts, including plot, chapters and cover art.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "A tool to create royalty-free drum samples.",
@@ -962,7 +962,7 @@
    {
       "title": "A motion capture solutions to create realistic animations.",
       "abstract": "A motion capture solutions to create realistic animations.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.MM"
    },
    {
       "title": "A tool to query databases using natural language, for data analysis and reporting.",
@@ -1507,7 +1507,7 @@
    {
       "title": "A tool to create digital art and graphics.",
       "abstract": "A tool to create digital art and graphics.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "A tool to generate influencer-style video ads from a URL.",
@@ -1622,7 +1622,7 @@
    {
       "title": "A Python-based data processing framework optimized for AI applications and integrates with ML libraries.",
       "abstract": "A Python-based data processing framework optimized for AI applications and integrates with ML libraries.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.LG"
    },
    {
       "title": "A tool to generate custom animated videos and stories.",
@@ -1912,7 +1912,7 @@
    {
       "title": "A tool to transform text descriptions into 3D animations.",
       "abstract": "A tool to transform text descriptions into 3D animations.",
-      "terms": "cs.SE cs.GR"
+      "terms": "cs.SE cs.MM cs.GR"
    },
    {
       "title": "A tool to convert YouTube videos into SEO-optimized written content in multiple languages.",
@@ -2037,7 +2037,7 @@
    {
       "title": "A tool to generate custom scripts for automating tasks in various programming languages.",
       "abstract": "A tool to generate custom scripts for automating tasks in various programming languages.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.PL"
    },
    {
       "title": "A tool to generate customer support help docs from SaaS product screenshots.",
@@ -2112,7 +2112,7 @@
    {
       "title": "A github repository to create and handling of Neural Radiance Fields for 3D scene generation from 2D images.",
       "abstract": "A github repository to create and handling of Neural Radiance Fields for 3D scene generation from 2D images.",
-      "terms": "cs.SE cs.GR"
+      "terms": "cs.SE cs.GR cs.AI cs.LG"
    },
    {
       "title": "A tool for code generation to create and share various types of diagrams.",
@@ -2347,7 +2347,7 @@
    {
       "title": "Discord-based AI art tool",
       "abstract": "Discord-based AI art tool",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.GR cs.AI"
    },
    {
       "title": "A tool to automate webpage schema creation for SEO.",
@@ -2492,7 +2492,7 @@
    {
       "title": "Create consistent characters with AI art",
       "abstract": "Create consistent characters with AI art",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.GR cs.AI"
    },
    {
       "title": "An engineering design copilot for product assembly design and optimization.",
@@ -2782,7 +2782,7 @@
    {
       "title": "An AI art generation tool to convert sketches and words into art.",
       "abstract": "An AI art generation tool to convert sketches and words into art.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.GR cs.AI"
    },
    {
       "title": "A Google Chrome Extension to grow Twitter X accounts by replying to popular tweets.",
@@ -3007,7 +3007,7 @@
    {
       "title": "A tool to generate optical illusion art with logos.",
       "abstract": "A tool to generate optical illusion art with logos.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "A tool to transform text into visual dance stories.",
@@ -3167,7 +3167,7 @@
    {
       "title": "A tool to deploy custom ML models with REST APIs.",
       "abstract": "A tool to deploy custom ML models with REST APIs.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.LG"
    },
    {
       "title": "A tool to create custom Minecraft skins.",
@@ -3262,7 +3262,7 @@
    {
       "title": "A tool to generate custom Midjourney prompts.",
       "abstract": "A tool to generate custom Midjourney prompts.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR cs.AI"
    },
    {
       "title": "A software for coding assistant.",
@@ -3832,7 +3832,7 @@
    {
       "title": "A tool to generate summaries from texts, audios, and videos.",
       "abstract": "A tool to generate summaries from texts, audios, and videos.",
-      "terms": "cs.SE cs.MM cs.IR"
+      "terms": "cs.SE cs.MM cs.IR cs.SD"
    },
    {
       "title": "A tool to create social media posts from blog content.",
@@ -3877,7 +3877,7 @@
    {
       "title": "A tool to create QR illusion art.",
       "abstract": "A tool to create QR illusion art.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "A tool for creating various UI elements.",
@@ -4157,7 +4157,7 @@
    {
       "title": "A tool to create advanced character animations.",
       "abstract": "A tool to create advanced character animations.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.MM"
    },
    {
       "title": "A tool to optimize website conversions and sales.",
@@ -5372,7 +5372,7 @@
    {
       "title": "A game uses a neural network to recognize doodles drawn.",
       "abstract": "A game uses a neural network to recognize doodles drawn.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.AI cs.LG"
    },
    {
       "title": "A tool to generate website cookie policies, privacy policies, and terms of service.",
@@ -5512,7 +5512,7 @@
    {
       "title": "A tool to generate code and convert code from one programming language to another.",
       "abstract": "A tool to generate code and convert code from one programming language to another.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.PL"
    },
    {
       "title": "A tool to automate personalized Twitter outreach.",
@@ -5542,7 +5542,7 @@
    {
       "title": "A nocode gui for fine-tunning LLMs.",
       "abstract": "A nocode gui for fine-tunning LLMs.",
-      "terms": "cs.SE cs.LG cs.CL cs.HC"
+      "terms": "cs.SE cs.GR cs.LG cs.CL cs.HC"
    },
    {
       "title": "A tool to create custom sticker packs from your photos.",
@@ -5632,7 +5632,7 @@
    {
       "title": "An app to transform drawings into animations.",
       "abstract": "An app to transform drawings into animations.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.MM"
    },
    {
       "title": "A tool to measure body fat, lean mass percentage and provide personalized fitness programs.",
@@ -5842,7 +5842,7 @@
    {
       "title": "A tool to calculate optimal times to use each Midjourney model.",
       "abstract": "A tool to calculate optimal times to use each Midjourney model.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR cs.AI"
    },
    {
       "title": "A tool to optimize code, make login forms, popups, and navigation menus.",
@@ -5937,7 +5937,7 @@
    {
       "title": "A tool to create and share AI-generated art.",
       "abstract": "A tool to create and share AI-generated art.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.GR cs.AI"
    },
    {
       "title": "An AI meeting assistant to record, transcribe, and summarize meetings",
@@ -5952,7 +5952,7 @@
    {
       "title": "A comprehensive suite of tools to create, store, and share AI art.",
       "abstract": "A comprehensive suite of tools to create, store, and share AI art.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.GR cs.AI"
    },
    {
       "title": "A tool to convert JPEG and PNG bitmaps into SVG vectors for printing, cutting, embroidering, and more.",
@@ -6687,7 +6687,7 @@
    {
       "title": "An app to convert photos to 3D models for augmented reality.",
       "abstract": "An app to convert photos to 3D models for augmented reality.",
-      "terms": "cs.SE cs.GR"
+      "terms": "cs.SE cs.GR cs.CV"
    },
    {
       "title": "A free tool to track your OpenAI costs.",
@@ -7067,7 +7067,7 @@
    {
       "title": "A tool to generate pixel art.",
       "abstract": "A tool to generate pixel art.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "An AI assistant with different personas for various tasks.",
@@ -7127,7 +7127,7 @@
    {
       "title": "A slack bot to generate Midjourney images.",
       "abstract": "A slack bot to generate Midjourney images.",
-      "terms": "cs.SE cs.GR"
+      "terms": "cs.SE cs.GR cs.AI"
    },
    {
       "title": "A tool to automate repetitive tasks by deploying ai agents.",
@@ -7467,7 +7467,7 @@
    {
       "title": "A suite of AI art, copywriting, and prompting tools all in one place",
       "abstract": "A suite of AI art, copywriting, and prompting tools all in one place",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.GR cs.AI"
    },
    {
       "title": "A Hugging Face space to use AutoGPT.",
@@ -7527,7 +7527,7 @@
    {
       "title": "A tool to automate code conversion between programming languages.",
       "abstract": "A tool to automate code conversion between programming languages.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.PL"
    },
    {
       "title": "A platform for logos, social media posts, ads, and brand management.",
@@ -7602,7 +7602,7 @@
    {
       "title": "A web gui for stable diffusion. ",
       "abstract": "A web gui for stable diffusion. ",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "A tool for students to create personalized flashcards.",
@@ -7722,17 +7722,17 @@
    {
       "title": "A neural search engine to find files, emails, and messages from any application.",
       "abstract": "A neural search engine to find files, emails, and messages from any application.",
-      "terms": "cs.SE cs.IR"
+      "terms": "cs.SE cs.AI cs.LG cs.IR"
    },
    {
       "title": "A platform for creating browser-based augmented reality experiences.",
       "abstract": "A platform for creating browser-based augmented reality experiences.",
-      "terms": "cs.SE cs.SI"
+      "terms": "cs.SE cs.SI cs.CV"
    },
    {
       "title": "A solution to eliminates unwanted noise from audios and videos.",
       "abstract": "A solution to eliminates unwanted noise from audios and videos.",
-      "terms": "cs.SE cs.MM"
+      "terms": "cs.SE cs.MM cs.SD"
    },
    {
       "title": "A tool to create GPT chatbots from various data sources.",
@@ -7832,7 +7832,7 @@
    {
       "title": "An art generator to turn doodles into artwork.",
       "abstract": "An art generator to turn doodles into artwork.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "A directory of community developed tools to automate various tasks.",
@@ -7912,7 +7912,7 @@
    {
       "title": "A tool to create avatars in augmented reality",
       "abstract": "A tool to create avatars in augmented reality",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CV"
    },
    {
       "title": "A platform for social media management.",
@@ -8382,7 +8382,7 @@
    {
       "title": "A free software for motion capture to create 3D animations.",
       "abstract": "A free software for motion capture to create 3D animations.",
-      "terms": "cs.SE cs.GR"
+      "terms": "cs.SE cs.MM cs.GR"
    },
    {
       "title": "A software to convert audio into music sheets.",
@@ -8412,7 +8412,7 @@
    {
       "title": "A modular, optimized GUI for stable diffusion.",
       "abstract": "A modular, optimized GUI for stable diffusion.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "An ai assistant for office tasks.",
@@ -8612,7 +8612,7 @@
    {
       "title": "A tool to create art and order to be printed on mugs, phone cases, and t-shirts.",
       "abstract": "A tool to create art and order to be printed on mugs, phone cases, and t-shirts.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "A platform for investment research and analysis.",
@@ -8632,7 +8632,7 @@
    {
       "title": "An app to generate ai art. ",
       "abstract": "An app to generate ai art. ",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.GR cs.AI"
    },
    {
       "title": "A tool to generate various diffusions with adjustable settings.",
@@ -8812,7 +8812,7 @@
    {
       "title": "A tool to customize midjourney prompts.",
       "abstract": "A tool to customize midjourney prompts.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR cs.AI"
    },
    {
       "title": "A tool for detecting AI generated images.",
@@ -9057,7 +9057,7 @@
    {
       "title": "A tool for midjourney prompt optimization.",
       "abstract": "A tool for midjourney prompt optimization.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR cs.AI"
    },
    {
       "title": "A tool to compare different language models.",
@@ -9147,7 +9147,7 @@
    {
       "title": "Quickly animate, light, and compose CG characters into a live-action scene",
       "abstract": "Quickly animate, light, and compose CG characters into a live-action scene",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "A platform for product interviews and insights.",
@@ -9277,7 +9277,7 @@
    {
       "title": "A tool to generate midjourney prompts.",
       "abstract": "A tool to generate midjourney prompts.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR cs.AI"
    },
    {
       "title": "A tool for customer support tickets management.",
@@ -9492,7 +9492,7 @@
    {
       "title": "A tool to create mockups, designs, animations and avatars.",
       "abstract": "A tool to create mockups, designs, animations and avatars.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.MM"
    },
    {
       "title": "A tool to convert websites to chatbot.",
@@ -9692,7 +9692,7 @@
    {
       "title": "A ML storage platform",
       "abstract": "A ML storage platform",
-      "terms": "cs.SE cs.SI"
+      "terms": "cs.SE cs.SI cs.LG"
    },
    {
       "title": "An app to chat with historical figures.",
@@ -9712,7 +9712,7 @@
    {
       "title": "A Google Chrome Extension for Midjourney.",
       "abstract": "A Google Chrome Extension for Midjourney.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR cs.AI"
    },
    {
       "title": "A Google Chrome Extension to send ChatGPT conversations to email.",
@@ -10112,7 +10112,7 @@
    {
       "title": "A tool to create neural voices and monetize their voices.",
       "abstract": "A tool to create neural voices and monetize their voices.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.AI cs.LG"
    },
    {
       "title": "A platform for investors to analysis and visualization.",
@@ -10207,7 +10207,7 @@
    {
       "title": "An Art tool to create artwork.",
       "abstract": "An Art tool to create artwork.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "A tool for content generation and social media management.",
@@ -10507,7 +10507,7 @@
    {
       "title": "A Google Chrome Extension for seo, marketing, art, SaaS, programming chatgpt prompts.",
       "abstract": "A Google Chrome Extension for seo, marketing, art, SaaS, programming chatgpt prompts.",
-      "terms": "cs.SE cs.AI cs.CY cs.HI"
+      "terms": "cs.SE cs.GR cs.AI cs.CY cs.HI cs.PL"
    },
    {
       "title": "A platform for writing tools .",
@@ -10572,7 +10572,7 @@
    {
       "title": "A tool to help you with programming, debugging, and other such tasks.",
       "abstract": "A tool to help you with programming, debugging, and other such tasks.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.PL"
    },
    {
       "title": "A SDK to customize GPT-3 language models and collect end-user feedback.",
@@ -10592,7 +10592,7 @@
    {
       "title": "A suite of tools for augmented analytics data exploration, visual analytics, and data wrangling for insights.",
       "abstract": "A suite of tools for augmented analytics data exploration, visual analytics, and data wrangling for insights.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CV"
    },
    {
       "title": "A tool for removing watermarks from images and videos.",
@@ -10702,7 +10702,7 @@
    {
       "title": "A midjourney prompt generator.",
       "abstract": "A midjourney prompt generator.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR cs.AI"
    },
    {
       "title": "A chat widget for your website, train with your own data in minutes.",
@@ -10767,7 +10767,7 @@
    {
       "title": "A tool for customized midjourney prompt generator.",
       "abstract": "A tool for customized midjourney prompt generator.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR cs.AI"
    },
    {
       "title": "A tool that creates personalized videos at scale.",
@@ -11347,7 +11347,7 @@
    {
       "title": "Helps users solve programming problems quickly",
       "abstract": "Helps users solve programming problems quickly",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.PL"
    },
    {
       "title": "AI product photo generator",
@@ -11527,7 +11527,7 @@
    {
       "title": "Discord-based generative art platform",
       "abstract": "Discord-based generative art platform",
-      "terms": "cs.SE cs.SI"
+      "terms": "cs.SE cs.GR cs.SI"
    },
    {
       "title": "Helps users find the perfect book from over 500,000 titles",
@@ -11617,7 +11617,7 @@
    {
       "title": "MidJourney style reference guide",
       "abstract": "MidJourney style reference guide",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR cs.AI"
    },
    {
       "title": "Platform that helps businesses plan, research, create, and optimize content",
@@ -11672,7 +11672,7 @@
    {
       "title": "Platform for discovering, sharing and rating custom AI art models",
       "abstract": "Platform for discovering, sharing and rating custom AI art models",
-      "terms": "cs.SE cs.AI cs.SI"
+      "terms": "cs.SE cs.GR cs.AI cs.SI"
    },
    {
       "title": "Train a computer to recognize your own images, sounds, & poses.",
@@ -11717,7 +11717,7 @@
    {
       "title": "Experience Augmented Reality from text",
       "abstract": "Experience Augmented Reality from text",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CV"
    },
    {
       "title": "Ask questions and get answers from your company's existing documentation ",
@@ -11732,7 +11732,7 @@
    {
       "title": "Upload and share textures and patterns for games",
       "abstract": "Upload and share textures and patterns for games",
-      "terms": "cs.SE cs.GR"
+      "terms": "cs.SE cs.GR cs.IR"
    },
    {
       "title": "Skincare routine generator creates personalized routines based on budget, skin type, and skin concerns",
@@ -11817,7 +11817,7 @@
    {
       "title": "AI-prompted seamless patterns",
       "abstract": "AI-prompted seamless patterns",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.AI cs.IR"
    },
    {
       "title": "AI movie and TV show recommendation tool",
@@ -11882,7 +11882,7 @@
    {
       "title": "Split your MidJourney Grid",
       "abstract": "Split your MidJourney Grid",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR cs.AI"
    },
    {
       "title": "AI-powered content discovery tool",
@@ -11952,7 +11952,7 @@
    {
       "title": "AI art generator and search engine (with prompts)",
       "abstract": "AI art generator and search engine (with prompts)",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.GR cs.AI"
    },
    {
       "title": "The perfect pickup line, customized to your crush's interests",
@@ -11982,12 +11982,12 @@
    {
       "title": "The Midjourney Prompt Generator is a web application that generates custom prompts for art and video creation.",
       "abstract": "The Midjourney Prompt Generator is a web application that generates custom prompts for art and video creation.",
-      "terms": "cs.SE cs.MM"
+      "terms": "cs.SE cs.MM cs.GR cs.AI"
    },
    {
       "title": "A large database of MidJourney Prompts",
       "abstract": "A large database of MidJourney Prompts",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR cs.AI"
    },
    {
       "title": "Craft release notes with GPT-3",
@@ -12342,7 +12342,7 @@
    {
       "title": "AI art community with an online prompt builder for generative art",
       "abstract": "AI art community with an online prompt builder for generative art",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.GR cs.AI"
    },
    {
       "title": "Create unique personalized avatars with customizable images and styles",
@@ -12397,7 +12397,7 @@
    {
       "title": "AI Art Generator with a community features and printing service",
       "abstract": "AI Art Generator with a community features and printing service",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.GR cs.AI"
    },
    {
       "title": "Use AI to automate a lot of manual workflows",
@@ -12612,7 +12612,7 @@
    {
       "title": "AI Art Prompt Generator",
       "abstract": "AI Art Prompt Generator",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.GR cs.AI"
    },
    {
       "title": "Personalized soundscape for focus, relaxation, and sleep",
@@ -12727,7 +12727,7 @@
    {
       "title": "Web-based AI art generator that leverages Stable Diffusion",
       "abstract": "Web-based AI art generator that leverages Stable Diffusion",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.GR cs.AI"
    },
    {
       "title": "AI tools for creators to design, edit, draw and share photo and video content",
@@ -12742,7 +12742,7 @@
    {
       "title": "Turn your ideas into unique wall art",
       "abstract": "Turn your ideas into unique wall art",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "AI assistant that manages calendars & drafts emails",
@@ -12822,7 +12822,7 @@
    {
       "title": "Generate stunning AI art of yourself, with just one line of text",
       "abstract": "Generate stunning AI art of yourself, with just one line of text",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.GR cs.AI"
    },
    {
       "title": "A tool to search with AI and image uploads.",
@@ -13122,7 +13122,7 @@
    {
       "title": "AI-powered plugins for creating unlimited musical patterns",
       "abstract": "AI-powered plugins for creating unlimited musical patterns",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.IR"
    },
    {
       "title": "Music tagging engine that uses AI to categorize music",
@@ -13257,7 +13257,7 @@
    {
       "title": "Generating royalty-free patterns for products",
       "abstract": "Generating royalty-free patterns for products",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "Virtual host that autonomously entertains and educates your audience",
@@ -13292,7 +13292,7 @@
    {
       "title": "Generate code in any programming language with just one click",
       "abstract": "Generate code in any programming language with just one click",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.PL"
    },
    {
       "title": "Quickly and easily copy code from various sources.",
@@ -13547,7 +13547,7 @@
    {
       "title": "Catalog of 600+ neural networks and tools for art and CG",
       "abstract": "Catalog of 600+ neural networks and tools for art and CG",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR cs.AI cs.LG"
    },
    {
       "title": "Find the best Artificial Intelligence apps on Product Hunt",
@@ -13702,7 +13702,7 @@
    {
       "title": "Simple free AI art generator",
       "abstract": "Simple free AI art generator",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.GR cs.AI"
    },
    {
       "title": "AI powered ad creative and banner generator",
@@ -13722,7 +13722,7 @@
    {
       "title": "Simple free AI art generator",
       "abstract": "Simple free AI art generator",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.GR cs.AI"
    },
    {
       "title": "AI-powered email assistant, calendar scheduling and auto-followups",
@@ -13777,7 +13777,7 @@
    {
       "title": "APIs to develop AI Art Software",
       "abstract": "APIs to develop AI Art Software",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.GR cs.AI"
    },
    {
       "title": "Use normal language to create complex Excel formulas",
@@ -13942,7 +13942,7 @@
    {
       "title": "Create motion capture animations using your webcam",
       "abstract": "Create motion capture animations using your webcam",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.MM"
    },
    {
       "title": "Video editing tool with AI background remover and more",
@@ -14057,7 +14057,7 @@
    {
       "title": "AI generated art gallery - See prompts others have used",
       "abstract": "AI generated art gallery - See prompts others have used",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.GR cs.AI"
    },
    {
       "title": "Remove unwanted elements from images",

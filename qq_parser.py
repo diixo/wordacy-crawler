@@ -214,9 +214,12 @@ def parse_url(url, result = dict(), hhh_mask = None):
         parse(raw, result)
     return result
 
-def parse_file(filename, result = dict()):
+def parse_file(filename, result = dict(), hhh_mask = None):
     raw = BeautifulSoup(open(filename, encoding='utf-8'), "html.parser")
-    parse(raw, result)
+    if hhh_mask:
+        parse(raw, result, hhh_mask=hhh_mask)
+    else:
+        parse(raw, result)
     return result
 
 def save_json(result: dict, file_path="storage/_data.json"):

@@ -7,12 +7,12 @@
    {
       "title": "A self-hosted platform for web app development and building custom apps.",
       "abstract": "A self-hosted platform for web app development and building custom apps.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A platform for streamaging lead generation by identifying potential customers based on natural language inputs.",
       "abstract": "A platform for streamaging lead generation by identifying potential customers based on natural language inputs.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to automate the process of gathering and summarizing information on specific topics into concise reports.",
@@ -22,17 +22,17 @@
    {
       "title": "A platform to compare outputs from various LLMs like ChatGPT, Claude, and Gemini with a single prompt.",
       "abstract": "A platform to compare outputs from various LLMs like ChatGPT, Claude, and Gemini with a single prompt.",
-      "terms": "cs.SE cs.AI cs.CY cs.HI cs.LG cs.CL cs.HC"
+      "terms": "cs.SE cs.AI cs.CY cs.HI cs.SI cs.LG cs.CL cs.HC"
    },
    {
       "title": "A platform for web design with ideation, design, and publishing tools.",
       "abstract": "A platform for web design with ideation, design, and publishing tools.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A platform to automate video editing.",
       "abstract": "A platform to automate video editing.",
-      "terms": "cs.SE cs.MM"
+      "terms": "cs.SE cs.MM cs.SI"
    },
    {
       "title": "A tool to animate still images.",
@@ -62,7 +62,7 @@
    {
       "title": "A platform to integrate apps and build AI automations.",
       "abstract": "A platform to integrate apps and build AI automations.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.SI"
    },
    {
       "title": "A tool to automate and streamulates browser tasks.",
@@ -157,7 +157,7 @@
    {
       "title": "A platform to transform creative ideas, images and characters into videos.",
       "abstract": "A platform to transform creative ideas, images and characters into videos.",
-      "terms": "cs.SE cs.MM cs.GR"
+      "terms": "cs.SE cs.MM cs.GR cs.SI"
    },
    {
       "title": "A tool to identify copyright violations on social media profiles.",
@@ -197,7 +197,7 @@
    {
       "title": "A platform for creating and sharing interactive quizzes, surveys, and polls to engage audiences and gather insights.",
       "abstract": "A platform for creating and sharing interactive quizzes, surveys, and polls to engage audiences and gather insights.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to create nocode applications with customization and data management.",
@@ -312,7 +312,7 @@
    {
       "title": "A platform to automate digital marketing tasks with content creation and lead management.",
       "abstract": "A platform to automate digital marketing tasks with content creation and lead management.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to access unified organizational knowledge base.",
@@ -442,7 +442,7 @@
    {
       "title": "An app to capture organize ideas through summarization of text, audio, and video content.",
       "abstract": "An app to capture organize ideas through summarization of text, audio, and video content.",
-      "terms": "cs.SE cs.MM"
+      "terms": "cs.SE cs.MM cs.IR"
    },
    {
       "title": "A tool to automate and personalizes social media content creation and scheduling.",
@@ -492,7 +492,7 @@
    {
       "title": "A chatbot platform for publishers reader engagement through personalized conversations on websites.",
       "abstract": "A chatbot platform for publishers reader engagement through personalized conversations on websites.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to automate meeting note-taking by providing summaries, transcripts, and action items from audio recordings.",
@@ -632,7 +632,7 @@
    {
       "title": "A platform to repurpose video content into multiple formats.",
       "abstract": "A platform to repurpose video content into multiple formats.",
-      "terms": "cs.SE cs.MM"
+      "terms": "cs.SE cs.MM cs.SI"
    },
    {
       "title": "A tool to automate business tasks by creating AI assistants integrated with existing tools.",
@@ -667,7 +667,7 @@
    {
       "title": "A tool to sharpen blurry photos and focus on faces.",
       "abstract": "A tool to sharpen blurry photos and focus on faces.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "A tool to write, plan, draft, and organize novels.",
@@ -772,7 +772,7 @@
    {
       "title": "A tool to virtually try on clothes on photos and body measurements.",
       "abstract": "A tool to virtually try on clothes on photos and body measurements.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "A tool to create customized podcasts.",
@@ -797,7 +797,7 @@
    {
       "title": "A tool to review literature for researchers with summarization and organization.",
       "abstract": "A tool to review literature for researchers with summarization and organization.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "A tool to generate personalized TikTok videos with voiceovers cloning.",
@@ -887,7 +887,7 @@
    {
       "title": "A browser extension for summarization and mind mapping for content comprehension.",
       "abstract": "A browser extension for summarization and mind mapping for content comprehension.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "A tool to organizes and prioritizes email inbox, summarizes threads, and drafts responses.",
@@ -942,7 +942,7 @@
    {
       "title": "A platform to integrate AI into Airtable workflows.",
       "abstract": "A platform to integrate AI into Airtable workflows.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.SI"
    },
    {
       "title": "A tool for data science and AI project workflows with development collaboration, and deployment.",
@@ -957,7 +957,7 @@
    {
       "title": "A platform for project management, task automation, workload management, and team collaboration.",
       "abstract": "A platform for project management, task automation, workload management, and team collaboration.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A motion capture solutions to create realistic animations.",
@@ -972,7 +972,7 @@
    {
       "title": "An app to analyze meal photos and descriptions to track calories and macros.",
       "abstract": "An app to analyze meal photos and descriptions to track calories and macros.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "A macOS assistant for automating tasks using natural language.",
@@ -992,7 +992,7 @@
    {
       "title": "A platform for document creation, project management, and team collaboration.",
       "abstract": "A platform for document creation, project management, and team collaboration.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to create interactive canvases integrating data from diverse sources.",
@@ -1012,17 +1012,17 @@
    {
       "title": "A platform for creating and deploying complex AI applications with multi-model cloud infrastructure.",
       "abstract": "A platform for creating and deploying complex AI applications with multi-model cloud infrastructure.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.SI"
    },
    {
       "title": "A tool to create apps and games without coding by turning sketches into exportable code for multiple platforms.",
       "abstract": "A tool to create apps and games without coding by turning sketches into exportable code for multiple platforms.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A platform to create 3D content, texturing and modeling.",
       "abstract": "A platform to create 3D content, texturing and modeling.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to create music and speech.",
@@ -1047,7 +1047,7 @@
    {
       "title": "A platform to automate script visualization and maintain characters for visual storytelling.",
       "abstract": "A platform to automate script visualization and maintain characters for visual storytelling.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to create VR virtual worlds for team collaboration.",
@@ -1072,12 +1072,12 @@
    {
       "title": "A platform to build chatbot for website engagement and conversions.",
       "abstract": "A platform to build chatbot for website engagement and conversions.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A platform for data analysis and democratize data access.",
       "abstract": "A platform for data analysis and democratize data access.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to synthesize extensive medical records into concise patient summaries.",
@@ -1117,7 +1117,7 @@
    {
       "title": "A platform for 3D game development with mesh creation, texturing, animation, and quest generation.",
       "abstract": "A platform for 3D game development with mesh creation, texturing, animation, and quest generation.",
-      "terms": "cs.SE cs.MM"
+      "terms": "cs.SE cs.MM cs.SI"
    },
    {
       "title": "A tool to transform content into interactive courses with auto-generated lessons and assessments.",
@@ -1192,7 +1192,7 @@
    {
       "title": "A tool to automate content creation for digital platforms.",
       "abstract": "A tool to automate content creation for digital platforms.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to generate customized sales copy.",
@@ -1202,7 +1202,7 @@
    {
       "title": "A platform for speech to text, voice data transcription and analysis.",
       "abstract": "A platform for speech to text, voice data transcription and analysis.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool for conversational assistance.",
@@ -1212,7 +1212,7 @@
    {
       "title": "A platform for chat-based image creation and editing.",
       "abstract": "A platform for chat-based image creation and editing.",
-      "terms": "cs.SE cs.GR"
+      "terms": "cs.SE cs.GR cs.SI"
    },
    {
       "title": "A tool to convert videos into 3D spatial videos.",
@@ -1232,7 +1232,7 @@
    {
       "title": "A platform to create and find customizable, royalty-free samples. ",
       "abstract": "A platform to create and find customizable, royalty-free samples. ",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to create customizable chatbots for support.",
@@ -1257,7 +1257,7 @@
    {
       "title": "A platform to generate video content.",
       "abstract": "A platform to generate video content.",
-      "terms": "cs.SE cs.MM"
+      "terms": "cs.SE cs.MM cs.SI"
    },
    {
       "title": "A tool to generates customizable sound effects.",
@@ -1272,7 +1272,7 @@
    {
       "title": "A platform for document comprehension and collaboration.",
       "abstract": "A platform for document comprehension and collaboration.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to generate custom 3D models from text or image inputs. ",
@@ -1307,7 +1307,7 @@
    {
       "title": "A platform with AI assistant for complex tasks, data security, and language models customization.",
       "abstract": "A platform with AI assistant for complex tasks, data security, and language models customization.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.SI"
    },
    {
       "title": "A tool to automate sales process, CRM updates, call coaching and analytical insights.",
@@ -1347,7 +1347,7 @@
    {
       "title": "A platform for video/audio processing, screen recording, AI chatting, auto-subtitling, and cloud storage.",
       "abstract": "A platform for video/audio processing, screen recording, AI chatting, auto-subtitling, and cloud storage.",
-      "terms": "cs.SE cs.MM cs.AI"
+      "terms": "cs.SE cs.MM cs.AI cs.SI"
    },
    {
       "title": "A tool to autonomously conduct web application testing and bug reports.",
@@ -1382,7 +1382,7 @@
    {
       "title": "Google's web-connected chat platform",
       "abstract": "Google's web-connected chat platform",
-      "terms": "cs.SE cs.HI"
+      "terms": "cs.SE cs.HI cs.SI"
    },
    {
       "title": "A tool for contextual support and knowledge directly within a website or app.",
@@ -1452,7 +1452,7 @@
    {
       "title": "A platform for lead generation, sales optimization, engagement and communication.",
       "abstract": "A platform for lead generation, sales optimization, engagement and communication.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool for digital sales and visitors engagement.",
@@ -1537,7 +1537,7 @@
    {
       "title": "A platform to check writing, grammar, publication standards, and prevent plagiarism.",
       "abstract": "A platform to check writing, grammar, publication standards, and prevent plagiarism.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to generate custom social media carousels.",
@@ -1552,7 +1552,7 @@
    {
       "title": "A platform for advance natural language processing across 101 languages.",
       "abstract": "A platform for advance natural language processing across 101 languages.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to creates a personalized chatbot from custom data sources using RTX acceleration.",
@@ -1562,7 +1562,7 @@
    {
       "title": "A platform for accessing over 100 AI models through a single API interface.",
       "abstract": "A platform for accessing over 100 AI models through a single API interface.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.SI"
    },
    {
       "title": "An app to manage and improve Google Review presence.",
@@ -1582,7 +1582,7 @@
    {
       "title": "A document collaboration platform for knowledge sharing and management through interactive documents and wikis.",
       "abstract": "A document collaboration platform for knowledge sharing and management through interactive documents and wikis.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "An Adobe Premiere Pro plugin to automate silence removal, add animated captions, and other video editing tools.",
@@ -1617,7 +1617,7 @@
    {
       "title": "A tool to automate personalized captions generation for photos.",
       "abstract": "A tool to automate personalized captions generation for photos.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "A Python-based data processing framework optimized for AI applications and integrates with ML libraries.",
@@ -1667,12 +1667,12 @@
    {
       "title": "A tool to consolidate e-commerce customer support into one platform for communication management.",
       "abstract": "A tool to consolidate e-commerce customer support into one platform for communication management.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A platform for creating full-stack applications using prompts and without extensive coding.",
       "abstract": "A platform for creating full-stack applications using prompts and without extensive coding.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to transform notes into structured drafts and polished content in various styles and languages.",
@@ -1682,7 +1682,7 @@
    {
       "title": "A nocode platform for website building.",
       "abstract": "A nocode platform for website building.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to integrate video communication and images into customer support for issue resolutions and engagements.",
@@ -1697,7 +1697,7 @@
    {
       "title": "A tool to transform photos into a narrated story.",
       "abstract": "A tool to transform photos into a narrated story.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "A tool to convert PDFs into visual mind maps.",
@@ -1717,7 +1717,7 @@
    {
       "title": "A platform to automate domain parking revenue with customizable templates, ad integration, and DNS control.",
       "abstract": "A platform to automate domain parking revenue with customizable templates, ad integration, and DNS control.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "An app to convert text into flashcards for learning.",
@@ -1737,7 +1737,7 @@
    {
       "title": "A platform to transform phone systems with conversational bots for improved customer service.",
       "abstract": "A platform to transform phone systems with conversational bots for improved customer service.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to integrate with knowledge sources for chat, search, and co-writing assistance.",
@@ -1747,7 +1747,7 @@
    {
       "title": "A platform to automate and optimizes internal linking on Webflow sites.",
       "abstract": "A platform to automate and optimizes internal linking on Webflow sites.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to automate the setup of ComfyUI workflows for image and video creation in the cloud.",
@@ -1762,12 +1762,12 @@
    {
       "title": "A platform to deploy AI agents for complex task automation and data analysis.",
       "abstract": "A platform to deploy AI agents for complex task automation and data analysis.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.SI"
    },
    {
       "title": "A platform to create and integrate OpenAI-powered chatbots into websites.",
       "abstract": "A platform to create and integrate OpenAI-powered chatbots into websites.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to transform podcasts into interactive chatbots for audience engagement and insights.",
@@ -1862,7 +1862,7 @@
    {
       "title": "A platform for YouTube learning by courses summaries, generate subtitles, and note-taking.",
       "abstract": "A platform for YouTube learning by courses summaries, generate subtitles, and note-taking.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to generate reports to help refine and develop business ideas.",
@@ -1877,7 +1877,7 @@
    {
       "title": "An MacOS App for photo management.",
       "abstract": "An MacOS App for photo management.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "An MacOS App to automatically organize and indexe screenshots with AI-assisted renaming.",
@@ -1897,7 +1897,7 @@
    {
       "title": "A platform to transform existing images into new visuals and generate images from prompts.",
       "abstract": "A platform to transform existing images into new visuals and generate images from prompts.",
-      "terms": "cs.SE cs.GR"
+      "terms": "cs.SE cs.GR cs.SI"
    },
    {
       "title": "A tool for interior design visualizations based on user-uploaded room images and styles.",
@@ -1992,12 +1992,12 @@
    {
       "title": "A nocode platform to create and deploy custom AI apps.",
       "abstract": "A nocode platform to create and deploy custom AI apps.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.SI"
    },
    {
       "title": "A platform to automate customer support with a multilingual AI chatbot.",
       "abstract": "A platform to automate customer support with a multilingual AI chatbot.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.SI"
    },
    {
       "title": "A tool for preliminary interpretations of X-ray images.",
@@ -2092,7 +2092,7 @@
    {
       "title": "A nocode tool to create and deploy chatbots for various platforms.",
       "abstract": "A nocode tool to create and deploy chatbots for various platforms.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "An online video editor for video creation with automated editing and creative elements.",
@@ -2142,7 +2142,7 @@
    {
       "title": "A platform to automate content creation and scheduling, and providing LinkedIn growth tools.",
       "abstract": "A platform to automate content creation and scheduling, and providing LinkedIn growth tools.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to monitor AI and optimize LLMs output to prevent errors and misinformation.",
@@ -2162,7 +2162,7 @@
    {
       "title": "A tool to create correctly sized passport and ID photos for passports.",
       "abstract": "A tool to create correctly sized passport and ID photos for passports.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "A tool to generate video ads from text or product links.",
@@ -2197,12 +2197,12 @@
    {
       "title": "A digital security solution to detect and prevent fake users, bots, and fraudulent activities on websites and mobile platforms.",
       "abstract": "A digital security solution to detect and prevent fake users, bots, and fraudulent activities on websites and mobile platforms.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A app for calories and nutrients tracking through photo recognition.",
       "abstract": "A app for calories and nutrients tracking through photo recognition.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "An coding assistant for code completion, refactoring, and context-aware suggestions in IDEs.",
@@ -2217,7 +2217,7 @@
    {
       "title": "A platform to translate, dub, and generate subtitles for multilingual videos.",
       "abstract": "A platform to translate, dub, and generate subtitles for multilingual videos.",
-      "terms": "cs.SE cs.MM"
+      "terms": "cs.SE cs.MM cs.SI"
    },
    {
       "title": "An automated code visualization tool to create dynamic code maps for code comprehension and collaboration.",
@@ -2267,7 +2267,7 @@
    {
       "title": "A browser extension to optimize online productivity, integrate with platforms, and simplify tasks.",
       "abstract": "A browser extension to optimize online productivity, integrate with platforms, and simplify tasks.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to generate custom, royalty-free stock music.",
@@ -2402,7 +2402,7 @@
    {
       "title": "A platform for content creation and management for creators.",
       "abstract": "A platform for content creation and management for creators.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "An app to organize your day and achieve goals.",
@@ -2482,12 +2482,12 @@
    {
       "title": "An automated data annotation platform to produce labeled data.",
       "abstract": "An automated data annotation platform to produce labeled data.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to create personalized face swap videos, photos, and GIFs.",
       "abstract": "A tool to create personalized face swap videos, photos, and GIFs.",
-      "terms": "cs.SE cs.MM"
+      "terms": "cs.SE cs.MM cs.GR"
    },
    {
       "title": "Create consistent characters with AI art",
@@ -2552,7 +2552,7 @@
    {
       "title": "A web analytics platform with real-time insights.",
       "abstract": "A web analytics platform with real-time insights.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to generate marketing videos from product links or text descriptions.",
@@ -2577,7 +2577,7 @@
    {
       "title": "A platform providing thumbnails for YouTube videos.",
       "abstract": "A platform providing thumbnails for YouTube videos.",
-      "terms": "cs.SE cs.MM"
+      "terms": "cs.SE cs.MM cs.SI"
    },
    {
       "title": "A tool to manage online presence and multiple platforms social media management.",
@@ -2657,7 +2657,7 @@
    {
       "title": "A tool to create custom Lego avatars from user-uploaded photos.",
       "abstract": "A tool to create custom Lego avatars from user-uploaded photos.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "A tool for generative AI development to build, deploy, and scaling.",
@@ -2682,7 +2682,7 @@
    {
       "title": "An open-source evaluation platform for LLMs A/B testing and output classification.",
       "abstract": "An open-source evaluation platform for LLMs A/B testing and output classification.",
-      "terms": "cs.SE cs.LG cs.CL cs.HC"
+      "terms": "cs.SE cs.SI cs.LG cs.CL cs.HC"
    },
    {
       "title": "A tool to market research and market insights.",
@@ -2792,7 +2792,7 @@
    {
       "title": "A visual collaboration and planning platform for managing projects, data, and processes.",
       "abstract": "A visual collaboration and planning platform for managing projects, data, and processes.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "An online drawing and collaboration tool to create and export artwork.",
@@ -2812,7 +2812,7 @@
    {
       "title": "A platform to centralize knowledge management and automation.",
       "abstract": "A platform to centralize knowledge management and automation.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool for keyword monitoring and lead generation for social media.",
@@ -2872,7 +2872,7 @@
    {
       "title": "An all-in-one content creation and publishing platform to create, maintain, and translate content.",
       "abstract": "An all-in-one content creation and publishing platform to create, maintain, and translate content.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A 3D effect generator to create custom 3D models.",
@@ -2917,7 +2917,7 @@
    {
       "title": "A platform with image editor to create stunning visuals.",
       "abstract": "A platform with image editor to create stunning visuals.",
-      "terms": "cs.SE cs.GR"
+      "terms": "cs.SE cs.GR cs.SI"
    },
    {
       "title": "A tool to transcribe audio files using OpenAI's Whisper Large V3.",
@@ -2957,7 +2957,7 @@
    {
       "title": "A platform to create quizzes and flashcards from any content.",
       "abstract": "A platform to create quizzes and flashcards from any content.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to extract and save data from websites for your custom GPTs.",
@@ -2982,7 +2982,7 @@
    {
       "title": "A platform for competitive analysis.",
       "abstract": "A platform for competitive analysis.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to create customize t-shirts and order to be printed.",
@@ -2992,7 +2992,7 @@
    {
       "title": "A platform to create, test, and deploy AI applications.",
       "abstract": "A platform to create, test, and deploy AI applications.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.SI"
    },
    {
       "title": "An productivity app to focus, streamline tasks and improve work efficiency.",
@@ -3057,7 +3057,7 @@
    {
       "title": "An educational platform for students and educators to learn and teach any subject.",
       "abstract": "An educational platform for students and educators to learn and teach any subject.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to help musicians and lyricists with MIDI and lyrics generation.",
@@ -3082,7 +3082,7 @@
    {
       "title": "A platform for meeting assistant to automate meeting organization, transcription, summarization, and action item assignment.",
       "abstract": "A platform for meeting assistant to automate meeting organization, transcription, summarization, and action item assignment.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI cs.IR"
    },
    {
       "title": "A tool to chat with documents, request summaries, and ask questions using ai locally.",
@@ -3102,7 +3102,7 @@
    {
       "title": "A platform for developers to collaborate, review and merge code.",
       "abstract": "A platform for developers to collaborate, review and merge code.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool for voice changing and to clone voices.",
@@ -3117,7 +3117,7 @@
    {
       "title": "An eCommerce promotion platform for merchants to improve sales and customer retention.",
       "abstract": "An eCommerce promotion platform for merchants to improve sales and customer retention.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to develop, test, monitor, and deploy AI applications.",
@@ -3142,7 +3142,7 @@
    {
       "title": "A conversation based platform to ask questions to data with NLP.",
       "abstract": "A conversation based platform to ask questions to data with NLP.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to create comprehensive FAQs for websites.",
@@ -3242,7 +3242,7 @@
    {
       "title": "A platform to create custom stories for kids.",
       "abstract": "A platform to create custom stories for kids.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to generate Tailwind CSS UI templates and collaborative editing.",
@@ -3252,7 +3252,7 @@
    {
       "title": "A platform to create custom AI systems and process data.",
       "abstract": "A platform to create custom AI systems and process data.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.SI"
    },
    {
       "title": "A tool to create custom MP4 videos of listings.",
@@ -3297,7 +3297,7 @@
    {
       "title": "A cloud-based platform for teams collaboration.",
       "abstract": "A cloud-based platform for teams collaboration.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to streamline documents analysis, and ideation for product teams.",
@@ -3392,7 +3392,7 @@
    {
       "title": "A platform to create, train, and monetize AI characters and personalities.",
       "abstract": "A platform to create, train, and monetize AI characters and personalities.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.SI"
    },
    {
       "title": "An AI Copilot for TikTok growth and visibility.",
@@ -3402,7 +3402,7 @@
    {
       "title": "A platform to automate compliance processes for organizations to meet a range of standards.",
       "abstract": "A platform to automate compliance processes for organizations to meet a range of standards.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "The easiest SEO optimised AI writer you will ever use",
@@ -3457,7 +3457,7 @@
    {
       "title": "A platform for video creation, image generation and custom models training.",
       "abstract": "A platform for video creation, image generation and custom models training.",
-      "terms": "cs.SE cs.MM cs.GR"
+      "terms": "cs.SE cs.MM cs.GR cs.SI"
    },
    {
       "title": "A tool to build Chatbots for content engagements.",
@@ -3497,7 +3497,7 @@
    {
       "title": "A platform for personalized business ideas, automated research, and expert insights.",
       "abstract": "A platform for personalized business ideas, automated research, and expert insights.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to create chatbots for personalized product recommendations and support.",
@@ -3527,7 +3527,7 @@
    {
       "title": "A platform to build and host AI automations with pre-built workflows.",
       "abstract": "A platform to build and host AI automations with pre-built workflows.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.SI"
    },
    {
       "title": "A LLM with extensive text contexts and long context understanding.",
@@ -3557,12 +3557,12 @@
    {
       "title": "A platform to create learning content.",
       "abstract": "A platform to create learning content.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tools to create cartoon-style art from photos.",
       "abstract": "A tools to create cartoon-style art from photos.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "A tool to create animated videos from text prompts.",
@@ -3617,7 +3617,7 @@
    {
       "title": "A no-code platform to build AI apps prompts, chats, and workflows.",
       "abstract": "A no-code platform to build AI apps prompts, chats, and workflows.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.SI"
    },
    {
       "title": "A tool to summarizes videos and podcasts.",
@@ -3637,7 +3637,7 @@
    {
       "title": "A platform to analyze and automate Amazon FBA store.",
       "abstract": "A platform to analyze and automate Amazon FBA store.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to for product's community engagement and growth.",
@@ -3662,7 +3662,7 @@
    {
       "title": "A platform for creating music.",
       "abstract": "A platform for creating music.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to edit talking head videos, voice cloning and noise removal.",
@@ -3692,7 +3692,7 @@
    {
       "title": "A platform to organize, share, and collaborate on AI prompts.",
       "abstract": "A platform to organize, share, and collaborate on AI prompts.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.SI"
    },
    {
       "title": "A tool for communities to do content marketing.",
@@ -3702,12 +3702,12 @@
    {
       "title": "A platform for creating, publishing, and monetizing AI generated images, music and audio.",
       "abstract": "A platform for creating, publishing, and monetizing AI generated images, music and audio.",
-      "terms": "cs.SE cs.GR cs.AI"
+      "terms": "cs.SE cs.GR cs.AI cs.SI"
    },
    {
       "title": "A platform for stock analysis, screening, and tracking.",
       "abstract": "A platform for stock analysis, screening, and tracking.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to connect AI models for interactive, diverse responses.",
@@ -3717,12 +3717,12 @@
    {
       "title": "A platform for investment research and insights.",
       "abstract": "A platform for investment research and insights.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A platform to create custom chatbots.",
       "abstract": "A platform to create custom chatbots.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool for content creation.",
@@ -3752,7 +3752,7 @@
    {
       "title": "A platform to build chatbots and automate customer support.",
       "abstract": "A platform to build chatbots and automate customer support.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to prioritize features and initiatives with customer feedback.",
@@ -3772,7 +3772,7 @@
    {
       "title": "A platform to create YouTube video thumbnails.",
       "abstract": "A platform to create YouTube video thumbnails.",
-      "terms": "cs.SE cs.MM"
+      "terms": "cs.SE cs.MM cs.SI"
    },
    {
       "title": "A video editing plugin for Adobe Premiere Pro.",
@@ -3782,7 +3782,7 @@
    {
       "title": "A platform for games analytics and insights.",
       "abstract": "A platform for games analytics and insights.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool for competitor research.",
@@ -3817,7 +3817,7 @@
    {
       "title": "A tool for content summarization and organization.",
       "abstract": "A tool for content summarization and organization.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "A tool for music creation.",
@@ -3827,7 +3827,7 @@
    {
       "title": "A platform for music production.",
       "abstract": "A platform for music production.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to generate summaries from texts, audios, and videos.",
@@ -3857,17 +3857,17 @@
    {
       "title": "A tool to generate, analyze, edit, and publish content to popular CMS platforms.",
       "abstract": "A tool to generate, analyze, edit, and publish content to popular CMS platforms.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A platform to search, analyze, and share data without writing code.",
       "abstract": "A platform to search, analyze, and share data without writing code.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A platform to interact with documents and data.",
       "abstract": "A platform to interact with documents and data.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A software to enhance video quality.",
@@ -3892,7 +3892,7 @@
    {
       "title": "A no-code platform to create and train AI chatbot.",
       "abstract": "A no-code platform to create and train AI chatbot.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.SI"
    },
    {
       "title": "A tool for personalized digest summaries of your subscribed content.",
@@ -3932,7 +3932,7 @@
    {
       "title": "A platform to create, compare, optimize, and share LLM products.",
       "abstract": "A platform to create, compare, optimize, and share LLM products.",
-      "terms": "cs.SE cs.LG cs.CL cs.HC"
+      "terms": "cs.SE cs.SI cs.LG cs.CL cs.HC"
    },
    {
       "title": "A tool to convert blog posts to videos.",
@@ -3942,7 +3942,7 @@
    {
       "title": "A platform for censorship-free text-to-speech and voice cloning.",
       "abstract": "A platform for censorship-free text-to-speech and voice cloning.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to translate videos.",
@@ -3977,7 +3977,7 @@
    {
       "title": "A platform to create ads for all platforms and formats.",
       "abstract": "A platform to create ads for all platforms and formats.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to create and optimize websites, search rankings, and launch Google ad campaigns.",
@@ -3987,7 +3987,7 @@
    {
       "title": "A platform for data analysis",
       "abstract": "A platform for data analysis",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to upgrade and migrate codebases.",
@@ -4037,7 +4037,7 @@
    {
       "title": "A platform to plan and manage influencer campaigns.",
       "abstract": "A platform to plan and manage influencer campaigns.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to find AI prompts.",
@@ -4102,12 +4102,12 @@
    {
       "title": "A platform for investment research and data-driven insights for investing.",
       "abstract": "A platform for investment research and data-driven insights for investing.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool for summarization of podcasts and YouTube videos.",
       "abstract": "A tool for summarization of podcasts and YouTube videos.",
-      "terms": "cs.SE cs.MM"
+      "terms": "cs.SE cs.MM cs.IR"
    },
    {
       "title": "A tool to convert Figma designs into WordPress websites and Elementor pages.",
@@ -4277,7 +4277,7 @@
    {
       "title": "A chatbot platform to save and organize conversations, share content, and use voice input and text-to-speech.",
       "abstract": "A chatbot platform to save and organize conversations, share content, and use voice input and text-to-speech.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to turn ideas into actionable plans.",
@@ -4332,12 +4332,12 @@
    {
       "title": "A platform for image editing, enhancement and optimization.",
       "abstract": "A platform for image editing, enhancement and optimization.",
-      "terms": "cs.SE cs.GR"
+      "terms": "cs.SE cs.GR cs.SI"
    },
    {
       "title": "A platform for research, data analysis and insights.",
       "abstract": "A platform for research, data analysis and insights.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool for writers to help with creative process.",
@@ -4482,7 +4482,7 @@
    {
       "title": "A platform to create videos and online video editor.",
       "abstract": "A platform to create videos and online video editor.",
-      "terms": "cs.SE cs.MM"
+      "terms": "cs.SE cs.MM cs.SI"
    },
    {
       "title": "A chatbot for ecommerce.",
@@ -4507,7 +4507,7 @@
    {
       "title": "A software with tools to write with AI copilot assistance across platforms.",
       "abstract": "A software with tools to write with AI copilot assistance across platforms.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.SI"
    },
    {
       "title": "Cursor is an AI-powered code editor that helps engineers build software faster.",
@@ -4522,7 +4522,7 @@
    {
       "title": "A platform to create headshots.",
       "abstract": "A platform to create headshots.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A browser extension for tab management, track online productivity, and collaborate with workspaces.",
@@ -4542,7 +4542,7 @@
    {
       "title": "A tool to create hyperrealistic full-body photos of people.",
       "abstract": "A tool to create hyperrealistic full-body photos of people.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "A software to clone voices.",
@@ -4642,7 +4642,7 @@
    {
       "title": "A platform for esoteric knowledge, awakening, and spiritual growth.",
       "abstract": "A platform for esoteric knowledge, awakening, and spiritual growth.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "AI Bot for Discord community management and growth.",
@@ -4652,7 +4652,7 @@
    {
       "title": "A tool to create 3D renderings from designs, sketches, and photos.",
       "abstract": "A tool to create 3D renderings from designs, sketches, and photos.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "A tool to create deepfake videos.",
@@ -4677,7 +4677,7 @@
    {
       "title": "A platform for diverse content creation.",
       "abstract": "A platform for diverse content creation.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to find synchronized songs for videos. ",
@@ -4692,7 +4692,7 @@
    {
       "title": "A platform to create, edit, and share videos.",
       "abstract": "A platform to create, edit, and share videos.",
-      "terms": "cs.SE cs.MM"
+      "terms": "cs.SE cs.MM cs.SI"
    },
    {
       "title": "A tool to analyze audio for optimizing song discoverability and searchability.",
@@ -4707,12 +4707,12 @@
    {
       "title": "A platform to create and distribute branded content.",
       "abstract": "A platform to create and distribute branded content.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A platform to identify opportunities, make connections, and host events.",
       "abstract": "A platform to identify opportunities, make connections, and host events.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to keep AI applications accurate and up to date.",
@@ -4747,7 +4747,7 @@
    {
       "title": "A platform to translate and optimize ads and content.",
       "abstract": "A platform to translate and optimize ads and content.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to generate pet portraits. ",
@@ -4792,12 +4792,12 @@
    {
       "title": "A platform for image and video editing.",
       "abstract": "A platform for image and video editing.",
-      "terms": "cs.SE cs.MM cs.GR"
+      "terms": "cs.SE cs.MM cs.GR cs.SI"
    },
    {
       "title": "A platform to create custom multilingual chatbots.",
       "abstract": "A platform to create custom multilingual chatbots.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to merge online searches with personal data.",
@@ -4807,7 +4807,7 @@
    {
       "title": "A platform to create business videos.",
       "abstract": "A platform to create business videos.",
-      "terms": "cs.SE cs.MM"
+      "terms": "cs.SE cs.MM cs.SI"
    },
    {
       "title": "A tool for developers to optimize, test, and refine LLM prompts.",
@@ -4827,12 +4827,12 @@
    {
       "title": "A platform for storing and retrieving unstructured data.",
       "abstract": "A platform for storing and retrieving unstructured data.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A platform for video and voice generatoration with avatars and voices.",
       "abstract": "A platform for video and voice generatoration with avatars and voices.",
-      "terms": "cs.SE cs.MM"
+      "terms": "cs.SE cs.MM cs.SI"
    },
    {
       "title": "AI-driven & personal note-taker for every conversation",
@@ -4847,7 +4847,7 @@
    {
       "title": "A platform to automatically track and bill time spent on client projects.",
       "abstract": "A platform to automatically track and bill time spent on client projects.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "An AI copilot to extract meaningful insights from a dashboard.",
@@ -4857,7 +4857,7 @@
    {
       "title": "A platform to analyze portfolio and extracts key details from investment documents and company updates.",
       "abstract": "A platform to analyze portfolio and extracts key details from investment documents and company updates.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to research and reddit post generation.",
@@ -4867,7 +4867,7 @@
    {
       "title": "A platform for video creation.",
       "abstract": "A platform for video creation.",
-      "terms": "cs.SE cs.MM"
+      "terms": "cs.SE cs.MM cs.SI"
    },
    {
       "title": "A tool to automate ad creation, tracking and management.",
@@ -4877,7 +4877,7 @@
    {
       "title": "A platform for creating virtual worlds and applications.",
       "abstract": "A platform for creating virtual worlds and applications.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to generate realistic faces.",
@@ -4917,7 +4917,7 @@
    {
       "title": "An All-in-one AI platform with various tools and templates.",
       "abstract": "An All-in-one AI platform with various tools and templates.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.SI"
    },
    {
       "title": "A tool to create videos and dubbing for multilingual content creation.",
@@ -4927,7 +4927,7 @@
    {
       "title": "A free photo object removal tool.",
       "abstract": "A free photo object removal tool.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "A tool to conduct voice-based surveys for customer and employee feedback.",
@@ -4967,7 +4967,7 @@
    {
       "title": "A no-code platform for building custom, model-agnostic AI applications.",
       "abstract": "A no-code platform for building custom, model-agnostic AI applications.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.SI"
    },
    {
       "title": "A tool to build AI assistants for productivity.",
@@ -4977,7 +4977,7 @@
    {
       "title": "A Google Chrome Extension to talk to any website and content summarization.",
       "abstract": "A Google Chrome Extension to talk to any website and content summarization.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "A tool to transcribes audio into text notes.",
@@ -4997,7 +4997,7 @@
    {
       "title": "A tool to create realistic talking avatar videos from photos.",
       "abstract": "A tool to create realistic talking avatar videos from photos.",
-      "terms": "cs.SE cs.MM"
+      "terms": "cs.SE cs.MM cs.GR"
    },
    {
       "title": "A comprehensive online creative suite to create high-quality videos and images",
@@ -5057,7 +5057,7 @@
    {
       "title": "An email marketing platform.",
       "abstract": "An email marketing platform.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "An MacOS App to chat with PDFs locally.",
@@ -5087,7 +5087,7 @@
    {
       "title": "A platform for product teams to monitor user feedback, manage notifications, and align stakeholders.",
       "abstract": "A platform for product teams to monitor user feedback, manage notifications, and align stakeholders.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to find possible causes of symptoms and healthcare guide.",
@@ -5112,7 +5112,7 @@
    {
       "title": "A platform to create a website and automate online presence.",
       "abstract": "A platform to create a website and automate online presence.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "An AI photo editor for removing objects and people from images.",
@@ -5167,7 +5167,7 @@
    {
       "title": "An travel camera app to remove background crowds from photos.",
       "abstract": "An travel camera app to remove background crowds from photos.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "An app for creatives to collaborate.",
@@ -5187,12 +5187,12 @@
    {
       "title": "A platform with suite of tools for teachers.",
       "abstract": "A platform with suite of tools for teachers.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "An online tool for swapping faces in photos and videos.",
       "abstract": "An online tool for swapping faces in photos and videos.",
-      "terms": "cs.SE cs.MM"
+      "terms": "cs.SE cs.MM cs.GR"
    },
    {
       "title": "A tool to create and integrate nocode AI workflows and agents.",
@@ -5207,17 +5207,17 @@
    {
       "title": "A platform to create custom vector designs and media.",
       "abstract": "A platform to create custom vector designs and media.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A platform for video production and create visual content creation.",
       "abstract": "A platform for video production and create visual content creation.",
-      "terms": "cs.SE cs.MM"
+      "terms": "cs.SE cs.MM cs.SI"
    },
    {
       "title": "A platform with research assistant to centralize and summarize data from calls and videos.",
       "abstract": "A platform with research assistant to centralize and summarize data from calls and videos.",
-      "terms": "cs.SE cs.MM cs.IR"
+      "terms": "cs.SE cs.MM cs.SI cs.IR"
    },
    {
       "title": "A tool to compresses and optimizes images.",
@@ -5232,7 +5232,7 @@
    {
       "title": "A platform to generate content, images, code, and chatbots.",
       "abstract": "A platform to generate content, images, code, and chatbots.",
-      "terms": "cs.SE cs.GR"
+      "terms": "cs.SE cs.GR cs.SI"
    },
    {
       "title": "A tool to generate images with customizable styles, backgrounds, and resolutions.",
@@ -5262,17 +5262,17 @@
    {
       "title": "A platform for newsletters and operators to create content.",
       "abstract": "A platform for newsletters and operators to create content.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A platform to find the perfect soundtrack for video projects.",
       "abstract": "A platform to find the perfect soundtrack for video projects.",
-      "terms": "cs.SE cs.MM"
+      "terms": "cs.SE cs.MM cs.SI"
    },
    {
       "title": "A platform with royalty-free music, sound effects, intros/outros and AI Studio for easy custom soundtrack creation.",
       "abstract": "A platform with royalty-free music, sound effects, intros/outros and AI Studio for easy custom soundtrack creation.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.SI"
    },
    {
       "title": "A tool to automatically creates short, shareable clips from long videos.",
@@ -5292,12 +5292,12 @@
    {
       "title": "A platform for AI development workflows, code exploration, code review, and collaboration.",
       "abstract": "A platform for AI development workflows, code exploration, code review, and collaboration.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.SI"
    },
    {
       "title": "A platform for online course creation.",
       "abstract": "A platform for online course creation.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool for podcast creation with generated transcripts, notes, and more.",
@@ -5307,7 +5307,7 @@
    {
       "title": "A platform for in-depth financial analysis of public companies.",
       "abstract": "A platform for in-depth financial analysis of public companies.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to generate Linkedin posts.",
@@ -5332,17 +5332,17 @@
    {
       "title": "A platform with generative AI models APIs for AI Development.",
       "abstract": "A platform with generative AI models APIs for AI Development.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.SI"
    },
    {
       "title": "A platform with document creation process, encryption, a chatbot, and knowledge-based tools.",
       "abstract": "A platform with document creation process, encryption, a chatbot, and knowledge-based tools.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A platform for optimizing UX and generating customized copy.",
       "abstract": "A platform for optimizing UX and generating customized copy.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to generate videos from prompt.",
@@ -5357,7 +5357,7 @@
    {
       "title": "A platform for business planning and ideas.",
       "abstract": "A platform for business planning and ideas.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "An app for creating and editing images and videos.",
@@ -5367,7 +5367,7 @@
    {
       "title": "A platform to create website without coding.",
       "abstract": "A platform to create website without coding.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A game uses a neural network to recognize doodles drawn.",
@@ -5422,7 +5422,7 @@
    {
       "title": "A comprehensive platform for work management with collaboration and automation.",
       "abstract": "A comprehensive platform for work management with collaboration and automation.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to help with outreach campaigns and acquire seo backlinks.",
@@ -5432,7 +5432,7 @@
    {
       "title": "An ad agency platform for creative advertising.",
       "abstract": "An ad agency platform for creative advertising.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool for connecting fans with virtual versions of social media stars.",
@@ -5452,22 +5452,22 @@
    {
       "title": "A platform to automate AI tasks and streamlines workflow.",
       "abstract": "A platform to automate AI tasks and streamlines workflow.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.SI"
    },
    {
       "title": "A platform for reviews and online reputation management.",
       "abstract": "A platform for reviews and online reputation management.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A platform for personalized stock market insights and other investing tools.",
       "abstract": "A platform for personalized stock market insights and other investing tools.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A platform to create lead magnet apps.",
       "abstract": "A platform to create lead magnet apps.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to ask and answer questions about book content.",
@@ -5487,7 +5487,7 @@
    {
       "title": "A platform for deploying autonomous AI agents for professional tasks.",
       "abstract": "A platform for deploying autonomous AI agents for professional tasks.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.SI"
    },
    {
       "title": "An AI website builder.",
@@ -5522,7 +5522,7 @@
    {
       "title": "A platform to generate personalized podcasts.",
       "abstract": "A platform to generate personalized podcasts.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to generate ads and social creatives.",
@@ -5532,7 +5532,7 @@
    {
       "title": "A tool to create knowledge base customizable chatbots and document summarization.",
       "abstract": "A tool to create knowledge base customizable chatbots and document summarization.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "A tool to generate customized landing pages.",
@@ -5547,7 +5547,7 @@
    {
       "title": "A tool to create custom sticker packs from your photos.",
       "abstract": "A tool to create custom sticker packs from your photos.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "A virtual therapist chatbot offering support and understanding to individuals.",
@@ -5572,7 +5572,7 @@
    {
       "title": "A platform to develop and operate AI applications.",
       "abstract": "A platform to develop and operate AI applications.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.SI"
    },
    {
       "title": "A tool for custom app icon generatration.",
@@ -5652,12 +5652,12 @@
    {
       "title": "A platform connecting AI models for productivity workflows.",
       "abstract": "A platform connecting AI models for productivity workflows.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.SI"
    },
    {
       "title": "A platform to train chatbots for customized support and documentation.",
       "abstract": "A platform to train chatbots for customized support and documentation.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "An AI assistant for spreadsheet programs.",
@@ -5667,12 +5667,12 @@
    {
       "title": "A platform to automate academic tasks, create and manage quizzes.",
       "abstract": "A platform to automate academic tasks, create and manage quizzes.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A platform for creating engaging, personalized, multimedia lessons.",
       "abstract": "A platform for creating engaging, personalized, multimedia lessons.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A content repurposing tool for multi-platform social media posts.",
@@ -5727,7 +5727,7 @@
    {
       "title": "A customer service platform to personalized customer engagement solutions.",
       "abstract": "A customer service platform to personalized customer engagement solutions.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool for scientists to uncover novel insights from biomedical data sources.",
@@ -5737,12 +5737,12 @@
    {
       "title": "A free AI voice platform for musicians to create and train AI voices.",
       "abstract": "A free AI voice platform for musicians to create and train AI voices.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.SI"
    },
    {
       "title": "A platform with tools to seo and optimize Etsy sales.",
       "abstract": "A platform with tools to seo and optimize Etsy sales.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "An AI assistant for teams.",
@@ -5752,7 +5752,7 @@
    {
       "title": "A video generation platform for creating how-to videos.",
       "abstract": "A video generation platform for creating how-to videos.",
-      "terms": "cs.SE cs.MM"
+      "terms": "cs.SE cs.MM cs.SI"
    },
    {
       "title": "A tool to generate copy for ads and optimize.",
@@ -5772,7 +5772,7 @@
    {
       "title": "A platform for consumer trend forecasting and generate insights.",
       "abstract": "A platform for consumer trend forecasting and generate insights.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to generate videos with realistic voices and visuals.",
@@ -5822,7 +5822,7 @@
    {
       "title": "An investing platform to make informed decisions to build and trade with confidence.",
       "abstract": "An investing platform to make informed decisions to build and trade with confidence.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to create social media clips from podcasts, audio and videos.",
@@ -5917,7 +5917,7 @@
    {
       "title": "A platform for building AI apps, workflows, and chat agents.",
       "abstract": "A platform for building AI apps, workflows, and chat agents.",
-      "terms": "cs.SE cs.AI cs.HI"
+      "terms": "cs.SE cs.AI cs.HI cs.SI"
    },
    {
       "title": "A tool to create release notes from Jira tickets.",
@@ -5967,12 +5967,12 @@
    {
       "title": "A platform to create and publish websites.",
       "abstract": "A platform to create and publish websites.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A platform to create high-performance thumbnails and ad creatives.",
       "abstract": "A platform to create high-performance thumbnails and ad creatives.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "An AI assistant to automate tedious tasks.",
@@ -5997,7 +5997,7 @@
    {
       "title": "A platform for video subtitle generation and translation.",
       "abstract": "A platform for video subtitle generation and translation.",
-      "terms": "cs.SE cs.MM"
+      "terms": "cs.SE cs.MM cs.SI"
    },
    {
       "title": "AI company building a smarter world with KOSM.",
@@ -6027,7 +6027,7 @@
    {
       "title": "An automated brokerage platform with tools to create, backtest, and execute trading algorithms.",
       "abstract": "An automated brokerage platform with tools to create, backtest, and execute trading algorithms.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to access chatgpt, share files, and create custom keyboard shortcuts.",
@@ -6057,7 +6057,7 @@
    {
       "title": "A platform for automating content generation and create articles in bulk.",
       "abstract": "A platform for automating content generation and create articles in bulk.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool for businesses to capture customer insights with targeted surveys and analysis.",
@@ -6117,12 +6117,12 @@
    {
       "title": "A tool to generate marketing copy for various platforms.",
       "abstract": "A tool to generate marketing copy for various platforms.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A nocode API platform for development, testing, and deployment of AI-powered backends.",
       "abstract": "A nocode API platform for development, testing, and deployment of AI-powered backends.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.SI"
    },
    {
       "title": "A tool to converts audio files, YouTube links, and audio links into other languages.",
@@ -6132,7 +6132,7 @@
    {
       "title": "A mac app for summarization, idea generation, and learning assistance works without internet.",
       "abstract": "A mac app for summarization, idea generation, and learning assistance works without internet.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "An assistant that helps users analyze CSV files and ask questions.",
@@ -6162,7 +6162,7 @@
    {
       "title": "A no-code AI platform to automate tasks, generate text and image prompts, and create AI models",
       "abstract": "A no-code AI platform to automate tasks, generate text and image prompts, and create AI models",
-      "terms": "cs.SE cs.GR cs.AI"
+      "terms": "cs.SE cs.GR cs.AI cs.SI"
    },
    {
       "title": "Make images larger and the AI will fill in the new space",
@@ -6182,7 +6182,7 @@
    {
       "title": "A platform to create and manage ChatGPT plugins from any API.",
       "abstract": "A platform to create and manage ChatGPT plugins from any API.",
-      "terms": "cs.SE cs.AI cs.CY cs.HI"
+      "terms": "cs.SE cs.AI cs.CY cs.HI cs.SI"
    },
    {
       "title": "A tool for curating podcasts, personalized content and optimize engagement.",
@@ -6222,12 +6222,12 @@
    {
       "title": "A platform with tools to create and remix music.",
       "abstract": "A platform with tools to create and remix music.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A platform to run stable diffussion and machine learning models in a browser.",
       "abstract": "A platform to run stable diffussion and machine learning models in a browser.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to create custom SVG images from prompts.",
@@ -6332,7 +6332,7 @@
    {
       "title": "A platform for developers to add natural language capabilities to applications.",
       "abstract": "A platform for developers to add natural language capabilities to applications.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to automate discord community moderator bot.",
@@ -6382,7 +6382,7 @@
    {
       "title": "A free platform to build, store, edit, and run prompts together.",
       "abstract": "A free platform to build, store, edit, and run prompts together.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A chatbot that provides 24/7 customer support.",
@@ -6402,7 +6402,7 @@
    {
       "title": "A platform for podcasting to create studio-quality podcasts.",
       "abstract": "A platform for podcasting to create studio-quality podcasts.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "An tool to automate taking interview notes.",
@@ -6457,12 +6457,12 @@
    {
       "title": "A low-code platform to build AI bots.",
       "abstract": "A low-code platform to build AI bots.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.SI"
    },
    {
       "title": "A platform for autonomous software company growth.",
       "abstract": "A platform for autonomous software company growth.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool for for audio and video files transcription.",
@@ -6472,7 +6472,7 @@
    {
       "title": "A platform to optimizing and henancing real estate listings ",
       "abstract": "A platform to optimizing and henancing real estate listings ",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool for note taking and mind mapping.",
@@ -6482,7 +6482,7 @@
    {
       "title": "A platform for AI voice acting for creative projects.",
       "abstract": "A platform for AI voice acting for creative projects.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.SI"
    },
    {
       "title": "An app for receipt management.",
@@ -6497,7 +6497,7 @@
    {
       "title": "A platform to create images and visuals.",
       "abstract": "A platform to create images and visuals.",
-      "terms": "cs.SE cs.GR"
+      "terms": "cs.SE cs.GR cs.SI"
    },
    {
       "title": "An mobile app to generate images on the phone using stable diffusion. ",
@@ -6512,7 +6512,7 @@
    {
       "title": "A platform for product management and insights.",
       "abstract": "A platform for product management and insights.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to create and store custom UI components.",
@@ -6542,7 +6542,7 @@
    {
       "title": "A platform for journaling and mental health.",
       "abstract": "A platform for journaling and mental health.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "An app for call assistant to schedule and summarize meetings.",
@@ -6557,7 +6557,7 @@
    {
       "title": "A platform for secure, scalable vector search database for high-performance applications.",
       "abstract": "A platform for secure, scalable vector search database for high-performance applications.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A video localization tool for multilingual content creation.",
@@ -6567,7 +6567,7 @@
    {
       "title": "A platform to create podcasts.",
       "abstract": "A platform to create podcasts.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A Google Chrome Extension to enhance online reading with reliable information.",
@@ -6582,7 +6582,7 @@
    {
       "title": "A platform to create, manage, and host intelligent documents.",
       "abstract": "A platform to create, manage, and host intelligent documents.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A free AI chatbot for Discord.",
@@ -6592,7 +6592,7 @@
    {
       "title": "A platform for facial recognition, liveness detection, and face matching.",
       "abstract": "A platform for facial recognition, liveness detection, and face matching.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool for developers to build video conferencing, robotics, and metaverse applications.",
@@ -6612,7 +6612,7 @@
    {
       "title": "A platform to create, share, and track forms securely.",
       "abstract": "A platform to create, share, and track forms securely.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to create book cover designs.",
@@ -6637,7 +6637,7 @@
    {
       "title": "A platform to generate 2+1D environments from 360° images and video.",
       "abstract": "A platform to generate 2+1D environments from 360° images and video.",
-      "terms": "cs.SE cs.MM cs.GR"
+      "terms": "cs.SE cs.MM cs.GR cs.SI"
    },
    {
       "title": "An app to create images and engage in chat conversations.",
@@ -6657,7 +6657,7 @@
    {
       "title": "A platform to automate WordPress blogs and generate SEO-optimized articles.",
       "abstract": "A platform to automate WordPress blogs and generate SEO-optimized articles.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool for summarizing various types of content.",
@@ -6677,7 +6677,7 @@
    {
       "title": "A platform for form assistance to create and customize web forms.",
       "abstract": "A platform for form assistance to create and customize web forms.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to generate email and subject line.",
@@ -6687,7 +6687,7 @@
    {
       "title": "An app to convert photos to 3D models for augmented reality.",
       "abstract": "An app to convert photos to 3D models for augmented reality.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "A free tool to track your OpenAI costs.",
@@ -6707,7 +6707,7 @@
    {
       "title": "A platform with AI Agents for DTC brands' growth and insights.",
       "abstract": "A platform with AI Agents for DTC brands' growth and insights.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.SI"
    },
    {
       "title": "A tool to compare image models and generate images from text descriptions.",
@@ -6722,17 +6722,17 @@
    {
       "title": "A platform for data assistant.",
       "abstract": "A platform for data assistant.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A platform to create personalized chatbots with customizable features.",
       "abstract": "A platform to create personalized chatbots with customizable features.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A platform for creators with content engagement tools.",
       "abstract": "A platform for creators with content engagement tools.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to create custom learning materials and tests from variety of inputs.",
@@ -6747,12 +6747,12 @@
    {
       "title": "A platform to convert books to audiobooks.",
       "abstract": "A platform to convert books to audiobooks.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A platform to build customizable chatbot.",
       "abstract": "A platform to build customizable chatbot.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "Optimize website conversions and enhance ROI with data-driven recommendations.",
@@ -6782,7 +6782,7 @@
    {
       "title": "A platform to create chatbots to answer customer queries on their websites.",
       "abstract": "A platform to create chatbots to answer customer queries on their websites.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to generate YouTube Video Summary.",
@@ -6807,7 +6807,7 @@
    {
       "title": "A platform to create, edit visualizations using natural language.",
       "abstract": "A platform to create, edit visualizations using natural language.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to automate live data embeds in presentations, docs, Slack, and more.",
@@ -6862,22 +6862,22 @@
    {
       "title": "A platform to get insights for enterprise data and voice-activated decision support.",
       "abstract": "A platform to get insights for enterprise data and voice-activated decision support.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A platform for building nocode tools and workflows.",
       "abstract": "A platform for building nocode tools and workflows.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A platform for video editing, translation, subtitle removal, and deduplication.",
       "abstract": "A platform for video editing, translation, subtitle removal, and deduplication.",
-      "terms": "cs.SE cs.MM"
+      "terms": "cs.SE cs.MM cs.SI"
    },
    {
       "title": "A platform to edit photos and videos online.",
       "abstract": "A platform to edit photos and videos online.",
-      "terms": "cs.SE cs.MM"
+      "terms": "cs.SE cs.MM cs.GR cs.SI"
    },
    {
       "title": "A tool for refactoring and debugging code.",
@@ -6887,7 +6887,7 @@
    {
       "title": "A platform to build various types of nocode tools and applications.",
       "abstract": "A platform to build various types of nocode tools and applications.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to automate content generation workflow using ChatGPT.",
@@ -6902,12 +6902,12 @@
    {
       "title": "A platform to create custom chatbots.",
       "abstract": "A platform to create custom chatbots.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to generate book summaries from uploading book cover photos.",
       "abstract": "A tool to generate book summaries from uploading book cover photos.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "An app for email summaries delivered by a voice assistant.",
@@ -6927,7 +6927,7 @@
    {
       "title": "A platform for bug tracking, streamlining workflows and collaboration.",
       "abstract": "A platform for bug tracking, streamlining workflows and collaboration.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A GitHub repository to generate 3D objects from text or images.",
@@ -6937,7 +6937,7 @@
    {
       "title": "A tool to create professional product photos",
       "abstract": "A tool to create professional product photos",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "A tool to generate landing pages.",
@@ -6947,7 +6947,7 @@
    {
       "title": "A platform to train models and fine tuning for image generation.",
       "abstract": "A platform to train models and fine tuning for image generation.",
-      "terms": "cs.SE cs.GR"
+      "terms": "cs.SE cs.GR cs.SI"
    },
    {
       "title": "A tool to automate data extraction from various files formats.",
@@ -6967,7 +6967,7 @@
    {
       "title": "An online video editing platform.",
       "abstract": "An online video editing platform.",
-      "terms": "cs.SE cs.MM"
+      "terms": "cs.SE cs.MM cs.SI"
    },
    {
       "title": "A tool for podcast content generation and editing.",
@@ -6997,7 +6997,7 @@
    {
       "title": "A platform provides video search APIs for developers.",
       "abstract": "A platform provides video search APIs for developers.",
-      "terms": "cs.SE cs.MM"
+      "terms": "cs.SE cs.MM cs.SI"
    },
    {
       "title": "An app to compose soundtrack for videos.",
@@ -7027,7 +7027,7 @@
    {
       "title": "A platform to generate images for design and branding.",
       "abstract": "A platform to generate images for design and branding.",
-      "terms": "cs.SE cs.GR"
+      "terms": "cs.SE cs.GR cs.SI"
    },
    {
       "title": "A tool to generate personalised travel plan.",
@@ -7047,7 +7047,7 @@
    {
       "title": "A platform with language tools to build business products.",
       "abstract": "A platform with language tools to build business products.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "An app to create videos from text.",
@@ -7082,7 +7082,7 @@
    {
       "title": "A platform to record and transcribe online meetings with summarization.",
       "abstract": "A platform to record and transcribe online meetings with summarization.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI cs.IR"
    },
    {
       "title": "A software for music notation to convert songs into music sheet.",
@@ -7172,7 +7172,7 @@
    {
       "title": "A platform for educators to create customized educational content.",
       "abstract": "A platform for educators to create customized educational content.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to detect AI-generated deepfakes.",
@@ -7182,7 +7182,7 @@
    {
       "title": "A tool to find celebrity look-alike suggestions based on your photo.",
       "abstract": "A tool to find celebrity look-alike suggestions based on your photo.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "A tool for ChatGPT plugin creators to authenticate and plugin analytics.",
@@ -7197,12 +7197,12 @@
    {
       "title": "A platform to chat with books and documents.",
       "abstract": "A platform to chat with books and documents.",
-      "terms": "cs.SE cs.HI"
+      "terms": "cs.SE cs.HI cs.SI"
    },
    {
       "title": "A platform to extract 3d models from videos and create textures. ",
       "abstract": "A platform to extract 3d models from videos and create textures. ",
-      "terms": "cs.SE cs.MM"
+      "terms": "cs.SE cs.MM cs.SI"
    },
    {
       "title": "A tool to compare language translations.",
@@ -7237,7 +7237,7 @@
    {
       "title": "A platform for website building and deployment.",
       "abstract": "A platform for website building and deployment.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool for SEO content generator in any languages.",
@@ -7247,12 +7247,12 @@
    {
       "title": "A platform for text to create and deploy NLP projects without coding.",
       "abstract": "A platform for text to create and deploy NLP projects without coding.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A platform to compose, summarize, and organize emails.",
       "abstract": "A platform to compose, summarize, and organize emails.",
-      "terms": "cs.SE cs.IR"
+      "terms": "cs.SE cs.SI cs.IR"
    },
    {
       "title": "A tool to create digital avatars.",
@@ -7262,7 +7262,7 @@
    {
       "title": "A platform with digital marketing tools.",
       "abstract": "A platform with digital marketing tools.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "An app to declutter your mind and a personal notebook.",
@@ -7272,7 +7272,7 @@
    {
       "title": "A platform with collection of ai tools to manipulate images, audio, and video.",
       "abstract": "A platform with collection of ai tools to manipulate images, audio, and video.",
-      "terms": "cs.SE cs.MM cs.GR cs.AI"
+      "terms": "cs.SE cs.MM cs.GR cs.AI cs.SI"
    },
    {
       "title": "An app for video call to learn and befriend.",
@@ -7292,12 +7292,12 @@
    {
       "title": "A platform for uncovering customer insights.",
       "abstract": "A platform for uncovering customer insights.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A platform for website building.",
       "abstract": "A platform for website building.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to integrate GPT Plugins and AI Agents into chat applications.",
@@ -7312,7 +7312,7 @@
    {
       "title": "A platform to create and discover AI-generated covers and remixes.",
       "abstract": "A platform to create and discover AI-generated covers and remixes.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "An AI assistant for productivity.",
@@ -7322,22 +7322,22 @@
    {
       "title": "A platform for personal singing teacher with tailored vocal exercises and coaching.",
       "abstract": "A platform for personal singing teacher with tailored vocal exercises and coaching.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A platform to detect spam.",
       "abstract": "A platform to detect spam.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A platform for video translation and dubbing.",
       "abstract": "A platform for video translation and dubbing.",
-      "terms": "cs.SE cs.MM"
+      "terms": "cs.SE cs.MM cs.SI"
    },
    {
       "title": "A platform for occupational therapists' documentation assistant.",
       "abstract": "A platform for occupational therapists' documentation assistant.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A Google Chrome Extension to track chatgpt tokens count.",
@@ -7347,7 +7347,7 @@
    {
       "title": "A platform to generate quizzes.",
       "abstract": "A platform to generate quizzes.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "An AI learning assistant with summaries, questions, and productivity.",
@@ -7357,12 +7357,12 @@
    {
       "title": "A platform to sell subscription services to your expertise and customized trained chatbots.",
       "abstract": "A platform to sell subscription services to your expertise and customized trained chatbots.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A platform to chat and compare large language models. ",
       "abstract": "A platform to chat and compare large language models. ",
-      "terms": "cs.SE cs.HI"
+      "terms": "cs.SE cs.HI cs.SI"
    },
    {
       "title": "An app to automate crafting personalized dating messages.",
@@ -7392,7 +7392,7 @@
    {
       "title": "A platform for sales teams and automate note taking.",
       "abstract": "A platform for sales teams and automate note taking.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to find matching regular expressions.",
@@ -7417,7 +7417,7 @@
    {
       "title": "A platform to create AI covers of popular artists.",
       "abstract": "A platform to create AI covers of popular artists.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.SI"
    },
    {
       "title": "An app for investors to pick stocks.",
@@ -7477,7 +7477,7 @@
    {
       "title": "A platform to convert text into video.",
       "abstract": "A platform to convert text into video.",
-      "terms": "cs.SE cs.MM"
+      "terms": "cs.SE cs.MM cs.SI"
    },
    {
       "title": "An AutoGPT ai agent for web data retrieval.",
@@ -7502,7 +7502,7 @@
    {
       "title": "A platform to create chatbot.",
       "abstract": "A platform to create chatbot.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A virtual receptionist software to automate scheduling, Q&A, and lead generation.",
@@ -7512,7 +7512,7 @@
    {
       "title": "A platform to play and create AI-generated adventures.",
       "abstract": "A platform to play and create AI-generated adventures.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to upload PDF files and talk to it.",
@@ -7537,7 +7537,7 @@
    {
       "title": "A platform for video editing.",
       "abstract": "A platform for video editing.",
-      "terms": "cs.SE cs.MM"
+      "terms": "cs.SE cs.MM cs.SI"
    },
    {
       "title": "An AI assistant to perform variety of tasks.",
@@ -7592,7 +7592,7 @@
    {
       "title": "A platform as marketing manager for Shopify stores.",
       "abstract": "A platform as marketing manager for Shopify stores.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to generate SQL statements from plain user inputs.",
@@ -7627,7 +7627,7 @@
    {
       "title": "A platform to deploy and train chatbots.",
       "abstract": "A platform to deploy and train chatbots.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A Google Chrome Extension automate web tasks with nocode and rpa system.",
@@ -7667,7 +7667,7 @@
    {
       "title": "A platform for traders for trading signals, and more.",
       "abstract": "A platform for traders for trading signals, and more.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool for students to learn with flashcards.",
@@ -7677,7 +7677,7 @@
    {
       "title": "A platform to create ecommerce online store.",
       "abstract": "A platform to create ecommerce online store.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to authenticate and filter out AI-generated voices.",
@@ -7717,7 +7717,7 @@
    {
       "title": "A platform for video editing.",
       "abstract": "A platform for video editing.",
-      "terms": "cs.SE cs.MM"
+      "terms": "cs.SE cs.MM cs.SI"
    },
    {
       "title": "A neural search engine to find files, emails, and messages from any application.",
@@ -7727,7 +7727,7 @@
    {
       "title": "A platform for creating browser-based augmented reality experiences.",
       "abstract": "A platform for creating browser-based augmented reality experiences.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A solution to eliminates unwanted noise from audios and videos.",
@@ -7772,7 +7772,7 @@
    {
       "title": "A platform to build investor-ready financial models.",
       "abstract": "A platform to build investor-ready financial models.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "",
@@ -7847,12 +7847,12 @@
    {
       "title": "A platform to generate websites and website builder.",
       "abstract": "A platform to generate websites and website builder.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A platform for no-code web app development.",
       "abstract": "A platform for no-code web app development.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool for logo design.",
@@ -7887,7 +7887,7 @@
    {
       "title": "A platform for children conversational tutoring.",
       "abstract": "A platform for children conversational tutoring.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A video editing tools suite.",
@@ -7927,7 +7927,7 @@
    {
       "title": "A tool to turn casual photos into professional headshots.",
       "abstract": "A tool to turn casual photos into professional headshots.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "A tool to build chatbots.",
@@ -7942,7 +7942,7 @@
    {
       "title": "The first no-code agents management platform.",
       "abstract": "The first no-code agents management platform.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to automate workflows.",
@@ -8012,7 +8012,7 @@
    {
       "title": "A platform to call chat with over 100 celebrities.",
       "abstract": "A platform to call chat with over 100 celebrities.",
-      "terms": "cs.SE cs.HI"
+      "terms": "cs.SE cs.HI cs.SI"
    },
    {
       "title": "A tool for ad copy generation.",
@@ -8027,7 +8027,7 @@
    {
       "title": "A platform to automate cold email campaigns.",
       "abstract": "A platform to automate cold email campaigns.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to create digital avatars.",
@@ -8052,7 +8052,7 @@
    {
       "title": "A tool to generate your future baby photos.",
       "abstract": "A tool to generate your future baby photos.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "A Google Chrome Extension tasks assistant.",
@@ -8082,12 +8082,12 @@
    {
       "title": "A platform to create applications and integrations with no-code.",
       "abstract": "A platform to create applications and integrations with no-code.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A platform to transcribe meetings and generates insights.",
       "abstract": "A platform to transcribe meetings and generates insights.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A no-code tool for website and blog building.",
@@ -8107,7 +8107,7 @@
    {
       "title": "A platform for meetings, event planning and calendar management.",
       "abstract": "A platform for meetings, event planning and calendar management.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to generate pet names.",
@@ -8122,7 +8122,7 @@
    {
       "title": "A platform to train and talking to public figures for insights.",
       "abstract": "A platform to train and talking to public figures for insights.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to add autocomplete capability to websites.",
@@ -8147,7 +8147,7 @@
    {
       "title": "A platform for anime character animation.",
       "abstract": "A platform for anime character animation.",
-      "terms": "cs.SE cs.MM"
+      "terms": "cs.SE cs.MM cs.SI"
    },
    {
       "title": "Increase your Influencer collaboration and revenues",
@@ -8162,22 +8162,22 @@
    {
       "title": "A platform for copywriting and generate content.",
       "abstract": "A platform for copywriting and generate content.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A platform for goals tracking.",
       "abstract": "A platform for goals tracking.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A platform with suite of tools for team collaboration.",
       "abstract": "A platform with suite of tools for team collaboration.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "An app with virtual photo studio to create product photos.",
       "abstract": "An app with virtual photo studio to create product photos.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "A tool to create logos.",
@@ -8197,7 +8197,7 @@
    {
       "title": "A platform 3d objects and 3d models with prompts.",
       "abstract": "A platform 3d objects and 3d models with prompts.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to find and compare the AI models.",
@@ -8227,12 +8227,12 @@
    {
       "title": "A platform for teams to collaborate and create visual content.",
       "abstract": "A platform for teams to collaborate and create visual content.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A platform to create, manage, and embed chatbots.",
       "abstract": "A platform to create, manage, and embed chatbots.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "An app to create personalized recipes.",
@@ -8242,7 +8242,7 @@
    {
       "title": "A platform to automate HARO pitches.",
       "abstract": "A platform to automate HARO pitches.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A Google Chrome Extension for personalized cold outreach.",
@@ -8252,12 +8252,12 @@
    {
       "title": "A platform for digital storytelling and create content.",
       "abstract": "A platform for digital storytelling and create content.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A platform for all-in-one WordPress hosting and optimization.",
       "abstract": "A platform for all-in-one WordPress hosting and optimization.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool that sends automatic chat replies to popular messengers.",
@@ -8267,7 +8267,7 @@
    {
       "title": "A platform with AI toolsets.",
       "abstract": "A platform with AI toolsets.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.SI"
    },
    {
       "title": "A tool to create avatar interactions with GPT models.",
@@ -8277,7 +8277,7 @@
    {
       "title": "A platform for personalized eCommerce campaigns.",
       "abstract": "A platform for personalized eCommerce campaigns.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to extract text from documents.",
@@ -8302,12 +8302,12 @@
    {
       "title": "A website for buying ai generated stock photos.",
       "abstract": "A website for buying ai generated stock photos.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.GR cs.AI"
    },
    {
       "title": "A platform to build AI tools.",
       "abstract": "A platform to build AI tools.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.SI"
    },
    {
       "title": "A video meeting tool for teams to collaborate.",
@@ -8337,7 +8337,7 @@
    {
       "title": "A platform to create mini-courses.",
       "abstract": "A platform to create mini-courses.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to create interactive content.",
@@ -8357,7 +8357,7 @@
    {
       "title": "A platform with video solutions, including subtitling and voiceovers.",
       "abstract": "A platform with video solutions, including subtitling and voiceovers.",
-      "terms": "cs.SE cs.MM"
+      "terms": "cs.SE cs.MM cs.SI"
    },
    {
       "title": "Multi-threaded conversations for ChatGPT",
@@ -8432,7 +8432,7 @@
    {
       "title": "An online photo editor and creating designs.",
       "abstract": "An online photo editor and creating designs.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "A tool for email automation and generate emails.",
@@ -8522,7 +8522,7 @@
    {
       "title": "A suite of tools to create product photos and profile pictures.",
       "abstract": "A suite of tools to create product photos and profile pictures.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "A free business name generator tool.",
@@ -8537,7 +8537,7 @@
    {
       "title": "A platform for text analysis and entities extraction.",
       "abstract": "A platform for text analysis and entities extraction.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool for teachers to automate mundane tasks.",
@@ -8547,7 +8547,7 @@
    {
       "title": "A platform for code discovery and coding tasks.",
       "abstract": "A platform for code discovery and coding tasks.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A browser extension for summaries and explanations of web pages.",
@@ -8557,7 +8557,7 @@
    {
       "title": "A platform to generate unique content ideas.",
       "abstract": "A platform to generate unique content ideas.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A free chat user-interface for chatgpt.",
@@ -8617,7 +8617,7 @@
    {
       "title": "A platform for investment research and analysis.",
       "abstract": "A platform for investment research and analysis.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool for chatbot building.",
@@ -8652,7 +8652,7 @@
    {
       "title": "A platform to automate notes and video calls for mental health professionals.",
       "abstract": "A platform to automate notes and video calls for mental health professionals.",
-      "terms": "cs.SE cs.MM"
+      "terms": "cs.SE cs.MM cs.SI"
    },
    {
       "title": "A tool to generate code for Pinescript Tradingview.",
@@ -8662,7 +8662,7 @@
    {
       "title": "A platform to create and deploy personalized AI assistants.",
       "abstract": "A platform to create and deploy personalized AI assistants.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.SI"
    },
    {
       "title": "A tool to creates personalized wishes for special occasions.",
@@ -8717,7 +8717,7 @@
    {
       "title": "A platform to integrate nocode widgets for monetization.",
       "abstract": "A platform to integrate nocode widgets for monetization.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool for media manipulation to generate images.",
@@ -8742,7 +8742,7 @@
    {
       "title": "A platform for presentation making.",
       "abstract": "A platform for presentation making.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool for automating comment generation.",
@@ -8767,12 +8767,12 @@
    {
       "title": "A platform to create content.",
       "abstract": "A platform to create content.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A platform to create discovery solutions for Shopify stores.",
       "abstract": "A platform to create discovery solutions for Shopify stores.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to summarize PDF files.",
@@ -8782,7 +8782,7 @@
    {
       "title": "A platform to generate, buy and sell prompts.",
       "abstract": "A platform to generate, buy and sell prompts.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to generate music video from a song.",
@@ -8797,7 +8797,7 @@
    {
       "title": "A platform to create and buy ai artwork.",
       "abstract": "A platform to create and buy ai artwork.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.SI"
    },
    {
       "title": "A mac app for AI writing assistant.",
@@ -8862,7 +8862,7 @@
    {
       "title": "A platform for web3 analytics.",
       "abstract": "A platform for web3 analytics.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A chatbot builder.",
@@ -8932,7 +8932,7 @@
    {
       "title": "A tool to generate product photos.",
       "abstract": "A tool to generate product photos.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "A tool for integrating GPT with a library of prompts.",
@@ -8952,7 +8952,7 @@
    {
       "title": "A tool for creating professional product photos.",
       "abstract": "A tool for creating professional product photos.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "An interactive tool to generate images.",
@@ -8977,7 +8977,7 @@
    {
       "title": "A platform for scientific writing.",
       "abstract": "A platform for scientific writing.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A Google Chrome Extension to add extra functionality to chatgpt. ",
@@ -8992,7 +8992,7 @@
    {
       "title": "A platform for job preparation and cv optimization.",
       "abstract": "A platform for job preparation and cv optimization.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to generate MIDI files using Chatgpt.",
@@ -9002,12 +9002,12 @@
    {
       "title": "An app for text-to-image generation and advanced photo editing.",
       "abstract": "An app for text-to-image generation and advanced photo editing.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "A platform to generate content in over 30 languages.",
       "abstract": "A platform to generate content in over 30 languages.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A Google Chrome Extension to summarize youtube transcripts.",
@@ -9042,7 +9042,7 @@
    {
       "title": "A platform for email marketing.",
       "abstract": "A platform for email marketing.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool for creating text-to-speech and voice-overs.",
@@ -9067,7 +9067,7 @@
    {
       "title": "A platform for writing content.",
       "abstract": "A platform for writing content.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool for US demographics and statics.",
@@ -9077,7 +9077,7 @@
    {
       "title": "A platform for writing, optimization, and submission of articles.",
       "abstract": "A platform for writing, optimization, and submission of articles.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool for frontend developers.",
@@ -9122,7 +9122,7 @@
    {
       "title": "A platform for email marketing",
       "abstract": "A platform for email marketing",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A VSCode extension for code generation.",
@@ -9132,7 +9132,7 @@
    {
       "title": "A platform for workflow automation.",
       "abstract": "A platform for workflow automation.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "An app for generating subtitles in 17 languages.",
@@ -9152,17 +9152,17 @@
    {
       "title": "A platform for product interviews and insights.",
       "abstract": "A platform for product interviews and insights.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A platform that creates bots to write code.",
       "abstract": "A platform that creates bots to write code.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A platform to create user interviews for product feedbacks.",
       "abstract": "A platform to create user interviews for product feedbacks.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A browser extension as content suite.",
@@ -9177,7 +9177,7 @@
    {
       "title": "A platform to create chatbots.",
       "abstract": "A platform to create chatbots.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "Quickly summarize large amounts of text into shorter versions",
@@ -9192,7 +9192,7 @@
    {
       "title": "A platform to process documents.",
       "abstract": "A platform to process documents.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A windows software for creating realistic face swaps.",
@@ -9202,7 +9202,7 @@
    {
       "title": "A platform for sales and CRM.",
       "abstract": "A platform for sales and CRM.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to optimize prompts.",
@@ -9222,7 +9222,7 @@
    {
       "title": "A platform to create chatbots.",
       "abstract": "A platform to create chatbots.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to generate humorous captions.",
@@ -9242,7 +9242,7 @@
    {
       "title": "A platform for content generation.",
       "abstract": "A platform for content generation.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "The time assistant that takes notes and follows up on your behalf",
@@ -9257,7 +9257,7 @@
    {
       "title": "A platform for workflow automation.",
       "abstract": "A platform for workflow automation.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A Google Chrome Extension to find linkedin emails.",
@@ -9272,7 +9272,7 @@
    {
       "title": "A platform to create and research game trends.",
       "abstract": "A platform to create and research game trends.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to generate midjourney prompts.",
@@ -9292,7 +9292,7 @@
    {
       "title": "A platform for wordpress ecommerce autoblogging.",
       "abstract": "A platform for wordpress ecommerce autoblogging.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to generate customized pet names.",
@@ -9342,7 +9342,7 @@
    {
       "title": "A platform for teams productivity.",
       "abstract": "A platform for teams productivity.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "An iOS app generating meeting notes.",
@@ -9387,12 +9387,12 @@
    {
       "title": "A platform to organise and communicate in Slack.",
       "abstract": "A platform to organise and communicate in Slack.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A virtual photo studio platform.",
       "abstract": "A virtual photo studio platform.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR cs.SI"
    },
    {
       "title": "A tool to keep changelog.",
@@ -9432,7 +9432,7 @@
    {
       "title": "A tool for photo enhancing and fixing.",
       "abstract": "A tool for photo enhancing and fixing.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "A Google Chrome Extension for email assistance.",
@@ -9452,7 +9452,7 @@
    {
       "title": "A platform for generating content, images and music.",
       "abstract": "A platform for generating content, images and music.",
-      "terms": "cs.SE cs.GR"
+      "terms": "cs.SE cs.GR cs.SI"
    },
    {
       "title": "A tool suite for writing essays and research papers. ",
@@ -9467,7 +9467,7 @@
    {
       "title": "A platform for meetings summarization.",
       "abstract": "A platform for meetings summarization.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI cs.IR"
    },
    {
       "title": "An app for journaling dreams.",
@@ -9552,7 +9552,7 @@
    {
       "title": "A platform to write personalized sales messages for emails.",
       "abstract": "A platform to write personalized sales messages for emails.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool for teachers to create activities and plans for any levels. ",
@@ -9617,7 +9617,7 @@
    {
       "title": "A tool to create stock photos of people.",
       "abstract": "A tool to create stock photos of people.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "A tool for summarizing webpages.",
@@ -9637,7 +9637,7 @@
    {
       "title": "A data platform for developers.",
       "abstract": "A data platform for developers.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A voice assistant for sales teams.",
@@ -9672,7 +9672,7 @@
    {
       "title": "A content automation platform and generate SEO-optimized articles.",
       "abstract": "A content automation platform and generate SEO-optimized articles.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to automate tedious tasks.",
@@ -9692,7 +9692,7 @@
    {
       "title": "A ML storage platform",
       "abstract": "A ML storage platform",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "An app to chat with historical figures.",
@@ -9722,7 +9722,7 @@
    {
       "title": "A platform to create AI-powered apps.",
       "abstract": "A platform to create AI-powered apps.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.SI"
    },
    {
       "title": "A tool to create personalized fitness plans.",
@@ -9737,7 +9737,7 @@
    {
       "title": "An image enhancement platform.",
       "abstract": "An image enhancement platform.",
-      "terms": "cs.SE cs.GR"
+      "terms": "cs.SE cs.GR cs.SI"
    },
    {
       "title": "A tool to summarize lectures and educational materials.",
@@ -9752,7 +9752,7 @@
    {
       "title": "A platform for emails productivity.",
       "abstract": "A platform for emails productivity.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to make video meetings collaborative.",
@@ -9772,7 +9772,7 @@
    {
       "title": "A tool to erase objects or people from photos.",
       "abstract": "A tool to erase objects or people from photos.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "An app for cocktail suggestions.",
@@ -9782,7 +9782,7 @@
    {
       "title": "A platform to run and rent GPU-based compute resources.",
       "abstract": "A platform to run and rent GPU-based compute resources.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A customizable summaries of discord chat.",
@@ -9952,7 +9952,7 @@
    {
       "title": "A platform to create and share AI-infused automations.",
       "abstract": "A platform to create and share AI-infused automations.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A guessing game for artists.",
@@ -9987,17 +9987,17 @@
    {
       "title": "A photo editing app for iOS.",
       "abstract": "A photo editing app for iOS.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "An all-in-one video editing platform.",
       "abstract": "An all-in-one video editing platform.",
-      "terms": "cs.SE cs.MM"
+      "terms": "cs.SE cs.MM cs.SI"
    },
    {
       "title": "An online photo and video editing tool.",
       "abstract": "An online photo and video editing tool.",
-      "terms": "cs.SE cs.MM"
+      "terms": "cs.SE cs.MM cs.GR"
    },
    {
       "title": "An all-in-one social media management tool.",
@@ -10007,7 +10007,7 @@
    {
       "title": "A platform to create and deploy custom computer vision projects.",
       "abstract": "A platform to create and deploy custom computer vision projects.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A children's book creator tool.",
@@ -10017,7 +10017,7 @@
    {
       "title": "A platform to automate customer service and support.",
       "abstract": "A platform to automate customer service and support.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A free macOS tool to access chatgpt anywhere.",
@@ -10062,7 +10062,7 @@
    {
       "title": "Genei is tool to research and summarization.",
       "abstract": "Genei is tool to research and summarization.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "A content frontpage creator for artists.",
@@ -10072,7 +10072,7 @@
    {
       "title": "A platform to write blog posts.",
       "abstract": "A platform to write blog posts.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to craft personalized messages.",
@@ -10117,7 +10117,7 @@
    {
       "title": "A platform for investors to analysis and visualization.",
       "abstract": "A platform for investors to analysis and visualization.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to generate excel formulas. ",
@@ -10237,7 +10237,7 @@
    {
       "title": "A platform to build applications without coding.",
       "abstract": "A platform to build applications without coding.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A Google Chrome Extension to create emails.",
@@ -10292,7 +10292,7 @@
    {
       "title": "A platform to create personalized storybooks.",
       "abstract": "A platform to create personalized storybooks.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool for personalized conversation suggestions.",
@@ -10337,7 +10337,7 @@
    {
       "title": "A open-source platform for creating and running Generative AI pipelines for text modification, image manipulation, and more.",
       "abstract": "A open-source platform for creating and running Generative AI pipelines for text modification, image manipulation, and more.",
-      "terms": "cs.SE cs.GR cs.AI"
+      "terms": "cs.SE cs.GR cs.AI cs.SI"
    },
    {
       "title": "A tool to generate high-quality 3D models from text.",
@@ -10402,7 +10402,7 @@
    {
       "title": "A writing platform to generate content.",
       "abstract": "A writing platform to generate content.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A virtual camera for remote meetings with effects and templates.",
@@ -10417,7 +10417,7 @@
    {
       "title": "A platform to reuse micro-apps to quickly build software projects.",
       "abstract": "A platform to reuse micro-apps to quickly build software projects.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool for Image Making.",
@@ -10427,7 +10427,7 @@
    {
       "title": "A tool to generate customized photos for social media.",
       "abstract": "A tool to generate customized photos for social media.",
-      "terms": "cs.SE cs.SI"
+      "terms": "cs.SE cs.GR cs.SI"
    },
    {
       "title": "A tool to create images with the same pose as the input image.",
@@ -10512,7 +10512,7 @@
    {
       "title": "A platform for writing tools .",
       "abstract": "A platform for writing tools .",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool for personalized documentation and personalized code examples for scheduling serverless functions.",
@@ -10532,7 +10532,7 @@
    {
       "title": "A tool to create visuals from your own photos and brand assets.",
       "abstract": "A tool to create visuals from your own photos and brand assets.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "A job interview preparation mobile app for candidates and students practice interviews.",
@@ -10552,7 +10552,7 @@
    {
       "title": "A tool for photo creating, editing and design.",
       "abstract": "A tool for photo creating, editing and design.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "A tool to write creative analogies and metaphors.",
@@ -10582,7 +10582,7 @@
    {
       "title": "A story-writing platform to create personalized stories and interactive books.",
       "abstract": "A story-writing platform to create personalized stories and interactive books.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool for transcription, translation, and subtitling.",
@@ -10642,7 +10642,7 @@
    {
       "title": "A tool is a cloud-based file storage and collaboration platform.",
       "abstract": "A tool is a cloud-based file storage and collaboration platform.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A command line tool that translates natural language into terminal commands.",
@@ -10687,7 +10687,7 @@
    {
       "title": "An all-in-one video creation and knowledge base platform to create, host, and update videos.",
       "abstract": "An all-in-one video creation and knowledge base platform to create, host, and update videos.",
-      "terms": "cs.SE cs.MM"
+      "terms": "cs.SE cs.MM cs.SI"
    },
    {
       "title": "A Google Chrome Extension for web searching with VPN support.",
@@ -10717,7 +10717,7 @@
    {
       "title": "A tool to create backend platform and more.",
       "abstract": "A tool to create backend platform and more.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A Chrome Extension to summarize a arXiv paper and get insights.",
@@ -10727,7 +10727,7 @@
    {
       "title": "A design app to transform photos to designs.",
       "abstract": "A design app to transform photos to designs.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "A Figma plugin to generate content, images, and copywriting.",
@@ -10737,17 +10737,17 @@
    {
       "title": "A platform to create virtual experiences from text prompts.",
       "abstract": "A platform to create virtual experiences from text prompts.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool for Photographers to create custom photo shoots, training own models, copycatting photos.",
       "abstract": "A tool for Photographers to create custom photo shoots, training own models, copycatting photos.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "A tool for teachers to grade essays summarization, spelling and grammar check and feedback.",
       "abstract": "A tool for teachers to grade essays summarization, spelling and grammar check and feedback.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "A mobile app to generate unique variations of any given image.",
@@ -10862,7 +10862,7 @@
    {
       "title": "An eCommerce growth platform to optimize ads and personalize omnichannel marketing.",
       "abstract": "An eCommerce growth platform to optimize ads and personalize omnichannel marketing.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "Bing Chatbot With ChatGPT",
@@ -10872,7 +10872,7 @@
    {
       "title": "A platform to build AI models without coding.",
       "abstract": "A platform to build AI models without coding.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.SI"
    },
    {
       "title": "A tools suite for UI-AI, Figma Automation, a magical design tool.",
@@ -10892,7 +10892,7 @@
    {
       "title": "A data analysis platform for data visualizations and data insights.",
       "abstract": "A data analysis platform for data visualizations and data insights.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A tool to create your own customized AI-powered chatbots.",
@@ -10912,7 +10912,7 @@
    {
       "title": "An office application for document management, summarization, feedback, and translation services.",
       "abstract": "An office application for document management, summarization, feedback, and translation services.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "A tool to design and publish social media marketing campaigns at scale.",
@@ -11042,12 +11042,12 @@
    {
       "title": "Article summarization tool",
       "abstract": "Article summarization tool",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "Generates product descriptions and keywords from photos",
       "abstract": "Generates product descriptions and keywords from photos",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "Generate summaries for Arxiv paperss",
@@ -11087,7 +11087,7 @@
    {
       "title": "Virtual redesign platform that lets users transform any space",
       "abstract": "Virtual redesign platform that lets users transform any space",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "For teachers to create exercises and lessons for their students",
@@ -11112,7 +11112,7 @@
    {
       "title": "Generate content from YouTube videos for Twitter, LinkedIn, and other platforms",
       "abstract": "Generate content from YouTube videos for Twitter, LinkedIn, and other platforms",
-      "terms": "cs.SE cs.MM"
+      "terms": "cs.SE cs.MM cs.SI"
    },
    {
       "title": "AI-powered content writing assistant",
@@ -11247,7 +11247,7 @@
    {
       "title": "Text summarization when you hover over a link",
       "abstract": "Text summarization when you hover over a link",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "Website wireframing with AI",
@@ -11352,7 +11352,7 @@
    {
       "title": "AI product photo generator",
       "abstract": "AI product photo generator",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.GR cs.AI"
    },
    {
       "title": "Video creation tool to quickly create engaging videos.",
@@ -11362,7 +11362,7 @@
    {
       "title": "AI-powered marketing platform",
       "abstract": "AI-powered marketing platform",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.SI"
    },
    {
       "title": "Image editing tool to customize photos using written instructions",
@@ -11382,7 +11382,7 @@
    {
       "title": "AI-powered no-code app creation platform",
       "abstract": "AI-powered no-code app creation platform",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.SI"
    },
    {
       "title": "AI-powered app for exploring and understanding dreams on iOS",
@@ -11527,7 +11527,7 @@
    {
       "title": "Discord-based generative art platform",
       "abstract": "Discord-based generative art platform",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "Helps users find the perfect book from over 500,000 titles",
@@ -11622,7 +11622,7 @@
    {
       "title": "Platform that helps businesses plan, research, create, and optimize content",
       "abstract": "Platform that helps businesses plan, research, create, and optimize content",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A media toolkit offering automated image production, templates, and translation tools",
@@ -11672,7 +11672,7 @@
    {
       "title": "Platform for discovering, sharing and rating custom AI art models",
       "abstract": "Platform for discovering, sharing and rating custom AI art models",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.SI"
    },
    {
       "title": "Train a computer to recognize your own images, sounds, & poses.",
@@ -11682,7 +11682,7 @@
    {
       "title": "AI-powered virtual tutoring platform to personalize learning experiences",
       "abstract": "AI-powered virtual tutoring platform to personalize learning experiences",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.SI"
    },
    {
       "title": "Integrate AI creation within your site or community",
@@ -11692,7 +11692,7 @@
    {
       "title": "Automated meeting recording, transcription, summarization, insights, and more",
       "abstract": "Automated meeting recording, transcription, summarization, insights, and more",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "Vacation & Travel Chat Assistant",
@@ -11702,7 +11702,7 @@
    {
       "title": "Amazon product recommendation platform",
       "abstract": "Amazon product recommendation platform",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "AI-powered knowledgebase",
@@ -11797,12 +11797,12 @@
    {
       "title": "AI chatbot platform",
       "abstract": "AI chatbot platform",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.SI"
    },
    {
       "title": "AI chatbot platform",
       "abstract": "AI chatbot platform",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.SI"
    },
    {
       "title": "Chrome browser extension that uses AI to help write emails",
@@ -12292,7 +12292,7 @@
    {
       "title": "Automated summarization, metadata extraction, paraphrasing, and clickbait filtering",
       "abstract": "Automated summarization, metadata extraction, paraphrasing, and clickbait filtering",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "Avatar generation app to make fun images with your own face",
@@ -12452,7 +12452,7 @@
    {
       "title": "AI powered SEO content platform",
       "abstract": "AI powered SEO content platform",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.SI"
    },
    {
       "title": "Train, test, and deploy your own OpenAI model",
@@ -12472,7 +12472,7 @@
    {
       "title": "Text analysis platform to unlock insights from customer feedback",
       "abstract": "Text analysis platform to unlock insights from customer feedback",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "A front-end UI for GPT-3 that you can train",
@@ -12687,7 +12687,7 @@
    {
       "title": "AI Voiceover & Text to Speech Platform",
       "abstract": "AI Voiceover & Text to Speech Platform",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.SI"
    },
    {
       "title": "AI-powered video creation tool",
@@ -12732,7 +12732,7 @@
    {
       "title": "AI tools for creators to design, edit, draw and share photo and video content",
       "abstract": "AI tools for creators to design, edit, draw and share photo and video content",
-      "terms": "cs.SE cs.MM cs.AI"
+      "terms": "cs.SE cs.MM cs.GR cs.AI"
    },
    {
       "title": "Code writing assistant",
@@ -12772,12 +12772,12 @@
    {
       "title": "Repurposing platform for video and audio creators",
       "abstract": "Repurposing platform for video and audio creators",
-      "terms": "cs.SE cs.MM"
+      "terms": "cs.SE cs.MM cs.SI"
    },
    {
       "title": "Conversational AI Platform for Customer Support",
       "abstract": "Conversational AI Platform for Customer Support",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.SI"
    },
    {
       "title": "Streamlines accounts payable processes to make smarter financial decisions.",
@@ -12882,7 +12882,7 @@
    {
       "title": "Professional photos of your product",
       "abstract": "Professional photos of your product",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "Automate customer service with AI",
@@ -13137,7 +13137,7 @@
    {
       "title": "AI-based music composition platform",
       "abstract": "AI-based music composition platform",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "AI Songwriting assistant",
@@ -13182,12 +13182,12 @@
    {
       "title": "Photo editing platform with powerful tools",
       "abstract": "Photo editing platform with powerful tools",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR cs.SI"
    },
    {
       "title": "A copywriting and funnel building platform",
       "abstract": "A copywriting and funnel building platform",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "Timestamped YouTube links and answers to science and health related questions",
@@ -13337,7 +13337,7 @@
    {
       "title": "AI writing platform to write just about anything",
       "abstract": "AI writing platform to write just about anything",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.SI"
    },
    {
       "title": "3D keyframe animation",
@@ -13377,7 +13377,7 @@
    {
       "title": "An AI-powered content creation platform",
       "abstract": "An AI-powered content creation platform",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.SI"
    },
    {
       "title": "Craft intelligent replies to emails",
@@ -13422,7 +13422,7 @@
    {
       "title": "A platform that allows you to create your own personal AI",
       "abstract": "A platform that allows you to create your own personal AI",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.SI"
    },
    {
       "title": "Studio-quality recording and AI-editing for podcasts",
@@ -13457,7 +13457,7 @@
    {
       "title": "A platform for building, training and deploying AI products",
       "abstract": "A platform for building, training and deploying AI products",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.SI"
    },
    {
       "title": "AI-based SEO optimization for online content",
@@ -13492,7 +13492,7 @@
    {
       "title": "A content creation platform that helps with ideas and SEO-optimized content",
       "abstract": "A content creation platform that helps with ideas and SEO-optimized content",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SI"
    },
    {
       "title": "Predict YouTube Views and Click-Through Rates With AI",
@@ -13542,7 +13542,7 @@
    {
       "title": "AI writing platform that can be trained on your own content and brand guidelines",
       "abstract": "AI writing platform that can be trained on your own content and brand guidelines",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.SI"
    },
    {
       "title": "Catalog of 600+ neural networks and tools for art and CG",
@@ -13612,7 +13612,7 @@
    {
       "title": "Upload your photos and let the AI generate new hairstyles for you",
       "abstract": "Upload your photos and let the AI generate new hairstyles for you",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.GR cs.AI"
    },
    {
       "title": "Create and update tickets and sales pipeline from messengers, email, or SMS",
@@ -13627,7 +13627,7 @@
    {
       "title": "Remove people or things from photos",
       "abstract": "Remove people or things from photos",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "AI writing assistant that leverages GPT-3",
@@ -13687,12 +13687,12 @@
    {
       "title": "Generate AI art that looks like real photos",
       "abstract": "Generate AI art that looks like real photos",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.GR cs.AI"
    },
    {
       "title": "Upload photos and videos and let AI organize and tag them",
       "abstract": "Upload photos and videos and let AI organize and tag them",
-      "terms": "cs.SE cs.MM cs.AI"
+      "terms": "cs.SE cs.MM cs.GR cs.AI"
    },
    {
       "title": "Remove unwanted objects from pictures or replace anything in a picture",
@@ -14072,12 +14072,12 @@
    {
       "title": "Use AI to colorize black and white photos",
       "abstract": "Use AI to colorize black and white photos",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.GR cs.AI"
    },
    {
       "title": "Upload photos and convert them into paintings",
       "abstract": "Upload photos and convert them into paintings",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "Plug in an image and it will attempt to give you a prompt to replicate that image",

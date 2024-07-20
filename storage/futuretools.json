@@ -87,7 +87,7 @@
    {
       "title": "A tool to create, manage, and share 3D visual projects.",
       "abstract": "A tool to create, manage, and share 3D visual projects.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "A tool to automate the creation of visual sitemaps and screenshots for website architecture analysis and planning.",
@@ -217,7 +217,7 @@
    {
       "title": "An iOS App to create 3D product videos.",
       "abstract": "An iOS App to create 3D product videos.",
-      "terms": "cs.SE cs.MM"
+      "terms": "cs.SE cs.MM cs.GR"
    },
    {
       "title": "A tool for product development productivity by idea generation, prioritization, and roadmap planning.",
@@ -597,7 +597,7 @@
    {
       "title": "A Hugging Face Space for instant identity verification.",
       "abstract": "A Hugging Face Space for instant identity verification.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CV"
    },
    {
       "title": "A tool to analyze and summarizes YouTubers’ video comments for insights.",
@@ -622,7 +622,7 @@
    {
       "title": "A tool for 3D visualization and customization for home decor and finishing products.",
       "abstract": "A tool for 3D visualization and customization for home decor and finishing products.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "A tool to generate custom captions for videos.",
@@ -767,7 +767,7 @@
    {
       "title": "A tool to detect AI-generated images and content.",
       "abstract": "A tool to detect AI-generated images and content.",
-      "terms": "cs.SE cs.GR"
+      "terms": "cs.SE cs.GR cs.AI"
    },
    {
       "title": "A tool to virtually try on clothes on photos and body measurements.",
@@ -802,7 +802,7 @@
    {
       "title": "A tool to generate personalized TikTok videos with voiceovers cloning.",
       "abstract": "A tool to generate personalized TikTok videos with voiceovers cloning.",
-      "terms": "cs.SE cs.MM"
+      "terms": "cs.SE cs.MM cs.SD"
    },
    {
       "title": "A tool to automatically generate fantasy novels from prompts, including plot, chapters and cover art.",
@@ -1012,7 +1012,7 @@
    {
       "title": "A platform for creating and deploying complex AI applications with multi-model cloud infrastructure.",
       "abstract": "A platform for creating and deploying complex AI applications with multi-model cloud infrastructure.",
-      "terms": "cs.SE cs.AI cs.SI"
+      "terms": "cs.SE cs.AI cs.SI cs.NI"
    },
    {
       "title": "A tool to create apps and games without coding by turning sketches into exportable code for multiple platforms.",
@@ -1022,7 +1022,7 @@
    {
       "title": "A platform to create 3D content, texturing and modeling.",
       "abstract": "A platform to create 3D content, texturing and modeling.",
-      "terms": "cs.SE cs.SI"
+      "terms": "cs.SE cs.GR cs.SI"
    },
    {
       "title": "A tool to create music and speech.",
@@ -1112,12 +1112,12 @@
    {
       "title": "Automates and streamlines the creation of visually appealing presentations with AI-driven design assistance.",
       "abstract": "Automates and streamlines the creation of visually appealing presentations with AI-driven design assistance.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.AI"
    },
    {
       "title": "A platform for 3D game development with mesh creation, texturing, animation, and quest generation.",
       "abstract": "A platform for 3D game development with mesh creation, texturing, animation, and quest generation.",
-      "terms": "cs.SE cs.MM cs.SI"
+      "terms": "cs.SE cs.MM cs.GR cs.SI"
    },
    {
       "title": "A tool to transform content into interactive courses with auto-generated lessons and assessments.",
@@ -1217,7 +1217,7 @@
    {
       "title": "A tool to convert videos into 3D spatial videos.",
       "abstract": "A tool to convert videos into 3D spatial videos.",
-      "terms": "cs.SE cs.MM"
+      "terms": "cs.SE cs.MM cs.GR"
    },
    {
       "title": "A tool to create personalized videos at scale for sales prospecting.",
@@ -1347,7 +1347,7 @@
    {
       "title": "A platform for video/audio processing, screen recording, AI chatting, auto-subtitling, and cloud storage.",
       "abstract": "A platform for video/audio processing, screen recording, AI chatting, auto-subtitling, and cloud storage.",
-      "terms": "cs.SE cs.MM cs.AI cs.SI cs.SD"
+      "terms": "cs.SE cs.MM cs.AI cs.SI cs.NI cs.SD"
    },
    {
       "title": "A tool to autonomously conduct web application testing and bug reports.",
@@ -1502,7 +1502,7 @@
    {
       "title": "A tool to generate customizable AI images with control over face, composition, and multiple models.",
       "abstract": "A tool to generate customizable AI images with control over face, composition, and multiple models.",
-      "terms": "cs.SE cs.GR cs.AI"
+      "terms": "cs.SE cs.GR cs.AI cs.CV"
    },
    {
       "title": "A tool to create digital art and graphics.",
@@ -1572,7 +1572,7 @@
    {
       "title": "A mobile app to transform real-world objects into 3D models using a smartphone's camera.",
       "abstract": "A mobile app to transform real-world objects into 3D models using a smartphone's camera.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "A chatbot for ethical engagement, avoiding controversy and harm.",
@@ -1732,7 +1732,7 @@
    {
       "title": "A tool to create characters from 3D models.",
       "abstract": "A tool to create characters from 3D models.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "A platform to transform phone systems with conversational bots for improved customer service.",
@@ -1752,7 +1752,7 @@
    {
       "title": "A tool to automate the setup of ComfyUI workflows for image and video creation in the cloud.",
       "abstract": "A tool to automate the setup of ComfyUI workflows for image and video creation in the cloud.",
-      "terms": "cs.SE cs.MM cs.GR"
+      "terms": "cs.SE cs.MM cs.GR cs.NI"
    },
    {
       "title": "A tool to generate questions and answers for Google Forms.",
@@ -1912,7 +1912,7 @@
    {
       "title": "A tool to transform text descriptions into 3D animations.",
       "abstract": "A tool to transform text descriptions into 3D animations.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "A tool to convert YouTube videos into SEO-optimized written content in multiple languages.",
@@ -2072,7 +2072,7 @@
    {
       "title": "A tool to generate 3D faces from prompts for animators and game developers.",
       "abstract": "A tool to generate 3D faces from prompts for animators and game developers.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "A tool to manage tasks and workflows using AI assistance.",
@@ -2152,12 +2152,12 @@
    {
       "title": "A tool to identify and display the likelihood of tweets being AI-generated directly within Twitter via a Chrome extension.",
       "abstract": "A tool to identify and display the likelihood of tweets being AI-generated directly within Twitter via a Chrome extension.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.AI"
    },
    {
       "title": "A tool for AI development with specialized SDKs for chatbots, helpdesk automation, data analysis, and multimodal knowledge retrieval.",
       "abstract": "A tool for AI development with specialized SDKs for chatbots, helpdesk automation, data analysis, and multimodal knowledge retrieval.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.IR"
    },
    {
       "title": "A tool to create correctly sized passport and ID photos for passports.",
@@ -2287,7 +2287,7 @@
    {
       "title": "A tool for creating personalized video messages for sales outreach using voice and face cloning.",
       "abstract": "A tool for creating personalized video messages for sales outreach using voice and face cloning.",
-      "terms": "cs.SE cs.MM cs.SD"
+      "terms": "cs.SE cs.MM cs.SD cs.CV"
    },
    {
       "title": "A tool to create customized AI chatbot for websites for user interaction and support.",
@@ -2467,7 +2467,7 @@
    {
       "title": "An API to integrate facial recognition and search into applications.",
       "abstract": "An API to integrate facial recognition and search into applications.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CV"
    },
    {
       "title": "A nocode website builder.",
@@ -2487,7 +2487,7 @@
    {
       "title": "A tool to create personalized face swap videos, photos, and GIFs.",
       "abstract": "A tool to create personalized face swap videos, photos, and GIFs.",
-      "terms": "cs.SE cs.MM cs.GR"
+      "terms": "cs.SE cs.MM cs.GR cs.CV"
    },
    {
       "title": "Create consistent characters with AI art",
@@ -2527,7 +2527,7 @@
    {
       "title": "A 3D modeling tool to generate 3D models.",
       "abstract": "A 3D modeling tool to generate 3D models.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "A tool to create a year in review for your ChatGPT chats.",
@@ -2877,7 +2877,7 @@
    {
       "title": "A 3D effect generator to create custom 3D models.",
       "abstract": "A 3D effect generator to create custom 3D models.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "An iOS app to organize thoughts and ideas.",
@@ -3372,7 +3372,7 @@
    {
       "title": "A tool to generate 3D models from text prompts. ",
       "abstract": "A tool to generate 3D models from text prompts. ",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "A tool to automate interconnected tasks to improve productivity.",
@@ -3382,7 +3382,7 @@
    {
       "title": "A cloud workspace for creating models and running workflows.",
       "abstract": "A cloud workspace for creating models and running workflows.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.NI"
    },
    {
       "title": "A tool for comic creation.",
@@ -3997,7 +3997,7 @@
    {
       "title": "Helps game developers quickly create 3D textures",
       "abstract": "Helps game developers quickly create 3D textures",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "A tool for video cataloging, search, trim, and crop footage.",
@@ -4012,7 +4012,7 @@
    {
       "title": "A tool for cloud files management.",
       "abstract": "A tool for cloud files management.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.NI"
    },
    {
       "title": "A toolkit for youtube to write scripts, video creation, promotion, and more.",
@@ -4317,7 +4317,7 @@
    {
       "title": "An app with face filters for faceless creators.",
       "abstract": "An app with face filters for faceless creators.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CV"
    },
    {
       "title": "A tool for teams to collaborate in chatgpt.",
@@ -4402,7 +4402,7 @@
    {
       "title": "A tool for film storyboarding with AI-generated visuals.",
       "abstract": "A tool for film storyboarding with AI-generated visuals.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.AI"
    },
    {
       "title": "A chatbot for 24/7 customer service.",
@@ -4537,7 +4537,7 @@
    {
       "title": "An app to create 3D flythroughs.",
       "abstract": "An app to create 3D flythroughs.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "A tool to create hyperrealistic full-body photos of people.",
@@ -4567,7 +4567,7 @@
    {
       "title": "A tool to access cloud computer from any browser.",
       "abstract": "A tool to access cloud computer from any browser.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.NI"
    },
    {
       "title": "A tool to generate impartial verdicts based on the arguments of two contending parties.",
@@ -4592,7 +4592,7 @@
    {
       "title": "A tool to create AI-generated voiceovers for games.",
       "abstract": "A tool to create AI-generated voiceovers for games.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.AI cs.SD"
    },
    {
       "title": "A tool to record, summarize, and upload trade show conversations.",
@@ -4837,7 +4837,7 @@
    {
       "title": "AI-driven & personal note-taker for every conversation",
       "abstract": "AI-driven & personal note-taker for every conversation",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.AI"
    },
    {
       "title": "An AI assistant for Mac to automate workflows.",
@@ -5412,7 +5412,7 @@
    {
       "title": "A Google Chrome Extension for face beautification, background blurring, and background replacement.",
       "abstract": "A Google Chrome Extension for face beautification, background blurring, and background replacement.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CV"
    },
    {
       "title": "A tool for teams to create detailed plans and strategies.",
@@ -5442,7 +5442,7 @@
    {
       "title": "A tool provides AI-generated news briefs on customizable topics.",
       "abstract": "A tool provides AI-generated news briefs on customizable topics.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.AI"
    },
    {
       "title": "A Google Chrome extension to create and improve content.",
@@ -5937,7 +5937,7 @@
    {
       "title": "A tool to create and share AI-generated art.",
       "abstract": "A tool to create and share AI-generated art.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.AI"
    },
    {
       "title": "An AI meeting assistant to record, transcribe, and summarize meetings",
@@ -5962,7 +5962,7 @@
    {
       "title": "An AI-driven workspace that helps users work smarter and faster.",
       "abstract": "An AI-driven workspace that helps users work smarter and faster.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.AI"
    },
    {
       "title": "A platform to create and publish websites.",
@@ -6107,7 +6107,7 @@
    {
       "title": "Create and play text-based adventures with AI-enhanced characters.",
       "abstract": "Create and play text-based adventures with AI-enhanced characters.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.AI"
    },
    {
       "title": "A tool to create short videos from youtube videos.",
@@ -6147,7 +6147,7 @@
    {
       "title": "Transform your manual processes into AI-Driven Workflows",
       "abstract": "Transform your manual processes into AI-Driven Workflows",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.AI"
    },
    {
       "title": "Automatically summarizes emails and sends them to Slack",
@@ -6212,7 +6212,7 @@
    {
       "title": "An online face editing tool to modify facial features, adding makeup and hairstyles.",
       "abstract": "An online face editing tool to modify facial features, adding makeup and hairstyles.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CV"
    },
    {
       "title": "A free telegram bot to capture and manage storage of multimedia content.",
@@ -6592,7 +6592,7 @@
    {
       "title": "A platform for facial recognition, liveness detection, and face matching.",
       "abstract": "A platform for facial recognition, liveness detection, and face matching.",
-      "terms": "cs.SE cs.SI"
+      "terms": "cs.SE cs.SI cs.CV"
    },
    {
       "title": "A tool for developers to build video conferencing, robotics, and metaverse applications.",
@@ -6817,7 +6817,7 @@
    {
       "title": "A tool that sends AI-generated podcast summaries to your inbox.",
       "abstract": "A tool that sends AI-generated podcast summaries to your inbox.",
-      "terms": "cs.SE cs.IR"
+      "terms": "cs.SE cs.AI cs.IR"
    },
    {
       "title": "A tool to convert raster images into vector graphics.",
@@ -7177,7 +7177,7 @@
    {
       "title": "A tool to detect AI-generated deepfakes.",
       "abstract": "A tool to detect AI-generated deepfakes.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.AI"
    },
    {
       "title": "A tool to find celebrity look-alike suggestions based on your photo.",
@@ -7202,7 +7202,7 @@
    {
       "title": "A platform to extract 3d models from videos and create textures. ",
       "abstract": "A platform to extract 3d models from videos and create textures. ",
-      "terms": "cs.SE cs.MM cs.SI"
+      "terms": "cs.SE cs.MM cs.GR cs.SI"
    },
    {
       "title": "A tool to compare language translations.",
@@ -7312,7 +7312,7 @@
    {
       "title": "A platform to create and discover AI-generated covers and remixes.",
       "abstract": "A platform to create and discover AI-generated covers and remixes.",
-      "terms": "cs.SE cs.SI"
+      "terms": "cs.SE cs.AI cs.SI"
    },
    {
       "title": "An AI assistant for productivity.",
@@ -7447,7 +7447,7 @@
    {
       "title": "A tool to create 3D cinematic videos",
       "abstract": "A tool to create 3D cinematic videos",
-      "terms": "cs.SE cs.MM"
+      "terms": "cs.SE cs.MM cs.GR"
    },
    {
       "title": "Rank #1 on Google Maps with this AI Google Business Profile (GMB) optimizer!",
@@ -7472,7 +7472,7 @@
    {
       "title": "A Hugging Face space to use AutoGPT.",
       "abstract": "A Hugging Face space to use AutoGPT.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CV"
    },
    {
       "title": "A platform to convert text into video.",
@@ -7482,12 +7482,12 @@
    {
       "title": "An AutoGPT ai agent for web data retrieval.",
       "abstract": "An AutoGPT ai agent for web data retrieval.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.IR"
    },
    {
       "title": "A Google Chrome Extension for teams productivity with AI-driven tools.",
       "abstract": "A Google Chrome Extension for teams productivity with AI-driven tools.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.AI"
    },
    {
       "title": "An ai assistant to generate ideas and requirements.",
@@ -7512,7 +7512,7 @@
    {
       "title": "A platform to play and create AI-generated adventures.",
       "abstract": "A platform to play and create AI-generated adventures.",
-      "terms": "cs.SE cs.SI"
+      "terms": "cs.SE cs.AI cs.SI"
    },
    {
       "title": "A tool to upload PDF files and talk to it.",
@@ -7637,7 +7637,7 @@
    {
       "title": "A tool to create 3D and animated websites without coding.",
       "abstract": "A tool to create 3D and animated websites without coding.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "A tool to add lyrics and vocal melodies to music compositions.",
@@ -7682,7 +7682,7 @@
    {
       "title": "A tool to authenticate and filter out AI-generated voices.",
       "abstract": "A tool to authenticate and filter out AI-generated voices.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.AI"
    },
    {
       "title": "A tool to automate workflows with no-code.",
@@ -8197,7 +8197,7 @@
    {
       "title": "A platform 3d objects and 3d models with prompts.",
       "abstract": "A platform 3d objects and 3d models with prompts.",
-      "terms": "cs.SE cs.SI"
+      "terms": "cs.SE cs.GR cs.SI"
    },
    {
       "title": "A tool to find and compare the AI models.",
@@ -8357,7 +8357,7 @@
    {
       "title": "A platform with video solutions, including subtitling and voiceovers.",
       "abstract": "A platform with video solutions, including subtitling and voiceovers.",
-      "terms": "cs.SE cs.MM cs.SI"
+      "terms": "cs.SE cs.MM cs.SI cs.SD"
    },
    {
       "title": "Multi-threaded conversations for ChatGPT",
@@ -8372,7 +8372,7 @@
    {
       "title": "A tool to create 3D avatar web, Unity, and Unreal.",
       "abstract": "A tool to create 3D avatar web, Unity, and Unreal.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "A tool to create content that passes ai detections.",
@@ -8382,7 +8382,7 @@
    {
       "title": "A free software for motion capture to create 3D animations.",
       "abstract": "A free software for motion capture to create 3D animations.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "A software to convert audio into music sheets.",
@@ -8512,7 +8512,7 @@
    {
       "title": "A service for 2D, 3D floor plans and 360° virtual tours.",
       "abstract": "A service for 2D, 3D floor plans and 360° virtual tours.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "A Google Chrome Extension to find relevant information from emails and documents.",
@@ -8727,7 +8727,7 @@
    {
       "title": "Mesh aware texture generation for 3D assets",
       "abstract": "Mesh aware texture generation for 3D assets",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "A tool to summarize and interact with PDF files.",
@@ -8852,7 +8852,7 @@
    {
       "title": "An app to discover and read AI-generated stories.",
       "abstract": "An app to discover and read AI-generated stories.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.AI"
    },
    {
       "title": "A free animation app.",
@@ -9197,7 +9197,7 @@
    {
       "title": "A windows software for creating realistic face swaps.",
       "abstract": "A windows software for creating realistic face swaps.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CV"
    },
    {
       "title": "A platform for sales and CRM.",
@@ -10332,7 +10332,7 @@
    {
       "title": "A tool to create custom tiles with textures.",
       "abstract": "A tool to create custom tiles with textures.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "A open-source platform for creating and running Generative AI pipelines for text modification, image manipulation, and more.",
@@ -10342,12 +10342,12 @@
    {
       "title": "A tool to generate high-quality 3D models from text.",
       "abstract": "A tool to generate high-quality 3D models from text.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "A 3D modelling tool to create game-ready assets using parametric generators and machine learning.",
       "abstract": "A 3D modelling tool to create game-ready assets using parametric generators and machine learning.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "A cloud-based image generation tool with pre-loaded models, private sessions and image browsers.",
@@ -11372,7 +11372,7 @@
    {
       "title": "AI-driven personalized news feed tool",
       "abstract": "AI-driven personalized news feed tool",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.AI"
    },
    {
       "title": "Helps filmmakers and musicians find the perfect music for their projects",
@@ -11407,7 +11407,7 @@
    {
       "title": "Detect AI-generated content in English text",
       "abstract": "Detect AI-generated content in English text",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.AI"
    },
    {
       "title": "AI copywriting tool",
@@ -11437,7 +11437,7 @@
    {
       "title": "AI-generated 3D textures and renders",
       "abstract": "AI-generated 3D textures and renders",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR cs.AI"
    },
    {
       "title": "A tool for accurately detecting AI plagiarism",
@@ -11512,7 +11512,7 @@
    {
       "title": "AI-Powered 3D Prototyping",
       "abstract": "AI-Powered 3D Prototyping",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.GR cs.AI"
    },
    {
       "title": "An AI-powered web assistant",
@@ -11597,7 +11597,7 @@
    {
       "title": "AI-generated recipe tailored to ingredients",
       "abstract": "AI-generated recipe tailored to ingredients",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.AI"
    },
    {
       "title": "Generate high-fidelity music from text descriptions (Google Research)",
@@ -11732,7 +11732,7 @@
    {
       "title": "Upload and share textures and patterns for games",
       "abstract": "Upload and share textures and patterns for games",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.GR"
    },
    {
       "title": "Skincare routine generator creates personalized routines based on budget, skin type, and skin concerns",
@@ -12297,7 +12297,7 @@
    {
       "title": "Avatar generation app to make fun images with your own face",
       "abstract": "Avatar generation app to make fun images with your own face",
-      "terms": "cs.SE cs.GR"
+      "terms": "cs.SE cs.GR cs.CV"
    },
    {
       "title": "Upload an image and turn it into a 3D animation",
@@ -12627,7 +12627,7 @@
    {
       "title": "Translate your video content to any language with synthetic voiceovers",
       "abstract": "Translate your video content to any language with synthetic voiceovers",
-      "terms": "cs.SE cs.MM"
+      "terms": "cs.SE cs.MM cs.SD"
    },
    {
       "title": "Alter your voice with AI for voiceover work",
@@ -12867,7 +12867,7 @@
    {
       "title": "AI-generated summaries of your legal docs",
       "abstract": "AI-generated summaries of your legal docs",
-      "terms": "cs.SE cs.IR"
+      "terms": "cs.SE cs.AI cs.IR"
    },
    {
       "title": "AI Avatar / Portrait Generator",
@@ -13057,7 +13057,7 @@
    {
       "title": "AI-generated tattoo ideas",
       "abstract": "AI-generated tattoo ideas",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.AI"
    },
    {
       "title": "AI-created album covers",
@@ -13097,7 +13097,7 @@
    {
       "title": "AI-generated flirting support",
       "abstract": "AI-generated flirting support",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.AI"
    },
    {
       "title": "AI email outreach tool",
@@ -13212,7 +13212,7 @@
    {
       "title": "Chrome extension that detects and flags AI-generated content",
       "abstract": "Chrome extension that detects and flags AI-generated content",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.AI"
    },
    {
       "title": "Use ChatGPT inside of Slack",
@@ -13342,7 +13342,7 @@
    {
       "title": "3D keyframe animation",
       "abstract": "3D keyframe animation",
-      "terms": "cs.SE cs.MM"
+      "terms": "cs.SE cs.MM cs.GR"
    },
    {
       "title": "AI-powered reviews and feedback analysis",
@@ -13367,7 +13367,7 @@
    {
       "title": "AI-generated forms to convert more leads",
       "abstract": "AI-generated forms to convert more leads",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.AI"
    },
    {
       "title": "Recipe generator that creates recipes based on the ingredients you have",
@@ -13387,7 +13387,7 @@
    {
       "title": "AI-generated text-based RPG",
       "abstract": "AI-generated text-based RPG",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.AI"
    },
    {
       "title": "Helps brands create unique and engaging content",
@@ -13502,7 +13502,7 @@
    {
       "title": "Live-steaming AI-Generated Music 24/7",
       "abstract": "Live-steaming AI-Generated Music 24/7",
-      "terms": "cs.SE cs.MM cs.SD"
+      "terms": "cs.SE cs.MM cs.AI cs.SD"
    },
    {
       "title": "Build AI models without code",
@@ -13527,7 +13527,7 @@
    {
       "title": "AI Generative 3D Models",
       "abstract": "AI Generative 3D Models",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.GR cs.AI"
    },
    {
       "title": "Uses Stable Diffusion models to generate music",
@@ -13662,7 +13662,7 @@
    {
       "title": "AI-generated gaming assets",
       "abstract": "AI-generated gaming assets",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.AI"
    },
    {
       "title": "Create amazing slide decks with AI",
@@ -13927,12 +13927,12 @@
    {
       "title": "Real-time AI-generated face filtering app",
       "abstract": "Real-time AI-generated face filtering app",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.AI cs.CV"
    },
    {
       "title": "AI avatar and facial animation",
       "abstract": "AI avatar and facial animation",
-      "terms": "cs.SE cs.MM cs.AI"
+      "terms": "cs.SE cs.MM cs.AI cs.CV"
    },
    {
       "title": "Convert text scripts and articles into videos with stock footage",
@@ -13982,7 +13982,7 @@
    {
       "title": "Quickly create a randomly generated human face",
       "abstract": "Quickly create a randomly generated human face",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CV"
    },
    {
       "title": "Use AI to remove watermarks from an image",
@@ -14017,12 +14017,12 @@
    {
       "title": "Train your own face into Stable Diffusion",
       "abstract": "Train your own face into Stable Diffusion",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CV"
    },
    {
       "title": "Quickly create a randomly generated human face",
       "abstract": "Quickly create a randomly generated human face",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CV"
    },
    {
       "title": "Use AI to upscale small or pixelated images",

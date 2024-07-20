@@ -184,42 +184,55 @@ def extract_structure(raw, result:dict):
                                 break
         ul.extract()
 ########################################################################
-def parse(raw, result = {}, hhh_mask = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6']):
+def parse(raw, result = {}, div = None, hhh_mask = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6']):
     hhh = dict()
     structure = result.get('data', dict())
     keywords = set(result.get('keywords', []))
     hhh = result.get('headings', dict())
 
-    extract_keywords(raw, keywords)
-    extract_headings(raw, hhh_mask, hhh)
+    if div:
+        result = list()
+        texts_div = raw.find_all("div", { "class" : div })
+        print(len(texts_div))
+        result = [{
+                    "title": text.get_text(), 
+                    "abstract": text.get_text(),
+                    "terms": "cs.SE"
+                } 
+                for text in texts_div ]
+        print(len(result))
+    else:
+        extract_keywords(raw, keywords)
+        extract_headings(raw, hhh_mask, hhh)
 
-    li_raw = read_li(raw, 1)
-    #hhh.update(li_raw.keys())
+        li_raw = read_li(raw, 1)
+        #hhh.update(li_raw.keys())
 
-    #extract_structure(raw, structure)
-    #read_ahref(raw, structure)
+        #extract_structure(raw, structure)
+        #read_ahref(raw, structure)
 
-    result['keywords'] = sorted(keywords)
-    result['data'] = structure
-    result['headings'] = hhh
+        result['keywords'] = sorted(keywords)
+        result['data'] = structure
+        result['headings'] = hhh
+    return result
 
-def parse_url(url, result = dict(), hhh_mask = None):
+def parse_url(url, result = dict(), div = None, hhh_mask = None):
     req = Request(url, headers={'User-Agent': 'XYZ/3.0'})
     #html = urllib.request.urlopen(req).read()
     html = urllib.request.urlopen(req, context = SSL_CONTEXT).read()
     raw = BeautifulSoup(html, features="html.parser") 
     if hhh_mask:
-        parse(raw, result, hhh_mask=hhh_mask)
+        result = parse(raw, result, div=div, hhh_mask=hhh_mask)
     else:
-        parse(raw, result)
+        result = parse(raw, result, div=div)
     return result
 
-def parse_file(filename, result = dict(), hhh_mask = None):
+def parse_file(filename, result = dict(), div = None, hhh_mask = None):
     raw = BeautifulSoup(open(filename, encoding='utf-8'), "html.parser")
     if hhh_mask:
-        parse(raw, result, hhh_mask=hhh_mask)
+        result = parse(raw, result, div, hhh_mask=hhh_mask)
     else:
-        parse(raw, result)
+        result = parse(raw, result, div)
     return result
 
 def save_json(result: dict, file_path="storage/_data.json"):
@@ -229,22 +242,22 @@ def save_json(result: dict, file_path="storage/_data.json"):
 ########################################################################
 
 def main():
-    result = parse_file("data/GeeksforGeeks-cs.html")
+    result = parse_file("c:/futuretools.html", div="tool-item-description-box---new")
     #result = parse_file('process/techopedia-train-db-v5.data')
 
     #url = "https://pythonexamples.org/"
     #url = "https://GeeksforGeeks.org/"
     #result = parse_url(url)
 
-    save_json(result)
+    save_json(result, file_path="storage/futuretools.json")
 
 
 if __name__ == "__main__":
-    rel = "./data/"
+    # rel = "./data/"
 
-    path = Path(rel + "stopwords.txt")
-    if path.exists():
-        stopwords.update([line.replace('\n', '')
-        for line in open(rel + path.name, 'r', encoding='utf-8').readlines()])
+    # path = Path(rel + "stopwords.txt")
+    # if path.exists():
+    #     stopwords.update([line.replace('\n', '')
+    #     for line in open(rel + path.name, 'r', encoding='utf-8').readlines()])
 
     main()

@@ -102,7 +102,7 @@
    {
       "title": "A tool for contract management through automated summaries, compliance checks, and editing suggestions.",
       "abstract": "A tool for contract management through automated summaries, compliance checks, and editing suggestions.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "A tool for screen recording and video editing.",
@@ -497,7 +497,7 @@
    {
       "title": "A tool to automate meeting note-taking by providing summaries, transcripts, and action items from audio recordings.",
       "abstract": "A tool to automate meeting note-taking by providing summaries, transcripts, and action items from audio recordings.",
-      "terms": "cs.SE cs.SD"
+      "terms": "cs.SE cs.IR cs.SD"
    },
    {
       "title": "A chat assistant for personalized health consultations and second opinions.",
@@ -562,7 +562,7 @@
    {
       "title": "A tool to craft emails with copywriting and design customization.",
       "abstract": "A tool to craft emails with copywriting and design customization.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "A tool for codebase navigation, debugging, and automate documentation and code review processes.",
@@ -727,7 +727,7 @@
    {
       "title": "A tool to provide instant answers from company documents on Slack and Microsoft Teams.",
       "abstract": "A tool to provide instant answers from company documents on Slack and Microsoft Teams.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "A tool to access decentralized AI through GPU nodes.",
@@ -762,7 +762,7 @@
    {
       "title": "A tool for attorneys to review legal documents.",
       "abstract": "A tool for attorneys to review legal documents.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "A tool to detect AI-generated images and content.",
@@ -1082,7 +1082,7 @@
    {
       "title": "A tool to synthesize extensive medical records into concise patient summaries.",
       "abstract": "A tool to synthesize extensive medical records into concise patient summaries.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "A tool to organizes and manage Twitter / X bookmarks.",
@@ -1372,7 +1372,7 @@
    {
       "title": "A tool for conversational interaction with PDFs for information retrieval and summaries.",
       "abstract": "A tool for conversational interaction with PDFs for information retrieval and summaries.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "A tool to curate personalized scientific paper newsletters.",
@@ -1417,7 +1417,7 @@
    {
       "title": "A tool to automate the extraction of structured data from various unstructured documents.",
       "abstract": "A tool to automate the extraction of structured data from various unstructured documents.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "A MacOS software for voice-operated tasks, language processing, and workflow automation.",
@@ -1432,7 +1432,7 @@
    {
       "title": "A tool for email management with summaries, draft responses, and inbox sorting.",
       "abstract": "A tool for email management with summaries, draft responses, and inbox sorting.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "A tool to generate custom logos from prompts.",
@@ -1582,7 +1582,7 @@
    {
       "title": "A document collaboration platform for knowledge sharing and management through interactive documents and wikis.",
       "abstract": "A document collaboration platform for knowledge sharing and management through interactive documents and wikis.",
-      "terms": "cs.SE cs.SI"
+      "terms": "cs.SE cs.SI cs.IR"
    },
    {
       "title": "An Adobe Premiere Pro plugin to automate silence removal, add animated captions, and other video editing tools.",
@@ -1607,7 +1607,7 @@
    {
       "title": "A tool to generate podcast audio summaries.",
       "abstract": "A tool to generate podcast audio summaries.",
-      "terms": "cs.SE cs.SD"
+      "terms": "cs.SE cs.IR cs.SD"
    },
    {
       "title": "A tool to create and deploy social media ads.",
@@ -1637,7 +1637,7 @@
    {
       "title": "A tool to optimize email management with daily summaries and unsubscribe options.",
       "abstract": "A tool to optimize email management with daily summaries and unsubscribe options.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "A tool to convert text into videos for social media.",
@@ -1662,7 +1662,7 @@
    {
       "title": "A Google Chrome Extension to automate task creation from emails and call transcripts.",
       "abstract": "A Google Chrome Extension to automate task creation from emails and call transcripts.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "A tool to consolidate e-commerce customer support into one platform for communication management.",
@@ -1862,7 +1862,7 @@
    {
       "title": "A platform for YouTube learning by courses summaries, generate subtitles, and note-taking.",
       "abstract": "A platform for YouTube learning by courses summaries, generate subtitles, and note-taking.",
-      "terms": "cs.SE cs.SI"
+      "terms": "cs.SE cs.SI cs.IR"
    },
    {
       "title": "A tool to generate reports to help refine and develop business ideas.",
@@ -2047,7 +2047,7 @@
    {
       "title": "A tool to convert Twitter Spaces into MP3s, text, summaries, and mind maps.",
       "abstract": "A tool to convert Twitter Spaces into MP3s, text, summaries, and mind maps.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "A tool to automate podcast episode transformation into various marketing assets.",
@@ -2062,7 +2062,7 @@
    {
       "title": "A tool to extract and answers questions from documents and Youtube videos. ",
       "abstract": "A tool to extract and answers questions from documents and Youtube videos. ",
-      "terms": "cs.SE cs.MM"
+      "terms": "cs.SE cs.MM cs.IR"
    },
    {
       "title": "A tool to generate personalized newsletters.",
@@ -2247,7 +2247,7 @@
    {
       "title": "aiPDF is an AI chat app that processes, summarizes, and extracts information from PDF documents interactively.",
       "abstract": "aiPDF is an AI chat app that processes, summarizes, and extracts information from PDF documents interactively.",
-      "terms": "cs.SE cs.AI cs.HI"
+      "terms": "cs.SE cs.AI cs.HI cs.IR"
    },
    {
       "title": "A tool to suggest relevant internal links to enhance website SEO and user navigation.",
@@ -2297,7 +2297,7 @@
    {
       "title": "A tool to convert text into natural-sounding speech.",
       "abstract": "A tool to convert text into natural-sounding speech.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SD"
    },
    {
       "title": "A tool to plan tasks, projects, and schedules for remote teams.",
@@ -2547,7 +2547,7 @@
    {
       "title": "An AI meeting assistant to automate note-taking, action items, emails, and CRM updates.",
       "abstract": "An AI meeting assistant to automate note-taking, action items, emails, and CRM updates.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.IR"
    },
    {
       "title": "A web analytics platform with real-time insights.",
@@ -2627,12 +2627,12 @@
    {
       "title": "A tool to generate summaries for videos, podcasts, and documents.",
       "abstract": "A tool to generate summaries for videos, podcasts, and documents.",
-      "terms": "cs.SE cs.MM"
+      "terms": "cs.SE cs.MM cs.IR"
    },
    {
       "title": "A document management solution for intelligent labels, summaries, and data protection.",
       "abstract": "A document management solution for intelligent labels, summaries, and data protection.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "A tool to clone influencers, creators, experts, and coaches digitally.",
@@ -2742,7 +2742,7 @@
    {
       "title": "A tool to create flashcards and quizzes from lecture notes and other documents.",
       "abstract": "A tool to create flashcards and quizzes from lecture notes and other documents.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "A tool for website traffic insights and reveals UX issues through user behavior replay.",
@@ -2772,7 +2772,7 @@
    {
       "title": "A tool for meeting productivity to automate meeting summaries recordings, and chat summaries.",
       "abstract": "A tool for meeting productivity to automate meeting summaries recordings, and chat summaries.",
-      "terms": "cs.SE cs.HI"
+      "terms": "cs.SE cs.HI cs.IR"
    },
    {
       "title": "A free tool to swap faces in images.",
@@ -2857,7 +2857,7 @@
    {
       "title": "A tool to create personalized emails at scale.",
       "abstract": "A tool to create personalized emails at scale.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "AI Generated Business Plans",
@@ -3072,7 +3072,7 @@
    {
       "title": "A tool to create and review legal documents.",
       "abstract": "A tool to create and review legal documents.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "A tool to gain insights into twitter followers and audience.",
@@ -3087,7 +3087,7 @@
    {
       "title": "A tool to chat with documents, request summaries, and ask questions using ai locally.",
       "abstract": "A tool to chat with documents, request summaries, and ask questions using ai locally.",
-      "terms": "cs.SE cs.AI cs.HI"
+      "terms": "cs.SE cs.AI cs.HI cs.IR"
    },
    {
       "title": "A Google Chrome extension to automate tasks, ask code questions, and create custom actions from any website.",
@@ -3302,7 +3302,7 @@
    {
       "title": "A tool to streamline documents analysis, and ideation for product teams.",
       "abstract": "A tool to streamline documents analysis, and ideation for product teams.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "A tool for video editing and transform any video into a shareable, viral short.",
@@ -3337,7 +3337,7 @@
    {
       "title": "A tool to automate receipt data extraction, categorization, and storage.",
       "abstract": "A tool to automate receipt data extraction, categorization, and storage.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "A tool to create automated browser agents for various tasks.",
@@ -3437,7 +3437,7 @@
    {
       "title": "A browser extension to assistant with emails.",
       "abstract": "A browser extension to assistant with emails.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "A tool to create custom product videos.",
@@ -3612,7 +3612,7 @@
    {
       "title": "A tool for vision and voice recognition, transcription, and moderation of images and documents.",
       "abstract": "A tool for vision and voice recognition, transcription, and moderation of images and documents.",
-      "terms": "cs.SE cs.GR cs.SD"
+      "terms": "cs.SE cs.GR cs.IR cs.SD"
    },
    {
       "title": "A no-code platform to build AI apps prompts, chats, and workflows.",
@@ -3832,7 +3832,7 @@
    {
       "title": "A tool to generate summaries from texts, audios, and videos.",
       "abstract": "A tool to generate summaries from texts, audios, and videos.",
-      "terms": "cs.SE cs.MM"
+      "terms": "cs.SE cs.MM cs.IR"
    },
    {
       "title": "A tool to create social media posts from blog content.",
@@ -3867,7 +3867,7 @@
    {
       "title": "A platform to interact with documents and data.",
       "abstract": "A platform to interact with documents and data.",
-      "terms": "cs.SE cs.SI"
+      "terms": "cs.SE cs.SI cs.IR"
    },
    {
       "title": "A software to enhance video quality.",
@@ -3897,7 +3897,7 @@
    {
       "title": "A tool for personalized digest summaries of your subscribed content.",
       "abstract": "A tool for personalized digest summaries of your subscribed content.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "A no-code tool to integrate AI to apps.",
@@ -4032,7 +4032,7 @@
    {
       "title": "A tool for recording, transcribing, and data extraction from conversations.",
       "abstract": "A tool for recording, transcribing, and data extraction from conversations.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "A platform to plan and manage influencer campaigns.",
@@ -4227,12 +4227,12 @@
    {
       "title": "A tool for multilingual text to speech voices.",
       "abstract": "A tool for multilingual text to speech voices.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SD"
    },
    {
       "title": "A tool to automate data extraction from emails, PDFs, documents, images, and more.",
       "abstract": "A tool to automate data extraction from emails, PDFs, documents, images, and more.",
-      "terms": "cs.SE cs.GR"
+      "terms": "cs.SE cs.GR cs.IR"
    },
    {
       "title": "A tool to automate tasks using customized chatbots.",
@@ -4257,7 +4257,7 @@
    {
       "title": "A visual clip maker to create custom promotional videos and summaries.",
       "abstract": "A visual clip maker to create custom promotional videos and summaries.",
-      "terms": "cs.SE cs.MM"
+      "terms": "cs.SE cs.MM cs.IR"
    },
    {
       "title": "Make money with your AI images on Wirestock. Start selling today! ",
@@ -4307,7 +4307,7 @@
    {
       "title": "A tool to automate podcasts with transcripts, summaries, and chat.",
       "abstract": "A tool to automate podcasts with transcripts, summaries, and chat.",
-      "terms": "cs.SE cs.HI"
+      "terms": "cs.SE cs.HI cs.IR"
    },
    {
       "title": "A tool for bookmarks and knowledge base management.",
@@ -4762,7 +4762,7 @@
    {
       "title": "An AI Speech Therapist.",
       "abstract": "An AI Speech Therapist.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.SD"
    },
    {
       "title": "An iOS app to create and edit videos.",
@@ -4857,7 +4857,7 @@
    {
       "title": "A platform to analyze portfolio and extracts key details from investment documents and company updates.",
       "abstract": "A platform to analyze portfolio and extracts key details from investment documents and company updates.",
-      "terms": "cs.SE cs.SI"
+      "terms": "cs.SE cs.SI cs.IR"
    },
    {
       "title": "A tool to research and reddit post generation.",
@@ -5132,7 +5132,7 @@
    {
       "title": "Superhuman AI helps people write emails faster and smarter.",
       "abstract": "Superhuman AI helps people write emails faster and smarter.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.IR"
    },
    {
       "title": "A tool to automate and manage digital marketing campaigns for healthcare industry and doctors.",
@@ -5352,7 +5352,7 @@
    {
       "title": "A Google Chrome Extension to enhance video learning with interactive Q&A, summaries, and community support.",
       "abstract": "A Google Chrome Extension to enhance video learning with interactive Q&A, summaries, and community support.",
-      "terms": "cs.SE cs.MM"
+      "terms": "cs.SE cs.MM cs.IR"
    },
    {
       "title": "A platform for business planning and ideas.",
@@ -5392,7 +5392,7 @@
    {
       "title": "A tool to automate research analysis with insights and summaries.",
       "abstract": "A tool to automate research analysis with insights and summaries.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "An online video creation from text content tool.",
@@ -5612,7 +5612,7 @@
    {
       "title": "An app for Zoom customers to improve meetings with summaries, highlights, transcription, analytics and insights.",
       "abstract": "An app for Zoom customers to improve meetings with summaries, highlights, transcription, analytics and insights.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "An automated dubbing tool for publishers and creators to expand content globally.",
@@ -5792,7 +5792,7 @@
    {
       "title": "A tool to generate personalized emails.",
       "abstract": "A tool to generate personalized emails.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "A tool to create video highlights from long videos.",
@@ -5802,7 +5802,7 @@
    {
       "title": "A tool provides api to extract data from documents, images, and PDFs.",
       "abstract": "A tool provides api to extract data from documents, images, and PDFs.",
-      "terms": "cs.SE cs.GR"
+      "terms": "cs.SE cs.GR cs.IR"
    },
    {
       "title": "A set of plugins for Adobe Premiere Pro to automate editing videos, podcasts and show production.",
@@ -6152,7 +6152,7 @@
    {
       "title": "Automatically summarizes emails and sends them to Slack",
       "abstract": "Automatically summarizes emails and sends them to Slack",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "An all-in-one video editing platform for creating, editing, and sharing videos on social media",
@@ -6282,7 +6282,7 @@
    {
       "title": "A tool to create video summaries, Q&A, flashcards, and more.",
       "abstract": "A tool to create video summaries, Q&A, flashcards, and more.",
-      "terms": "cs.SE cs.MM"
+      "terms": "cs.SE cs.MM cs.IR"
    },
    {
       "title": "A tool for transforming images into vector art, illustrations, and 3D images.",
@@ -6347,7 +6347,7 @@
    {
       "title": "A tool to create lip-sync videos and text to speech.",
       "abstract": "A tool to create lip-sync videos and text to speech.",
-      "terms": "cs.SE cs.MM"
+      "terms": "cs.SE cs.MM cs.SD"
    },
    {
       "title": "A tool to transform csv data into charts.",
@@ -6447,7 +6447,7 @@
    {
       "title": "A research tool to find and trace information from documents.",
       "abstract": "A research tool to find and trace information from documents.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "A Google Chrome Extension to access Chat GPT on any website.",
@@ -6582,7 +6582,7 @@
    {
       "title": "A platform to create, manage, and host intelligent documents.",
       "abstract": "A platform to create, manage, and host intelligent documents.",
-      "terms": "cs.SE cs.SI"
+      "terms": "cs.SE cs.SI cs.IR"
    },
    {
       "title": "A free AI chatbot for Discord.",
@@ -6717,7 +6717,7 @@
    {
       "title": "A tool to convert articles into audio summaries",
       "abstract": "A tool to convert articles into audio summaries",
-      "terms": "cs.SE cs.SD"
+      "terms": "cs.SE cs.IR cs.SD"
    },
    {
       "title": "A platform for data assistant.",
@@ -6817,7 +6817,7 @@
    {
       "title": "A tool that sends AI-generated podcast summaries to your inbox.",
       "abstract": "A tool that sends AI-generated podcast summaries to your inbox.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "A tool to convert raster images into vector graphics.",
@@ -6847,7 +6847,7 @@
    {
       "title": "An tool to automate meeting transcription, summaries, and follow-up emails.",
       "abstract": "An tool to automate meeting transcription, summaries, and follow-up emails.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "A platform to automate social media management for lead generation.",
@@ -6907,12 +6907,12 @@
    {
       "title": "A tool to generate book summaries from uploading book cover photos.",
       "abstract": "A tool to generate book summaries from uploading book cover photos.",
-      "terms": "cs.SE cs.GR"
+      "terms": "cs.SE cs.GR cs.IR"
    },
    {
       "title": "An app for email summaries delivered by a voice assistant.",
       "abstract": "An app for email summaries delivered by a voice assistant.",
-      "terms": "cs.SE cs.SD"
+      "terms": "cs.SE cs.IR cs.SD"
    },
    {
       "title": "A Google Chrome Extension to chat with any youtube video.",
@@ -6952,7 +6952,7 @@
    {
       "title": "A tool to automate data extraction from various files formats.",
       "abstract": "A tool to automate data extraction from various files formats.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "A tool to generate plagiarism essays with AI assistance and MLA references.",
@@ -7157,7 +7157,7 @@
    {
       "title": "A tool to automate data extraction and accounts payable processes.",
       "abstract": "A tool to automate data extraction and accounts payable processes.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "A tool to generate UI/UX designs, code, images, and UX writing.",
@@ -7197,7 +7197,7 @@
    {
       "title": "A platform to chat with books and documents.",
       "abstract": "A platform to chat with books and documents.",
-      "terms": "cs.SE cs.HI cs.SI"
+      "terms": "cs.SE cs.HI cs.SI cs.IR"
    },
    {
       "title": "A platform to extract 3d models from videos and create textures. ",
@@ -7352,7 +7352,7 @@
    {
       "title": "An AI learning assistant with summaries, questions, and productivity.",
       "abstract": "An AI learning assistant with summaries, questions, and productivity.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.IR"
    },
    {
       "title": "A platform to sell subscription services to your expertise and customized trained chatbots.",
@@ -7722,7 +7722,7 @@
    {
       "title": "A neural search engine to find files, emails, and messages from any application.",
       "abstract": "A neural search engine to find files, emails, and messages from any application.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "A platform for creating browser-based augmented reality experiences.",
@@ -7757,7 +7757,7 @@
    {
       "title": "A tool to generate emails from voice commands.",
       "abstract": "A tool to generate emails from voice commands.",
-      "terms": "cs.SE cs.SD"
+      "terms": "cs.SE cs.IR cs.SD"
    },
    {
       "title": "A tool to summarize long documents, images and audio/video files.",
@@ -7842,7 +7842,7 @@
    {
       "title": "A tool to create GPT-4 prompts for Markdown documents.",
       "abstract": "A tool to create GPT-4 prompts for Markdown documents.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "A platform to generate websites and website builder.",
@@ -8282,7 +8282,7 @@
    {
       "title": "A tool to extract text from documents.",
       "abstract": "A tool to extract text from documents.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "A remote meeting tool for teams with note and task taking.",
@@ -8437,7 +8437,7 @@
    {
       "title": "A tool for email automation and generate emails.",
       "abstract": "A tool for email automation and generate emails.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "A tool for interior design generatoration.",
@@ -8517,7 +8517,7 @@
    {
       "title": "A Google Chrome Extension to find relevant information from emails and documents.",
       "abstract": "A Google Chrome Extension to find relevant information from emails and documents.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "A suite of tools to create product photos and profile pictures.",
@@ -8537,7 +8537,7 @@
    {
       "title": "A platform for text analysis and entities extraction.",
       "abstract": "A platform for text analysis and entities extraction.",
-      "terms": "cs.SE cs.SI"
+      "terms": "cs.SE cs.SI cs.IR"
    },
    {
       "title": "A tool for teachers to automate mundane tasks.",
@@ -8552,7 +8552,7 @@
    {
       "title": "A browser extension for summaries and explanations of web pages.",
       "abstract": "A browser extension for summaries and explanations of web pages.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "A platform to generate unique content ideas.",
@@ -8702,7 +8702,7 @@
    {
       "title": "A tool for data extraction and process physical documents.",
       "abstract": "A tool for data extraction and process physical documents.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "A tool to generate description for real estate listings.",
@@ -8712,7 +8712,7 @@
    {
       "title": "A tool to simplify text documents.",
       "abstract": "A tool to simplify text documents.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "A platform to integrate nocode widgets for monetization.",
@@ -8837,7 +8837,7 @@
    {
       "title": "A Google Chrome Extension to automate emails.",
       "abstract": "A Google Chrome Extension to automate emails.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "A tool for automating B2B conversations and bookings.",
@@ -8907,7 +8907,7 @@
    {
       "title": "A browser extension for summaries for Google and YouTube.",
       "abstract": "A browser extension for summaries for Google and YouTube.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "An app for ai assistant on Whatsapp.",
@@ -9192,7 +9192,7 @@
    {
       "title": "A platform to process documents.",
       "abstract": "A platform to process documents.",
-      "terms": "cs.SE cs.SI"
+      "terms": "cs.SE cs.SI cs.IR"
    },
    {
       "title": "A windows software for creating realistic face swaps.",
@@ -9262,7 +9262,7 @@
    {
       "title": "A Google Chrome Extension to find linkedin emails.",
       "abstract": "A Google Chrome Extension to find linkedin emails.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "A tool to automate legal document generation",
@@ -9287,7 +9287,7 @@
    {
       "title": "A tool to generate emails.",
       "abstract": "A tool to generate emails.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "A platform for wordpress ecommerce autoblogging.",
@@ -9552,7 +9552,7 @@
    {
       "title": "A platform to write personalized sales messages for emails.",
       "abstract": "A platform to write personalized sales messages for emails.",
-      "terms": "cs.SE cs.SI"
+      "terms": "cs.SE cs.SI cs.IR"
    },
    {
       "title": "A tool for teachers to create activities and plans for any levels. ",
@@ -9597,7 +9597,7 @@
    {
       "title": "A tool to generate emails.",
       "abstract": "A tool to generate emails.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "A tool for content creators to create videos.",
@@ -9657,7 +9657,7 @@
    {
       "title": "A Gmail add-on for emails.",
       "abstract": "A Gmail add-on for emails.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "An image generator.",
@@ -9707,7 +9707,7 @@
    {
       "title": "A tool to convert text to speech.",
       "abstract": "A tool to convert text to speech.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SD"
    },
    {
       "title": "A Google Chrome Extension for Midjourney.",
@@ -9752,7 +9752,7 @@
    {
       "title": "A platform for emails productivity.",
       "abstract": "A platform for emails productivity.",
-      "terms": "cs.SE cs.SI"
+      "terms": "cs.SE cs.SI cs.IR"
    },
    {
       "title": "A tool to make video meetings collaborative.",
@@ -9787,7 +9787,7 @@
    {
       "title": "A customizable summaries of discord chat.",
       "abstract": "A customizable summaries of discord chat.",
-      "terms": "cs.SE cs.HI"
+      "terms": "cs.SE cs.HI cs.IR"
    },
    {
       "title": "A tool to answer questions about Seneca.",
@@ -10047,7 +10047,7 @@
    {
       "title": "A tool for to organise videos, screenshots, documents, and more.",
       "abstract": "A tool for to organise videos, screenshots, documents, and more.",
-      "terms": "cs.SE cs.MM"
+      "terms": "cs.SE cs.MM cs.IR"
    },
    {
       "title": "A tool for collecting and organizing ideas.",
@@ -10242,7 +10242,7 @@
    {
       "title": "A Google Chrome Extension to create emails.",
       "abstract": "A Google Chrome Extension to create emails.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "A tool for career suggestions and career path.",
@@ -10612,7 +10612,7 @@
    {
       "title": "A tool to capturing data from documents and automate manual data entry work .",
       "abstract": "A tool to capturing data from documents and automate manual data entry work .",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "A deep fake tool to generate audio clips of text-to-speech in multiple languages and voices.",
@@ -10817,7 +10817,7 @@
    {
       "title": "A Google Chrome Extension to automatically creating copy, summarizing and translating text, responding to emails. ",
       "abstract": "A Google Chrome Extension to automatically creating copy, summarizing and translating text, responding to emails. ",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "A Google Chrome Extension to simplify complex crypto projects into easy-to-understand explanations.",
@@ -10882,7 +10882,7 @@
    {
       "title": "A tool that turns audio and video content into blogs, social media posts, and summaries in seconds.",
       "abstract": "A tool that turns audio and video content into blogs, social media posts, and summaries in seconds.",
-      "terms": "cs.SE cs.MM cs.SI cs.SD"
+      "terms": "cs.SE cs.MM cs.SI cs.IR cs.SD"
    },
    {
       "title": "A design tool to create editable UI designs from text descriptions and images.",
@@ -11052,7 +11052,7 @@
    {
       "title": "Generate summaries for Arxiv paperss",
       "abstract": "Generate summaries for Arxiv paperss",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "Daydrm is an AI-powered tool that helps creatives and agencies generate strategic briefs and creative concepts for advertising campaigns.",
@@ -11127,7 +11127,7 @@
    {
       "title": "Upload documents and then ask it questions",
       "abstract": "Upload documents and then ask it questions",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "Converts your knowledgebase into a chatbot",
@@ -11217,7 +11217,7 @@
    {
       "title": "Personalized feedback from an AI speech coach",
       "abstract": "Personalized feedback from an AI speech coach",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.SD"
    },
    {
       "title": "AI-powered hairstyle assistant for women",
@@ -11232,7 +11232,7 @@
    {
       "title": "Quickly creates summaries of YouTube videos",
       "abstract": "Quickly creates summaries of YouTube videos",
-      "terms": "cs.SE cs.MM"
+      "terms": "cs.SE cs.MM cs.IR"
    },
    {
       "title": "AI writing assistant focused on SEO",
@@ -11427,7 +11427,7 @@
    {
       "title": "Helps product managers create high-quality documents quickly and efficiently.",
       "abstract": "Helps product managers create high-quality documents quickly and efficiently.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "Mac app for Stable Diffusion",
@@ -11482,7 +11482,7 @@
    {
       "title": "Generates articles summaries in Arabic, English, and French from a URL.",
       "abstract": "Generates articles summaries in Arabic, English, and French from a URL.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "Create karaoke versions of songs by removing vocals",
@@ -11497,7 +11497,7 @@
    {
       "title": "Email generator that enables users to quickly generate business emails",
       "abstract": "Email generator that enables users to quickly generate business emails",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "Quickly and easily extract data from websites, PDFs, and databases.",
@@ -11712,7 +11712,7 @@
    {
       "title": "Generate first lines for cold emails quickly and easily",
       "abstract": "Generate first lines for cold emails quickly and easily",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "Experience Augmented Reality from text",
@@ -11807,7 +11807,7 @@
    {
       "title": "Chrome browser extension that uses AI to help write emails",
       "abstract": "Chrome browser extension that uses AI to help write emails",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.IR"
    },
    {
       "title": "AI search assistant",
@@ -11847,12 +11847,12 @@
    {
       "title": "Convert speech to text and back to speech",
       "abstract": "Convert speech to text and back to speech",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SD"
    },
    {
       "title": "Helps users write emails 10x faster",
       "abstract": "Helps users write emails 10x faster",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "Predicts what customer support agents need to type",
@@ -12082,7 +12082,7 @@
    {
       "title": "AI-powered summaries for YouTube videos",
       "abstract": "AI-powered summaries for YouTube videos",
-      "terms": "cs.SE cs.MM cs.AI"
+      "terms": "cs.SE cs.MM cs.AI cs.IR"
    },
    {
       "title": "Hire ChatGPT to sell your product",
@@ -12577,7 +12577,7 @@
    {
       "title": "AI assistant that provides users with simplified explanations and summaries of long pages",
       "abstract": "AI assistant that provides users with simplified explanations and summaries of long pages",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.IR"
    },
    {
       "title": "AI assistant that helps generate marketing assets in minutes, from copy and design to videos and graphics.",
@@ -12687,7 +12687,7 @@
    {
       "title": "AI Voiceover & Text to Speech Platform",
       "abstract": "AI Voiceover & Text to Speech Platform",
-      "terms": "cs.SE cs.AI cs.SI"
+      "terms": "cs.SE cs.AI cs.SI cs.SD"
    },
    {
       "title": "AI-powered video creation tool",
@@ -12747,7 +12747,7 @@
    {
       "title": "AI assistant that manages calendars & drafts emails",
       "abstract": "AI assistant that manages calendars & drafts emails",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.IR"
    },
    {
       "title": "Predict and influence customer behavior",
@@ -12762,7 +12762,7 @@
    {
       "title": "Use AI to create human-like emails",
       "abstract": "Use AI to create human-like emails",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.IR"
    },
    {
       "title": "AI-powered knowledge base for teams in Slack.",
@@ -12867,7 +12867,7 @@
    {
       "title": "AI-generated summaries of your legal docs",
       "abstract": "AI-generated summaries of your legal docs",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "AI Avatar / Portrait Generator",
@@ -13007,7 +13007,7 @@
    {
       "title": "Turn text, images, and documents into data that can be used to train AI",
       "abstract": "Turn text, images, and documents into data that can be used to train AI",
-      "terms": "cs.SE cs.GR cs.AI"
+      "terms": "cs.SE cs.GR cs.AI cs.IR"
    },
    {
       "title": "Build multi-user Generative AI based applications",
@@ -13017,7 +13017,7 @@
    {
       "title": "No-code data extraction and web-scrapping",
       "abstract": "No-code data extraction and web-scrapping",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "AI-powered music automation tool",
@@ -13077,7 +13077,7 @@
    {
       "title": "Convert any written text into speech in 30 seconds",
       "abstract": "Convert any written text into speech in 30 seconds",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.SD"
    },
    {
       "title": "An AI-powered tool that generates custom swag ideas",
@@ -13202,7 +13202,7 @@
    {
       "title": "AI podcast summaries of your favorite shows",
       "abstract": "AI podcast summaries of your favorite shows",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.IR"
    },
    {
       "title": "A tool for conversational voice assistance in call centers.",
@@ -13307,7 +13307,7 @@
    {
       "title": "Chrome extension to generate emails and replies for Gmail",
       "abstract": "Chrome extension to generate emails and replies for Gmail",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "Automates tasks like email, document classification, customer support tickets, and more.",
@@ -13382,7 +13382,7 @@
    {
       "title": "Craft intelligent replies to emails",
       "abstract": "Craft intelligent replies to emails",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.IR"
    },
    {
       "title": "AI-generated text-based RPG",
@@ -13432,7 +13432,7 @@
    {
       "title": "AI to help you write better emails (from Boomerang)",
       "abstract": "AI to help you write better emails (from Boomerang)",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.IR"
    },
    {
       "title": "Natural sounding text-to-speech with speed options",

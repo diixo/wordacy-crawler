@@ -274,14 +274,18 @@ categories = {
     "cs.SD": ["sound", "voice", "audio", "music", "speech", "voiceovers", "voiceover", "audios", "voice-to-text", 
               "audio-to-text", "speech-to-text"],
     "cs.CV": ["upscaler", "face", "facial"],
-    "cs.PL": ["programming", "sdk"]
+    "cs.PL": ["programming", "sdk", "development"],
+    "cs.DB": [],
 }
 
 categories_txt = {
     "cs.CV": ["augmented reality", "computer vision"],
-    "cs.LG": ["language model", "machine learning"],
+    "cs.LG": ["language model", "machine learning", "data science"],
     "cs.HC": ["data visuali"],
-
+    "cs.PL": ["deploy"],
+    "cs.DB": ["database",],
+    "cs.CL": ["natural language", "language processing"],
+    "cs.IR": ["natural language", "language processing"]
 }
 
 

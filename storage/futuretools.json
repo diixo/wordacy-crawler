@@ -7,12 +7,12 @@
    {
       "title": "A self-hosted platform for web app development and building custom apps.",
       "abstract": "A self-hosted platform for web app development and building custom apps.",
-      "terms": "cs.SE cs.SI"
+      "terms": "cs.SE cs.SI cs.PL"
    },
    {
       "title": "A platform for streamaging lead generation by identifying potential customers based on natural language inputs.",
       "abstract": "A platform for streamaging lead generation by identifying potential customers based on natural language inputs.",
-      "terms": "cs.SE cs.SI"
+      "terms": "cs.SE cs.SI cs.CL"
    },
    {
       "title": "A tool to automate the process of gathering and summarizing information on specific topics into concise reports.",
@@ -222,7 +222,7 @@
    {
       "title": "A tool for product development productivity by idea generation, prioritization, and roadmap planning.",
       "abstract": "A tool for product development productivity by idea generation, prioritization, and roadmap planning.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.PL"
    },
    {
       "title": "A tool to automate code reviews and suggests code optimization.",
@@ -357,7 +357,7 @@
    {
       "title": "A tool to auto review code and suggest fixes based on custom natural language rules.",
       "abstract": "A tool to auto review code and suggest fixes based on custom natural language rules.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CL"
    },
    {
       "title": "A tool to generate custom, stylistically consistent illustrations.",
@@ -372,7 +372,7 @@
    {
       "title": "A tool to automate software development and analyze company data.",
       "abstract": "A tool to automate software development and analyze company data.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.PL"
    },
    {
       "title": "A tool to automate knowledge-based tasks with personalized AI assistants.",
@@ -422,7 +422,7 @@
    {
       "title": "A tool to create prompts and optimize AI development.",
       "abstract": "A tool to create prompts and optimize AI development.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.PL"
    },
    {
       "title": "A tool to automate typing tasks across macOS applications by contextually interpreting on-screen content.",
@@ -507,7 +507,7 @@
    {
       "title": "A tool to create web applications from text prompts using low-code development.",
       "abstract": "A tool to create web applications from text prompts using low-code development.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.PL"
    },
    {
       "title": "A tool to automate documentation creation and maintenance.",
@@ -722,7 +722,7 @@
    {
       "title": "A tool to design and development of apps using simple text and images.",
       "abstract": "A tool to design and development of apps using simple text and images.",
-      "terms": "cs.SE cs.GR"
+      "terms": "cs.SE cs.GR cs.PL"
    },
    {
       "title": "A tool to provide instant answers from company documents on Slack and Microsoft Teams.",
@@ -947,7 +947,7 @@
    {
       "title": "A tool for data science and AI project workflows with development collaboration, and deployment.",
       "abstract": "A tool for data science and AI project workflows with development collaboration, and deployment.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.LG cs.PL cs.PL"
    },
    {
       "title": "A tool to dubs videos and multilingual translation with voice cloning and lip-syncing.",
@@ -967,7 +967,7 @@
    {
       "title": "A tool to query databases using natural language, for data analysis and reporting.",
       "abstract": "A tool to query databases using natural language, for data analysis and reporting.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CL cs.DB"
    },
    {
       "title": "An app to analyze meal photos and descriptions to track calories and macros.",
@@ -977,7 +977,7 @@
    {
       "title": "A macOS assistant for automating tasks using natural language.",
       "abstract": "A macOS assistant for automating tasks using natural language.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CL"
    },
    {
       "title": "A tool to convert blog posts into infographics.",
@@ -1012,7 +1012,7 @@
    {
       "title": "A platform for creating and deploying complex AI applications with multi-model cloud infrastructure.",
       "abstract": "A platform for creating and deploying complex AI applications with multi-model cloud infrastructure.",
-      "terms": "cs.SE cs.AI cs.SI cs.NI"
+      "terms": "cs.SE cs.AI cs.SI cs.NI cs.PL"
    },
    {
       "title": "A tool to create apps and games without coding by turning sketches into exportable code for multiple platforms.",
@@ -1117,7 +1117,7 @@
    {
       "title": "A platform for 3D game development with mesh creation, texturing, animation, and quest generation.",
       "abstract": "A platform for 3D game development with mesh creation, texturing, animation, and quest generation.",
-      "terms": "cs.SE cs.MM cs.GR cs.SI"
+      "terms": "cs.SE cs.MM cs.GR cs.SI cs.PL"
    },
    {
       "title": "A tool to transform content into interactive courses with auto-generated lessons and assessments.",
@@ -1397,7 +1397,7 @@
    {
       "title": "A tool to automate SQL query generation from natural language descriptions.",
       "abstract": "A tool to automate SQL query generation from natural language descriptions.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CL"
    },
    {
       "title": "A tool to create customizable AI toolkits using no-code document editor.",
@@ -1422,7 +1422,7 @@
    {
       "title": "A MacOS software for voice-operated tasks, language processing, and workflow automation.",
       "abstract": "A MacOS software for voice-operated tasks, language processing, and workflow automation.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CL"
    },
    {
       "title": "Online AI Image Generator using Stable Diffusion.",
@@ -1447,7 +1447,7 @@
    {
       "title": "A tool to research nocode projects for efficient development.",
       "abstract": "A tool to research nocode projects for efficient development.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.PL"
    },
    {
       "title": "A platform for lead generation, sales optimization, engagement and communication.",
@@ -1552,7 +1552,7 @@
    {
       "title": "A platform for advance natural language processing across 101 languages.",
       "abstract": "A platform for advance natural language processing across 101 languages.",
-      "terms": "cs.SE cs.SI"
+      "terms": "cs.SE cs.SI cs.CL"
    },
    {
       "title": "A tool to creates a personalized chatbot from custom data sources using RTX acceleration.",
@@ -1612,7 +1612,7 @@
    {
       "title": "A tool to create and deploy social media ads.",
       "abstract": "A tool to create and deploy social media ads.",
-      "terms": "cs.SE cs.SI"
+      "terms": "cs.SE cs.SI cs.PL"
    },
    {
       "title": "A tool to automate personalized captions generation for photos.",
@@ -1707,7 +1707,7 @@
    {
       "title": "A tool to organize and scheduling through natural language conversations.",
       "abstract": "A tool to organize and scheduling through natural language conversations.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CL"
    },
    {
       "title": "A chatbot for free legal answers to user inquiries.",
@@ -1762,7 +1762,7 @@
    {
       "title": "A platform to deploy AI agents for complex task automation and data analysis.",
       "abstract": "A platform to deploy AI agents for complex task automation and data analysis.",
-      "terms": "cs.SE cs.AI cs.SI"
+      "terms": "cs.SE cs.AI cs.SI cs.PL"
    },
    {
       "title": "A platform to create and integrate OpenAI-powered chatbots into websites.",
@@ -1992,7 +1992,7 @@
    {
       "title": "A nocode platform to create and deploy custom AI apps.",
       "abstract": "A nocode platform to create and deploy custom AI apps.",
-      "terms": "cs.SE cs.AI cs.SI"
+      "terms": "cs.SE cs.AI cs.SI cs.PL"
    },
    {
       "title": "A platform to automate customer support with a multilingual AI chatbot.",
@@ -2027,7 +2027,7 @@
    {
       "title": "A Chatgpt gpt for scriptwriting, character development, and scene planning.",
       "abstract": "A Chatgpt gpt for scriptwriting, character development, and scene planning.",
-      "terms": "cs.SE cs.AI cs.CY cs.HI"
+      "terms": "cs.SE cs.AI cs.CY cs.HI cs.PL"
    },
    {
       "title": "A tool to automate Amazon PPC campaigns, optimize bidding, and reduce ACOS.",
@@ -2092,7 +2092,7 @@
    {
       "title": "A nocode tool to create and deploy chatbots for various platforms.",
       "abstract": "A nocode tool to create and deploy chatbots for various platforms.",
-      "terms": "cs.SE cs.SI"
+      "terms": "cs.SE cs.SI cs.PL"
    },
    {
       "title": "An online video editor for video creation with automated editing and creative elements.",
@@ -2157,7 +2157,7 @@
    {
       "title": "A tool for AI development with specialized SDKs for chatbots, helpdesk automation, data analysis, and multimodal knowledge retrieval.",
       "abstract": "A tool for AI development with specialized SDKs for chatbots, helpdesk automation, data analysis, and multimodal knowledge retrieval.",
-      "terms": "cs.SE cs.AI cs.IR"
+      "terms": "cs.SE cs.AI cs.IR cs.PL"
    },
    {
       "title": "A tool to create correctly sized passport and ID photos for passports.",
@@ -2192,7 +2192,7 @@
    {
       "title": "A tool to automate software development requirements management.",
       "abstract": "A tool to automate software development requirements management.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.PL"
    },
    {
       "title": "A digital security solution to detect and prevent fake users, bots, and fraudulent activities on websites and mobile platforms.",
@@ -2562,7 +2562,7 @@
    {
       "title": "A tool to build interactive web apps with natural language.",
       "abstract": "A tool to build interactive web apps with natural language.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CL"
    },
    {
       "title": "A tool to create customized logos from icons.",
@@ -2662,7 +2662,7 @@
    {
       "title": "A tool for generative AI development to build, deploy, and scaling.",
       "abstract": "A tool for generative AI development to build, deploy, and scaling.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.PL cs.PL"
    },
    {
       "title": "A tool to generate interactive audio stories from voice inputs and text prompts.",
@@ -2902,7 +2902,7 @@
    {
       "title": "A command-line assistant for natural language conversion into executable commands.",
       "abstract": "A command-line assistant for natural language conversion into executable commands.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CL"
    },
    {
       "title": "A tool to automate data analysis, decision-making, and workflow integration for tasks.",
@@ -2972,7 +2972,7 @@
    {
       "title": "A tool for software development to improve code quality and process.",
       "abstract": "A tool for software development to improve code quality and process.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.PL"
    },
    {
       "title": "A Google chrome extension to help Amazon shopping decisions with insightful product analysis.",
@@ -2992,7 +2992,7 @@
    {
       "title": "A platform to create, test, and deploy AI applications.",
       "abstract": "A platform to create, test, and deploy AI applications.",
-      "terms": "cs.SE cs.AI cs.SI"
+      "terms": "cs.SE cs.AI cs.SI cs.PL"
    },
    {
       "title": "An productivity app to focus, streamline tasks and improve work efficiency.",
@@ -3047,7 +3047,7 @@
    {
       "title": "A conversational language model for natural language tasks.",
       "abstract": "A conversational language model for natural language tasks.",
-      "terms": "cs.SE cs.LG"
+      "terms": "cs.SE cs.LG cs.CL"
    },
    {
       "title": "A tool to turn text into vertical videos for social media.",
@@ -3122,7 +3122,7 @@
    {
       "title": "A tool to develop, test, monitor, and deploy AI applications.",
       "abstract": "A tool to develop, test, monitor, and deploy AI applications.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.PL"
    },
    {
       "title": "A personal growth coach to track goals and break bad habits.",
@@ -3167,7 +3167,7 @@
    {
       "title": "A tool to deploy custom ML models with REST APIs.",
       "abstract": "A tool to deploy custom ML models with REST APIs.",
-      "terms": "cs.SE cs.LG"
+      "terms": "cs.SE cs.LG cs.PL"
    },
    {
       "title": "A tool to create custom Minecraft skins.",
@@ -3607,7 +3607,7 @@
    {
       "title": "An AI database chat assistant.",
       "abstract": "An AI database chat assistant.",
-      "terms": "cs.SE cs.AI cs.HI"
+      "terms": "cs.SE cs.AI cs.HI cs.DB"
    },
    {
       "title": "A tool for vision and voice recognition, transcription, and moderation of images and documents.",
@@ -3687,7 +3687,7 @@
    {
       "title": "A tool for collective software development using intelligent agents.",
       "abstract": "A tool for collective software development using intelligent agents.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.PL"
    },
    {
       "title": "A platform to organize, share, and collaborate on AI prompts.",
@@ -4072,7 +4072,7 @@
    {
       "title": "An unified api to connect and manage data sources for llms and AI development.",
       "abstract": "An unified api to connect and manage data sources for llms and AI development.",
-      "terms": "cs.SE cs.AI cs.LG cs.CL cs.HC"
+      "terms": "cs.SE cs.AI cs.LG cs.CL cs.HC cs.PL"
    },
    {
       "title": "A whatsapp chatbot for mental health support.",
@@ -4617,7 +4617,7 @@
    {
       "title": "A tool for training, deployment, and monitoring of machine learning models.",
       "abstract": "A tool for training, deployment, and monitoring of machine learning models.",
-      "terms": "cs.SE cs.LG cs.LG"
+      "terms": "cs.SE cs.LG cs.LG cs.PL"
    },
    {
       "title": "A Google Chrome extension to create white papers.",
@@ -5097,7 +5097,7 @@
    {
       "title": "A nocode tool to streamline app development.",
       "abstract": "A nocode tool to streamline app development.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.PL"
    },
    {
       "title": "An iOS app for outbound calling with automated voicemail.",
@@ -5287,12 +5287,12 @@
    {
       "title": "A tool to deploy AI agents for comprehensive online research and report generation.",
       "abstract": "A tool to deploy AI agents for comprehensive online research and report generation.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.PL"
    },
    {
       "title": "A platform for AI development workflows, code exploration, code review, and collaboration.",
       "abstract": "A platform for AI development workflows, code exploration, code review, and collaboration.",
-      "terms": "cs.SE cs.AI cs.SI"
+      "terms": "cs.SE cs.AI cs.SI cs.PL"
    },
    {
       "title": "A platform for online course creation.",
@@ -5332,7 +5332,7 @@
    {
       "title": "A platform with generative AI models APIs for AI Development.",
       "abstract": "A platform with generative AI models APIs for AI Development.",
-      "terms": "cs.SE cs.AI cs.SI"
+      "terms": "cs.SE cs.AI cs.SI cs.PL"
    },
    {
       "title": "A platform with document creation process, encryption, a chatbot, and knowledge-based tools.",
@@ -5487,7 +5487,7 @@
    {
       "title": "A platform for deploying autonomous AI agents for professional tasks.",
       "abstract": "A platform for deploying autonomous AI agents for professional tasks.",
-      "terms": "cs.SE cs.AI cs.SI"
+      "terms": "cs.SE cs.AI cs.SI cs.PL"
    },
    {
       "title": "An AI website builder.",
@@ -6122,7 +6122,7 @@
    {
       "title": "A nocode API platform for development, testing, and deployment of AI-powered backends.",
       "abstract": "A nocode API platform for development, testing, and deployment of AI-powered backends.",
-      "terms": "cs.SE cs.AI cs.SI"
+      "terms": "cs.SE cs.AI cs.SI cs.PL cs.PL"
    },
    {
       "title": "A tool to converts audio files, YouTube links, and audio links into other languages.",
@@ -6332,7 +6332,7 @@
    {
       "title": "A platform for developers to add natural language capabilities to applications.",
       "abstract": "A platform for developers to add natural language capabilities to applications.",
-      "terms": "cs.SE cs.SI"
+      "terms": "cs.SE cs.SI cs.CL"
    },
    {
       "title": "A tool to automate discord community moderator bot.",
@@ -6532,7 +6532,7 @@
    {
       "title": "A github respositary for developers to create, deploy, and manage autonomous AI agents.",
       "abstract": "A github respositary for developers to create, deploy, and manage autonomous AI agents.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.PL"
    },
    {
       "title": "An app for product photography.",
@@ -6557,7 +6557,7 @@
    {
       "title": "A platform for secure, scalable vector search database for high-performance applications.",
       "abstract": "A platform for secure, scalable vector search database for high-performance applications.",
-      "terms": "cs.SE cs.SI"
+      "terms": "cs.SE cs.SI cs.DB"
    },
    {
       "title": "A video localization tool for multilingual content creation.",
@@ -6807,7 +6807,7 @@
    {
       "title": "A platform to create, edit visualizations using natural language.",
       "abstract": "A platform to create, edit visualizations using natural language.",
-      "terms": "cs.SE cs.SI"
+      "terms": "cs.SE cs.SI cs.CL"
    },
    {
       "title": "A tool to automate live data embeds in presentations, docs, Slack, and more.",
@@ -7132,7 +7132,7 @@
    {
       "title": "A tool to automate repetitive tasks by deploying ai agents.",
       "abstract": "A tool to automate repetitive tasks by deploying ai agents.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.PL"
    },
    {
       "title": "A tool to transform data queries into shareable dashboards.",
@@ -7237,7 +7237,7 @@
    {
       "title": "A platform for website building and deployment.",
       "abstract": "A platform for website building and deployment.",
-      "terms": "cs.SE cs.SI"
+      "terms": "cs.SE cs.SI cs.PL"
    },
    {
       "title": "A tool for SEO content generator in any languages.",
@@ -7247,7 +7247,7 @@
    {
       "title": "A platform for text to create and deploy NLP projects without coding.",
       "abstract": "A platform for text to create and deploy NLP projects without coding.",
-      "terms": "cs.SE cs.SI"
+      "terms": "cs.SE cs.SI cs.PL"
    },
    {
       "title": "A platform to compose, summarize, and organize emails.",
@@ -7547,7 +7547,7 @@
    {
       "title": "A tool to upload images and chat with them with natural language.",
       "abstract": "A tool to upload images and chat with them with natural language.",
-      "terms": "cs.SE cs.GR cs.HI"
+      "terms": "cs.SE cs.GR cs.HI cs.CL"
    },
    {
       "title": "A collection of curated prompts.",
@@ -7627,7 +7627,7 @@
    {
       "title": "A platform to deploy and train chatbots.",
       "abstract": "A platform to deploy and train chatbots.",
-      "terms": "cs.SE cs.SI"
+      "terms": "cs.SE cs.SI cs.PL"
    },
    {
       "title": "A Google Chrome Extension automate web tasks with nocode and rpa system.",
@@ -7662,7 +7662,7 @@
    {
       "title": "A tool to create and deploy AI agents in a browser.",
       "abstract": "A tool to create and deploy AI agents in a browser.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.PL"
    },
    {
       "title": "A platform for traders for trading signals, and more.",
@@ -7852,7 +7852,7 @@
    {
       "title": "A platform for no-code web app development.",
       "abstract": "A platform for no-code web app development.",
-      "terms": "cs.SE cs.SI"
+      "terms": "cs.SE cs.SI cs.PL"
    },
    {
       "title": "A tool for logo design.",
@@ -7962,7 +7962,7 @@
    {
       "title": "A toolset for game development.",
       "abstract": "A toolset for game development.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.PL"
    },
    {
       "title": "A tool for image creation, lighting, and correcting colors.",
@@ -8072,7 +8072,7 @@
    {
       "title": "A tool for product development and management.",
       "abstract": "A tool for product development and management.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.PL"
    },
    {
       "title": "A tool to create short clips.",
@@ -8662,7 +8662,7 @@
    {
       "title": "A platform to create and deploy personalized AI assistants.",
       "abstract": "A platform to create and deploy personalized AI assistants.",
-      "terms": "cs.SE cs.AI cs.SI"
+      "terms": "cs.SE cs.AI cs.SI cs.PL"
    },
    {
       "title": "A tool to creates personalized wishes for special occasions.",
@@ -8882,7 +8882,7 @@
    {
       "title": "A tool to build, deploy, and monitor LLMs.",
       "abstract": "A tool to build, deploy, and monitor LLMs.",
-      "terms": "cs.SE cs.LG cs.CL cs.HC"
+      "terms": "cs.SE cs.LG cs.CL cs.HC cs.PL"
    },
    {
       "title": "A tool for personalized tutoring guides.",
@@ -10007,7 +10007,7 @@
    {
       "title": "A platform to create and deploy custom computer vision projects.",
       "abstract": "A platform to create and deploy custom computer vision projects.",
-      "terms": "cs.SE cs.SI cs.CV"
+      "terms": "cs.SE cs.SI cs.CV cs.PL"
    },
    {
       "title": "A children's book creator tool.",
@@ -10632,7 +10632,7 @@
    {
       "title": "A tool for developers to deploy AI projects and models in a serverless environment.",
       "abstract": "A tool for developers to deploy AI projects and models in a serverless environment.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.PL"
    },
    {
       "title": "A tool that lets you play the piano with their keyboard or phone.",
@@ -10647,7 +10647,7 @@
    {
       "title": "A command line tool that translates natural language into terminal commands.",
       "abstract": "A command line tool that translates natural language into terminal commands.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CL"
    },
    {
       "title": "A short video generator and upload with captions, titles, and descriptions.",
@@ -11502,7 +11502,7 @@
    {
       "title": "Quickly and easily extract data from websites, PDFs, and databases.",
       "abstract": "Quickly and easily extract data from websites, PDFs, and databases.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.DB"
    },
    {
       "title": "Design interiors and exteriors for rooms and buildings",
@@ -11972,7 +11972,7 @@
    {
       "title": "Design, deploy, and manage chatbots and live chat widgets on multiple channels",
       "abstract": "Design, deploy, and manage chatbots and live chat widgets on multiple channels",
-      "terms": "cs.SE cs.GR cs.HI"
+      "terms": "cs.SE cs.GR cs.HI cs.PL"
    },
    {
       "title": "Write and schedule tweets with AI",
@@ -11987,7 +11987,7 @@
    {
       "title": "A large database of MidJourney Prompts",
       "abstract": "A large database of MidJourney Prompts",
-      "terms": "cs.SE cs.GR cs.AI"
+      "terms": "cs.SE cs.GR cs.AI cs.DB"
    },
    {
       "title": "Craft release notes with GPT-3",
@@ -12057,7 +12057,7 @@
    {
       "title": "Build and deploy AI with your business data",
       "abstract": "Build and deploy AI with your business data",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.PL"
    },
    {
       "title": "Create an entire website starting with a short description",
@@ -12457,7 +12457,7 @@
    {
       "title": "Train, test, and deploy your own OpenAI model",
       "abstract": "Train, test, and deploy your own OpenAI model",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.PL"
    },
    {
       "title": "Transcribe and understand audio with a single AI-powered API",
@@ -12562,7 +12562,7 @@
    {
       "title": "Helps developers understand, modify, and test unfamiliar codebases using natural language",
       "abstract": "Helps developers understand, modify, and test unfamiliar codebases using natural language",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CL"
    },
    {
       "title": "AI-powered design tool for Figma",
@@ -13042,7 +13042,7 @@
    {
       "title": "Create realistic AI characters with natural language",
       "abstract": "Create realistic AI characters with natural language",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.CL"
    },
    {
       "title": "Marketplace for AI text-to-image prompts",
@@ -13327,7 +13327,7 @@
    {
       "title": "AI model building, deployment, monitoring, and more.",
       "abstract": "AI model building, deployment, monitoring, and more.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.PL"
    },
    {
       "title": "Build and share machine learning apps",
@@ -13457,7 +13457,7 @@
    {
       "title": "A platform for building, training and deploying AI products",
       "abstract": "A platform for building, training and deploying AI products",
-      "terms": "cs.SE cs.AI cs.SI cs.LG"
+      "terms": "cs.SE cs.AI cs.SI cs.LG cs.PL"
    },
    {
       "title": "AI-based SEO optimization for online content",
@@ -14032,7 +14032,7 @@
    {
       "title": "A database of Machine Learning experiments",
       "abstract": "A database of Machine Learning experiments",
-      "terms": "cs.SE cs.LG"
+      "terms": "cs.SE cs.LG cs.DB"
    },
    {
       "title": "Take a picture of an empty room and let AI do your interior designing",

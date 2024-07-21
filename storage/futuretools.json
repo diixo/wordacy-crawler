@@ -952,7 +952,7 @@
    {
       "title": "A tool to dubs videos and multilingual translation with voice cloning and lip-syncing.",
       "abstract": "A tool to dubs videos and multilingual translation with voice cloning and lip-syncing.",
-      "terms": "cs.SE cs.MM cs.SD"
+      "terms": "cs.SE cs.MM cs.CL cs.SD"
    },
    {
       "title": "A platform for project management, task automation, workload management, and team collaboration.",
@@ -1202,7 +1202,7 @@
    {
       "title": "A platform for speech to text, voice data transcription and analysis.",
       "abstract": "A platform for speech to text, voice data transcription and analysis.",
-      "terms": "cs.SE cs.SI cs.SD"
+      "terms": "cs.SE cs.SI cs.CL cs.SD"
    },
    {
       "title": "A tool for conversational assistance.",
@@ -1462,7 +1462,7 @@
    {
       "title": "A tool to automate user interview analysis by providing transcription, emotional analysis, and pattern identification.",
       "abstract": "A tool to automate user interview analysis by providing transcription, emotional analysis, and pattern identification.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CL"
    },
    {
       "title": "A tool to crafts personalized Upwork proposals.",
@@ -1597,12 +1597,12 @@
    {
       "title": "A tool for podcast production with research, transcription, content generation, and management.",
       "abstract": "A tool for podcast production with research, transcription, content generation, and management.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CL"
    },
    {
       "title": "A SDK to create custom dashboards and data visualizations from multiple data sources.",
       "abstract": "A SDK to create custom dashboards and data visualizations from multiple data sources.",
-      "terms": "cs.SE cs.PL"
+      "terms": "cs.SE cs.HC cs.PL"
    },
    {
       "title": "A tool to generate podcast audio summaries.",
@@ -3082,7 +3082,7 @@
    {
       "title": "A platform for meeting assistant to automate meeting organization, transcription, summarization, and action item assignment.",
       "abstract": "A platform for meeting assistant to automate meeting organization, transcription, summarization, and action item assignment.",
-      "terms": "cs.SE cs.SI cs.IR"
+      "terms": "cs.SE cs.SI cs.CL cs.IR"
    },
    {
       "title": "A tool to chat with documents, request summaries, and ask questions using ai locally.",
@@ -3612,7 +3612,7 @@
    {
       "title": "A tool for vision and voice recognition, transcription, and moderation of images and documents.",
       "abstract": "A tool for vision and voice recognition, transcription, and moderation of images and documents.",
-      "terms": "cs.SE cs.GR cs.IR cs.SD"
+      "terms": "cs.SE cs.GR cs.CL cs.IR cs.SD"
    },
    {
       "title": "A no-code platform to build AI apps prompts, chats, and workflows.",
@@ -3682,7 +3682,7 @@
    {
       "title": "A tool for speech-to-text transcription in over 90 languages.",
       "abstract": "A tool for speech-to-text transcription in over 90 languages.",
-      "terms": "cs.SE cs.SD"
+      "terms": "cs.SE cs.CL cs.SD"
    },
    {
       "title": "A tool for collective software development using intelligent agents.",
@@ -4397,7 +4397,7 @@
    {
       "title": "A tool to create graphical data visualizations",
       "abstract": "A tool to create graphical data visualizations",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.HC"
    },
    {
       "title": "A tool for film storyboarding with AI-generated visuals.",
@@ -4467,7 +4467,7 @@
    {
       "title": "A tool for multilingual communication through unified translation.",
       "abstract": "A tool for multilingual communication through unified translation.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CL"
    },
    {
       "title": "A tool to aid teachers, students, and parents.",
@@ -5152,7 +5152,7 @@
    {
       "title": "An app for voice creation and call translation.",
       "abstract": "An app for voice creation and call translation.",
-      "terms": "cs.SE cs.SD"
+      "terms": "cs.SE cs.CL cs.SD"
    },
    {
       "title": "A tool to evaluate the accuracy and performance of a machine learning model.",
@@ -5612,7 +5612,7 @@
    {
       "title": "An app for Zoom customers to improve meetings with summaries, highlights, transcription, analytics and insights.",
       "abstract": "An app for Zoom customers to improve meetings with summaries, highlights, transcription, analytics and insights.",
-      "terms": "cs.SE cs.IR"
+      "terms": "cs.SE cs.CL cs.IR"
    },
    {
       "title": "An automated dubbing tool for publishers and creators to expand content globally.",
@@ -5832,7 +5832,7 @@
    {
       "title": "A tool to automate transcription, sentiment analysis, and data visualization from audio, video, and text data.",
       "abstract": "A tool to automate transcription, sentiment analysis, and data visualization from audio, video, and text data.",
-      "terms": "cs.SE cs.MM cs.SD"
+      "terms": "cs.SE cs.MM cs.CL cs.HC cs.SD"
    },
    {
       "title": "A mac menu bar app to interact with AI chatbots without an API key.",
@@ -5997,7 +5997,7 @@
    {
       "title": "A platform for video subtitle generation and translation.",
       "abstract": "A platform for video subtitle generation and translation.",
-      "terms": "cs.SE cs.MM cs.SI"
+      "terms": "cs.SE cs.MM cs.SI cs.CL"
    },
    {
       "title": "AI company building a smarter world with KOSM.",
@@ -6467,7 +6467,7 @@
    {
       "title": "A tool for for audio and video files transcription.",
       "abstract": "A tool for for audio and video files transcription.",
-      "terms": "cs.SE cs.MM cs.SD"
+      "terms": "cs.SE cs.MM cs.CL cs.SD"
    },
    {
       "title": "A platform to optimizing and henancing real estate listings ",
@@ -6847,7 +6847,7 @@
    {
       "title": "An tool to automate meeting transcription, summaries, and follow-up emails.",
       "abstract": "An tool to automate meeting transcription, summaries, and follow-up emails.",
-      "terms": "cs.SE cs.IR"
+      "terms": "cs.SE cs.CL cs.IR"
    },
    {
       "title": "A platform to automate social media management for lead generation.",
@@ -6872,7 +6872,7 @@
    {
       "title": "A platform for video editing, translation, subtitle removal, and deduplication.",
       "abstract": "A platform for video editing, translation, subtitle removal, and deduplication.",
-      "terms": "cs.SE cs.MM cs.SI"
+      "terms": "cs.SE cs.MM cs.SI cs.CL"
    },
    {
       "title": "A platform to edit photos and videos online.",
@@ -7332,7 +7332,7 @@
    {
       "title": "A platform for video translation and dubbing.",
       "abstract": "A platform for video translation and dubbing.",
-      "terms": "cs.SE cs.MM cs.SI"
+      "terms": "cs.SE cs.MM cs.SI cs.CL"
    },
    {
       "title": "A platform for occupational therapists' documentation assistant.",
@@ -8752,7 +8752,7 @@
    {
       "title": "An app for transcription assistant.",
       "abstract": "An app for transcription assistant.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CL"
    },
    {
       "title": "A tool to turn brushstrokes into realistic landscape images.",
@@ -9212,7 +9212,7 @@
    {
       "title": "A tool for translation.",
       "abstract": "A tool for translation.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CL"
    },
    {
       "title": "A tool for vegan recipes discovery.",
@@ -10587,7 +10587,7 @@
    {
       "title": "A tool for transcription, translation, and subtitling.",
       "abstract": "A tool for transcription, translation, and subtitling.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.MM cs.CL"
    },
    {
       "title": "A suite of tools for augmented analytics data exploration, visual analytics, and data wrangling for insights.",
@@ -10892,7 +10892,7 @@
    {
       "title": "A data analysis platform for data visualizations and data insights.",
       "abstract": "A data analysis platform for data visualizations and data insights.",
-      "terms": "cs.SE cs.SI"
+      "terms": "cs.SE cs.SI cs.HC"
    },
    {
       "title": "A tool to create your own customized AI-powered chatbots.",
@@ -10912,7 +10912,7 @@
    {
       "title": "An office application for document management, summarization, feedback, and translation services.",
       "abstract": "An office application for document management, summarization, feedback, and translation services.",
-      "terms": "cs.SE cs.IR"
+      "terms": "cs.SE cs.CL cs.IR"
    },
    {
       "title": "A tool to design and publish social media marketing campaigns at scale.",
@@ -10947,7 +10947,7 @@
    {
       "title": "Real-time transcription audio to text",
       "abstract": "Real-time transcription audio to text",
-      "terms": "cs.SE cs.SD"
+      "terms": "cs.SE cs.CL cs.SD"
    },
    {
       "title": "Create an engaging and shareable webpage in seconds",
@@ -11167,7 +11167,7 @@
    {
       "title": "All-in-one editing tool with transcription, video editing, and repurposing",
       "abstract": "All-in-one editing tool with transcription, video editing, and repurposing",
-      "terms": "cs.SE cs.MM"
+      "terms": "cs.SE cs.MM cs.CL"
    },
    {
       "title": "Repurpose content for social media and other platforms",
@@ -11627,7 +11627,7 @@
    {
       "title": "A media toolkit offering automated image production, templates, and translation tools",
       "abstract": "A media toolkit offering automated image production, templates, and translation tools",
-      "terms": "cs.SE cs.GR"
+      "terms": "cs.SE cs.GR cs.CL"
    },
    {
       "title": "Enables users to ask questions and get answers from large bodies of text",
@@ -11692,7 +11692,7 @@
    {
       "title": "Automated meeting recording, transcription, summarization, insights, and more",
       "abstract": "Automated meeting recording, transcription, summarization, insights, and more",
-      "terms": "cs.SE cs.IR"
+      "terms": "cs.SE cs.CL cs.IR"
    },
    {
       "title": "Vacation & Travel Chat Assistant",
@@ -13452,7 +13452,7 @@
    {
       "title": "AI-based translation service",
       "abstract": "AI-based translation service",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CL"
    },
    {
       "title": "A platform for building, training and deploying AI products",
@@ -13747,7 +13747,7 @@
    {
       "title": "Translate audio or video to text with language translation",
       "abstract": "Translate audio or video to text with language translation",
-      "terms": "cs.SE cs.MM cs.SD"
+      "terms": "cs.SE cs.MM cs.CL cs.SD"
    },
    {
       "title": "AI writing, copywriting & paraphrasing tool",

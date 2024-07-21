@@ -255,7 +255,7 @@ def main():
 
 categories = {
     #"cs.SE": ["app", "application"],
-    "cs.MM": ["video", "videos", "animation", "music", "animations"],
+    "cs.MM": ["video", "videos", "animation", "music", "animations", "subtitling"],
     "cs.GR": ["image", "images", "photo", "photos", "3d", "renders", "rendering", "texture", "textures", "gui", "midjourney", "cg", 
               "art", "designs", "design", "2d"],
     "cs.AI": ["chatgpt", "ai", "ai-powered", "huggingface", "ai-generated", "ai-driven", "ai-enhanced", "ai-prompted", "midjourney", 
@@ -264,7 +264,7 @@ categories = {
     "cs.HI": ["chatgpt", "chat", "ui"],                 # Human-Computer Interfaces
     "cs.SI": ["aggregate", "aggregates", "social", "platform", "platforms"],     # Social and Information Networks
     "cs.LG": ["llm", "llms", "huggingface", "ml", "neural"],            # Machine learning
-    "cs.CL": ["llm", "llms"],    # Computation and Language
+    "cs.CL": ["llm", "llms", "transcription", "translation",],    # Computation and Language
     "cs.HC": ["llm", "llms", "ux"],                     # Human-Computer Interaction
     "cs.IR": ["summarize", "summarization", "extraction", "emails", "documents", "extracts", "summaries", "retrieval",
               "patterns"],  
@@ -280,6 +280,7 @@ categories = {
 categories_txt = {
     "cs.CV": ["augmented reality"],
     "cs.LG": ["language model"],
+    "cs.HC": ["data visuali"],
 
 }
 

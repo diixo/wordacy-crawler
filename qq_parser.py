@@ -256,14 +256,15 @@ def main():
 categories = {
     #"cs.SE": ["app", "application"],
     "cs.MM": ["video", "videos", "animation", "music", "animations"],
-    "cs.GR": ["image", "images", "photo", "photos", "3d", "renders", "rendering", "texture", "textures", "gui", "midjourney", "cg", "art"],
+    "cs.GR": ["image", "images", "photo", "photos", "3d", "renders", "rendering", "texture", "textures", "gui", "midjourney", "cg", 
+              "art", "designs", "design", "2d"],
     "cs.AI": ["chatgpt", "ai", "ai-powered", "huggingface", "ai-generated", "ai-driven", "ai-enhanced", "ai-prompted", "midjourney", 
               "neural", "autogpt"],
     "cs.CY": ["chatgpt",],                              # Computers and Society
     "cs.HI": ["chatgpt", "chat", "ui"],                 # Human-Computer Interfaces
     "cs.SI": ["aggregate", "aggregates", "social", "platform", "platforms"],     # Social and Information Networks
     "cs.LG": ["llm", "llms", "huggingface", "ml", "neural"],            # Machine learning
-    "cs.CL": ["llm", "llms", "chatbot"],                # Computation and Language
+    "cs.CL": ["llm", "llms"],    # Computation and Language
     "cs.HC": ["llm", "llms", "ux"],                     # Human-Computer Interaction
     "cs.IR": ["summarize", "summarization", "extraction", "emails", "documents", "extracts", "summaries", "retrieval",
               "patterns"],  
@@ -272,9 +273,10 @@ categories = {
     #"cs.OS": [ "ios", "macos" ],
     "cs.SD": ["sound", "voice", "audio", "music", "speech", "voiceovers", "voiceover", "audios", "voice-to-text", 
               "audio-to-text", "speech-to-text"],
-    "cs.CV": ["upscaler", "face", "facial", "augmented"],
+    "cs.CV": ["upscaler", "face", "facial"],
     "cs.PL": ["programming"]
 }
+
 
 def arxiv_json_classify(dataset: list):
     for item in dataset:

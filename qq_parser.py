@@ -197,7 +197,7 @@ def parse(raw, result = {}, div = None, hhh_mask = ['h1', 'h2', 'h3', 'h4', 'h5'
         result = [{
                     "title": text.get_text(), 
                     "abstract": text.get_text(),
-                    "terms": "cs.SE"
+                    "terms": ""
                 } 
                 for text in texts_div ]
         print(len(result))
@@ -241,18 +241,6 @@ def save_json(result: dict, file_path="storage/_data.json"):
 
 ########################################################################
 
-def main():
-    result = parse_file("c:/futuretools.html", div="tool-item-description-box---new")
-    #result = parse_file('process/techopedia-train-db-v5.data')
-
-    #url = "https://pythonexamples.org/"
-    #url = "https://GeeksforGeeks.org/"
-    #result = parse_url(url)
-
-    arxiv_json_classify(result)
-
-    save_json(result, file_path="storage/futuretools.json")
-
 categories = {
     #"cs.SE": ["app", "application"],
     "cs.MM": ["video", "videos", "animation", "music", "animations", "subtitling"],
@@ -291,6 +279,8 @@ categories_txt = {
 
 def arxiv_json_classify(dataset: list):
     for item in dataset:
+        item["terms"] = "cs.SE"
+
         text = item["abstract"].lower()
         words = qq.str_tokenize_words(text)
         for term, keywords in categories.items():
@@ -305,6 +295,20 @@ def arxiv_json_classify(dataset: list):
                     if text.find(ph) >= 0:
                         item["terms"] = item["terms"] + " " + term
                         break
+
+
+
+def main():
+    result = parse_file("c:/futuretools.html", div="tool-item-description-box---new")
+    #result = parse_file('process/techopedia-train-db-v5.data')
+
+    #url = "https://pythonexamples.org/"
+    #url = "https://GeeksforGeeks.org/"
+    #result = parse_url(url)
+
+    #arxiv_json_classify(result)
+
+    save_json(result, file_path="storage/futuretools.json")
 
 
 if __name__ == "__main__":

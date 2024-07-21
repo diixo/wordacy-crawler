@@ -127,7 +127,7 @@
    {
       "title": "A tool to create custom alphabets from prompts.",
       "abstract": "A tool to create custom alphabets from prompts.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CL"
    },
    {
       "title": "A tool to automate 90% of manual prompt engineering using self-improving prompt optimizer.",
@@ -547,7 +547,7 @@
    {
       "title": "A tool to create videos from prompts.",
       "abstract": "A tool to create videos from prompts.",
-      "terms": "cs.SE cs.MM"
+      "terms": "cs.SE cs.MM cs.CL"
    },
    {
       "title": "A tool to search and recommend WordPress plugins.",
@@ -807,7 +807,7 @@
    {
       "title": "A tool to automatically generate fantasy novels from prompts, including plot, chapters and cover art.",
       "abstract": "A tool to automatically generate fantasy novels from prompts, including plot, chapters and cover art.",
-      "terms": "cs.SE cs.GR"
+      "terms": "cs.SE cs.GR cs.CL"
    },
    {
       "title": "A tool to create royalty-free drum samples.",
@@ -1437,7 +1437,7 @@
    {
       "title": "A tool to generate custom logos from prompts.",
       "abstract": "A tool to generate custom logos from prompts.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CL"
    },
    {
       "title": "A nocode tool for image and video analysis.",
@@ -1897,7 +1897,7 @@
    {
       "title": "A platform to transform existing images into new visuals and generate images from prompts.",
       "abstract": "A platform to transform existing images into new visuals and generate images from prompts.",
-      "terms": "cs.SE cs.GR cs.SI"
+      "terms": "cs.SE cs.GR cs.SI cs.CL"
    },
    {
       "title": "A tool for interior design visualizations based on user-uploaded room images and styles.",
@@ -2072,7 +2072,7 @@
    {
       "title": "A tool to generate 3D faces from prompts for animators and game developers.",
       "abstract": "A tool to generate 3D faces from prompts for animators and game developers.",
-      "terms": "cs.SE cs.GR cs.PL"
+      "terms": "cs.SE cs.GR cs.CL cs.PL"
    },
    {
       "title": "A tool to manage tasks and workflows using AI assistance.",
@@ -5347,7 +5347,7 @@
    {
       "title": "A tool to generate videos from prompt.",
       "abstract": "A tool to generate videos from prompt.",
-      "terms": "cs.SE cs.MM"
+      "terms": "cs.SE cs.MM cs.CL"
    },
    {
       "title": "A Google Chrome Extension to enhance video learning with interactive Q&A, summaries, and community support.",
@@ -6232,7 +6232,7 @@
    {
       "title": "A tool to create custom SVG images from prompts.",
       "abstract": "A tool to create custom SVG images from prompts.",
-      "terms": "cs.SE cs.GR"
+      "terms": "cs.SE cs.GR cs.CL"
    },
    {
       "title": "A camera that uses location data to generate photographic images.",
@@ -8877,7 +8877,7 @@
    {
       "title": "A tool to create embedded search for any website.",
       "abstract": "A tool to create embedded search for any website.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.DS"
    },
    {
       "title": "A tool to build, deploy, and monitor LLMs.",

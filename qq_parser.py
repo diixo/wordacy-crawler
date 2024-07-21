@@ -273,9 +273,9 @@ categories_txt = {
     "cs.HC": ["data visuali"],
     "cs.PL": ["deploy", "developer"],
     "cs.DB": ["database",],
-    "cs.CL": ["natural language", "language processing", "language learning"],
+    "cs.CL": ["natural language", "language processing", "language learning", "from prompt",],
     "cs.IR": ["natural language", "language processing", "summari"],
-    "cs.DS": ["search engine"]
+    "cs.DS": ["search engine", "embedded search",]
 }
 
 

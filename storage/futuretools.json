@@ -702,7 +702,7 @@
    {
       "title": "A tool to compare various language models and image generators.",
       "abstract": "A tool to compare various language models and image generators.",
-      "terms": "cs.SE cs.GR"
+      "terms": "cs.SE cs.GR cs.LG"
    },
    {
       "title": "A tool to convert text into videos.",
@@ -1107,7 +1107,7 @@
    {
       "title": "A nocode tool for fine-tuning and evaluation of Large Language Models at scale.",
       "abstract": "A nocode tool for fine-tuning and evaluation of Large Language Models at scale.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.LG"
    },
    {
       "title": "Automates and streamlines the creation of visually appealing presentations with AI-driven design assistance.",
@@ -1307,7 +1307,7 @@
    {
       "title": "A platform with AI assistant for complex tasks, data security, and language models customization.",
       "abstract": "A platform with AI assistant for complex tasks, data security, and language models customization.",
-      "terms": "cs.SE cs.AI cs.SI"
+      "terms": "cs.SE cs.AI cs.SI cs.LG"
    },
    {
       "title": "A tool to automate sales process, CRM updates, call coaching and analytical insights.",
@@ -1602,7 +1602,7 @@
    {
       "title": "A SDK to create custom dashboards and data visualizations from multiple data sources.",
       "abstract": "A SDK to create custom dashboards and data visualizations from multiple data sources.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.PL"
    },
    {
       "title": "A tool to generate podcast audio summaries.",
@@ -1657,7 +1657,7 @@
    {
       "title": "A tool to compare large language models for diverse applications.",
       "abstract": "A tool to compare large language models for diverse applications.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.LG"
    },
    {
       "title": "A Google Chrome Extension to automate task creation from emails and call transcripts.",
@@ -1837,7 +1837,7 @@
    {
       "title": "A Prompt IDE for creation of complex prompts for AI language models.",
       "abstract": "A Prompt IDE for creation of complex prompts for AI language models.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.LG"
    },
    {
       "title": "A tool to synthesize and analyze customer feedback across multiple channels for products and customer insights.",
@@ -3047,7 +3047,7 @@
    {
       "title": "A conversational language model for natural language tasks.",
       "abstract": "A conversational language model for natural language tasks.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.LG"
    },
    {
       "title": "A tool to turn text into vertical videos for social media.",
@@ -4087,7 +4087,7 @@
    {
       "title": "A suite of solutions for language models, fast loading/stacking and an aegis firewall.",
       "abstract": "A suite of solutions for language models, fast loading/stacking and an aegis firewall.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.LG"
    },
    {
       "title": "A tool to transcript, translate, and summarize audio and video files.",
@@ -6687,7 +6687,7 @@
    {
       "title": "An app to convert photos to 3D models for augmented reality.",
       "abstract": "An app to convert photos to 3D models for augmented reality.",
-      "terms": "cs.SE cs.GR"
+      "terms": "cs.SE cs.GR cs.CV"
    },
    {
       "title": "A free tool to track your OpenAI costs.",
@@ -7362,7 +7362,7 @@
    {
       "title": "A platform to chat and compare large language models. ",
       "abstract": "A platform to chat and compare large language models. ",
-      "terms": "cs.SE cs.HI cs.SI"
+      "terms": "cs.SE cs.HI cs.SI cs.LG"
    },
    {
       "title": "An app to automate crafting personalized dating messages.",
@@ -7557,7 +7557,7 @@
    {
       "title": "A tool to compare language models.",
       "abstract": "A tool to compare language models.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.LG"
    },
    {
       "title": "A tool to aggregate, and summarizing notifications across tools.",
@@ -7587,7 +7587,7 @@
    {
       "title": "A github repository for hosting language models locally.",
       "abstract": "A github repository for hosting language models locally.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.LG"
    },
    {
       "title": "A platform as marketing manager for Shopify stores.",
@@ -7727,7 +7727,7 @@
    {
       "title": "A platform for creating browser-based augmented reality experiences.",
       "abstract": "A platform for creating browser-based augmented reality experiences.",
-      "terms": "cs.SE cs.SI"
+      "terms": "cs.SE cs.SI cs.CV"
    },
    {
       "title": "A solution to eliminates unwanted noise from audios and videos.",
@@ -7912,7 +7912,7 @@
    {
       "title": "A tool to create avatars in augmented reality",
       "abstract": "A tool to create avatars in augmented reality",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CV"
    },
    {
       "title": "A platform for social media management.",
@@ -9062,7 +9062,7 @@
    {
       "title": "A tool to compare different language models.",
       "abstract": "A tool to compare different language models.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.LG"
    },
    {
       "title": "A platform for writing content.",
@@ -10577,7 +10577,7 @@
    {
       "title": "A SDK to customize GPT-3 language models and collect end-user feedback.",
       "abstract": "A SDK to customize GPT-3 language models and collect end-user feedback.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.AI cs.LG cs.PL"
    },
    {
       "title": "A story-writing platform to create personalized stories and interactive books.",
@@ -11717,7 +11717,7 @@
    {
       "title": "Experience Augmented Reality from text",
       "abstract": "Experience Augmented Reality from text",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.CV"
    },
    {
       "title": "Ask questions and get answers from your company's existing documentation ",
@@ -11907,7 +11907,7 @@
    {
       "title": "GPT-3 capabilities in Slack",
       "abstract": "GPT-3 capabilities in Slack",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.AI"
    },
    {
       "title": "AI-powered recipe recommendation tool",
@@ -11992,7 +11992,7 @@
    {
       "title": "Craft release notes with GPT-3",
       "abstract": "Craft release notes with GPT-3",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.AI"
    },
    {
       "title": "Create videos from text with AI",
@@ -12217,7 +12217,7 @@
    {
       "title": "Integrate GPT-3 directly into Google Sheets",
       "abstract": "Integrate GPT-3 directly into Google Sheets",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.AI"
    },
    {
       "title": "Create personalized, budget-friendly travel plans",
@@ -12377,7 +12377,7 @@
    {
       "title": "Combine GPT-3 with your own added information to get personalize results",
       "abstract": "Combine GPT-3 with your own added information to get personalize results",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.AI"
    },
    {
       "title": "Record your voice and this tool will convert it to other voices",
@@ -12477,7 +12477,7 @@
    {
       "title": "A front-end UI for GPT-3 that you can train",
       "abstract": "A front-end UI for GPT-3 that you can train",
-      "terms": "cs.SE cs.HI"
+      "terms": "cs.SE cs.AI cs.HI"
    },
    {
       "title": "Generate videos based on your brand",

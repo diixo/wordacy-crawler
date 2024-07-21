@@ -259,7 +259,7 @@ categories = {
     "cs.GR": ["image", "images", "photo", "photos", "3d", "renders", "rendering", "texture", "textures", "gui", "midjourney", "cg", 
               "art", "designs", "design", "2d"],
     "cs.AI": ["chatgpt", "ai", "ai-powered", "huggingface", "ai-generated", "ai-driven", "ai-enhanced", "ai-prompted", "midjourney", 
-              "neural", "autogpt"],
+              "neural", "autogpt", "gpt-3"],
     "cs.CY": ["chatgpt",],                              # Computers and Society
     "cs.HI": ["chatgpt", "chat", "ui"],                 # Human-Computer Interfaces
     "cs.SI": ["aggregate", "aggregates", "social", "platform", "platforms"],     # Social and Information Networks
@@ -274,19 +274,32 @@ categories = {
     "cs.SD": ["sound", "voice", "audio", "music", "speech", "voiceovers", "voiceover", "audios", "voice-to-text", 
               "audio-to-text", "speech-to-text"],
     "cs.CV": ["upscaler", "face", "facial"],
-    "cs.PL": ["programming"]
+    "cs.PL": ["programming", "sdk"]
+}
+
+categories_txt = {
+    "cs.CV": ["augmented reality"],
+    "cs.LG": ["language model"],
+
 }
 
 
 def arxiv_json_classify(dataset: list):
     for item in dataset:
-        words = qq.str_tokenize_words(item["abstract"].lower())
+        text = item["abstract"].lower()
+        words = qq.str_tokenize_words(text)
         for term, keywords in categories.items():
             keywords = set(keywords)
             for word in words:
                 if word in keywords:
                     item["terms"] = item["terms"] + " " + term
                     break
+            phrases = categories_txt.get(term, None)
+            if phrases:
+                for ph in phrases:
+                    if text.find(ph) >= 0:
+                        item["terms"] = item["terms"] + " " + term
+                        break
 
 
 if __name__ == "__main__":

@@ -259,11 +259,11 @@ categories = {
     "cs.GR": ["image", "images", "photo", "photos", "3d", "renders", "rendering", "texture", "textures", "gui", "midjourney", "cg", 
               "art", "designs", "design", "2d"],
     "cs.AI": ["chatgpt", "ai", "ai-powered", "huggingface", "ai-generated", "ai-driven", "ai-enhanced", "ai-prompted", "midjourney", 
-              "neural", "autogpt", "gpt-3"],
+              "neural", "autogpt", "gpt-3", "ai-based"],
     "cs.CY": ["chatgpt",],                              # Computers and Society
     "cs.HI": ["chatgpt", "chat", "ui"],                 # Human-Computer Interfaces
     "cs.SI": ["aggregate", "aggregates", "social", "platform", "platforms"],     # Social and Information Networks
-    "cs.LG": ["llm", "llms", "huggingface", "ml", "neural"],            # Machine learning
+    "cs.LG": ["llm", "llms", "huggingface", "ml", "neural", "training"],            # Machine learning
     "cs.CL": ["llm", "llms", "transcription", "translation",],    # Computation and Language
     "cs.HC": ["llm", "llms", "ux"],                     # Human-Computer Interaction
     "cs.IR": ["summarize", "summarization", "extraction", "emails", "documents", "extracts", "summaries", "retrieval",
@@ -278,8 +278,8 @@ categories = {
 }
 
 categories_txt = {
-    "cs.CV": ["augmented reality"],
-    "cs.LG": ["language model"],
+    "cs.CV": ["augmented reality", "computer vision"],
+    "cs.LG": ["language model", "machine learning"],
     "cs.HC": ["data visuali"],
 
 }

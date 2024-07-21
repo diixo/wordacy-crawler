@@ -2,7 +2,7 @@
    {
       "title": "An app for language learning through flashcards.",
       "abstract": "An app for language learning through flashcards.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.LG cs.CL"
    },
    {
       "title": "A self-hosted platform for web app development and building custom apps.",
@@ -57,7 +57,7 @@
    {
       "title": "A developer-focused search engine for coding assistance and document creation.",
       "abstract": "A developer-focused search engine for coding assistance and document creation.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.PL"
    },
    {
       "title": "A platform to integrate apps and build AI automations.",
@@ -2072,7 +2072,7 @@
    {
       "title": "A tool to generate 3D faces from prompts for animators and game developers.",
       "abstract": "A tool to generate 3D faces from prompts for animators and game developers.",
-      "terms": "cs.SE cs.GR"
+      "terms": "cs.SE cs.GR cs.PL"
    },
    {
       "title": "A tool to manage tasks and workflows using AI assistance.",
@@ -3102,7 +3102,7 @@
    {
       "title": "A platform for developers to collaborate, review and merge code.",
       "abstract": "A platform for developers to collaborate, review and merge code.",
-      "terms": "cs.SE cs.SI"
+      "terms": "cs.SE cs.SI cs.PL"
    },
    {
       "title": "A tool for voice changing and to clone voices.",
@@ -3997,7 +3997,7 @@
    {
       "title": "Helps game developers quickly create 3D textures",
       "abstract": "Helps game developers quickly create 3D textures",
-      "terms": "cs.SE cs.GR"
+      "terms": "cs.SE cs.GR cs.PL"
    },
    {
       "title": "A tool for video cataloging, search, trim, and crop footage.",
@@ -4812,7 +4812,7 @@
    {
       "title": "A tool for developers to optimize, test, and refine LLM prompts.",
       "abstract": "A tool for developers to optimize, test, and refine LLM prompts.",
-      "terms": "cs.SE cs.LG cs.CL cs.HC"
+      "terms": "cs.SE cs.LG cs.CL cs.HC cs.PL"
    },
    {
       "title": "A tool to find available premium domains.",
@@ -6332,7 +6332,7 @@
    {
       "title": "A platform for developers to add natural language capabilities to applications.",
       "abstract": "A platform for developers to add natural language capabilities to applications.",
-      "terms": "cs.SE cs.SI cs.CL cs.IR"
+      "terms": "cs.SE cs.SI cs.CL cs.IR cs.PL"
    },
    {
       "title": "A tool to automate discord community moderator bot.",
@@ -6597,7 +6597,7 @@
    {
       "title": "A tool for developers to build video conferencing, robotics, and metaverse applications.",
       "abstract": "A tool for developers to build video conferencing, robotics, and metaverse applications.",
-      "terms": "cs.SE cs.MM"
+      "terms": "cs.SE cs.MM cs.PL"
    },
    {
       "title": "A tool to simplify complex tasks with an ai agents.",
@@ -6997,7 +6997,7 @@
    {
       "title": "A platform provides video search APIs for developers.",
       "abstract": "A platform provides video search APIs for developers.",
-      "terms": "cs.SE cs.MM cs.SI"
+      "terms": "cs.SE cs.MM cs.SI cs.PL"
    },
    {
       "title": "An app to compose soundtrack for videos.",
@@ -7412,7 +7412,7 @@
    {
       "title": "An app for language learning with personalized curriculum.",
       "abstract": "An app for language learning with personalized curriculum.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.LG cs.CL"
    },
    {
       "title": "A platform to create AI covers of popular artists.",
@@ -8467,7 +8467,7 @@
    {
       "title": "A Google Chrome Extension for developers to understand code.",
       "abstract": "A Google Chrome Extension for developers to understand code.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.PL"
    },
    {
       "title": "A tool to convert audio/video into blog posts and transcripts.",
@@ -9082,7 +9082,7 @@
    {
       "title": "A tool for frontend developers.",
       "abstract": "A tool for frontend developers.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.PL"
    },
    {
       "title": "A tool to integrate chatgpt on Mac and iOs.",
@@ -9612,7 +9612,7 @@
    {
       "title": "A tool for developers to integrate AI into products.",
       "abstract": "A tool for developers to integrate AI into products.",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.PL"
    },
    {
       "title": "A tool to create stock photos of people.",
@@ -9637,7 +9637,7 @@
    {
       "title": "A data platform for developers.",
       "abstract": "A data platform for developers.",
-      "terms": "cs.SE cs.SI"
+      "terms": "cs.SE cs.SI cs.PL"
    },
    {
       "title": "A voice assistant for sales teams.",
@@ -9822,7 +9822,7 @@
    {
       "title": "A tool for frontend developers to search and create code.",
       "abstract": "A tool for frontend developers to search and create code.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.PL"
    },
    {
       "title": "A tool for video creation.",
@@ -10967,7 +10967,7 @@
    {
       "title": "Enables developers to create, share, and debug secure code snippets",
       "abstract": "Enables developers to create, share, and debug secure code snippets",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.PL"
    },
    {
       "title": "Let's you change a video with text prompts",
@@ -11027,7 +11027,7 @@
    {
       "title": "AI search engine for developers",
       "abstract": "AI search engine for developers",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.PL"
    },
    {
       "title": "Browser extension that adds ChatGPT to search engines",
@@ -12172,7 +12172,7 @@
    {
       "title": "A suite of coding tools for developers",
       "abstract": "A suite of coding tools for developers",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.PL"
    },
    {
       "title": "AI-powered Image Enhancement Tools",
@@ -12562,7 +12562,7 @@
    {
       "title": "Helps developers understand, modify, and test unfamiliar codebases using natural language",
       "abstract": "Helps developers understand, modify, and test unfamiliar codebases using natural language",
-      "terms": "cs.SE cs.CL cs.IR"
+      "terms": "cs.SE cs.CL cs.IR cs.PL"
    },
    {
       "title": "AI-powered design tool for Figma",
@@ -13287,7 +13287,7 @@
    {
       "title": "Help developers quickly understand, document, and optimize their code.",
       "abstract": "Help developers quickly understand, document, and optimize their code.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.PL"
    },
    {
       "title": "Generate code in any programming language with just one click",

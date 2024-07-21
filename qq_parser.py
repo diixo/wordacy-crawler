@@ -268,11 +268,11 @@ categories = {
 
 categories_txt = {
     "cs.CV": ["augmented reality", "computer vision"],
-    "cs.LG": ["language model", "machine learning", "data science"],
+    "cs.LG": ["language model", "machine learning", "data science", "language learning"],
     "cs.HC": ["data visuali"],
-    "cs.PL": ["deploy"],
+    "cs.PL": ["deploy", "developer"],
     "cs.DB": ["database",],
-    "cs.CL": ["natural language", "language processing"],
+    "cs.CL": ["natural language", "language processing", "language learning"],
     "cs.IR": ["natural language", "language processing", "summari"]
 }
 

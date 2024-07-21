@@ -247,7 +247,7 @@ categories = {
     "cs.GR": ["image", "images", "photo", "photos", "3d", "renders", "rendering", "texture", "textures", "gui", "midjourney", "cg", 
               "art", "designs", "design", "2d"],
     "cs.AI": ["chatgpt", "ai", "ai-powered", "huggingface", "ai-generated", "ai-driven", "ai-enhanced", "ai-prompted", "midjourney", 
-              "neural", "autogpt", "gpt-3", "ai-based"],
+              "neural", "autogpt", "gpt-3", "ai-based", "gpt", "gemini"],
     "cs.CY": ["chatgpt",],                              # Computers and Society
     "cs.HI": ["chatgpt", "chat", "ui"],                 # Human-Computer Interfaces
     "cs.SI": ["aggregate", "aggregates", "social", "platform", "platforms"],     # Social and Information Networks
@@ -273,7 +273,7 @@ categories_txt = {
     "cs.PL": ["deploy"],
     "cs.DB": ["database",],
     "cs.CL": ["natural language", "language processing"],
-    "cs.IR": ["natural language", "language processing"]
+    "cs.IR": ["natural language", "language processing", "summari"]
 }
 
 
@@ -284,12 +284,14 @@ def arxiv_json_classify(dataset: list):
         text = item["abstract"].lower()
         words = qq.str_tokenize_words(text)
         for term, keywords in categories.items():
+            phrases = categories_txt.get(term, None)
             keywords = set(keywords)
             for word in words:
                 if word in keywords:
                     item["terms"] = item["terms"] + " " + term
+                    phrases = None # use as marker of break
                     break
-            phrases = categories_txt.get(term, None)
+
             if phrases:
                 for ph in phrases:
                     if text.find(ph) >= 0:
@@ -306,7 +308,7 @@ def main():
     #url = "https://GeeksforGeeks.org/"
     #result = parse_url(url)
 
-    #arxiv_json_classify(result)
+    arxiv_json_classify(result)
 
     save_json(result, file_path="storage/futuretools.json")
 

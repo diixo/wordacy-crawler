@@ -264,6 +264,7 @@ categories = {
     "cs.CV": ["upscaler", "face", "facial"],
     "cs.PL": ["programming", "sdk", "development"],
     "cs.DB": [],
+    "cs.DS": [], # Data Structures and Algorithms
 }
 
 categories_txt = {
@@ -273,7 +274,8 @@ categories_txt = {
     "cs.PL": ["deploy", "developer"],
     "cs.DB": ["database",],
     "cs.CL": ["natural language", "language processing", "language learning"],
-    "cs.IR": ["natural language", "language processing", "summari"]
+    "cs.IR": ["natural language", "language processing", "summari"],
+    "cs.DS": ["search engine"]
 }
 
 

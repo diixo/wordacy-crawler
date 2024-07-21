@@ -57,7 +57,7 @@
    {
       "title": "A developer-focused search engine for coding assistance and document creation.",
       "abstract": "A developer-focused search engine for coding assistance and document creation.",
-      "terms": "cs.SE cs.PL"
+      "terms": "cs.SE cs.PL cs.DS"
    },
    {
       "title": "A platform to integrate apps and build AI automations.",
@@ -477,7 +477,7 @@
    {
       "title": "A privacy-centric search engine with AI chat..",
       "abstract": "A privacy-centric search engine with AI chat..",
-      "terms": "cs.SE cs.AI cs.HI"
+      "terms": "cs.SE cs.AI cs.HI cs.DS"
    },
    {
       "title": "An academic writing assistant with outlining, editing, citation formatting, proofreading, and plagiarism checking.",
@@ -3042,7 +3042,7 @@
    {
       "title": "A restaurant search engine to find the best places to eat.",
       "abstract": "A restaurant search engine to find the best places to eat.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.DS"
    },
    {
       "title": "A conversational language model for natural language tasks.",
@@ -5227,7 +5227,7 @@
    {
       "title": "A search engine to find useful answers from online communities.",
       "abstract": "A search engine to find useful answers from online communities.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.DS"
    },
    {
       "title": "A platform to generate content, images, code, and chatbots.",
@@ -7372,7 +7372,7 @@
    {
       "title": "A free search engine integrated with google search results and chatgpt.",
       "abstract": "A free search engine integrated with google search results and chatgpt.",
-      "terms": "cs.SE cs.AI cs.CY cs.HI"
+      "terms": "cs.SE cs.AI cs.CY cs.HI cs.DS"
    },
    {
       "title": "A software for productivity tracking.",
@@ -7722,7 +7722,7 @@
    {
       "title": "A neural search engine to find files, emails, and messages from any application.",
       "abstract": "A neural search engine to find files, emails, and messages from any application.",
-      "terms": "cs.SE cs.AI cs.LG cs.IR"
+      "terms": "cs.SE cs.AI cs.LG cs.IR cs.DS"
    },
    {
       "title": "A platform for creating browser-based augmented reality experiences.",
@@ -8872,7 +8872,7 @@
    {
       "title": "A search engine for product teams.",
       "abstract": "A search engine for product teams.",
-      "terms": "cs.SE"
+      "terms": "cs.SE cs.DS"
    },
    {
       "title": "A tool to create embedded search for any website.",
@@ -11027,12 +11027,12 @@
    {
       "title": "AI search engine for developers",
       "abstract": "AI search engine for developers",
-      "terms": "cs.SE cs.AI cs.PL"
+      "terms": "cs.SE cs.AI cs.PL cs.DS"
    },
    {
       "title": "Browser extension that adds ChatGPT to search engines",
       "abstract": "Browser extension that adds ChatGPT to search engines",
-      "terms": "cs.SE cs.AI cs.CY cs.HI"
+      "terms": "cs.SE cs.AI cs.CY cs.HI cs.DS"
    },
    {
       "title": "Create SEO-friendly articles",
@@ -11747,7 +11747,7 @@
    {
       "title": "Private search engine with AI",
       "abstract": "Private search engine with AI",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.DS"
    },
    {
       "title": "AI-powered tool to help users find perfect gifts for any occasion",
@@ -11952,7 +11952,7 @@
    {
       "title": "AI art generator and search engine (with prompts)",
       "abstract": "AI art generator and search engine (with prompts)",
-      "terms": "cs.SE cs.GR cs.AI"
+      "terms": "cs.SE cs.GR cs.AI cs.DS"
    },
    {
       "title": "The perfect pickup line, customized to your crush's interests",
@@ -12597,7 +12597,7 @@
    {
       "title": "AI-powered search engine providing personalized results, private search, and AI-driven tools",
       "abstract": "AI-powered search engine providing personalized results, private search, and AI-driven tools",
-      "terms": "cs.SE cs.AI"
+      "terms": "cs.SE cs.AI cs.DS"
    },
    {
       "title": "Self-organizing project management tool",
@@ -12957,7 +12957,7 @@
    {
       "title": "ChatGPT response alongside search engine results",
       "abstract": "ChatGPT response alongside search engine results",
-      "terms": "cs.SE cs.AI cs.CY cs.HI"
+      "terms": "cs.SE cs.AI cs.CY cs.HI cs.DS"
    },
    {
       "title": "Use your voice to talk to ChatGPT",

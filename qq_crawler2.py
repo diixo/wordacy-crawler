@@ -15,25 +15,6 @@ from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
 
-class ReversePaginator:
-   def __init__(self, data, page_size):
-      self.data = data
-      self.page_size = page_size
-
-   def get_page(self, page_index):
-      result = []
-      sz = len(self.data)
-
-      start_index = max(sz - page_index * self.page_size, 0)
-      end_index = sz - (page_index-1) * self.page_size
-      #   if start_index < sz:
-      #       end_index = min(page_index*self.page_size, sz)
-      result = self.data[end_index - 1: start_index - 1 if start_index != 0 else None: -1]
-      return result
-
-   def num_pages(self):
-      return (len(self.data) + self.page_size - 1) // self.page_size
-
 
 logging = True
 
@@ -44,7 +25,7 @@ def url_hostname(url_str:str):
 
 class Crawler2:
 
-   def __init__(self, delay = 1.0, recursive=False):
+   def __init__(self, delay = 3.0, recursive=False):
       self.hostnames = dict()
       self.hostnames_indexing = []
 
@@ -306,78 +287,4 @@ class Crawler2:
       else:
          return self.urls
 
-###############################################################################################
 
-def test_futuretools():
-   crawler = Crawler2()
-   crawler.extract_from_file("./test/futuretools.html", "https://www.futuretools.io/", 
-      ["/submit-a-tool", "/?d", "/faq", "/learn", "/?tags="])
-   crawler.save_json()
-
-def test_unite_ai():
-   crawler = Crawler2(recursive=True)
-   crawler.enqueue_url("https://www.unite.ai/")
-   crawler.open_json("test/www.unite.ai.json")
-
-   crawler.set_filter("https://www.unite.ai/", [
-      "mailto:",
-      "javascript:",
-      "/author",
-      "/blogger",
-      "/user/login",
-      "/privacy-policy",
-      "/terms-and-conditions",
-      "/contact-us",
-      "/meet-the-team",
-      "/press-tools",
-      "/imagesai",
-      "/our-cherter",
-      "/cdn-cgi",
-      "/?", "=%", "/%", 
-      "/de/", "/es/", "/fr/", "/id/", "/it/", "/ja/", "/ko/", "/nl/", "/no/", "/pl/", "/pt/", "/ru/", "/tr/", "/vi/",
-      "/about",
-      "/affiliate-terms",
-      "/agencies",
-      "/careers",
-      "/compatibilities",
-      "/contact",
-      "/contactus",
-      "/features",
-      "/integrations",
-      "/partner",
-      "/partner-apply",
-      "/pricing",
-      "/privacy",
-      "/refunds",
-      "/terms",
-      "/enterprise",
-      "/faq",
-      "/how-does-it-work",
-      "/privacy",
-      "/terms",
-      "/partner",
-      "/price",
-      "/support"
-      ])
-   crawler.run()
-   crawler.save_json("test/www.unite.ai.json")
-
-def main():
-   test_unite_ai()
-   return
-
-   crawler = Crawler2(recursive=False)
-   crawler.open_json("test/crawler-2.json")
-
-   crawler.enqueue_url("https://www.pythontutorial.net/python-concurrency/")
-   crawler.set_filter("https://www.pythontutorial.net", ["/privacy-policy", "/contact", "/donation"])
-
-   crawler.enqueue_url("https://kotlinandroid.org/kotlin/kotlin-hello-world/")
-   crawler.set_filter("https://kotlinandroid.org", ["/privacy-policy", "/contact-us", "/terms-of-use"])
-
-   crawler.run()
-   crawler.save_json()
-
-###############################################################################################
-if __name__ == "__main__":
-   main()

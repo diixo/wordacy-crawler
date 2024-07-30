@@ -16,7 +16,7 @@ from urllib3.util.retry import Retry
 
 
 
-logging = True
+_logging = True
 
 def url_hostname(url_str:str):
    url_str = url_str.strip('/')
@@ -32,7 +32,7 @@ class Crawler2:
       self.new = deque()
       self.skip = set()
       self.filters = dict()
-      self.filepath = ""
+      self.filepath = None
       self.urls = dict()
       self.recursive = recursive
       self.delay = delay
@@ -64,13 +64,16 @@ class Crawler2:
          json.dump(self.hostnames, fd, ensure_ascii=False, indent=2)
 
 
-   def save_json(self, filepath=""):
+   def save_json(self, filepath=None):
+
       if not filepath:
          filepath = self.filepath
-      if (filepath == ""):
-         t = dt.now()
-         filename = f"{t.year}-{t.month}-{t.day}_{t.hour}-{t.minute}-{t.second}"#-{t.microsecond}"
-         filepath = "./test/" + filename + ".json"
+
+      if not filepath: return
+
+         # t = dt.now()
+         # filename = f"{t.year}-{t.month}-{t.day}_{t.hour}-{t.minute}-{t.second}"#-{t.microsecond}"
+         # filepath = "./test/" + filename + ".json"
 
       result = dict()
       for host in self.urls.keys():
@@ -131,6 +134,7 @@ class Crawler2:
          #print(f"skipped(validation,filtered): {url_str}")
       elif url_str not in self.urls[hostname]:
          self.urls[hostname].add(url_str)
+
          if self.recursive:
             self.new.append(url_str)
 
@@ -174,7 +178,7 @@ class Crawler2:
       #home = host[0] + '://' + host[1]
 
       alls = raw.find_all(['a', 'loc'])
-      print("extract_urls: ", str(len(alls)))
+      print("find_all_urls: ", str(len(alls)))
       for link in alls:
          if hasattr(link, 'attrs'):
                sref = link.attrs.get('href', None)
@@ -185,7 +189,8 @@ class Crawler2:
                      ref = urljoin(home, sref)
                      if re.search(home, ref):
                         self.add_new(ref)
-                     elif logging: print(f"[Crawler2] Unexpected syntax error: url={sref}")
+                     elif _logging:
+                        print(f"[Crawler2] Unexpected syntax error: url={sref}")
                   else:
                      if u_hostname not in self.hostnames:
                         self.hostnames[u_hostname] = { "urls":[], "type":"0" }
@@ -209,7 +214,7 @@ class Crawler2:
             req = Request(url, headers={'User-Agent': 'XYZ/3.0'})
             response = urlopen(req)
             status = response.status
-            if logging and (status in [301, 302]):
+            if _logging and (status in [301, 302]):
                print(f"[Crawler2] new_url = {response.geturl()}")
             html = response.read()
 
@@ -248,38 +253,46 @@ class Crawler2:
       raw = BeautifulSoup(open(filepath, encoding='utf-8'), features="html.parser")
       self.extract_urls(raw, domain)
 
+   def run_url(self, url:str):
+      with requests.Session() as session:
+         try:
+            retry = Retry(connect=3, backoff_factor=0.5)
+            adapter = HTTPAdapter(max_retries=retry)
+            session.mount('http://', adapter)
+            session.mount('https://', adapter)
+
+
+            head = session.head(url)
+            Content_Type = head.headers.get("Content-Type", "text/html")
+            
+            if "text/html" in Content_Type:
+               self.open_url(url, "html.parser")
+
+            elif "text/xml" in Content_Type:
+               if _logging: print(f"[Crawler2] ...on: XML={url}")
+               self.open_url(url, "xml")
+               self.skip.add(url)
+         except KeyboardInterrupt:
+            print("KeyboardInterrupt exception raised")
+         except:
+            print("Unexpected error raised:", sys.exc_info()[0])
+
 
    def run(self):
       counter = 0
-      try:
-         while(len(self.new) > 0):
-            url = self.new.popleft()
-            counter += 1
 
-            with requests.Session() as session:
+      while(len(self.new) > 0):
+         url = self.new.popleft()
+         counter += 1
 
-               retry = Retry(connect=3, backoff_factor=0.5)
-               adapter = HTTPAdapter(max_retries=retry)
-               session.mount('http://', adapter)
-               session.mount('https://', adapter)
+         self.run_url(url=url)
 
-               Content_Type = session.head(url).headers["Content-Type"]
-               
-               if "text/html" in Content_Type:
-                  self.open_url(url, "html.parser")
+         ###########
+         if _logging: 
+            print(f"[Crawler2] ...on: {counter}, [remained={len(self.new)}] [skipped={len(self.skip)}]")
+            #logger.info("[Crawler2] ...on: " + str(counter) + ", [remained=" + str(len(self.new)) + "]")
+         time.sleep(self.delay)
 
-               elif "text/xml" in Content_Type:
-                  if logging: print(f"[Crawler2] ...on: XML={url}")
-                  self.open_url(url, "xml")
-                  self.skip.add(url)
-                  #print(f"skipped(run_type): {url}")
-            if logging: print(
-               f"[Crawler2] ...on: {counter}, [remained={len(self.new)}] [skipped={len(self.skip)}] [hosts={len(self.hostnames)}]")
-            time.sleep(self.delay)
-      except KeyboardInterrupt:
-         print("KeyboardInterrupt exception raised")
-      except:
-         print("Unexpected error raised:", sys.exc_info()[0])
 
    def get_urls(self, url: str = None):
       if url:

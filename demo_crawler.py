@@ -58,9 +58,15 @@ def test_unite_ai():
     crawler.run()
     crawler.save_json("test/www.unite.ai.json")
 
+def test_goo():
+    crawler = Crawler2(recursive=True)
+    crawler.enqueue_url("https://goo.lc")
+    crawler.run()
+    crawler.save_json(filepath="test/goo.lc.json")
+
 
 def main():
-    test_unite_ai()
+    test_goo()
     return
 
     crawler = Crawler2(recursive=False)

@@ -23,7 +23,7 @@ class Worker(threading.Thread):
         self.completion_callback(self)
 
 
-class DataProcessor:
+class ThreadPool:
 
     def __init__(self, max_workers=4):
         self.data_queue = queue.Queue()
@@ -75,10 +75,14 @@ class DataProcessor:
         with self.lock:
             # Проверяем, пустая ли очередь данных и нет ли активных потоков
             return self.data_queue.empty() and not self.active_threads
+        
+    def __del__(self):
+        self.stop()
+        print("<<__del__")
 
 
 def main():
-    processor = DataProcessor(max_workers=4)
+    processor = ThreadPool(max_workers=4)
     processor.start()
 
     for i in range(20):

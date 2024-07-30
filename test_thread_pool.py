@@ -6,17 +6,19 @@ import random
 
 class Worker(threading.Thread):
 
-    def __init__(self, data, stop_event, completion_callback):
+    def __init__(self, data, stop_event, completion_callback, context = None):
         super().__init__()
         self.data = data
         self.stop_event = stop_event
         self.completion_callback = completion_callback
+        self.context = context
     
     def run(self):
         if self.stop_event.is_set():
             return
         # Обработка данных (замените этот метод на вашу логику)
         print(f"Started processing: {self.data} {self.name}")
+        if self.context: self.context(self.data)
         time.sleep(random.randint(1, 5))  # Имитация времени обработки
 
         # После завершения обработки уведомляем управляющий поток

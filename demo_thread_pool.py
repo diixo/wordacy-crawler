@@ -4,18 +4,19 @@ from qq_crawler2 import Crawler2
 
 
 def main():
+    url = "https://goo.lc"
     processor = ThreadPool(max_workers=4)
     processor.start()
 
     crawler = Crawler2(delay=3, recursive=True)
-    processor.add_data("https://goo.lc", context=crawler)
+    crawler.enqueue_url(url)
+    processor.add_data(data=url, context=crawler)
 
 
     while not processor.is_finished():
         pass
     processor.stop()
     processor.save_json(filepath="test/demo_thread_pool.json")
-
 
 
 if __name__ == "__main__":

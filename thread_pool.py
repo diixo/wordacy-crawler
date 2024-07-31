@@ -51,12 +51,12 @@ class ThreadPool:
                     print("<< Clean-UP")
                     self.active_threads.remove(thread)
     
-    def task_completed(self, thread):
+    def task_completed(self, worker: Worker):
         with self.lock:
             # Удаляем поток из активных потоков после завершения
-            if thread in self.active_threads:
-                print(f"<< {thread.name}")
-                self.active_threads.remove(thread)
+            if worker in self.active_threads:
+                print(f"<< {worker.name}")
+                self.active_threads.remove(worker)
     
     def start(self):
         self.manager_thread = threading.Thread(target=self.manage_workers)
@@ -81,5 +81,5 @@ class ThreadPool:
         
     def __del__(self):
         self.stop()
-        print("<<__del__")
+        #print("<<__del__")
 

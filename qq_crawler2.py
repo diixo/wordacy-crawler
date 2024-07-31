@@ -34,7 +34,7 @@ class Crawler2:
 
    def __init__(self, delay = 3.0, recursive=False):
       self.hostnames = dict()
-      #self.hostnames_indexing = []
+      #self.hostnames_pagination = []
 
       self.new = deque()
       self.skip = set()
@@ -94,7 +94,7 @@ class Crawler2:
       if path.exists():
          fd = open(filepath, 'r', encoding='utf-8')
          self.hostnames = json.load(fd)
-         #self.hostnames_indexing = list(self.hostnames.keys())
+         #self.hostnames_pagination = list(self.hostnames.keys())
          print(f"<< [Crawler2]::open_hostnames={len(self.hostnames)}")
 
    def save_hostnames(self, filepath=None):
@@ -173,7 +173,7 @@ class Crawler2:
 
       if u_hostname not in self.hostnames:
          self.hostnames[u_hostname] = { "urls":[], "type":"1" }
-         #self.hostnames_indexing.append(u_hostname)
+         #self.hostnames_pagination.append(u_hostname)
 
       hostname_ref = self.hostnames[u_hostname]
       linkset = set(hostname_ref["urls"])
@@ -208,7 +208,7 @@ class Crawler2:
                      #
                      if u_hostname not in self.hostnames:
                         self.hostnames[u_hostname] = { "urls":[], "type":"0" }
-                        #self.hostnames_indexing.append(u_hostname)
+                        #self.hostnames_pagination.append(u_hostname)
 
                      findex = max(sref.find("?via="), sref.find("?ref="))
                      if findex > 0:

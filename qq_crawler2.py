@@ -22,6 +22,9 @@ logging.basicConfig(level=logging.INFO)
 
 _logging = True
 
+SSL_CONTEXT = ssl._create_unverified_context()
+#######################################
+
 def url_hostname(url_str:str):
    url_str = url_str.strip('/')
    host = urlparse(url_str)
@@ -31,7 +34,7 @@ class Crawler2:
 
    def __init__(self, delay = 3.0, recursive=False):
       self.hostnames = dict()
-      self.hostnames_indexing = []
+      #self.hostnames_indexing = []
 
       self.new = deque()
       self.skip = set()
@@ -52,20 +55,6 @@ class Crawler2:
          self.new = deque(self.urls.get(".new", deque()))
          print(f"<< [Crawler2]::open_json[remained={len(self.new)}]")
       self.filepath = filepath
-
-   def open_hostnames(self, filepath:str):
-      path = Path(filepath)
-      if path.exists():
-         fd = open(filepath, 'r', encoding='utf-8')
-         self.hostnames = json.load(fd)
-         self.hostnames_indexing = list(self.hostnames.keys())
-         print(f"<< [Crawler2]::open_hostnames={len(self.hostnames)}")
-
-   def save_hostnames(self, filepath=None):
-      if filepath == None:
-         filepath = "db-hostnames.json"
-      with open(filepath, 'w', encoding='utf-8') as fd:
-         json.dump(self.hostnames, fd, ensure_ascii=False, indent=2)
 
 
    def save_json(self, filepath=None):
@@ -98,6 +87,21 @@ class Crawler2:
 
       # with open("db-hostnames-from.json", 'w', encoding='utf-8') as fd:
       #    json.dump(list(self.unknown_from), fd, ensure_ascii=False, indent=3)
+
+
+   def open_hostnames(self, filepath:str):
+      path = Path(filepath)
+      if path.exists():
+         fd = open(filepath, 'r', encoding='utf-8')
+         self.hostnames = json.load(fd)
+         #self.hostnames_indexing = list(self.hostnames.keys())
+         print(f"<< [Crawler2]::open_hostnames={len(self.hostnames)}")
+
+   def save_hostnames(self, filepath=None):
+      if filepath == None:
+         filepath = "db-hostnames.json"
+      with open(filepath, 'w', encoding='utf-8') as fd:
+         json.dump(self.hostnames, fd, ensure_ascii=False, indent=2)
 
 
    def clear(self):
@@ -169,7 +173,7 @@ class Crawler2:
 
       if u_hostname not in self.hostnames:
          self.hostnames[u_hostname] = { "urls":[], "type":"1" }
-         self.hostnames_indexing.append(u_hostname)
+         #self.hostnames_indexing.append(u_hostname)
 
       hostname_ref = self.hostnames[u_hostname]
       linkset = set(hostname_ref["urls"])
@@ -201,9 +205,10 @@ class Crawler2:
                         #print(f"[Crawler2] Unexpected syntax error: url={sref}")
                         logger.info(f"[Crawler2] Unexpected syntax error: url={sref}")
                   else:
+                     #
                      if u_hostname not in self.hostnames:
                         self.hostnames[u_hostname] = { "urls":[], "type":"0" }
-                        self.hostnames_indexing.append(u_hostname)
+                        #self.hostnames_indexing.append(u_hostname)
 
                      findex = max(sref.find("?via="), sref.find("?ref="))
                      if findex > 0:

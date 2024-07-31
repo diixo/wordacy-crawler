@@ -2,6 +2,7 @@ import time
 import sys
 import re
 import requests
+import ssl
 import json
 from datetime import datetime as dt
 from collections import deque
@@ -13,8 +14,11 @@ from urllib.parse import urlparse, urljoin
 from urllib.request import urlopen, Request
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
+import logging
 
-
+#######################################
+logger = logging.getLogger()
+logging.basicConfig(level=logging.INFO)
 
 _logging = True
 
@@ -137,6 +141,8 @@ class Crawler2:
 
          if self.recursive:
             self.new.append(url_str)
+            
+            #if _logging: logger.info(f"add_new: {url_str}")
 
 
    def enqueue_url(self, url_str: str, cntr = 1):
@@ -178,7 +184,9 @@ class Crawler2:
       #home = host[0] + '://' + host[1]
 
       alls = raw.find_all(['a', 'loc'])
-      print("find_all_urls: ", str(len(alls)))
+      #print("extract_urls: ", str(len(alls)))
+      logger.info("find_all_urls: " + str(len(alls)))
+
       for link in alls:
          if hasattr(link, 'attrs'):
                sref = link.attrs.get('href', None)
@@ -190,7 +198,8 @@ class Crawler2:
                      if re.search(home, ref):
                         self.add_new(ref)
                      elif _logging:
-                        print(f"[Crawler2] Unexpected syntax error: url={sref}")
+                        #print(f"[Crawler2] Unexpected syntax error: url={sref}")
+                        logger.info(f"[Crawler2] Unexpected syntax error: url={sref}")
                   else:
                      if u_hostname not in self.hostnames:
                         self.hostnames[u_hostname] = { "urls":[], "type":"0" }
@@ -290,7 +299,7 @@ class Crawler2:
          ###########
          if _logging: 
             print(f"[Crawler2] ...on: {counter}, [remained={len(self.new)}] [skipped={len(self.skip)}]")
-            #logger.info("[Crawler2] ...on: " + str(counter) + ", [remained=" + str(len(self.new)) + "]")
+            logger.info("[Crawler2] ...on: " + str(counter) + ", [remained=" + str(len(self.new)) + "]")
          time.sleep(self.delay)
 
 
@@ -300,4 +309,8 @@ class Crawler2:
       else:
          return self.urls
 
+###############################################################################################
 
+   def __call__(self, url: str):
+      self.enqueue_url(url)
+      self.run()

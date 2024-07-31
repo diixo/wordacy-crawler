@@ -1,13 +1,13 @@
-
+import time
 from qq_analyzer import Analyzer, ReversePaginator
-from qq_crawler2 import Crawler2
+from crawler_queue import CrawlerQueue
 
 
 
 def test_url_to_dataset():
    url = "https://allainews.com/news"
 
-   crawler = Crawler2()
+   crawler = CrawlerQueue()
    crawler.enqueue_url(url)
    crawler.set_filter(url,
    [
@@ -100,7 +100,7 @@ def test_dataset():
 
 
 def test_aixploria():
-    crawler = Crawler2(delay=3, recursive=False)
+    crawler = CrawlerQueue(delay=3, recursive=False)
     crawler.open_hostnames("db-hostnames.json")
 
     crawler.enqueue_url("https://www.aixploria.com/en")
@@ -190,7 +190,7 @@ def test_aixploria():
 
 
 def test_opentools_ai():
-    crawler = Crawler2(delay=3, recursive=True)
+    crawler = CrawlerQueue(delay=3, recursive=True)
     crawler.open_hostnames("db-hostnames_v2.json")
     crawler.open_json("db-urls_v2.json")
 

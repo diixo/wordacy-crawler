@@ -5,7 +5,7 @@ import time
 import random
 import json
 from pathlib import Path
-from qq_crawler2 import Crawler2
+from crawler_queue import CrawlerQueue
 
 
 class Worker(threading.Thread):
@@ -94,7 +94,7 @@ class ThreadPool:
                 self.active_threads.remove(worker)
 
 
-    def merge(self, crawler: Crawler2):
+    def merge(self, crawler: CrawlerQueue):
         for hostname, urls in crawler.urls.items():
             host_urls = self.urls.get(hostname, set())
             host_urls.update(urls)

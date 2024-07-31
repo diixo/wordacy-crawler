@@ -1,6 +1,6 @@
 
 from thread_pool import ThreadPool
-from qq_crawler2 import Crawler2
+from crawler_queue import CrawlerQueue
 
 
 def main():
@@ -8,7 +8,7 @@ def main():
     processor = ThreadPool(max_workers=4)
     processor.start()
 
-    crawler = Crawler2(delay=3, recursive=True)
+    crawler = CrawlerQueue(delay=3, recursive=True)
     crawler.enqueue_url(url)
     processor.add_data(data=url, context=crawler)
 

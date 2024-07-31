@@ -1,16 +1,16 @@
 
-from qq_crawler2 import Crawler2
+from crawler_queue import CrawlerQueue
 
 
 def test_futuretools():
-    crawler = Crawler2()
+    crawler = CrawlerQueue()
     crawler.extract_from_file("./test/futuretools.html", "https://www.futuretools.io/", 
         ["/submit-a-tool", "/?d", "/faq", "/learn", "/?tags="])
     crawler.save_json()
 
 
 def test_unite_ai():
-    crawler = Crawler2(recursive=True)
+    crawler = CrawlerQueue(recursive=True)
     crawler.enqueue_url("https://www.unite.ai/")
     crawler.open_json("test/www.unite.ai.json")
 
@@ -59,7 +59,7 @@ def test_unite_ai():
     crawler.save_json("test/www.unite.ai.json")
 
 def test_goo():
-    crawler = Crawler2(recursive=True)
+    crawler = CrawlerQueue(recursive=True)
     crawler.enqueue_url("https://goo.lc")
     crawler.run()
     crawler.save_json(filepath="test/goo.lc.json")
@@ -69,7 +69,7 @@ def main():
     test_goo()
     return
 
-    crawler = Crawler2(recursive=False)
+    crawler = CrawlerQueue(recursive=False)
     crawler.open_json("test/crawler-2.json")
 
     crawler.enqueue_url("https://www.pythontutorial.net/python-concurrency/")

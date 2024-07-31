@@ -30,7 +30,7 @@ def url_hostname(url_str:str):
    host = urlparse(url_str)
    return host.scheme + "://" + host.hostname
 
-class Crawler2:
+class CrawlerQueue:
 
    def __init__(self, delay = 3.0, recursive=False):
       self.hostnames = dict()

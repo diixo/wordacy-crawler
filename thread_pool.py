@@ -74,6 +74,10 @@ class ThreadPool:
                 thread.join()
 
 
+    def is_active(self):
+        with self.lock:
+            return not self.stop_event.is_set()
+
     def is_finished(self):
         with self.lock:
             # Проверяем, пустая ли очередь данных и нет ли активных потоков

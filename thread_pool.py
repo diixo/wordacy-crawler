@@ -59,7 +59,7 @@ class ThreadPool:
             filepath = self.filepath
 
         result = dict()
-        # считывать self.urls нужно под self.lock, так как запись self.urls выполняется из другого потока
+        # считывать self.urls нужно под self.lock, так как запись в self.urls выполняется из другого потока
         with self.lock:
             for host in self.urls.keys():
                 result[host] = sorted(self.urls[host])

@@ -3,6 +3,9 @@ import threading
 import queue
 import time
 import random
+import json
+from pathlib import Path
+from qq_crawler2 import Crawler2
 
 
 class Worker(threading.Thread):
@@ -19,11 +22,14 @@ class Worker(threading.Thread):
             return
         # Обработка данных (замените этот метод на вашу логику)
         print(f"Started processing: {self.data} {self.name}")
+
         if self.context: self.context(self.data)
-        time.sleep(random.randint(1, 5))  # Имитация времени обработки
 
         # После завершения обработки уведомляем управляющий поток
         self.completion_callback(self)
+
+    def get_data(self):
+        return self.data
 
 
 class ThreadPool:
@@ -34,13 +40,40 @@ class ThreadPool:
         self.stop_event = threading.Event()
         self.active_threads = set()
         self.lock = threading.Lock()
+        
+        self.urls = dict()
+
+
+    def open_json(self, filepath:str):
+        path = Path(filepath)
+        if path.exists():
+            fd = open(filepath, 'r', encoding='utf-8')
+            self.urls = json.load(fd)
+            for domain in self.urls.keys():
+                self.urls[domain] = set(self.urls[domain])
+        self.filepath = filepath
+
+
+    def save_json(self, filepath=""):
+        if not filepath:
+            filepath = self.filepath
+
+        result = dict()
+        # считывать self.urls нужно под self.lock, так как запись self.urls выполняется из другого потока
+        with self.lock:
+            for host in self.urls.keys():
+                result[host] = sorted(self.urls[host])
+
+        with open(filepath, 'w', encoding='utf-8') as fd:
+            json.dump(result, fd, ensure_ascii=False, indent=3)
+
     
     def manage_workers(self):
         while not self.stop_event.is_set() or not self.data_queue.empty() or self.active_threads:
             with self.lock:
                 if len(self.active_threads) < self.max_workers and not self.data_queue.empty():
-                    data = self.data_queue.get()
-                    worker = Worker(data, self.stop_event, self.task_completed)
+                    data, context = self.data_queue.get()
+                    worker = Worker(data, self.stop_event, self.task_completed, context=context)
                     self.active_threads.add(worker)
                     worker.start()
 
@@ -53,17 +86,27 @@ class ThreadPool:
     
     def task_completed(self, worker: Worker):
         with self.lock:
+            if worker.context: self.merge(worker.context)
+
             # Удаляем поток из активных потоков после завершения
             if worker in self.active_threads:
                 print(f"<< {worker.name}")
                 self.active_threads.remove(worker)
-    
+
+
+    def merge(self, crawler: Crawler2):
+        for hostname, urls in crawler.urls.items():
+            host_urls = self.urls.get(hostname, set())
+            host_urls.update(urls)
+            self.urls[hostname] = host_urls
+            
+
     def start(self):
         self.manager_thread = threading.Thread(target=self.manage_workers)
         self.manager_thread.start()
     
-    def add_data(self, data):
-        self.data_queue.put(data)
+    def add_data(self, data, context=None):
+        self.data_queue.put((data, context))
 
     def stop(self):
         self.stop_event.set()

@@ -223,7 +223,7 @@ class CrawlerQueue:
                      #self.hostnames.add(sref)
 
 
-   def open_url(self, url:str, parser:str):
+   def open_url(self, url:str, parser="html.parser"):
       try:
             req = Request(url, headers={'User-Agent': 'XYZ/3.0'})
             response = urlopen(req)
@@ -280,11 +280,11 @@ class CrawlerQueue:
             Content_Type = head.headers.get("Content-Type", "text/html")
             
             if "text/html" in Content_Type:
-               self.open_url(url, "html.parser")
+               self.open_url(url=url)
 
             elif "text/xml" in Content_Type:
                if _logging: print(f"[Crawler2] ...on: XML={url}")
-               self.open_url(url, "xml")
+               self.open_url(url=url, parser="xml")
                self.skip.add(url)
          except KeyboardInterrupt:
             print("KeyboardInterrupt exception raised")

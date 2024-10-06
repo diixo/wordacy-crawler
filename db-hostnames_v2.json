@@ -68,7 +68,6 @@
   "www.stylar.ai": {
     "urls": [
       "https://www.stylar.ai",
-      "https://www.stylar.ai",
       "https://www.stylar.ai/tools/ai-design-sketch",
       "https://www.stylar.ai/tools/generative-fill"
     ],
@@ -133,7 +132,6 @@
       "https://github.com/facebookresearch/demucs/issues/327#issuecomment-1134828611",
       "https://github.com/facebookresearch/detectron2",
       "https://github.com/facebookresearch/jepa",
-      "https://github.com/facebookresearch/llama/blob/main/license",
       "https://github.com/facebookresearch/shumai",
       "https://github.com/facebookresearch/xlm",
       "https://github.com/facefusion/facefusion",
@@ -235,11 +233,9 @@
       "https://github.com/openai/whisper",
       "https://github.com/openbmb/chatdev",
       "https://github.com/opendevin/opendevin",
-      "https://github.com/orgs/modelscope/packages?repo_name=motionagent",
       "https://github.com/orpatashnik/styleclip",
       "https://github.com/pixray/pixray",
       "https://github.com/plaidml/plaidml",
-      "https://github.com/pricing",
       "https://github.com/pytorch/fairseq/tree/master/examples/roberta",
       "https://github.com/qwenlm/qwen-vl",
       "https://github.com/qwenlm/qwen1.5",
@@ -352,7 +348,6 @@
   },
   "www.wondercraft.ai": {
     "urls": [
-      "https://www.wondercraft.ai",
       "https://www.wondercraft.ai"
     ],
     "type": "0"

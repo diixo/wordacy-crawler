@@ -947,6 +947,14 @@
     ],
     "type": "0"
   },
+  "chat.openai.com": {
+    "urls": [
+      "https://chat.openai.com",
+      "https://chat.openai.com/chat",
+      "https://chat.openai.com/share/1329d8ec-5141-45f9-a2c2-842d4bad7bcc"
+    ],
+    "type": "0"
+  },
   "claude.ai": {
     "urls": [
       "https://claude.ai"
@@ -2885,141 +2893,6 @@
       "https://socialbook.io/photo-to-cartoon",
       "https://socialbook.io/plans",
       "https://socialbook.io/remove-background"
-    ],
-    "type": "0"
-  },
-  "discord.com": {
-    "urls": [
-      "https://discord.com",
-      "https://discord.com/api/oauth2/authorize?client_id=1116093120619229255&permissions=274877974528&scope=bot",
-      "https://discord.com/api/oauth2/authorize?client_id=1117860436524675092&permissions=10432140539968&scope=bot",
-      "https://discord.com/api/oauth2/authorize?client_id=1185840075871883264&permissions=377957242944&scope=bot",
-      "https://discord.com/api/oauth2/authorize?client_id=392901189836210177&permissions=2147534912&scope=bot",
-      "https://discord.com/blog/ai-on-discord-your-place-for-ai-with-friends",
-      "https://discord.com/channels/1132878612236882003/1132995966593667203",
-      "https://discord.com/channels/1139651118935318528/1139651119493173391",
-      "https://discord.com/channels/1153633871036948490/1153633871540273224",
-      "https://discord.com/channels/1162478894176272455/1184148278254780457/1220049051907653722",
-      "https://discord.com/channels/1163316744358731857/1163316746028056591",
-      "https://discord.com/channels/1191491178198216855",
-      "https://discord.com/channels/457912077277855764/479653552869081089/1200034124208025630",
-      "https://discord.com/channels/781145214752129095/1107628882783391744",
-      "https://discord.com/channels/903327676884979802/1191894903031091333",
-      "https://discord.com/goodhuesai",
-      "https://discord.com/invite/2gfk9yyv2b",
-      "https://discord.com/invite/2hxjdrgtcx",
-      "https://discord.com/invite/2xmxxv2sqk",
-      "https://discord.com/invite/36chp8dnzc",
-      "https://discord.com/invite/3fsatmrdj6",
-      "https://discord.com/invite/3rxwuek8fw",
-      "https://discord.com/invite/3xcm97vbyx",
-      "https://discord.com/invite/44m3vfanpg",
-      "https://discord.com/invite/5vdbhjgyd3",
-      "https://discord.com/invite/5ypew6cy6a",
-      "https://discord.com/invite/6dffbvgu3d",
-      "https://discord.com/invite/7preknszpe",
-      "https://discord.com/invite/7rebax5v3n",
-      "https://discord.com/invite/8mkdhxmbgn",
-      "https://discord.com/invite/8r5fm4mbuf",
-      "https://discord.com/invite/aepz3e4ves",
-      "https://discord.com/invite/aimlab",
-      "https://discord.com/invite/atsddp6xfa",
-      "https://discord.com/invite/auda3kzavw",
-      "https://discord.com/invite/avrb76pg",
-      "https://discord.com/invite/azpwnbugmp",
-      "https://discord.com/invite/cbnqmya8sg",
-      "https://discord.com/invite/ccpjj3ndx7",
-      "https://discord.com/invite/cfqxnv3s5v",
-      "https://discord.com/invite/cgrfhkb33s",
-      "https://discord.com/invite/cgz2mueq7p",
-      "https://discord.com/invite/chychczhed",
-      "https://discord.com/invite/cnmfgxdcsm",
-      "https://discord.com/invite/cqpysw6pvn",
-      "https://discord.com/invite/customuse",
-      "https://discord.com/invite/dgccr34fsj",
-      "https://discord.com/invite/dnnmaxmegd",
-      "https://discord.com/invite/dtjbemepch",
-      "https://discord.com/invite/dubbingaivc",
-      "https://discord.com/invite/ehkmgvcq2r",
-      "https://discord.com/invite/esm52t6wxt",
-      "https://discord.com/invite/f9vqm5kyje",
-      "https://discord.com/invite/fdccwcvmyj",
-      "https://discord.com/invite/fmtqg3cpbb",
-      "https://discord.com/invite/fzdhj9deuc",
-      "https://discord.com/invite/gdwm8zydkd",
-      "https://discord.com/invite/gez67uqjvn",
-      "https://discord.com/invite/gxmjcfjdhw",
-      "https://discord.com/invite/gzju2qsckq",
-      "https://discord.com/invite/gztu2z8bkv",
-      "https://discord.com/invite/h3kaydqbkt",
-      "https://discord.com/invite/hpenrayuv2",
-      "https://discord.com/invite/hqpa7kwffc",
-      "https://discord.com/invite/hwp3wxwabb",
-      "https://discord.com/invite/hyde59ajv5",
-      "https://discord.com/invite/illacloud",
-      "https://discord.com/invite/j9hjcrvcqr",
-      "https://discord.com/invite/jaag7ephw5",
-      "https://discord.com/invite/je3pc2yhtg",
-      "https://discord.com/invite/jhktqyaksc",
-      "https://discord.com/invite/jnzw9mc8pp",
-      "https://discord.com/invite/jzgqbdmhgn",
-      "https://discord.com/invite/kdpwb9ehky",
-      "https://discord.com/invite/kfmv5xpkk3",
-      "https://discord.com/invite/kgd5yvm9y4",
-      "https://discord.com/invite/kxkbm25ezh",
-      "https://discord.com/invite/kzegj5pyjm",
-      "https://discord.com/invite/mdwkusnpcw",
-      "https://discord.com/invite/meuawyhz",
-      "https://discord.com/invite/mkpzvuvqg3",
-      "https://discord.com/invite/mn5a5atsjb",
-      "https://discord.com/invite/mnf5hphz2h",
-      "https://discord.com/invite/mnhavkm",
-      "https://discord.com/invite/mse7ha9run",
-      "https://discord.com/invite/mzaxe4pmuz",
-      "https://discord.com/invite/naa2qkymkt",
-      "https://discord.com/invite/nadxe924ym",
-      "https://discord.com/invite/neq5ymyxnf",
-      "https://discord.com/invite/nv52bk8qek",
-      "https://discord.com/invite/octavia",
-      "https://discord.com/invite/ollama",
-      "https://discord.com/invite/p6ypehbg43",
-      "https://discord.com/invite/pcvgqevnnc",
-      "https://discord.com/invite/pddvjazmjh",
-      "https://discord.com/invite/pixelynxio?mtm_campaign=elynxir_web",
-      "https://discord.com/invite/pvkx8psdfg",
-      "https://discord.com/invite/qfauehsme8",
-      "https://discord.com/invite/qgzhexcssr",
-      "https://discord.com/invite/quadency",
-      "https://discord.com/invite/r9vyy2yxyg",
-      "https://discord.com/invite/reeyvmdkqu",
-      "https://discord.com/invite/rrjey2mpy2",
-      "https://discord.com/invite/sdserxnbsd",
-      "https://discord.com/invite/solidusai",
-      "https://discord.com/invite/sv2nfqsgvw",
-      "https://discord.com/invite/svpusabwbt",
-      "https://discord.com/invite/uegqbrxgy9",
-      "https://discord.com/invite/uttdjc6jrr",
-      "https://discord.com/invite/uxqndu7j3r",
-      "https://discord.com/invite/uxxcf8uadg",
-      "https://discord.com/invite/w95tgjqh",
-      "https://discord.com/invite/wh6dtybpcf",
-      "https://discord.com/invite/wm55rrufnp",
-      "https://discord.com/invite/wprsugvam6",
-      "https://discord.com/invite/wqbb7zkhjg",
-      "https://discord.com/invite/wupm9drgdw",
-      "https://discord.com/invite/wwbjeaz",
-      "https://discord.com/invite/wxtjkjj2zp",
-      "https://discord.com/invite/wyeqjyu998",
-      "https://discord.com/invite/x4jwnznxpb",
-      "https://discord.com/invite/xbhbz7ffbc",
-      "https://discord.com/invite/xbhnktetgx",
-      "https://discord.com/invite/ynmrytxxku",
-      "https://discord.com/invite/ypjkay3zgr",
-      "https://discord.com/invite/zgqqkkhua8",
-      "https://discord.com/invite/zjmrvnnxzf",
-      "https://discord.com/invite/zsbvsbqdtg",
-      "https://discord.com/invite/zypdvhfxwk",
-      "https://discord.com/users/1133313024946622474"
     ],
     "type": "0"
   },
@@ -7573,21 +7446,6 @@
   "www.webpilot.ai": {
     "urls": [
       "https://www.webpilot.ai"
-    ],
-    "type": "0"
-  },
-  "chromewebstore.google.com": {
-    "urls": [
-      "https://chromewebstore.google.com/detail/ai-pal-pro/phkadhcecbaaijkgbnjbchhgmjnpcnae",
-      "https://chromewebstore.google.com/detail/chatgpt-on-google-search/egokoghkkmcnnemgcaadjhdihpceopkn",
-      "https://chromewebstore.google.com/detail/docgpt-chatpdf/dpgnglnlpddlohpfkolmfaiokogflmeo",
-      "https://chromewebstore.google.com/detail/icebreaker-ai-%e2%80%93-personali/hbljfhndaonplbgjbcdinloomapidmod",
-      "https://chromewebstore.google.com/detail/linkedin-job-tools/pnbffadghcgnggdmpefiodonaiolfjgm",
-      "https://chromewebstore.google.com/detail/studygpt-your-study-copil/fcejkolobdcfbhhakbhajcflakmnhaff",
-      "https://chromewebstore.google.com/detail/thunderbit-ai-web-clipper/hbkblmodhbmcakopmmfbaopfckopccgp",
-      "https://chromewebstore.google.com/detail/thunderbit-ai-web-clipper/hbkblmodhbmcakopmmfbaopfckopccgp?hl=en",
-      "https://chromewebstore.google.com/u/8/detail/pbcajhinmaijadgdofjohponnggbkjhh?hl=en",
-      "https://chromewebstore.google.com/u/8/detail/pbcajhinmaijadgdofjohponnggbkjhh?hl=en&via=topaitools"
     ],
     "type": "0"
   },
@@ -63277,6 +63135,115 @@
     ],
     "type": "1"
   },
+  "aipure.ai": {
+    "urls": [
+      "https://aipure.ai"
+    ],
+    "type": "1"
+  },
+  "aixploria.com": {
+    "urls": [
+      "https://aixploria.com"
+    ],
+    "type": "1"
+  },
+  "www.octoparse.com": {
+    "urls": [
+      "https://www.octoparse.com"
+    ],
+    "type": "1"
+  },
+  "bestofai.com": {
+    "urls": [
+      "https://bestofai.com"
+    ],
+    "type": "1"
+  },
+  "openfuture.ai": {
+    "urls": [
+      "https://openfuture.ai"
+    ],
+    "type": "1"
+  },
+  "aivalley.ai": {
+    "urls": [
+      "https://aivalley.ai"
+    ],
+    "type": "1"
+  },
+  "ai-search.io": {
+    "urls": [
+      "https://ai-search.io"
+    ],
+    "type": "1"
+  },
+  "www.startupaitools.com": {
+    "urls": [
+      "https://www.startupaitools.com"
+    ],
+    "type": "1"
+  },
+  "jobitt.com": {
+    "urls": [
+      "https://jobitt.com"
+    ],
+    "type": "1"
+  },
+  "example-code.com": {
+    "urls": [
+      "https://example-code.com"
+    ],
+    "type": "1"
+  },
+  "thepythoncode.com": {
+    "urls": [
+      "https://thepythoncode.com"
+    ],
+    "type": "1"
+  },
+  "betalist.com": {
+    "urls": [
+      "https://betalist.com/topics",
+      "https://betalist.com/topics/ai-tools"
+    ],
+    "type": "1"
+  },
+  "devjob.ro": {
+    "urls": [
+      "https://devjob.ro"
+    ],
+    "type": "1"
+  },
+  "www.libhunt.com": {
+    "urls": [
+      "https://www.libhunt.com"
+    ],
+    "type": "1"
+  },
+  "www.formtrends.com": {
+    "urls": [
+      "https://www.formtrends.com"
+    ],
+    "type": "1"
+  },
+  "www.startus.cc": {
+    "urls": [
+      "https://www.startus.cc"
+    ],
+    "type": "1"
+  },
+  "techstartups.com": {
+    "urls": [
+      "https://techstartups.com"
+    ],
+    "type": "1"
+  },
+  "www.silo.ai": {
+    "urls": [
+      "https://www.silo.ai"
+    ],
+    "type": "1"
+  },
   "www.leadshark.io": {
     "urls": [
       "https://www.leadshark.io"
@@ -63304,15 +63271,6 @@
   "commabot.com": {
     "urls": [
       "https://commabot.com"
-    ],
-    "type": "0"
-  },
-  "topaitools.lemonsqueezy.com": {
-    "urls": [
-      "https://topaitools.lemonsqueezy.com/affiliates",
-      "https://topaitools.lemonsqueezy.com/buy/2413d121-0c93-4b1a-80d0-92671c7082e7?embed=1",
-      "https://topaitools.lemonsqueezy.com/checkout/buy/1a61d0eb-f199-4c5c-a897-028188a3521c?embed=1",
-      "https://topaitools.lemonsqueezy.com/checkout/buy/ed768d70-4717-4668-97f5-270f4be9ab48?embed=1"
     ],
     "type": "0"
   },
@@ -93409,12 +93367,6 @@
   "boundlessai.io": {
     "urls": [
       "https://boundlessai.io"
-    ],
-    "type": "0"
-  },
-  "friendly-pineapple-558183.framer.app": {
-    "urls": [
-      "https://friendly-pineapple-558183.framer.app"
     ],
     "type": "0"
   },
